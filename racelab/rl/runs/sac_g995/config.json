@@ -1,0 +1,24 @@
+{
+  "name": "sac_g995",
+  "workers": 4,
+  "idx_offset": 5,
+  "hours": 1.0,
+  "max_env_steps": 20000000,
+  "track": "corkscrew",
+  "max_steps": 12000,
+  "warmup": 20000,
+  "batch": 1024,
+  "graph_k": 8,
+  "utd": 0.25,
+  "buffer": 2000000,
+  "hidden": [
+    256,
+    256
+  ],
+  "lr": 0.0003,
+  "gamma": 0.995,
+  "eval_every": 5,
+  "publish_every": 500,
+  "seed": 0,
+  "device": "cuda"
+}

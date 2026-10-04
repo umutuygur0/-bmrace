@@ -1,0 +1,26 @@
+{
+  "finished": true,
+  "dnf_reason": null,
+  "lap_time_s": 103.642,
+  "lap_times": [
+    103.642
+  ],
+  "damage": 0,
+  "hits": 0,
+  "offtrack_events": 0,
+  "offtrack_time_s": 0.0,
+  "top_speed_kmh": 223.2,
+  "avg_speed_kmh": 124.1,
+  "distance_m": 3633.1,
+  "sim_time_s": 99.38,
+  "steps": 4969,
+  "race_pos": 1,
+  "run_id": "20261004-191543_sac_g995_best(53dk)@gui-timing",
+  "agent": "racelab/agents/sac_agent.py",
+  "label": "sac_g995_best(53dk)@gui-timing",
+  "mode": "fast",
+  "config": "corkscrew_1lap.xml",
+  "wall_s": 5.9,
+  "server_timeouts": 1,
+  "note": "eğitim sürerken alınan best.pt kopyası"
+}

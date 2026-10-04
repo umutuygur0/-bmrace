@@ -1,0 +1,22 @@
+{
+  "name": "smoke",
+  "workers": 4,
+  "hours": 0.03,
+  "max_env_steps": 20000000,
+  "track": "corkscrew",
+  "max_steps": 12000,
+  "warmup": 5000,
+  "batch": 512,
+  "utd": 0.5,
+  "buffer": 2000000,
+  "hidden": [
+    256,
+    256
+  ],
+  "lr": 0.0003,
+  "gamma": 0.99,
+  "eval_every": 5,
+  "publish_every": 500,
+  "seed": 0,
+  "device": "cuda"
+}

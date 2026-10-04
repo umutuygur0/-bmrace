@@ -1,0 +1,4 @@
+timestamp,run_id,agent,label,mode,config,finished,lap_time_s,damage,hits,offtrack_events,offtrack_time_s,top_speed_kmh,avg_speed_kmh,distance_m,sim_time_s,server_timeouts,note
+20261004-175705,20261004-175705_det_test,gym_torcs/snakeoil3_gym.py,det_test,fast,corkscrew_1lap.xml,False,,1863,5,5,410.88,237.9,20.5,2470.6,438.5,0,
+20261004-175715,20261004-175715_det_test,gym_torcs/snakeoil3_gym.py,det_test,fast,corkscrew_1lap.xml,False,,1863,5,5,410.88,237.9,20.5,2470.6,438.5,0,
+20261004-175725,20261004-175725_det_test,gym_torcs/snakeoil3_gym.py,det_test,fast,corkscrew_1lap.xml,False,,1863,5,5,410.88,237.9,20.5,2470.6,438.5,0,

@@ -1,0 +1,8 @@
+Waiting for request on port 3001
+!identified
+Timeout for client answer
+Timeout for client answer
+Timeout for client answer
+Timeout for client answer
+Timeout for client answer
+gfParmSetStr: fopen (C:/Users/Asus/Desktop/projeler egit/ýbmrace/torcs/results/..\racelab\configs\corkscrew_1lap/results-2026-10-04-17-54-58.xml, "wb") failed

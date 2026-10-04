@@ -1,0 +1,3 @@
+Model: C:\Users\Asus\Desktop\projeler egit\ıbmrace\racelab\rl\runs\smoke2\final.pt
+Client connected on 3101
+Race over.

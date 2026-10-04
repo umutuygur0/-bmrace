@@ -1,0 +1,26 @@
+{
+  "finished": true,
+  "dnf_reason": null,
+  "lap_time_s": 142.234,
+  "lap_times": [
+    142.234
+  ],
+  "damage": 2201,
+  "hits": 8,
+  "offtrack_events": 8,
+  "offtrack_time_s": 84.18,
+  "top_speed_kmh": 245.6,
+  "avg_speed_kmh": 90.3,
+  "distance_m": 3695.3,
+  "sim_time_s": 137.22,
+  "steps": 6861,
+  "race_pos": 1,
+  "run_id": "20261004-180433_snakeoil3_gym@gui-timing",
+  "agent": "gym_torcs/snakeoil3_gym.py",
+  "label": "snakeoil3_gym@gui-timing",
+  "mode": "fast",
+  "config": "corkscrew_1lap.xml",
+  "wall_s": 1.4,
+  "server_timeouts": 2,
+  "note": "baseline, GUI zamanlaması, bitirme oranı testi"
+}

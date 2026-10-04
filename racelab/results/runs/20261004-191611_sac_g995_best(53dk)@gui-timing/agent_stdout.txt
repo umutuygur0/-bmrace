@@ -1,0 +1,3 @@
+Model: C:\Users\Asus\AppData\Local\Temp\claude\c--Users-Asus-Desktop-projeler-egit--bmrace\147b6cea-ad82-4b34-adcb-5f8fe4ae3cdf\scratchpad\g995_best_snapshot.pt
+Client connected on 3101
+Race over.

@@ -1,0 +1,23 @@
+{
+  "finished": true,
+  "lap_time_s": 445.346,
+  "lap_times": [],
+  "damage": 274,
+  "hits": 2,
+  "offtrack_events": 1,
+  "offtrack_time_s": 426.3,
+  "top_speed_kmh": 161.7,
+  "avg_speed_kmh": 3.7,
+  "distance_m": 497.8,
+  "sim_time_s": 438.5,
+  "steps": 21925,
+  "race_pos": 1,
+  "run_id": "20261004-175534_jmcncarai",
+  "agent": "gym_torcs/jmcncarai.py",
+  "label": "jmcncarai",
+  "mode": "fast",
+  "config": "corkscrew_1lap.xml",
+  "wall_s": 4.4,
+  "server_timeouts": 2,
+  "note": "baseline (orijinal, dokunulmadı)"
+}
