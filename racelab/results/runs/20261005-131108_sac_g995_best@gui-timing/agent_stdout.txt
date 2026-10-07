@@ -1,0 +1,3 @@
+Model: C:\Users\Asus\Desktop\projeler egit\ıbmrace\racelab\rl\snapshots\sac_g995_best_final.pt
+Client connected on 3101
+Race over.

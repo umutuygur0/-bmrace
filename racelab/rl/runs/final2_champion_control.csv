@@ -1,0 +1,2 @@
+model,runs,clean_finish_rate,finish_rate,mean_lap,best_lap,mean_clean_lap,mean_damage,mean_hits,mean_dist,mean_offtrack_s
+racelab/rl/snapshots/v4d_v02537_best.pt,20,0.95,0.95,82.974,81.904,82.974,40.0,3.7,3513.3,20.26

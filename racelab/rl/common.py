@@ -80,22 +80,24 @@ def abs_brake(brake, s):
     return brake
 
 
-def traction_control(accel, s):
-    """Arka tekerler öndekilerden çok hızlı dönüyorsa gazı kes."""
+def traction_control(accel, s, threshold=2.0):
+    """Arka tekerler öndekilerden çok hızlı dönüyorsa gazı kes.
+    threshold=2.0 v1-v4 modellerinin eğitildiği değer; v6'da 5.0 (2.0 düzlükte gazı gereksiz kesiyordu)."""
     w = s["wheelSpinVel"]
     spin = (w[2] * WHEEL_RADIUS[2] + w[3] * WHEEL_RADIUS[3]) - (w[0] * WHEEL_RADIUS[0] + w[1] * WHEEL_RADIUS[1])
-    if spin > 2.0:
-        accel = max(0.0, accel - min(accel, (spin - 2.0) * 0.1))
+    if spin > threshold:
+        accel = max(0.0, accel - min(accel, (spin - threshold) * 0.1))
     return accel
 
 
-def to_command(action, s):
-    """Politika çıktısı [steer, pedal] → SCR komut sözlüğü."""
+def to_command(action, s, tcs_threshold=2.0, pedal_gain=1.0, pedal_bias=0.0):
+    """Politika çıktısı [steer, pedal] → SCR komut sözlüğü.
+    v7: pedal' = clip(pedal*gain + bias); gain=4/3, bias=1/3 → politika 0.5 = tam gaz, -0.25 = sıfır."""
     steer = float(np.clip(action[0], -1, 1))
-    pedal = float(np.clip(action[1], -1, 1))
+    pedal = float(np.clip(float(np.clip(action[1], -1, 1)) * pedal_gain + pedal_bias, -1, 1))
     accel = max(pedal, 0.0)
     brake = max(-pedal, 0.0)
-    accel = traction_control(accel, s)
+    accel = traction_control(accel, s, tcs_threshold)
     brake = abs_brake(brake, s)
     if s["speedX"] < 10 and pedal > 0:  # kalkışta tam gaz desteği
         accel = max(accel, 0.5)

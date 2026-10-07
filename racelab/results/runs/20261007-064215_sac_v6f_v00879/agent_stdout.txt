@@ -1,0 +1,3 @@
+Model: C:\Users\Asus\Desktop\projeler egit\ıbmrace\racelab\rl\runs\v6f\candidates\v00879_perturbed_80.70.pt
+Client connected on 3101
+Race over. (atlanan eski mesaj: 0)

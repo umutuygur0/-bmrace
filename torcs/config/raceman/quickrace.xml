@@ -13,7 +13,7 @@
   <section name="Tracks">
     <attnum name="maximum number" val="1"/>
     <section name="1">
-      <attstr name="name" val="e-track-4"/>
+      <attstr name="name" val="corkscrew"/>
       <attstr name="category" val="road"/>
     </section>
 
@@ -82,16 +82,6 @@
     <section name="1">
       <attstr name="module" val="scr_server"/>
       <attnum name="idx" val="0"/>
-    </section>
-
-    <section name="2">
-      <attstr name="module" val="scr_server"/>
-      <attnum name="idx" val="2"/>
-    </section>
-
-    <section name="3">
-      <attstr name="module" val="scr_server"/>
-      <attnum name="idx" val="3"/>
     </section>
 
   </section>

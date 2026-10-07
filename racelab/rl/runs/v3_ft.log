@@ -1,0 +1,30 @@
+init: racelab/rl/runs/v2_ft/final_full.pt
+[best] clean dist=168.5 lap=None dmg=0.0 v=0 steps=0
+[best] perturbed dist=228.7 lap=None dmg=0.0 v=0 steps=2502
+[best] perturbed dist=431.6 lap=None dmg=0.0 v=1 steps=25118
+    0.3m steps=    25118 eps=    61 dist20=  217.3 lap20=0.00 best=431.6/None aday=0 alpha=0.028 env/s=1627 upd/s=104
+[best] clean dist=482.5 lap=None dmg=0.0 v=8 steps=56483
+    0.5m steps=    84187 eps=   167 dist20=  442.5 lap20=0.00 best=482.5/None aday=0 alpha=0.028 env/s=3861 upd/s=418
+[best] clean dist=765.2 lap=None dmg=0.0 v=25 steps=129030
+    0.8m steps=   139530 eps=   244 dist20=  672.9 lap20=0.00 best=765.2/None aday=0 alpha=0.024 env/s=3561 upd/s=437
+    1.0m steps=   184127 eps=   302 dist20=  455.8 lap20=0.00 best=765.2/None aday=0 alpha=0.022 env/s=2845 upd/s=408
+[best] perturbed dist=1534.4 lap=None dmg=0.0 v=45 steps=207414
+[best] clean dist=1546.5 lap=None dmg=0.0 v=51 steps=228827
+    1.3m steps=   228827 eps=   328 dist20= 1540.3 lap20=0.00 best=1546.5/None aday=0 alpha=0.023 env/s=2771 upd/s=372
+    1.6m steps=   273397 eps=   355 dist20= 1430.9 lap20=0.00 best=1546.5/None aday=0 alpha=0.021 env/s=2866 upd/s=386
+[best] clean dist=1960.2 lap=None dmg=0.0 v=73 steps=308360
+    1.8m steps=   316166 eps=   378 dist20= 1588.8 lap20=0.00 best=1960.2/None aday=0 alpha=0.019 env/s=2748 upd/s=411
+[best] perturbed dist=1961.0 lap=None dmg=0.0 v=79 steps=332833
+[best] clean dist=1978.2 lap=None dmg=0.0 v=87 steps=357581
+    2.1m steps=   363923 eps=   399 dist20= 1943.1 lap20=0.00 best=1978.2/None aday=0 alpha=0.018 env/s=3061 upd/s=385
+[best] perturbed dist=2480.8 lap=None dmg=0.0 v=94 steps=388360
+    2.3m steps=   408801 eps=   414 dist20= 2279.4 lap20=0.00 best=2480.8/None aday=0 alpha=0.018 env/s=2896 upd/s=413
+    2.6m steps=   454109 eps=   430 dist20= 2455.0 lap20=0.00 best=2480.8/None aday=0 alpha=0.017 env/s=2917 upd/s=412
+[best] clean dist=2510.3 lap=None dmg=0.0 v=123 steps=492997
+    2.9m steps=   492997 eps=   446 dist20= 2323.3 lap20=0.00 best=2510.3/None aday=0 alpha=0.017 env/s=2570 upd/s=396
+[best] perturbed dist=2519.2 lap=None dmg=0.0 v=133 steps=526409
+    3.1m steps=   554847 eps=   465 dist20= 2419.9 lap20=0.00 best=2519.2/None aday=0 alpha=0.017 env/s=4082 upd/s=422
+[best] perturbed dist=3285.2 lap=None dmg=0.0 v=149 steps=617209
+    3.4m steps=   626165 eps=   485 dist20= 2944.8 lap20=0.00 best=3285.2/None aday=0 alpha=0.015 env/s=4470 upd/s=426
+    3.6m steps=   697145 eps=   503 dist20= 3121.6 lap20=0.00 best=3285.2/None aday=0 alpha=0.015 env/s=4537 upd/s=409
+    3.9m steps=   758922 eps=   518 dist20= 3280.3 lap20=0.00 best=3285.2/None aday=0 alpha=0.015 env/s=3982 upd/s=413

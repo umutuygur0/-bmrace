@@ -1,0 +1,5 @@
+Waiting for request on port 3001
+!identified
+UDP Timeout set to 10000 10E-6 seconds.
+Sim Time:    85.74 [s], Leader Laps:    1, Leader Distance:    3.608 [km]
+gfParmSetStr: fopen (C:/Users/Asus/Desktop/projeler egit/ýbmrace/torcs/results/..\racelab\configs\corkscrew_1lap/results-2026-10-05-15-34-24.xml, "wb") failed

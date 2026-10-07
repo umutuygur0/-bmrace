@@ -1,0 +1,8 @@
+model,runs,clean_finish_rate,finish_rate,mean_lap,best_lap,mean_clean_lap,mean_damage,mean_hits,mean_dist,mean_offtrack_s
+racelab/rl/runs/v6c/candidates/v01404_perturbed_81.38.pt,20,1.0,1.0,83.286,82.012,83.286,0.0,0.0,3619.0,0.0
+racelab/rl/snapshots/v6b_v00249.pt,20,0.85,0.9,82.881,81.244,82.758,2.5,0.1,3536.6,19.74
+racelab/rl/runs/v6c/candidates/v02309_perturbed_81.38.pt,20,0.75,0.9,83.835,81.902,83.588,2.0,0.25,3468.2,38.77
+racelab/rl/runs/v6f/candidates/v01759_perturbed_81.03.pt,20,0.75,0.85,82.508,81.472,82.103,13.7,0.5,3447.1,57.99
+racelab/rl/runs/v6f/candidates/v00879_perturbed_80.70.pt,20,0.7,0.7,82.07,80.554,82.07,4.3,0.1,3331.8,113.84
+racelab/rl/runs/v6f/candidates/v01480_perturbed_80.85.pt,20,0.6,0.6,82.203,81.462,82.203,19.7,0.65,3047.3,136.89
+racelab/rl/runs/v6f/best.pt,20,0.35,0.35,81.013,80.068,81.013,15.0,0.15,1570.1,276.84

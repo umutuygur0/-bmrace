@@ -1,0 +1,3 @@
+Model: C:\Users\Asus\Desktop\projeler egit\ıbmrace\racelab\rl\runs\v6f\best.pt
+Client connected on 3101
+Race over. (atlanan eski mesaj: 0)

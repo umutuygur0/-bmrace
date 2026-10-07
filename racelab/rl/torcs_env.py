@@ -38,11 +38,16 @@ def make_config(idx, track="corkscrew", laps=1):
     return os.path.relpath(path, TORCS_DIR)
 
 
-def kill_training_torcs():
+def kill_training_torcs(idxs=None):
     """SADECE eğitim config'iyle (-r ...configs\\train...) açılmış TORCS'ları kapatır.
-    Elle açılmış GUI TORCS'a dokunmaz."""
+    Elle açılmış GUI TORCS'a dokunmaz. `idxs` verilirse yalnızca o scr_server idx'lerine
+    ait olanlar kapatılır (paralel çalışan başka bir eğitimin ortamlarına dokunulmaz)."""
+    match = "$_.CommandLine -like '*configs\\train*'"
+    if idxs is not None:
+        ors = " -or ".join(f"$_.CommandLine -like '*_idx{i}_*'" for i in idxs)
+        match = f"{match} -and ({ors})"
     ps = ("Get-CimInstance Win32_Process -Filter \"Name='wtorcs.exe'\" | "
-          "Where-Object { $_.CommandLine -like '*configs\\train*' } | "
+          f"Where-Object {{ {match} }} | "
           "ForEach-Object { Stop-Process -Id $_.ProcessId -Force }")
     subprocess.run(["powershell", "-NoProfile", "-Command", ps],
                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)

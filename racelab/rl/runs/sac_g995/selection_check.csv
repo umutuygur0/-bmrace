@@ -1,0 +1,4 @@
+model,runs,clean_finish_rate,finish_rate,mean_lap,best_lap,mean_clean_lap,mean_damage,mean_hits,mean_dist,mean_offtrack_s
+racelab/rl/runs/sac_g995/best.pt,10,0.5,0.5,103.621,90.494,103.621,32.8,2.7,2997.2,140.16
+racelab/rl/snapshots/sac_g995_best_at53min.pt,10,0.1,0.1,102.9,102.9,102.9,46.1,0.3,1721.7,356.53
+racelab/rl/runs/sac_g995/final.pt,10,0.1,0.1,103.432,103.432,103.432,145.0,9.1,1773.0,314.11

@@ -1,0 +1,3 @@
+Model: C:\Users\Asus\Desktop\projeler egit\ıbmrace\racelab\rl\snapshots\v4e_v00248_fast.pt
+Client connected on 3101
+Race over. (atlanan eski mesaj: 1)

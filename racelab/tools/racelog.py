@@ -38,8 +38,10 @@ def parse_msg(msg):
 
 
 class TelemetryProxy(threading.Thread):
-    def __init__(self, listen_port, torcs_port, host="127.0.0.1", torcs_host="127.0.0.1"):
+    def __init__(self, listen_port, torcs_port, host="127.0.0.1", torcs_host="127.0.0.1", live_csv=None):
+        """live_csv: verilirse her adım anında bu dosyaya da yazılır (pencere kapansa bile veri kalır)."""
         super().__init__(daemon=True)
+        self.live_path, self._live_f, self._live_w = live_csv, None, None
         self.agent_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.agent_sock.bind((host, listen_port))
         self.torcs_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -88,12 +90,23 @@ class TelemetryProxy(threading.Thread):
         for k in ACTION_FIELDS:
             row["act_" + k] = self.last_action.get(k)
         self.rows.append(row)
+        if self.live_path:
+            if self._live_w is None:
+                self._live_f = open(self.live_path, "w", newline="", encoding="utf-8")
+                self._live_w = csv.DictWriter(self._live_f, fieldnames=list(row.keys()))
+                self._live_w.writeheader()
+            self._live_w.writerow(row)
+            if len(self.rows) % 50 == 0:  # ~1 sn yarış
+                self._live_f.flush()
 
     def stop(self):
         self._halt.set()
         self.join(timeout=2)
         self.agent_sock.close()
         self.torcs_sock.close()
+        if self._live_f:
+            self._live_f.close()
+            self._live_f = None
 
     # ------------------------------------------------------------------ özet
     def write_csv(self, path):
@@ -146,12 +159,27 @@ def summarize(rows, laps=1, shutdown_seen=False):
     # yeterli değil: TORCS tur süresi limitini (~445 s) aşan aracı da yarıştan alır (DNF).
     finished = laps_done >= laps
     lap_time = lap_times[laps - 1] if finished else None
+    lap_time_source = "lastLapTime" if finished else None
+    # Gerçek GUI'de TORCS araç çizgiyi geçince yarışı hemen kapatır; lastLapTime paketi gelmez.
+    # Araç son pakette tur sonuna (başlangıçtaki distFromStart ≈ pist uzunluğu) dayanmışsa,
+    # hareket ediyorsa ve tur limiti (~445 s) dolmamışsa bitirmiş sayılır; süre son curLapTime.
+    # (GUI ekranıyla karşılaştırma: 113.684 vs 01:53:69 → < 0.01 s fark)
+    track_len_est = rows[0]["distFromStart"] or 0
+    if (not finished and laps == 1 and shutdown_seen and track_len_est > 0
+            and (final["distFromStart"] or 0) > 0.98 * track_len_est
+            and (final["distRaced"] or 0) > 0.98 * track_len_est
+            and (final["speedX"] or 0) > 1 and (final["curLapTime"] or 0) < 440):
+        finished = True
+        lap_time = final["curLapTime"]
+        lap_times.append(lap_time)
+        lap_time_source = "son curLapTime (GUI bitişi)"
     dnf_reason = None
     if not finished:
         dnf_reason = "tur limiti aşıldı / yarış kapandı" if shutdown_seen else "yarış yarıda kesildi"
     return {
         "finished": bool(finished),
         "dnf_reason": dnf_reason,
+        "lap_time_source": lap_time_source,
         "lap_time_s": round(lap_time, 3) if lap_time else None,
         "lap_times": [round(x, 3) for x in lap_times],
         "damage": int(final["damage"] or 0),

@@ -53,7 +53,7 @@ def run_once(agent, label, mode, config, torcs_port, proxy_port, timeout, note, 
                                  cwd=TORCS_DIR, stdout=torcs_log, stderr=subprocess.STDOUT)
         time.sleep(1.5)
 
-    proxy = TelemetryProxy(proxy_port, torcs_port)
+    proxy = TelemetryProxy(proxy_port, torcs_port, live_csv=os.path.join(run_dir, "telemetry.csv"))
     proxy.start()
 
     agent_path = os.path.abspath(agent)
@@ -88,7 +88,7 @@ def run_once(agent, label, mode, config, torcs_port, proxy_port, timeout, note, 
     with open(os.path.join(run_dir, "torcs_stdout.txt"), "rb") as f:
         timeouts = f.read().count(b"Timeout for client answer")
     summ.update({"run_id": run_id, "agent": os.path.relpath(agent_path, ROOT).replace("\\", "/"),
-                 "label": label, "mode": mode, "config": config, "wall_s": round(wall, 1),
+                 "label": label, "mode": mode, "config": config if mode == "fast" else "gui (TORCS menüsü)", "wall_s": round(wall, 1),
                  "server_timeouts": timeouts, "note": note})
     proxy.write_csv(os.path.join(run_dir, "telemetry.csv"))
     with open(os.path.join(run_dir, "summary.json"), "w", encoding="utf-8") as f:

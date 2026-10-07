@@ -1,0 +1,8 @@
+Waiting for request on port 3001
+!identified
+Timeout for client answer
+Timeout for client answer
+Timeout for client answer
+Timeout for client answer
+UDP Timeout set to 10000 10E-6 seconds.
+gfParmSetStr: fopen (C:/Users/Asus/Desktop/projeler egit/ýbmrace/torcs/results/..\racelab\configs\corkscrew_1lap/results-2026-10-07-06-43-33.xml, "wb") failed

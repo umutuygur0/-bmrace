@@ -1,0 +1,30 @@
+{
+  "name": "v2_smoke",
+  "workers": 2,
+  "idx_offset": 1,
+  "hours": 0.025,
+  "max_env_steps": 100000000,
+  "track": "corkscrew",
+  "max_steps": 12000,
+  "init": "racelab/rl/runs/sac_g995/final_full.pt",
+  "warmup": 5000,
+  "batch": 1024,
+  "graph_k": 8,
+  "utd": 0.25,
+  "buffer": 2000000,
+  "hidden": [
+    256,
+    256
+  ],
+  "lr": 0.0003,
+  "gamma": 0.995,
+  "drop_prob": 0.05,
+  "obs_noise": 0.01,
+  "eval_drop_prob": 0.05,
+  "eval_every": 3,
+  "publish_every": 500,
+  "keep_versions": 200,
+  "snapshot_min": 10.0,
+  "seed": 0,
+  "device": "cuda"
+}
