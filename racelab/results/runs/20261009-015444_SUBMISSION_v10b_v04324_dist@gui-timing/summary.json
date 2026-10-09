@@ -1,0 +1,27 @@
+{
+  "finished": true,
+  "dnf_reason": null,
+  "lap_time_source": "lastLapTime",
+  "lap_time_s": 75.162,
+  "lap_times": [
+    75.162
+  ],
+  "damage": 0,
+  "hits": 0,
+  "offtrack_events": 1,
+  "offtrack_time_s": 0.1,
+  "top_speed_kmh": 260.6,
+  "avg_speed_kmh": 169.4,
+  "distance_m": 3669.4,
+  "sim_time_s": 73.9,
+  "steps": 3695,
+  "race_pos": 1,
+  "run_id": "20261009-015444_SUBMISSION_v10b_v04324_dist@gui-timing",
+  "agent": "racelab/submission/torcs_jm_par_rl_v10b_v04324_dist.py",
+  "label": "SUBMISSION_v10b_v04324_dist@gui-timing",
+  "mode": "fast",
+  "config": "corkscrew_1lap.xml",
+  "wall_s": 1.9,
+  "server_timeouts": 3,
+  "note": "CPU boş"
+}

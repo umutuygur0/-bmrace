@@ -1,0 +1,197 @@
+
+$ C:\Users\Asus\AppData\Local\Programs\Python\Python312\python.exe racelab/rl/train_sac_v2.py --env v4 --name n3b_s47 --c-speed 0.25 --tcs-th 5.0 --safe-pos 0.9 --seed 47 --workers 8 --idx-offset 1 --hours 0.75 --init racelab/rl/runs/v4d/final_full.pt
+init: racelab/rl/runs/v4d/final_full.pt
+[best] clean dist=538.3 lap=None dmg=0.0 v=0 steps=768
+[best] perturbed dist=538.6 lap=None dmg=0.0 v=0 steps=15302
+[best] clean dist=2456.8 lap=None dmg=17.0 v=3 steps=67453
+    0.2m steps=   103078 eps=    77 dist20=  874.0 lap20=0.00 best=2456.8/None aday=0 alpha=0.045 env/s=6783 upd/s=553
+    0.5m steps=   217798 eps=   171 dist20= 1379.2 lap20=0.00 best=2456.8/None aday=0 alpha=0.053 env/s=7513 upd/s=864
+    0.8m steps=   349063 eps=   236 dist20= 1826.1 lap20=0.00 best=2456.8/None aday=0 alpha=0.052 env/s=8708 upd/s=849
+    1.0m steps=   485175 eps=   282 dist20= 2818.8 lap20=0.35 best=2456.8/None aday=0 alpha=0.052 env/s=8883 upd/s=835
+    1.3m steps=   617708 eps=   333 dist20= 2417.3 lap20=0.35 best=2456.8/None aday=0 alpha=0.051 env/s=8656 upd/s=836
+[best] perturbed dist=3619.0 lap=85.576 dmg=0.0 v=127 steps=692912
+    1.5m steps=   754346 eps=   374 dist20= 3045.4 lap20=0.50 best=3619.0/85.576 aday=1 alpha=0.055 env/s=8855 upd/s=830
+[best] perturbed dist=3618.4 lap=83.918 dmg=0.0 v=157 steps=849530
+    1.8m steps=   883678 eps=   415 dist20= 2841.3 lap20=0.40 best=3618.4/83.918 aday=2 alpha=0.055 env/s=8587 upd/s=823
+    2.0m steps=  1012370 eps=   459 dist20= 2519.9 lap20=0.20 best=3618.4/83.918 aday=3 alpha=0.052 env/s=8414 upd/s=837
+    2.3m steps=  1139779 eps=   502 dist20= 2638.7 lap20=0.15 best=3618.4/83.918 aday=3 alpha=0.051 env/s=8379 upd/s=842
+[best] clean dist=3618.8 lap=83.32 dmg=0.0 v=228 steps=1210160
+    2.5m steps=  1271330 eps=   538 dist20= 3332.4 lap20=0.75 best=3618.8/83.32 aday=4 alpha=0.050 env/s=8712 upd/s=821
+[best] perturbed dist=3619.2 lap=82.828 dmg=0.0 v=245 steps=1301653
+    2.8m steps=  1400620 eps=   573 dist20= 3504.8 lap20=0.90 best=3619.2/82.828 aday=6 alpha=0.048 env/s=8551 upd/s=820
+    3.0m steps=  1534515 eps=   610 dist20= 3619.0 lap20=1.00 best=3619.2/82.828 aday=7 alpha=0.049 env/s=8831 upd/s=818
+[best] clean dist=3618.9 lap=82.152 dmg=0.0 v=297 steps=1574337
+    3.3m steps=  1661795 eps=   650 dist20= 3159.7 lap20=0.55 best=3618.9/82.152 aday=8 alpha=0.048 env/s=8396 upd/s=818
+    3.5m steps=  1791986 eps=   687 dist20= 3191.2 lap20=0.70 best=3618.9/82.152 aday=9 alpha=0.048 env/s=8571 upd/s=816
+[best] perturbed dist=3619.2 lap=81.794 dmg=0.0 v=343 steps=1815335
+    3.8m steps=  1920028 eps=   719 dist20= 3561.3 lap20=0.95 best=3619.2/81.794 aday=11 alpha=0.046 env/s=8435 upd/s=817
+    4.1m steps=  2052697 eps=   756 dist20= 3166.5 lap20=0.75 best=3619.2/81.794 aday=12 alpha=0.049 env/s=8665 upd/s=810
+    4.3m steps=  2180405 eps=   788 dist20= 3223.1 lap20=0.80 best=3619.2/81.794 aday=13 alpha=0.048 env/s=8420 upd/s=818
+    4.6m steps=  2312460 eps=   825 dist20= 3561.8 lap20=0.95 best=3619.2/81.794 aday=14 alpha=0.046 env/s=8551 upd/s=803
+    4.8m steps=  2442173 eps=   862 dist20= 2963.3 lap20=0.75 best=3619.2/81.794 aday=15 alpha=0.046 env/s=8611 upd/s=797
+[best] clean dist=3618.5 lap=81.322 dmg=0.0 v=481 steps=2545614
+    5.1m steps=  2573854 eps=   901 dist20= 3444.9 lap20=0.90 best=3618.5/81.322 aday=16 alpha=0.047 env/s=8555 upd/s=780
+    5.3m steps=  2705670 eps=   939 dist20= 3207.6 lap20=0.75 best=3618.5/81.322 aday=17 alpha=0.045 env/s=8500 upd/s=800
+    5.6m steps=  2833920 eps=   973 dist20= 3561.6 lap20=0.95 best=3618.5/81.322 aday=19 alpha=0.045 env/s=8502 upd/s=796
+    5.8m steps=  2967823 eps=  1009 dist20= 3278.8 lap20=0.85 best=3618.5/81.322 aday=20 alpha=0.046 env/s=8663 upd/s=802
+[best] perturbed dist=3618.6 lap=81.254 dmg=0.0 v=565 steps=2993529
+[best] clean dist=3619.4 lap=81.198 dmg=0.0 v=582 steps=3082233
+    6.1m steps=  3094412 eps=  1047 dist20= 3545.2 lap20=0.90 best=3619.4/81.198 aday=22 alpha=0.045 env/s=8208 upd/s=804
+    6.4m steps=  3225920 eps=  1082 dist20= 3336.8 lap20=0.90 best=3619.4/81.198 aday=22 alpha=0.044 env/s=8541 upd/s=805
+[best] clean dist=3618.6 lap=80.44 dmg=0.0 v=615 steps=3261421
+[best] perturbed dist=3618.9 lap=80.26 dmg=0.0 v=633 steps=3347688
+    6.6m steps=  3352364 eps=  1120 dist20= 3138.4 lap20=0.80 best=3618.9/80.26 aday=24 alpha=0.044 env/s=8216 upd/s=806
+    6.9m steps=  3482155 eps=  1158 dist20= 3022.6 lap20=0.70 best=3618.9/80.26 aday=25 alpha=0.044 env/s=8452 upd/s=808
+    7.1m steps=  3606642 eps=  1196 dist20= 3219.6 lap20=0.65 best=3618.9/80.26 aday=26 alpha=0.044 env/s=8131 upd/s=810
+    7.4m steps=  3733853 eps=  1234 dist20= 2854.9 lap20=0.55 best=3618.9/80.26 aday=26 alpha=0.045 env/s=8418 upd/s=821
+    7.6m steps=  3864707 eps=  1278 dist20= 2752.2 lap20=0.65 best=3618.9/80.26 aday=27 alpha=0.044 env/s=8457 upd/s=801
+    7.9m steps=  3994312 eps=  1320 dist20= 3362.9 lap20=0.80 best=3618.9/80.26 aday=27 alpha=0.044 env/s=8616 upd/s=798
+    8.1m steps=  4120112 eps=  1354 dist20= 3308.8 lap20=0.85 best=3618.9/80.26 aday=28 alpha=0.045 env/s=8227 upd/s=811
+    8.4m steps=  4247903 eps=  1389 dist20= 3248.6 lap20=0.75 best=3618.9/80.26 aday=30 alpha=0.048 env/s=8427 upd/s=791
+    8.7m steps=  4377483 eps=  1424 dist20= 3313.9 lap20=0.75 best=3618.9/80.26 aday=31 alpha=0.047 env/s=8392 upd/s=803
+    8.9m steps=  4506211 eps=  1463 dist20= 3138.8 lap20=0.80 best=3618.9/80.26 aday=31 alpha=0.048 env/s=8340 upd/s=803
+    9.2m steps=  4629606 eps=  1503 dist20= 2882.0 lap20=0.65 best=3618.9/80.26 aday=32 alpha=0.047 env/s=8160 upd/s=794
+[best] perturbed dist=3619.4 lap=80.228 dmg=0.0 v=893 steps=4699009
+    9.4m steps=  4755547 eps=  1542 dist20= 3165.5 lap20=0.75 best=3619.4/80.228 aday=33 alpha=0.049 env/s=8235 upd/s=811
+    9.7m steps=  4883597 eps=  1576 dist20= 3224.2 lap20=0.80 best=3619.4/80.228 aday=34 alpha=0.049 env/s=8287 upd/s=802
+    9.9m steps=  5010735 eps=  1616 dist20= 3122.6 lap20=0.75 best=3619.4/80.228 aday=35 alpha=0.049 env/s=8243 upd/s=804
+   10.2m steps=  5133987 eps=  1658 dist20= 2991.1 lap20=0.75 best=3619.4/80.228 aday=35 alpha=0.047 env/s=8140 upd/s=793
+[best] clean dist=3618.6 lap=79.978 dmg=0.0 v=981 steps=5151556
+   10.4m steps=  5254245 eps=  1698 dist20= 2949.7 lap20=0.70 best=3618.6/79.978 aday=37 alpha=0.047 env/s=7922 upd/s=791
+   10.7m steps=  5376990 eps=  1733 dist20= 3515.7 lap20=0.95 best=3618.6/79.978 aday=38 alpha=0.048 env/s=8138 upd/s=796
+   10.9m steps=  5499609 eps=  1769 dist20= 3336.9 lap20=0.90 best=3618.6/79.978 aday=40 alpha=0.046 env/s=8119 upd/s=795
+   11.2m steps=  5627561 eps=  1803 dist20= 3459.0 lap20=0.90 best=3618.6/79.978 aday=41 alpha=0.046 env/s=8333 upd/s=808
+   11.4m steps=  5749006 eps=  1841 dist20= 3037.3 lap20=0.65 best=3618.6/79.978 aday=42 alpha=0.046 env/s=8059 upd/s=796
+   11.7m steps=  5862201 eps=  1876 dist20= 3198.5 lap20=0.75 best=3618.6/79.978 aday=43 alpha=0.046 env/s=7321 upd/s=802
+   11.9m steps=  5970137 eps=  1905 dist20= 3357.2 lap20=0.85 best=3618.6/79.978 aday=44 alpha=0.048 env/s=7091 upd/s=788
+   12.2m steps=  6085100 eps=  1938 dist20= 3137.5 lap20=0.65 best=3618.6/79.978 aday=45 alpha=0.046 env/s=7577 upd/s=791
+   12.5m steps=  6204208 eps=  1972 dist20= 3506.9 lap20=0.90 best=3618.6/79.978 aday=46 alpha=0.047 env/s=7892 upd/s=795
+   12.7m steps=  6322663 eps=  2003 dist20= 3431.5 lap20=0.80 best=3618.6/79.978 aday=48 alpha=0.044 env/s=7873 upd/s=798
+   13.0m steps=  6443299 eps=  2035 dist20= 3561.5 lap20=0.90 best=3618.6/79.978 aday=49 alpha=0.043 env/s=8018 upd/s=798
+   13.2m steps=  6563374 eps=  2068 dist20= 3346.7 lap20=0.85 best=3618.6/79.978 aday=50 alpha=0.045 env/s=7936 upd/s=793
+   13.5m steps=  6683199 eps=  2104 dist20= 3258.4 lap20=0.65 best=3618.6/79.978 aday=51 alpha=0.045 env/s=7940 upd/s=795
+   13.7m steps=  6803708 eps=  2142 dist20= 2853.8 lap20=0.55 best=3618.6/79.978 aday=51 alpha=0.046 env/s=7896 upd/s=786
+   14.0m steps=  6925622 eps=  2179 dist20= 3197.7 lap20=0.75 best=3618.6/79.978 aday=52 alpha=0.047 env/s=7902 upd/s=778
+   14.2m steps=  7049393 eps=  2215 dist20= 3507.4 lap20=0.90 best=3618.6/79.978 aday=53 alpha=0.047 env/s=8106 upd/s=786
+   14.5m steps=  7167945 eps=  2249 dist20= 3619.0 lap20=1.00 best=3618.6/79.978 aday=55 alpha=0.047 env/s=7854 upd/s=795
+   14.7m steps=  7294097 eps=  2284 dist20= 3084.7 lap20=0.80 best=3618.6/79.978 aday=56 alpha=0.046 env/s=8132 upd/s=799
+   15.0m steps=  7412133 eps=  2316 dist20= 3507.1 lap20=0.90 best=3618.6/79.978 aday=58 alpha=0.048 env/s=7808 upd/s=794
+   15.2m steps=  7534440 eps=  2352 dist20= 3155.9 lap20=0.75 best=3618.6/79.978 aday=59 alpha=0.048 env/s=8079 upd/s=793
+   15.5m steps=  7653839 eps=  2387 dist20= 3217.4 lap20=0.80 best=3618.6/79.978 aday=61 alpha=0.048 env/s=7793 upd/s=783
+   15.8m steps=  7778658 eps=  2421 dist20= 3371.4 lap20=0.75 best=3618.6/79.978 aday=61 alpha=0.048 env/s=8141 upd/s=783
+   16.0m steps=  7894985 eps=  2457 dist20= 2737.4 lap20=0.45 best=3618.6/79.978 aday=63 alpha=0.049 env/s=7664 upd/s=791
+   16.3m steps=  8019543 eps=  2491 dist20= 3421.6 lap20=0.90 best=3618.6/79.978 aday=64 alpha=0.050 env/s=8219 upd/s=792
+   16.5m steps=  8136488 eps=  2527 dist20= 3081.5 lap20=0.75 best=3618.6/79.978 aday=66 alpha=0.048 env/s=7776 upd/s=798
+   16.8m steps=  8252711 eps=  2565 dist20= 2632.7 lap20=0.65 best=3618.6/79.978 aday=68 alpha=0.047 env/s=7520 upd/s=802
+   17.0m steps=  8370341 eps=  2602 dist20= 3053.7 lap20=0.75 best=3618.6/79.978 aday=69 alpha=0.049 env/s=7824 upd/s=798
+   17.3m steps=  8488933 eps=  2642 dist20= 2713.2 lap20=0.65 best=3618.6/79.978 aday=70 alpha=0.050 env/s=7758 upd/s=811
+   17.5m steps=  8604925 eps=  2679 dist20= 3222.6 lap20=0.80 best=3618.6/79.978 aday=72 alpha=0.049 env/s=7636 upd/s=790
+   17.8m steps=  8724729 eps=  2711 dist20= 3276.4 lap20=0.70 best=3618.6/79.978 aday=72 alpha=0.048 env/s=7919 upd/s=793
+   18.0m steps=  8845502 eps=  2746 dist20= 3318.3 lap20=0.85 best=3618.6/79.978 aday=74 alpha=0.050 env/s=8014 upd/s=796
+   18.3m steps=  8968728 eps=  2781 dist20= 2948.8 lap20=0.60 best=3618.6/79.978 aday=75 alpha=0.050 env/s=7954 upd/s=800
+   18.6m steps=  9089344 eps=  2819 dist20= 2643.9 lap20=0.60 best=3618.6/79.978 aday=76 alpha=0.050 env/s=7756 upd/s=797
+   18.8m steps=  9207999 eps=  2854 dist20= 3128.2 lap20=0.65 best=3618.6/79.978 aday=77 alpha=0.049 env/s=7899 upd/s=799
+   19.1m steps=  9327821 eps=  2893 dist20= 3002.9 lap20=0.50 best=3618.6/79.978 aday=78 alpha=0.049 env/s=7768 upd/s=804
+   19.3m steps=  9451262 eps=  2927 dist20= 3182.3 lap20=0.75 best=3618.6/79.978 aday=79 alpha=0.049 env/s=7944 upd/s=798
+   19.6m steps=  9568386 eps=  2962 dist20= 3127.7 lap20=0.60 best=3618.6/79.978 aday=81 alpha=0.047 env/s=7744 upd/s=793
+   19.8m steps=  9690341 eps=  2997 dist20= 3047.0 lap20=0.60 best=3618.6/79.978 aday=82 alpha=0.048 env/s=8056 upd/s=793
+   20.1m steps=  9806031 eps=  3037 dist20= 2366.2 lap20=0.45 best=3618.6/79.978 aday=82 alpha=0.048 env/s=7673 upd/s=796
+   20.3m steps=  9928509 eps=  3074 dist20= 3356.4 lap20=0.85 best=3618.6/79.978 aday=84 alpha=0.048 env/s=8102 upd/s=794
+   20.6m steps= 10057147 eps=  3110 dist20= 3561.9 lap20=0.95 best=3618.6/79.978 aday=85 alpha=0.048 env/s=8506 upd/s=793
+   20.8m steps= 10183572 eps=  3147 dist20= 3254.2 lap20=0.75 best=3618.6/79.978 aday=87 alpha=0.049 env/s=8249 upd/s=783
+   21.1m steps= 10308966 eps=  3181 dist20= 3504.6 lap20=0.90 best=3618.6/79.978 aday=88 alpha=0.051 env/s=8310 upd/s=795
+   21.3m steps= 10435331 eps=  3218 dist20= 3332.8 lap20=0.75 best=3618.6/79.978 aday=88 alpha=0.048 env/s=8380 upd/s=796
+   21.6m steps= 10560195 eps=  3255 dist20= 2935.5 lap20=0.50 best=3618.6/79.978 aday=88 alpha=0.047 env/s=8266 upd/s=794
+   21.8m steps= 10688763 eps=  3291 dist20= 3446.9 lap20=0.85 best=3618.6/79.978 aday=90 alpha=0.049 env/s=8543 upd/s=797
+   22.1m steps= 10815466 eps=  3325 dist20= 3447.6 lap20=0.85 best=3618.6/79.978 aday=91 alpha=0.050 env/s=8211 upd/s=804
+   22.4m steps= 10939368 eps=  3362 dist20= 3026.0 lap20=0.65 best=3618.6/79.978 aday=93 alpha=0.050 env/s=8170 upd/s=791
+   22.6m steps= 11060888 eps=  3406 dist20= 2606.3 lap20=0.60 best=3618.6/79.978 aday=95 alpha=0.048 env/s=8099 upd/s=773
+   22.9m steps= 11188481 eps=  3445 dist20= 2781.8 lap20=0.35 best=3618.6/79.978 aday=96 alpha=0.049 env/s=8275 upd/s=778
+   23.1m steps= 11315741 eps=  3486 dist20= 2388.3 lap20=0.50 best=3618.6/79.978 aday=98 alpha=0.049 env/s=8358 upd/s=788
+   23.4m steps= 11441529 eps=  3547 dist20= 2679.6 lap20=0.40 best=3618.6/79.978 aday=99 alpha=0.049 env/s=8160 upd/s=804
+   23.6m steps= 11569755 eps=  3581 dist20= 3363.6 lap20=0.85 best=3618.6/79.978 aday=100 alpha=0.048 env/s=8481 upd/s=794
+   23.9m steps= 11690297 eps=  3640 dist20= 1433.4 lap20=0.20 best=3618.6/79.978 aday=101 alpha=0.049 env/s=7980 upd/s=794
+   24.1m steps= 11813812 eps=  3709 dist20= 1297.6 lap20=0.15 best=3618.6/79.978 aday=102 alpha=0.047 env/s=8097 upd/s=787
+   24.4m steps= 11938309 eps=  3765 dist20= 2874.3 lap20=0.35 best=3618.6/79.978 aday=102 alpha=0.049 env/s=8234 upd/s=794
+   24.6m steps= 12061677 eps=  3805 dist20= 2868.4 lap20=0.45 best=3618.6/79.978 aday=104 alpha=0.048 env/s=8154 upd/s=793
+   24.9m steps= 12189490 eps=  3844 dist20= 3057.0 lap20=0.55 best=3618.6/79.978 aday=104 alpha=0.049 env/s=8434 upd/s=792
+   25.1m steps= 12312739 eps=  3882 dist20= 2568.7 lap20=0.45 best=3618.6/79.978 aday=105 alpha=0.049 env/s=8155 upd/s=794
+   25.4m steps= 12437501 eps=  3943 dist20= 1355.2 lap20=0.20 best=3618.6/79.978 aday=106 alpha=0.050 env/s=8052 upd/s=800
+   25.6m steps= 12556122 eps=  4012 dist20= 2317.8 lap20=0.50 best=3618.6/79.978 aday=107 alpha=0.048 env/s=7803 upd/s=789
+   25.9m steps= 12685847 eps=  4048 dist20= 3364.8 lap20=0.70 best=3618.6/79.978 aday=107 alpha=0.046 env/s=8407 upd/s=778
+   26.1m steps= 12812958 eps=  4085 dist20= 3602.0 lap20=0.95 best=3618.6/79.978 aday=108 alpha=0.047 env/s=8326 upd/s=786
+   26.4m steps= 12936623 eps=  4121 dist20= 3260.7 lap20=0.75 best=3618.6/79.978 aday=110 alpha=0.048 env/s=8236 upd/s=799
+   26.7m steps= 13067263 eps=  4156 dist20= 2785.3 lap20=0.50 best=3618.6/79.978 aday=111 alpha=0.048 env/s=8480 upd/s=779
+   26.9m steps= 13194406 eps=  4196 dist20= 3437.6 lap20=0.80 best=3618.6/79.978 aday=112 alpha=0.049 env/s=8322 upd/s=785
+   27.2m steps= 13323529 eps=  4230 dist20= 3209.3 lap20=0.85 best=3618.6/79.978 aday=113 alpha=0.049 env/s=8505 upd/s=790
+   27.4m steps= 13447609 eps=  4282 dist20= 1740.6 lap20=0.25 best=3618.6/79.978 aday=114 alpha=0.049 env/s=8120 upd/s=785
+   27.7m steps= 13572438 eps=  4327 dist20= 2866.7 lap20=0.65 best=3618.6/79.978 aday=115 alpha=0.049 env/s=8225 upd/s=791
+   27.9m steps= 13698735 eps=  4361 dist20= 3619.0 lap20=0.95 best=3618.6/79.978 aday=117 alpha=0.049 env/s=8302 upd/s=789
+   28.2m steps= 13826129 eps=  4398 dist20= 3223.3 lap20=0.80 best=3618.6/79.978 aday=118 alpha=0.048 env/s=8382 upd/s=790
+   28.4m steps= 13954978 eps=  4443 dist20= 2007.8 lap20=0.40 best=3618.6/79.978 aday=119 alpha=0.048 env/s=8309 upd/s=800
+   28.7m steps= 14077290 eps=  4491 dist20= 2575.6 lap20=0.45 best=3618.6/79.978 aday=121 alpha=0.048 env/s=8081 upd/s=793
+   28.9m steps= 14202939 eps=  4533 dist20= 3239.3 lap20=0.85 best=3618.6/79.978 aday=122 alpha=0.049 env/s=8309 upd/s=794
+   29.2m steps= 14326596 eps=  4575 dist20= 2470.1 lap20=0.30 best=3618.6/79.978 aday=123 alpha=0.047 env/s=8224 upd/s=798
+   29.4m steps= 14457368 eps=  4612 dist20= 3302.6 lap20=0.85 best=3618.6/79.978 aday=123 alpha=0.046 env/s=8500 upd/s=780
+   29.7m steps= 14585798 eps=  4655 dist20= 3034.2 lap20=0.75 best=3618.6/79.978 aday=123 alpha=0.049 env/s=8382 upd/s=783
+   30.0m steps= 14713134 eps=  4696 dist20= 2741.1 lap20=0.65 best=3618.6/79.978 aday=124 alpha=0.048 env/s=8230 upd/s=801
+   30.2m steps= 14840408 eps=  4745 dist20= 2779.8 lap20=0.65 best=3618.6/79.978 aday=124 alpha=0.047 env/s=8428 upd/s=795
+   30.5m steps= 14965210 eps=  4793 dist20= 2603.1 lap20=0.60 best=3618.6/79.978 aday=125 alpha=0.047 env/s=8223 upd/s=791
+   30.7m steps= 15091723 eps=  4833 dist20= 2729.7 lap20=0.65 best=3618.6/79.978 aday=127 alpha=0.046 env/s=8167 upd/s=800
+   31.0m steps= 15217160 eps=  4866 dist20= 3364.8 lap20=0.90 best=3618.6/79.978 aday=128 alpha=0.048 env/s=8211 upd/s=786
+   31.2m steps= 15342248 eps=  4901 dist20= 3238.6 lap20=0.85 best=3618.6/79.978 aday=130 alpha=0.047 env/s=8271 upd/s=793
+   31.5m steps= 15471429 eps=  4937 dist20= 3561.6 lap20=0.95 best=3618.6/79.978 aday=131 alpha=0.046 env/s=8517 upd/s=791
+   31.7m steps= 15595357 eps=  4975 dist20= 2980.0 lap20=0.55 best=3618.6/79.978 aday=133 alpha=0.047 env/s=8188 upd/s=793
+   32.0m steps= 15721597 eps=  5013 dist20= 3295.4 lap20=0.80 best=3618.6/79.978 aday=134 alpha=0.047 env/s=8309 upd/s=790
+   32.2m steps= 15845538 eps=  5047 dist20= 3446.8 lap20=0.80 best=3618.6/79.978 aday=135 alpha=0.046 env/s=8166 upd/s=791
+   32.5m steps= 15971402 eps=  5081 dist20= 3561.7 lap20=0.95 best=3618.6/79.978 aday=137 alpha=0.048 env/s=8351 upd/s=770
+   32.8m steps= 16098494 eps=  5113 dist20= 3600.0 lap20=0.70 best=3618.6/79.978 aday=138 alpha=0.045 env/s=8296 upd/s=783
+   33.0m steps= 16224269 eps=  5147 dist20= 3544.9 lap20=0.90 best=3618.6/79.978 aday=139 alpha=0.050 env/s=8234 upd/s=786
+   33.3m steps= 16353638 eps=  5182 dist20= 3421.5 lap20=0.90 best=3618.6/79.978 aday=140 alpha=0.049 env/s=8448 upd/s=784
+   33.5m steps= 16477668 eps=  5221 dist20= 2438.8 lap20=0.55 best=3618.6/79.978 aday=142 alpha=0.048 env/s=8197 upd/s=793
+   33.8m steps= 16604259 eps=  5254 dist20= 3516.6 lap20=0.95 best=3618.6/79.978 aday=143 alpha=0.047 env/s=8305 upd/s=787
+   34.0m steps= 16726623 eps=  5288 dist20= 3064.1 lap20=0.70 best=3618.6/79.978 aday=144 alpha=0.049 env/s=8108 upd/s=795
+   34.3m steps= 16852150 eps=  5320 dist20= 3618.8 lap20=0.95 best=3618.6/79.978 aday=146 alpha=0.048 env/s=8195 upd/s=783
+   34.5m steps= 16979714 eps=  5361 dist20= 2802.2 lap20=0.65 best=3618.6/79.978 aday=147 alpha=0.049 env/s=8443 upd/s=794
+   34.8m steps= 17105242 eps=  5399 dist20= 3304.3 lap20=0.80 best=3618.6/79.978 aday=148 alpha=0.048 env/s=8147 upd/s=779
+   35.0m steps= 17231587 eps=  5436 dist20= 3319.2 lap20=0.80 best=3618.6/79.978 aday=150 alpha=0.048 env/s=8159 upd/s=801
+   35.3m steps= 17356200 eps=  5469 dist20= 3070.0 lap20=0.55 best=3618.6/79.978 aday=150 alpha=0.047 env/s=8226 upd/s=792
+   35.5m steps= 17483820 eps=  5508 dist20= 3284.8 lap20=0.75 best=3618.6/79.978 aday=151 alpha=0.047 env/s=8398 upd/s=790
+   35.8m steps= 17609795 eps=  5540 dist20= 3517.1 lap20=0.90 best=3618.6/79.978 aday=152 alpha=0.046 env/s=8330 upd/s=794
+   36.0m steps= 17735899 eps=  5575 dist20= 3517.0 lap20=0.95 best=3618.6/79.978 aday=154 alpha=0.045 env/s=8283 upd/s=788
+   36.3m steps= 17861783 eps=  5610 dist20= 3345.8 lap20=0.70 best=3618.6/79.978 aday=155 alpha=0.045 env/s=8246 upd/s=786
+   36.6m steps= 17991013 eps=  5643 dist20= 3398.1 lap20=0.85 best=3618.6/79.978 aday=157 alpha=0.045 env/s=8349 upd/s=775
+   36.8m steps= 18116941 eps=  5686 dist20= 3237.3 lap20=0.75 best=3618.6/79.978 aday=158 alpha=0.045 env/s=8350 upd/s=796
+   37.1m steps= 18242408 eps=  5728 dist20= 2902.2 lap20=0.65 best=3618.6/79.978 aday=158 alpha=0.045 env/s=8153 upd/s=780
+   37.3m steps= 18366928 eps=  5769 dist20= 2602.2 lap20=0.35 best=3618.6/79.978 aday=159 alpha=0.045 env/s=8139 upd/s=784
+   37.6m steps= 18493603 eps=  5811 dist20= 2805.0 lap20=0.45 best=3618.6/79.978 aday=160 alpha=0.046 env/s=8235 upd/s=780
+   37.8m steps= 18621401 eps=  5853 dist20= 2808.4 lap20=0.40 best=3618.6/79.978 aday=161 alpha=0.046 env/s=8396 upd/s=788
+   38.1m steps= 18743264 eps=  5902 dist20= 2559.5 lap20=0.40 best=3618.6/79.978 aday=161 alpha=0.047 env/s=8024 upd/s=790
+   38.3m steps= 18869253 eps=  5941 dist20= 2713.2 lap20=0.55 best=3618.6/79.978 aday=162 alpha=0.047 env/s=8357 upd/s=796
+   38.6m steps= 18991196 eps=  5982 dist20= 2823.2 lap20=0.50 best=3618.6/79.978 aday=164 alpha=0.047 env/s=8045 upd/s=792
+   38.9m steps= 19121155 eps=  6017 dist20= 2938.0 lap20=0.50 best=3618.6/79.978 aday=165 alpha=0.048 env/s=8520 upd/s=787
+   39.1m steps= 19243784 eps=  6062 dist20= 2625.6 lap20=0.50 best=3618.6/79.978 aday=166 alpha=0.047 env/s=8137 upd/s=796
+   39.4m steps= 19368459 eps=  6118 dist20= 1606.7 lap20=0.05 best=3618.6/79.978 aday=166 alpha=0.048 env/s=8162 upd/s=786
+   39.6m steps= 19490807 eps=  6172 dist20= 1942.4 lap20=0.20 best=3618.6/79.978 aday=167 alpha=0.049 env/s=8002 upd/s=785
+   39.9m steps= 19615450 eps=  6220 dist20= 2266.8 lap20=0.25 best=3618.6/79.978 aday=167 alpha=0.049 env/s=8184 upd/s=788
+   40.1m steps= 19737520 eps=  6281 dist20= 2104.7 lap20=0.05 best=3618.6/79.978 aday=168 alpha=0.049 env/s=8021 upd/s=788
+   40.4m steps= 19856434 eps=  6333 dist20= 1497.7 lap20=0.10 best=3618.6/79.978 aday=169 alpha=0.050 env/s=7886 upd/s=796
+   40.6m steps= 19979420 eps=  6403 dist20= 1562.4 lap20=0.00 best=3618.6/79.978 aday=170 alpha=0.050 env/s=8099 upd/s=790
+   40.9m steps= 20100284 eps=  6465 dist20= 1996.9 lap20=0.10 best=3618.6/79.978 aday=170 alpha=0.050 env/s=7916 upd/s=786
+   41.1m steps= 20223966 eps=  6522 dist20= 2409.1 lap20=0.30 best=3618.6/79.978 aday=170 alpha=0.050 env/s=8131 upd/s=789
+   41.4m steps= 20350167 eps=  6581 dist20= 1823.2 lap20=0.10 best=3618.6/79.978 aday=170 alpha=0.049 env/s=8183 upd/s=804
+   41.6m steps= 20475103 eps=  6631 dist20= 2348.2 lap20=0.25 best=3618.6/79.978 aday=170 alpha=0.049 env/s=8172 upd/s=785
+   41.9m steps= 20599014 eps=  6678 dist20= 2611.2 lap20=0.45 best=3618.6/79.978 aday=171 alpha=0.049 env/s=8101 upd/s=785
+   42.1m steps= 20723499 eps=  6724 dist20= 2265.7 lap20=0.30 best=3618.6/79.978 aday=172 alpha=0.049 env/s=8224 upd/s=793
+   42.4m steps= 20849366 eps=  6764 dist20= 2871.7 lap20=0.70 best=3618.6/79.978 aday=173 alpha=0.049 env/s=8272 upd/s=789
+   42.7m steps= 20977881 eps=  6803 dist20= 3284.4 lap20=0.75 best=3618.6/79.978 aday=174 alpha=0.049 env/s=8412 upd/s=785
+   42.9m steps= 21104394 eps=  6840 dist20= 3117.9 lap20=0.60 best=3618.6/79.978 aday=175 alpha=0.050 env/s=8309 upd/s=788
+   43.2m steps= 21225972 eps=  6877 dist20= 3231.9 lap20=0.70 best=3618.6/79.978 aday=175 alpha=0.052 env/s=8097 upd/s=773
+   43.4m steps= 21353138 eps=  6926 dist20= 2212.9 lap20=0.20 best=3618.6/79.978 aday=176 alpha=0.051 env/s=8255 upd/s=779
+   43.7m steps= 21474460 eps=  6973 dist20= 1963.2 lap20=0.25 best=3618.6/79.978 aday=176 alpha=0.051 env/s=8047 upd/s=769
+   43.9m steps= 21602774 eps=  7023 dist20= 2363.9 lap20=0.15 best=3618.6/79.978 aday=176 alpha=0.053 env/s=8437 upd/s=789
+   44.2m steps= 21728199 eps=  7071 dist20= 2567.6 lap20=0.10 best=3618.6/79.978 aday=176 alpha=0.055 env/s=8172 upd/s=782
+   44.4m steps= 21854483 eps=  7113 dist20= 2881.7 lap20=0.45 best=3618.6/79.978 aday=176 alpha=0.053 env/s=8302 upd/s=789
+   44.7m steps= 21983036 eps=  7153 dist20= 2741.2 lap20=0.55 best=3618.6/79.978 aday=176 alpha=0.053 env/s=8377 upd/s=782
+   45.0m steps= 22110214 eps=  7204 dist20= 3041.7 lap20=0.55 best=3618.6/79.978 aday=176 alpha=0.053 env/s=8219 upd/s=775
+bitti: C:\Users\Asus\Desktop\projeler egit\ıbmrace\racelab\rl\runs\n3b_s47

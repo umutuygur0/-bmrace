@@ -27,7 +27,7 @@ sys.path.insert(0, HERE)
 
 
 def run_model(job):
-    path, idx, repeat, udp_timeout, env_ver, tcs_th, pg, pb = job
+    path, idx, repeat, udp_timeout, env_ver, tcs_th, pg, pb, af, up = job
     import torch
     torch.set_num_threads(1)
     from common import ACT_DIM, OBS_DIM
@@ -37,11 +37,12 @@ def run_model(job):
     from torcs_env_v4 import TorcsEnvV4
 
     ck = torch.load(path, map_location="cpu", weights_only=False)
-    actor = Actor(OBS_DIM, ACT_DIM, tuple(ck.get("hidden", [256, 256])))
+    obs_dim = ck["actor"]["net.0.weight"].shape[1]  # 32 klasik, 44 konum bilen (v10)
+    actor = Actor(obs_dim, ACT_DIM, tuple(ck.get("hidden", [256, 256])))
     actor.load_state_dict(ck["actor"])
     Env = {"v3": TorcsEnvV3, "v4": TorcsEnvV4}.get(env_ver, TorcsEnvV2)
     env = Env(idx=idx, race_mode=True, udp_timeout_us=udp_timeout, max_steps=30000, tcs_threshold=tcs_th,
-              pedal_gain=pg, pedal_bias=pb)
+              pedal_gain=pg, pedal_bias=pb, assist_front=af, upshift=up, pos_obs=obs_dim != OBS_DIM)
     res = []
     for _ in range(repeat):
         o = env.reset()
@@ -90,6 +91,8 @@ def main():
     ap.add_argument("--tcs-th", type=float, default=2.0, help="modelin eğitildiği TCS eşiği (v6 modelleri: 5.0)")
     ap.add_argument("--pedal-gain", type=float, default=1.0)
     ap.add_argument("--pedal-bias", type=float, default=0.0)
+    ap.add_argument("--assist-front", type=float, default=0.0)
+    ap.add_argument("--upshift", type=float, default=None)
     args = ap.parse_args()
     assert 0 <= args.idx_from and args.idx_from + args.procs - 1 <= 9, "scr_server idx 0..9 olmalı (port 3001..3010)"
 
@@ -110,7 +113,7 @@ def main():
     print(f"{len(models)} model × {args.repeat} koşu, {args.procs} paralel", flush=True)
 
     jobs = [(m, args.idx_from + i % args.procs, args.repeat, args.udp_timeout_us, args.env, args.tcs_th,
-             args.pedal_gain, args.pedal_bias)
+             args.pedal_gain, args.pedal_bias, args.assist_front, args.upshift)
             for i, m in enumerate(models)]
     results = []
     ctx = mp.get_context("spawn")

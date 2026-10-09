@@ -1,0 +1,1646 @@
+WEBVTT
+
+1
+00:00:08.350 --> 00:00:17.610
+Heyam: Hello, hello, everyone. Good morning, good afternoon, good evening. Depends on where you are and from where you are attending this session. Thank you so much, actually, for
+
+2
+00:00:17.640 --> 00:00:30.019
+Heyam: having the time to come and attend this orientation session, I'm so glad to be meeting with all of you. My name is Hiyam Abunasir, and I will be your technical instructor, but also the facilitator for today's orientation session.
+
+3
+00:00:30.020 --> 00:00:42.520
+Heyam: It's gonna be more of, know what we will be doing, a bit of overview about the course, what are the expectations, if there are any questions that you may have about the course, I will be more than happy to answer those questions for you.
+
+4
+00:00:42.590 --> 00:00:58.780
+Heyam: Stay tuned, because we will have a lot of information to share with you. And also, again, if you feel like there's any questions or doubts about the course, stop me, or you can raise your hand, or maybe write in the chat. We have a team here to support and answer all of your questions and inquiries.
+
+5
+00:00:58.930 --> 00:01:13.200
+Heyam: If you are… if this is your first course with me, I just want to introduce myself to you. My name is Heyam Abnasir. I am based in Canada, Alberta, and I am coming from a technical background with a master's degree and a bachelor's degree in computer science.
+
+6
+00:01:13.340 --> 00:01:30.460
+Heyam: very much interested in anything professional development when it comes to training, corporate training, and everything for upskinning. And this is the reason why I'm always happy to be part of the IBM family, where we are providing courses in a very, I would say.
+
+7
+00:01:30.460 --> 00:01:44.389
+Heyam: nice way, because usually IBM courses are very practical, they teach you the skills, not just the theory, so this is one of the biggest reasons why I'm a very big fan of IBM courses, and
+
+8
+00:01:44.470 --> 00:01:48.329
+Heyam: This time, this particular course is gonna definitely feel different.
+
+9
+00:01:48.340 --> 00:01:58.050
+Heyam: The reason why is that this is a very practical course. It brings a lot of elements where you can learn and see the combination between coding with Python.
+
+10
+00:01:58.050 --> 00:02:13.530
+Heyam: AI, artificial intelligence, and using simulators. And if you feel like this is a question on your mind, asking if I can do this, definitely you will do. Even if you are coming from a non-technical background, or if you haven't had any previous coding for a race.
+
+11
+00:02:13.620 --> 00:02:26.449
+Heyam: This is where you are… this is the right place. This is the right place for you, because we will be providing you with technical support, technical mentoring, and a team who's ready to answer all of your questions and support your learning. So…
+
+12
+00:02:26.710 --> 00:02:30.209
+Heyam: Without further ado, let's start with our orientation session.
+
+13
+00:02:30.620 --> 00:02:46.959
+Heyam: What we will be doing today, I will walk you through the program overview, tell you a bit about the learning path, walk you through the expectations and the modules that you need to complete. I will also explain to you what are the elements of learning, and what are the platforms that we would be using to complete this challenge.
+
+14
+00:02:46.970 --> 00:03:05.669
+Heyam: I will, again, walk you through the learning path with kind of more details, and then we will navigate the platform, the IBM skills, especially for those of you who are new. I know that there might be a couple of you who already have attended multiple courses with IBM, which is something that we do value and appreciate. Thank you so much for your trust.
+
+15
+00:03:05.680 --> 00:03:17.499
+Heyam: But also, we will be walking you through this one more time, for those of you who are new, to ensure that you know how to navigate the platform and understand the expectations and how to get all of the learning done.
+
+16
+00:03:17.880 --> 00:03:22.640
+Heyam: We would walk you through the schedule, the way how we would be delivering the course.
+
+17
+00:03:22.640 --> 00:03:39.679
+Heyam: your journey as a learner, then what we will be offering with this program. I will also walk you through the channels for support. We will have a couple of things that we are actually offering for you, or providing for your journey with us, so that it makes your learning easier.
+
+18
+00:03:39.680 --> 00:03:47.639
+Heyam: throughout this entire session, if you have any questions, please do not stop yourself from asking these questions. Orientation sessions are usually for
+
+19
+00:03:47.680 --> 00:03:53.949
+Heyam: More of an info session, so we are walking you through the expectation and expecting from you to ask any questions that you may have.
+
+20
+00:03:54.510 --> 00:03:56.110
+Heyam: So, let's get started.
+
+21
+00:03:56.940 --> 00:04:04.549
+Heyam: So, kind of… traditional way, or the typical way of IBM courses, we are always offering you with
+
+22
+00:04:04.590 --> 00:04:19.870
+Heyam: program that is combining the skill and the knowledge. And this is actually one of the biggest, I would say, reasons why I'm really a big fan of IBM courses. It doesn't only focus on teaching you the theory. The theory is something that we can
+
+23
+00:04:19.870 --> 00:04:39.669
+Heyam: all accessed by maybe watching YouTube videos, or maybe reading a book, or simply by just attending courses, within the university sometimes. But the reason why IBM is different is that they are always caring about showing you the skill, building that skill, helping you to develop that skill. So you are learning the theory, the knowledge behind it.
+
+24
+00:04:39.670 --> 00:04:49.479
+Heyam: the rational behind what we do, but at the same time, we are actually building it. It's practical, and it helps you to build that particular project or hands-on task.
+
+25
+00:04:49.480 --> 00:05:04.899
+Heyam: So, with this program, we will be creating a racing league learning plan. So, this entire program is about or around, you developing a racing environment, okay? Racing environment. You will be competing yourself.
+
+26
+00:05:04.970 --> 00:05:19.290
+Heyam: And providing kind of a challenge for yourself, where you are challenging the car, starting from the first attempt to the second experiment, the third experiment, or whatever, like, infinity experiments that you would like to experiment, okay?
+
+27
+00:05:19.740 --> 00:05:29.149
+Heyam: So, in this program, we will be using the simulator, and the simulator is Torx. I don't know if any of you have heard or used Torx before.
+
+28
+00:05:29.460 --> 00:05:35.160
+Heyam: If this is the case, can you write in the chat, tell me if you have had this
+
+29
+00:05:35.470 --> 00:05:52.809
+Heyam: this, experience before, if you have ever had used Torx before. And by the way, we have the chat box, where we share the links and everything related to this program, but you also have the Q&A box if you have any questions to post in that Q&A box, okay?
+
+30
+00:05:56.090 --> 00:05:59.510
+Heyam: Okay. Now, what would be the learning methodology?
+
+31
+00:05:59.610 --> 00:06:12.560
+Heyam: Most of you have decided to join this course, because there is something in your mind, something that you would like to achieve, something that… a goal that you would like to… to pursue, and we are here to support you and help you achieve that goal.
+
+32
+00:06:12.650 --> 00:06:27.339
+Heyam: Whether it's more of understanding how AI works, whether how you want to experiment IBM Bob development environment that helps you to combine AI with coding, whether you just wanted to build that skill and see how you can compete in the job market.
+
+33
+00:06:27.340 --> 00:06:32.919
+Heyam: Whatever your goal is, we are here to support you. But this means that you are yourself.
+
+34
+00:06:32.930 --> 00:06:43.180
+Heyam: motivated and interested to join this course. And this is the reason why you are here today. This is the reason why you are giving us your time, and we do, again, appreciate that.
+
+35
+00:06:43.180 --> 00:06:59.470
+Heyam: Which means that we are also relying a lot on you. We are expecting and counting on you that you will be completing the self-based learning. When I say self-based learning, there's a couple of mandatory modules that you will need to complete on your own.
+
+36
+00:06:59.470 --> 00:07:17.130
+Heyam: So you do not expect your technical instructor to walk you through the teaching itself, because this is, again, as I said, practical course. Which means that the self-based learning is something that you have to complete on your own, based on your timing, your schedule, your availability, and your bandwidth.
+
+37
+00:07:17.130 --> 00:07:35.469
+Heyam: So make sure that you put this into your consideration. If you decided to go ahead with this enrollment, and you started this course today, you can complete, and I will walk you through those compulsory modules that you need to complete, so that you know what exactly… what exactly the amount of time that you need to invest in this
+
+38
+00:07:35.470 --> 00:07:47.700
+Heyam: self-based learning. There will always be mentor-guided project support, and this is where we will be starting our technical session. So this is, again, today, is just the orientation session. I'm giving you the information about the course.
+
+39
+00:07:47.700 --> 00:08:03.990
+Heyam: Then, once you enrolled and you started the learning, we will be having a couple of meetings with me as your technical mentor. So I would walk you through the talks, I would walk you through the Python coding, I would walk you through a step-by-step of how to use IBM Bob, and how we can do the improvements, how we will do them.
+
+40
+00:08:04.280 --> 00:08:10.220
+Heyam: first and second experiments, and how we can compete the… the challenge, okay?
+
+41
+00:08:10.540 --> 00:08:28.129
+Heyam: What would be the access that we will have? Just give me a second, let me use the highlighter here. So, the platform that we will be using for the learning itself is, as usual, IBM SkillsBuild. IBM SkillsBuild is one of the pioneer platforms for learning. They offer hundreds and hundreds of learning paths.
+
+42
+00:08:28.220 --> 00:08:44.610
+Heyam: varying between things that are focusing on education, some of the learning paths are directed or intended for people who are interested in software engineering, some of their learning paths are just in AI in general, some of them are about AI and data analytics.
+
+43
+00:08:44.610 --> 00:08:49.169
+Heyam: You can see a huge library of different courses provided to you on IBM SkillsBook.
+
+44
+00:08:49.310 --> 00:09:07.489
+Heyam: Then the second platform that we will be using is the Racing Simulator and the AI Assistance. The AI Assistance is the IBM bub, okay? In the future, like, in the technical sessions that are coming up, I will walk you through how to install it, how to use it, and how to connect it to your environment, so you don't have to worry about anything.
+
+45
+00:09:07.490 --> 00:09:16.960
+Heyam: Everything is going to be recorded, accessible to you, and you will be able to see my demonstrations and follow me… follow along with me, step by step, okay?
+
+46
+00:09:17.840 --> 00:09:37.689
+Heyam: What are our learning activities, or the objectives of this program? We will be completing all the learning, as I said, with it individually. And this is very important, because this particular course allows you to work in groups when it comes to the practical implementation, when it comes to the creation of the code itself.
+
+47
+00:09:37.690 --> 00:09:40.109
+Heyam: We will allow you, if you would like, of course.
+
+48
+00:09:40.110 --> 00:10:00.910
+Heyam: to be working within a group. However, just be reminded that everything that is assigned to you as mandatory compliance and compulsory training, it has to be done individually. So you need to complete all the modules on your own, individually. Second thing, we will learn some basics of Python, so don't worry if you are coming from a non-technical background.
+
+49
+00:10:00.910 --> 00:10:16.170
+Heyam: If you are someone who have never experimented using Python as the coding language, Python by itself is a simple language, it's a basic language, although it's a very powerful language. So everyone knows that Python is becoming number one coding language across the globe.
+
+50
+00:10:16.170 --> 00:10:31.579
+Heyam: And the reason why is that it has multiple purposes. Python can be used for automation, Python can also be used for data analytics and visualization, it can also be used for coding itself, for APIs, for so many different purposes.
+
+51
+00:10:31.610 --> 00:10:39.469
+Heyam: So Python is actually, again, a powerful language that I would definitely recommend and encourage each and everyone to have the basics of it.
+
+52
+00:10:39.530 --> 00:10:45.160
+Heyam: Now, with the use of AI, and I know that a lot of you now are maybe debating about it, or maybe you have
+
+53
+00:10:45.410 --> 00:10:58.079
+Heyam: some kind of doubts that I need to learn coding. I know that this is the case for so many people nowadays, that why would I need to struggle and learn basics of Python from while I do have the AI?
+
+54
+00:10:58.180 --> 00:11:09.140
+Heyam: It's just because we need to verify what AI is doing. So, if you do not have those basics, your ability to judge and assess what are the outputs of the AI sometimes can be
+
+55
+00:11:09.140 --> 00:11:19.080
+Heyam: poor. So, and it's, again, it's fine if you don't want to put that effort to… to do the learning from scratch, it's completely fine. However, we need to…
+
+56
+00:11:19.360 --> 00:11:29.199
+Heyam: come up with this course with a growth mindset, with someone who's actually willing to learn and putting the effort, okay? So keep that in mind, please, when we are continuing with this course.
+
+57
+00:11:29.870 --> 00:11:41.959
+Heyam: We will be using IBM Bob to analyze and improve your code. So the purpose of using IBM, not to code for you or to create the code, it's actually just to analyze an existing code, okay?
+
+58
+00:11:42.430 --> 00:11:50.160
+Heyam: We were also allowing you, as I said, to work either solo, or individually, or in a team, and the team can be up to 5 members.
+
+59
+00:11:50.410 --> 00:12:08.789
+Heyam: Then you will be submitting your, project to the mentor, so that we can do the evaluation for you, and then we will be picking 3 top winners to get the certification of winners. Of course, all of you will get the certificate of completion, by the way, so it's just that the best performance.
+
+60
+00:12:08.790 --> 00:12:11.960
+Heyam: The one that is maybe having the minimum time.
+
+61
+00:12:11.960 --> 00:12:21.369
+Heyam: no damages, and I will walk you through all these details as we progress. If you have any questions, please write in the chat, and I would be more than happy to answer those.
+
+62
+00:12:21.540 --> 00:12:25.480
+Heyam: Okay, so what is Torx and IBM Bob?
+
+63
+00:12:26.230 --> 00:12:40.270
+Heyam: When it comes to torques, I want you to think about, we are creating the environment for you, which is the simulator, where we can create the race, the entire race. And again, just to put you into the context, what exactly we are trying to do here?
+
+64
+00:12:41.350 --> 00:12:44.240
+Heyam: This entire program is about you.
+
+65
+00:12:44.750 --> 00:12:49.019
+Heyam: Having an environment which could possibly have a problem.
+
+66
+00:12:49.480 --> 00:12:53.280
+Heyam: And your role is to look into the code.
+
+67
+00:12:53.420 --> 00:12:56.640
+Heyam: Improve it so that we fix that problem.
+
+68
+00:12:56.980 --> 00:12:57.860
+Heyam: Again.
+
+69
+00:12:58.050 --> 00:13:07.890
+Heyam: Torx is the simulator. It's the racing environment. It's the laps, the tracks, okay? Where you have a F1 or Formula 1 car.
+
+70
+00:13:09.320 --> 00:13:15.020
+Heyam: You already have a Python code that is exists, which tells the car how to move.
+
+71
+00:13:16.440 --> 00:13:17.740
+Heyam: So far, all good.
+
+72
+00:13:17.960 --> 00:13:23.320
+Heyam: Use reactions, if you don't mind, so that I know that everything is clear so far. So…
+
+73
+00:13:23.500 --> 00:13:27.460
+Heyam: The racing simulator will be the environment where we have the car.
+
+74
+00:13:27.570 --> 00:13:30.029
+Heyam: Moving within this track, or the lap.
+
+75
+00:13:30.880 --> 00:13:35.609
+Heyam: The Python is the language that we will be using To move the car.
+
+76
+00:13:36.200 --> 00:13:37.090
+Heyam: Okay?
+
+77
+00:13:37.810 --> 00:13:56.760
+Heyam: What would be the role of IBM Bob in this case? IBM Bob is the environment, or the development environment, or tool, that helps to analyze the Python code and tell you what improvements we can add to make the car performance better.
+
+78
+00:13:57.780 --> 00:14:07.369
+Heyam: Now, I want you to write in the chat, what would… what could the car do? Like, what do you think are the… some of the problems that we may have within this type of environment?
+
+79
+00:14:07.880 --> 00:14:09.970
+Heyam: Tell me about, like, some examples.
+
+80
+00:14:10.090 --> 00:14:13.970
+Heyam: What examples do you think this card could possibly have?
+
+81
+00:14:14.820 --> 00:14:17.719
+Heyam: What are the improvement areas that you can see?
+
+82
+00:14:21.450 --> 00:14:25.400
+Heyam: Please, I need your interactions right in the chat. What do you think?
+
+83
+00:14:25.650 --> 00:14:31.080
+Heyam: Are the possible… the potential or possible problems that we could… the car could possibly have.
+
+84
+00:14:36.210 --> 00:14:37.750
+Heyam: Let me see…
+
+85
+00:14:45.430 --> 00:14:58.829
+Heyam: Engine issues. Of course, engine issues could happen, but I don't want you to go beyond… beyond that. Like, this is more… very, very complicated Pavan. It's something even simpler than that. I want you to think about the environment, not about the car.
+
+86
+00:15:05.360 --> 00:15:11.429
+Heyam: But what would be the main two factors that you might be considering when you are creating a gaming?
+
+87
+00:15:11.650 --> 00:15:13.920
+Heyam: A racing game.
+
+88
+00:15:14.330 --> 00:15:17.869
+Heyam: What are the two factors that you will be more concerned about?
+
+89
+00:15:18.450 --> 00:15:19.589
+Heyam: Two things.
+
+90
+00:15:24.690 --> 00:15:35.159
+Heyam: the track itself, thank you so much, so that the track has no issues, and it's smooth for the car, and this is exactly what happens in real-world scenarios, where we have Formula One
+
+91
+00:15:35.160 --> 00:15:47.799
+Heyam: competitions. Usually, we look at the track, ensuring that it's safe, ensuring that it's actually developed in a way, like, in a way that it's helping the racers to have a good experience.
+
+92
+00:15:47.840 --> 00:15:48.920
+Heyam: What else?
+
+93
+00:15:51.050 --> 00:15:53.749
+Heyam: Do you think speed is a matter for you?
+
+94
+00:15:54.590 --> 00:15:59.970
+Heyam: Do you think speed is important? The route tracking, thank you so much, Shaden.
+
+95
+00:16:00.330 --> 00:16:06.829
+Heyam: We will need that, but again, think that this is more of you competing yourself, so your car is going to compete itself.
+
+96
+00:16:07.890 --> 00:16:14.070
+Heyam: Again, the game that we are developing has nothing to do as an actual racing.
+
+97
+00:16:14.520 --> 00:16:25.259
+Heyam: The thing that we will be developing is kind of simpler than that, because this is, again, this is a pilot program, it's your, maybe, first time getting into such a course, and we are…
+
+98
+00:16:25.310 --> 00:16:44.579
+Heyam: not assuming that everyone is coming from a technical background. Some people are coming from a complete different background, so we don't want to add a lot of overwhelming for them. We want to make sure that this is more of a basic course, and then definitely we can… we can develop as we progress with more complicated courses. But for now, this course is mainly about a car.
+
+99
+00:16:44.670 --> 00:16:52.839
+Heyam: an F1 or Formula 1 car that is competing itself, which means that this car is going to be moving within a track.
+
+100
+00:16:52.980 --> 00:16:55.179
+Heyam: on Torx, the simulator.
+
+101
+00:16:55.520 --> 00:17:03.410
+Heyam: The car has its own performance in the beginning. The performance means we have two things to worry about. The speed of the car.
+
+102
+00:17:03.690 --> 00:17:07.579
+Heyam: How much time does the car need to complete one lab?
+
+103
+00:17:08.130 --> 00:17:12.980
+Heyam: And whether the car has any crashes or did any damages.
+
+104
+00:17:13.420 --> 00:17:22.939
+Heyam: So, when it comes to your competition to this challenge, what we need to do is to ensure that the moment we started the engine, and the car started to race.
+
+105
+00:17:23.339 --> 00:17:33.619
+Heyam: The car has the minimum time to complete the lab, which is the speed, but at the same time, with no damages, no crashes.
+
+106
+00:17:34.000 --> 00:17:34.910
+Heyam: Okay?
+
+107
+00:17:35.550 --> 00:17:40.569
+Heyam: This is exactly the challenge that we would be working towards. Is that hard?
+
+108
+00:17:43.230 --> 00:17:58.280
+Heyam: So, if some of you created a Python code or improved the Python code to increase the speed, this is amazing. The first attempt was… the car was able to complete the lab in 1 minute and 40 seconds. Nice.
+
+109
+00:17:58.670 --> 00:18:16.569
+Heyam: Now, you did improvement to your Python code, where the car is now able to complete the entire lab in 1 minute and 36 seconds. Wow, this is an improvement. We have 4 seconds removed or eliminated from the BTS lab, which is great.
+
+110
+00:18:17.030 --> 00:18:19.459
+Heyam: But unfortunately, the car did crash.
+
+111
+00:18:20.380 --> 00:18:29.459
+Heyam: So we don't want to worry about the speed over the performance, okay? So we want to make sure that we are balancing both. We want to achieve a better speed.
+
+112
+00:18:29.720 --> 00:18:32.680
+Heyam: But with zero damages.
+
+113
+00:18:33.000 --> 00:18:39.470
+Heyam: Okay? This is exactly, in summary, what we will be doing during this course.
+
+114
+00:18:39.680 --> 00:18:47.039
+Heyam: So if I ask you now a question, answer it now. What would be the tool for simulation? Write it in the chat.
+
+115
+00:18:48.340 --> 00:18:51.929
+Heyam: What is the tools that we will be using for simulation?
+
+116
+00:18:55.610 --> 00:18:56.930
+Heyam: Tell me in the chat.
+
+117
+00:18:58.810 --> 00:19:03.049
+Heyam: What tool we will be using for simulation?
+
+118
+00:19:07.710 --> 00:19:14.660
+Heyam: That works. Thank you so much, Pavan. And what coding language are we gonna use for the programming?
+
+119
+00:19:21.400 --> 00:19:33.509
+Heyam: what language we will be using. Great job, thank you so much, Python, amazing. How about the AI tool that's gonna use… that we will be using to help us improve the code?
+
+120
+00:19:38.770 --> 00:19:48.599
+Heyam: Bob, thank you so much. So, Bob is a tool provided by IBM that helps us improve, analyze the code, find areas to improve, and
+
+121
+00:19:48.880 --> 00:19:51.470
+Heyam: then develop that code, okay?
+
+122
+00:19:53.220 --> 00:19:56.580
+Heyam: Great job, everyone. Thank you so much for your answers.
+
+123
+00:19:56.900 --> 00:20:06.339
+Heyam: And let me go to the next slide. So this is, again, more of explanations for the key parameters for our course. Again, Torx is going to be the car simulator.
+
+124
+00:20:06.440 --> 00:20:12.689
+Heyam: The AI tech is gonna be IBM Bob. I don't know if any of you have had any exposure to IBM Bob before.
+
+125
+00:20:18.330 --> 00:20:33.559
+Heyam: But if not, this is exactly where… the right place for you, because we will be exposing you to IBM Bob, so that you know how to use it as a code… as a programmer, to help you improve and analyze, and even sometimes to create an entire new code, okay?
+
+126
+00:20:34.870 --> 00:20:45.310
+Heyam: And lastly, we will be having multiple tracks, but most likely what we are trying to achieve, and this is the goal, without overwhelming you or adding a lot of pressure on you, I know that's
+
+127
+00:20:45.310 --> 00:21:03.440
+Heyam: Most of you are either students or having a lot of other things to do, so the main purpose of this course is just to maybe have one or two challenges for the first attempt. So there's no need for you to do multiple attempts or multiple experiments, as long as you were able to compete the first challenge or the first attempt, okay?
+
+128
+00:21:05.170 --> 00:21:13.649
+Heyam: All right. Now, what are the technical schematics here? The simulator is the chassis. Again, this is torques that is going to be used.
+
+129
+00:21:15.490 --> 00:21:35.460
+Heyam: You know, it's my first time. Amazing. So, honestly, this is a very good opportunity for you to see how we can use IBM Bob, and also, again, without any assumptions that you are someone who's familiar with coding, because the code itself exists, so we can share this code with you, and then start to analyze it, and come up with some improvements to see how the card performance is going to also be improved.
+
+130
+00:21:35.620 --> 00:21:51.379
+Heyam: So this is going to be providing you with the physical engine, or the physical environment that we would be using for the track race, and all of the elements of the graphics. You don't have to worry about that, because, see, we can… we can definitely build that. We can create it, we can…
+
+131
+00:21:51.420 --> 00:22:08.610
+Heyam: create the code where we can do the simulator itself. But again, the purpose of this course is not about coding. It's not about you coming up with an entire environment to code, no. The main purpose, the main goal of this course is see how AI
+
+132
+00:22:08.950 --> 00:22:19.439
+Heyam: can help within this existing environment. So we do have the simulator, we do have the code, and all we need to do is to improve it by using an AI assistant or an AI tool.
+
+133
+00:22:19.730 --> 00:22:22.239
+Heyam: Okay, does that make sense to everyone?
+
+134
+00:22:23.970 --> 00:22:42.430
+Heyam: So, knowing what exactly the learning objective or the learning goal will definitely help you make your decision around the course, and how… what are the amount of time that you need to spend. If you are familiar with coding, that is going to be great. If not, this is… this is then something that… that will help… help you to develop that skill, okay?
+
+135
+00:22:44.300 --> 00:22:58.429
+Heyam: All right. Now, one important note that I want you to be aware of before we even get started with this is that, first of all, we will provide you with all the links, the guidelines, and also the instructions are provided to you in the learning path itself.
+
+136
+00:22:58.430 --> 00:23:13.309
+Heyam: that if you are a Windows user, that it's going to be kind of easier for you to go ahead with this program. That doesn't mean that if you are a Mac user, you cannot go ahead with this environment, because all you need to do is to have, or to add a couple of installations.
+
+137
+00:23:13.310 --> 00:23:18.690
+Heyam: In order to ensure that your system is ready to have that environment set up.
+
+138
+00:23:18.690 --> 00:23:29.579
+Heyam: Okay? Now, if the time of the deadline comes, your project is not yet done, and then you came to say that, oh, sorry, but unfortunately, Torx didn't work on my system.
+
+139
+00:23:29.990 --> 00:23:40.959
+Heyam: Sorry to tell you that, but this type of courses is not just about the technical skills, it's also about your soft skills. And when I say soft skills, I'm here mentioning that you need to be someone who's
+
+140
+00:23:40.990 --> 00:23:56.969
+Heyam: aware of the technology that you will be using, and ready, and proactively working ahead of time. So you need to plan things according to what are the requirements. You cannot come on the final day saying that, oh, it didn't work on my end.
+
+141
+00:23:56.970 --> 00:24:10.769
+Heyam: This is just because of a problem with the setup. It's not about the software, it's not about the torques, it's not about the simulator. It's about you as a learner, you didn't put enough effort to prepare and set up the environment for yourself.
+
+142
+00:24:11.060 --> 00:24:19.930
+Heyam: So again, think that each and every course that you may be enrolled with is an opportunity for you to brush up on some of your soft skills.
+
+143
+00:24:19.940 --> 00:24:37.630
+Heyam: Okay? So preparation is the key. We need to ensure that you have all the environments needed for you, or all the setup needed for you to have that environment working properly and functioning well, with no issues. For Windows, usually it's a native system, which means that most of the applications can run without any
+
+144
+00:24:37.630 --> 00:24:44.819
+Heyam: Kind of request for any extra prerequisites, or any extra… Installations to be made.
+
+145
+00:24:44.940 --> 00:24:48.609
+Heyam: While with Mac, we will have to install Wine.
+
+146
+00:24:49.330 --> 00:24:54.789
+Heyam: And this is the link. We will be sharing all these links with you, and it's also available for you in the Learning Path itself.
+
+147
+00:24:54.910 --> 00:24:59.569
+Heyam: So that you can download Torx and the Python script.
+
+148
+00:24:59.950 --> 00:25:09.099
+Heyam: Okay? So again, as I said, there is no need for you to create a Python code from scratch. The code itself is there, so you need to download the code.
+
+149
+00:25:09.200 --> 00:25:17.100
+Heyam: You need to have the simulator downloaded or installed on your system, and then once all of this is running, we will have IBM Bob as well.
+
+150
+00:25:17.280 --> 00:25:35.640
+Heyam: So, 3 tools that has to be installed on your system, okay? The only difference, the main difference between Windows environment and Mac environment is that with Mac, we need to have the WineHQ as a file installed on your system before you go ahead with the simulator and the IBM bubble.
+
+151
+00:25:35.650 --> 00:25:42.570
+Heyam: Is that clear to everyone? And again, as we progress in the program, when we start the technical session, I will walk you through the steps.
+
+152
+00:25:42.800 --> 00:25:53.759
+Heyam: But all the steps, by the way, are linked in the YouTube, so you can definitely follow along with the YouTube steps here, the link here in the PowerPoint, and we will be sharing the slide deck with you all.
+
+153
+00:25:53.940 --> 00:26:04.110
+Heyam: So that you can refer to the link, follow along with the steps from the YouTube video, just complete all the steps, you will find all the three tools needed for this challenge that are installed on your system.
+
+154
+00:26:04.520 --> 00:26:05.390
+Heyam: Okay?
+
+155
+00:26:06.090 --> 00:26:09.309
+Heyam: I can see a couple of questions here.
+
+156
+00:26:10.870 --> 00:26:28.049
+Heyam: I don't think, Brian, no, no, that doesn't require a high specs. Again, remember that this is more of a sandbox, so it doesn't require a lot of high performance or high specifications for your device. It's most likely
+
+157
+00:26:28.880 --> 00:26:38.559
+Heyam: If it's kind of basic device, it should… it should work, okay? You can experiment it yourself, and let us know if there's any need from our end to help you with that, okay?
+
+158
+00:26:38.840 --> 00:26:42.180
+Heyam: But I would say that any normal kind of,
+
+159
+00:26:42.580 --> 00:26:58.779
+Heyam: i5, i77 laptop should work fine, if you are using Windows, and the graphics should be maybe around 256 gigabits, should be fine. Even 100… 128 should be also fine, okay?
+
+160
+00:26:59.140 --> 00:27:06.560
+Heyam: There's no… I don't think that there is any advance… because, again, we are not creating the entire environment, it's just that we are using the simulator.
+
+161
+00:27:07.090 --> 00:27:07.830
+Heyam: Okay?
+
+162
+00:27:09.120 --> 00:27:11.600
+Heyam: Great job. Thank you so much, Brian, for the question.
+
+163
+00:27:12.980 --> 00:27:15.780
+Heyam: Now, let me take you to this
+
+164
+00:27:16.300 --> 00:27:32.000
+Heyam: slide, and walk you through the expectations one more time. So, first of all, we will need to make a copy of the Python code. Can anyone tell me why? Why do you think that the source code has to be copied? Why do you need to have a copy of the original code?
+
+165
+00:27:51.470 --> 00:27:55.920
+Heyam: Why do you think a copy of the original code is important?
+
+166
+00:28:00.230 --> 00:28:01.520
+Heyam: Let me see…
+
+167
+00:28:03.620 --> 00:28:11.999
+Heyam: If it's an error, to revert back. Thank you so much, Pavan. Exactly, to revert back. How can I say if it's traceable or reversible?
+
+168
+00:28:12.360 --> 00:28:27.470
+Heyam: I should always keep the original code, okay? The original copy of the code, so that it's accessible, and measure one… yes. So, two reasons why. First of all, as I said, we are competing ourselves, so we are competing this code. In fact, this is exactly what we are trying to do here.
+
+169
+00:28:27.670 --> 00:28:29.659
+Heyam: We have an original code.
+
+170
+00:28:30.270 --> 00:28:37.540
+Heyam: And the main purpose, or the main goal of what we will be doing, is to compete with that code. So the original copy has to be your benchmark.
+
+171
+00:28:38.020 --> 00:28:40.410
+Heyam: If the car in the original code
+
+172
+00:28:40.550 --> 00:28:53.409
+Heyam: completes the lab in 1 minute and 50 seconds, then you will need to have this as your benchmark to decide if each and every experiment afterwards is competing this benchmark, the 1 minute and 50 seconds.
+
+173
+00:28:53.440 --> 00:29:01.969
+Heyam: Okay? So number one, because we need to make it reversible. So if we have made any changes, and we want to go back to the original code, we have a copy of it.
+
+174
+00:29:02.000 --> 00:29:15.399
+Heyam: Second thing is that we want to make sure that we are competing with a clear benchmark. All this comparison doesn't happen if we do not have two things or two sources to compare with, or even more. But most of the time, the minimum is to at least have two different sources to compare with.
+
+175
+00:29:15.400 --> 00:29:32.409
+Heyam: Okay? So this is number one. Number two, we will be looking at the recommendations from IBM Bob. So IBM Bob, as I said, is just a tool that helps you to code, okay? Now, since we already have the existing code, we will be feeding this to the AI Bob, or the IBM Bob.
+
+176
+00:29:32.480 --> 00:29:33.889
+Heyam: IBM Bob.
+
+177
+00:29:34.280 --> 00:29:40.240
+Heyam: And we would have that prompt engineering and prompt techniques to explain to Bob what we are trying to do.
+
+178
+00:29:40.510 --> 00:29:51.230
+Heyam: So, Bob, in that case, will act as our assistant, who's going to look into the code and decide what are the ways that we could possibly improve this code.
+
+179
+00:29:51.420 --> 00:30:09.039
+Heyam: When it comes to the improvements, you can do the experiment, and then, based on the development, you can tell Bob that, okay, the speed of the car was massively changed, like, the speed of the car, like, increased by 15%, let's say.
+
+180
+00:30:09.140 --> 00:30:19.419
+Heyam: And instead of the lab being completed in 1 minute and 50 seconds, we are now able to do this in 1 minute and 30 seconds, which is amazing.
+
+181
+00:30:19.570 --> 00:30:30.579
+Heyam: But unfortunately, the car crashed. So you can tell Bob that this is what happened, and Bob, again, will look into the code, see what improvements we could possibly add, and how we can improve the performance of the car.
+
+182
+00:30:30.990 --> 00:30:32.330
+Heyam: Does that make sense?
+
+183
+00:30:33.670 --> 00:30:45.829
+Heyam: We will make several changes, and we will be comparing version B with version A, version C with version B, and so on and so forth, until we are happy, satisfied, and ready to submit our code.
+
+184
+00:30:46.530 --> 00:31:01.439
+Heyam: We will start the course and run this updated code until we… like, it's more of an iteration, okay? If any of you is familiar with Agile, Agile is a type of environment, or a project management environment, that tells me, as a framework.
+
+185
+00:31:01.440 --> 00:31:16.480
+Heyam: that everything should be going into an iterative manner, which means that I will look into it as a goal, a small sprint, a small goal, and the smallest goal that we have is to complete the existing goal, the existing performance of the car.
+
+186
+00:31:16.610 --> 00:31:18.900
+Heyam: This is our smaller goal, the sprint goal.
+
+187
+00:31:19.070 --> 00:31:32.310
+Heyam: We will do this and look into the feedback. Based on the feedback, we will do another improvement, so another iteration, okay? Second iteration, third iteration, until we are happy and satisfied, we can then release that product.
+
+188
+00:31:32.700 --> 00:31:34.030
+Heyam: Does that make sense?
+
+189
+00:31:35.540 --> 00:31:38.539
+Heyam: So the mindset is easy. We have a baseline.
+
+190
+00:31:39.120 --> 00:31:58.519
+Heyam: Then we will have our hypotheses around it. You wanted to start with making the engine better, so that the speed is higher, or maybe changing the track, I don't know, like, it's up to you. Maybe some of you may think out of the box. Instead of you thinking about the car, you wanted to change the way how the track is designed, so that it makes it easier for the car to not crash.
+
+191
+00:31:58.640 --> 00:32:14.490
+Heyam: That's another creative way to think. So I'll leave it to you, to your creativity, to decide what's the way you would be solving this problem. Because in the end, each and every development product is basically based on a problem that exists, and our role
+
+192
+00:32:14.670 --> 00:32:15.570
+Heyam: as
+
+193
+00:32:15.840 --> 00:32:26.419
+Heyam: thinkers, as creative thinkers, is to find a solution for this problem, and accordingly, start developing the solution on our end. But everything has to come based on a baseline.
+
+194
+00:32:26.550 --> 00:32:30.270
+Heyam: Hypotheses that we make, the change that we introduce.
+
+195
+00:32:30.390 --> 00:32:33.410
+Heyam: Test that change, and then do the comparison.
+
+196
+00:32:34.250 --> 00:32:35.590
+Heyam: Isn't that the case?
+
+197
+00:32:36.490 --> 00:32:45.150
+Heyam: This applies everywhere. I'm actually, by the way, also teaching business analysis, and when I say business analysis, it's all about finding the pain point of the client.
+
+198
+00:32:45.300 --> 00:32:49.940
+Heyam: And deciding what is the current state, and how would the future state look like.
+
+199
+00:32:49.980 --> 00:32:58.190
+Heyam: And based on that, we do our gap analysis and decide what improvements we could possibly implement to help this client fix their problem or solve their problem.
+
+200
+00:32:58.210 --> 00:33:14.619
+Heyam: Okay? So I want you to think from all these perspectives. Do not just limit yourself to the challenge itself. Think this way. Think, like, with a broader lens, that I am now acting as a business analyst, or as a solution architect who's supposed to design a solution for this problem.
+
+201
+00:33:14.880 --> 00:33:35.090
+Heyam: Okay? And put all of your soft skills and hard skills into this. Do not just look into this as part of something that you want to do, and then on LinkedIn, you pronounce it, you announce it and say, oh, I achieved this certificate. No, I want you to think from that perspective of you developing a package of different skills, including your soft skills and hard skills.
+
+202
+00:33:35.630 --> 00:33:36.970
+Heyam: How does that sound?
+
+203
+00:33:37.780 --> 00:34:02.540
+Heyam: Because in the end, honestly, as someone who is interacting with consultants almost every day, I do a lot of mock interviews, I prepare them for tech careers, I can assure you that it's not always about your technical skills. A lot of the way how clients and employers are evaluating you is the way how you present your ideas, the way how you present your solutions. And the way how you actually have that keen eye to find the problem.
+
+204
+00:34:02.890 --> 00:34:12.270
+Heyam: and come up with a very innovative solution to help them solve that problem, okay? So sometimes, soft skills might be way, way important than the hard skills self.
+
+205
+00:34:12.389 --> 00:34:20.079
+Heyam: A lot of our employers and technical clients that we deal with are saying that we are actually looking for people who are willing to learn.
+
+206
+00:34:20.110 --> 00:34:33.709
+Heyam: They have the growth mindset, and they are always up to upskilling, reskilling, relearn, unlearn, but not to stay rigid where they are. They do not have that… they don't like those people with fixed mindset.
+
+207
+00:34:33.800 --> 00:34:43.409
+Heyam: So let's also try to work on that side of your personality to ensure that you are ready for any technical career that you could possibly have, okay?
+
+208
+00:34:45.570 --> 00:34:51.440
+Heyam: All right, so why this cohort looks different? And again, for me, it's just…
+
+209
+00:34:51.590 --> 00:35:03.449
+Heyam: Personally, I can see that this is entirely different from any of the courses that I have. First of all, the timeline itself is different, but also the way how we are implementing it is way different than any other course that I have had before.
+
+210
+00:35:03.540 --> 00:35:17.750
+Heyam: So, first of all, the entire course has to be completed in two weeks, which includes the technical sessions and also the project itself, the project submission, okay? So, it's a short, focused, with a goal-oriented task.
+
+211
+00:35:17.820 --> 00:35:26.560
+Heyam: Cohort built entirely around one hands-on challenge, which is the Torx racing project guided by your mentor throughout. Okay?
+
+212
+00:35:26.880 --> 00:35:34.650
+Heyam: Unlike other cohorts, the project is submitted directly to your mentor, so once you're done with the code, you will be submitting this project to me.
+
+213
+00:35:34.650 --> 00:35:50.630
+Heyam: And I will be working with the team to evaluate your deliverables, and accordingly, we will be assessing you and even guiding you if there is any feedback that you need to take. And by the way, we will also be providing you with a constructive feedback, which tells you what are your strengths.
+
+214
+00:35:50.720 --> 00:36:07.060
+Heyam: what are the areas that you could possibly improve upon, and how you can act upon, like, moving forward, okay? So take it positively, take it as a learning curve, rather than something personal. Think that this is the way how I'm learning and improving, okay?
+
+215
+00:36:07.830 --> 00:36:14.190
+Heyam: You can, as I said, work individually if you would like, or you can work within a team.
+
+216
+00:36:14.350 --> 00:36:30.799
+Heyam: And lastly, you will be achieving two certificates, or completing two certificates. The first one is that you will get, as every other learner, the moment you complete all the requirements on the learning plan, you will get that certification, and I will show you exactly how does that look like. And then the top
+
+217
+00:36:31.120 --> 00:36:37.670
+Heyam: winners, or the top three, winners, they will also be receiving an inclusive winner certificate.
+
+218
+00:36:37.900 --> 00:36:41.649
+Heyam: Okay? So this is more of a competition-style course.
+
+219
+00:36:43.170 --> 00:36:52.199
+Heyam: So the Torx project, step-by-step, again, we will be downloading everything that we need, the Torx, the IBM Bob, and the code that we have for Python.
+
+220
+00:36:52.240 --> 00:36:54.490
+Heyam: We will run it as our first lab.
+
+221
+00:36:54.530 --> 00:37:13.970
+Heyam: We will ask Bob what improvements you are suggesting, recommending for me to do. We will do the changes and the recommendations. We will test our experiment, and then go on… like, go on with that, like, multiple times if we need it, until we are happy and satisfied with the final results.
+
+222
+00:37:14.050 --> 00:37:14.860
+Heyam: Okay?
+
+223
+00:37:16.290 --> 00:37:32.969
+Heyam: So what is your path in learning? When it comes to learning, as you can see, we started this with the first orientation session, so this is the first info session that walks you through the expectations and the program. We also have another two orientation sessions coming up, and then on
+
+224
+00:37:33.300 --> 00:37:50.620
+Heyam: September 28th, we will start the course. October 11th will be the final, or the end date, for this course. So, as we said, it's only two weeks course, and the expectation from you is to complete all the elements in order for you to achieve, to get the certificate, okay?
+
+225
+00:37:51.830 --> 00:38:11.759
+Heyam: Once you're done with the learning plan, with the self-based learning modules, you will start doing your installations, having the Torx and the IBM Bob installed in your system, start working on improving your code, and then you submit your project for Mentor to evaluate, then finally you will get the certification.
+
+226
+00:38:12.050 --> 00:38:12.860
+Heyam: Okay?
+
+227
+00:38:13.820 --> 00:38:24.829
+Heyam: This is how your certification will look like. The moment you complete all the compulsory learning, or the modules that are assigned to you, you will get a certificate that tells your name.
+
+228
+00:38:25.200 --> 00:38:27.640
+Heyam: And it's issued by IBM SkillsBuild.
+
+229
+00:38:28.340 --> 00:38:31.680
+Heyam: It shows you that this is a plan, it's not just a module.
+
+230
+00:38:31.790 --> 00:38:35.589
+Heyam: So this is an entire plan which covers the AI Racing League.
+
+231
+00:38:35.700 --> 00:38:40.030
+Heyam: That's built an AI… built with AI, go full speed with IBM Bob.
+
+232
+00:38:40.150 --> 00:38:43.830
+Heyam: Okay? And of course, the date of completion.
+
+233
+00:38:44.580 --> 00:38:45.420
+Heyam: Okay?
+
+234
+00:38:46.400 --> 00:38:52.430
+Heyam: And this, again, will be awarded to each and every learner, regardless of whether you are a winner or not.
+
+235
+00:38:53.130 --> 00:39:03.649
+Heyam: Now, another one is going to be for the competition itself. We will be issuing you a certificate of winning from ScaleUp and IBM SkillsBuild.
+
+236
+00:39:03.730 --> 00:39:14.919
+Heyam: That states that you have been, part of this program, and you have won either, ranked number 1, 2, or 3, first, second, or third, among this competition.
+
+237
+00:39:15.250 --> 00:39:16.050
+Heyam: Okay?
+
+238
+00:39:18.450 --> 00:39:41.389
+Heyam: Now, the enrollment has already started since September 7, so this is the third day where we have opened the enrollment for you to enroll in this course, and it's going to remain open until September 25, because as we said, on September 28th, we will officially start the course. So you have the window between September 7th until September 25 to make up your decision of whether you are interested to join this course.
+
+239
+00:39:41.390 --> 00:39:46.029
+Heyam: If yes, then you need to go to the learning plan, which is… the link is already in the chat.
+
+240
+00:39:46.050 --> 00:39:51.590
+Heyam: So you can just click on that link and enroll yourself for this course, okay?
+
+241
+00:39:51.590 --> 00:40:06.870
+Heyam: There's also another orientation session happening on September 17, and another one on September 24. It's going to be the same as this one, so I'll walk whoever the audience on that day, I'll walk them through the expectations and the program overview.
+
+242
+00:40:06.970 --> 00:40:15.319
+Heyam: Okay? Officially, we will be starting on September 28th with four instructor-led sessions. The first one is going to be on October 29.
+
+243
+00:40:15.450 --> 00:40:27.710
+Heyam: The second one is October 1st, then October 6th, and lastly on October 8th. As you can see, it's very condensed. It has to do… it has to be completed in only 2 weeks, so we are trying to make it as,
+
+244
+00:40:27.740 --> 00:40:44.110
+Heyam: I would say as effective as possible, because sometimes when the course takes a long time, even the challenge gets… you might be de-attached or demotivated. We wanted to make sure that the engagement is there, and you are still motivated to complete the competition and complete the project, okay?
+
+245
+00:40:45.000 --> 00:40:57.520
+Heyam: And lastly, we will be, hopefully, running a closing ceremony to congratulate all… to congratulate all of you for your amazing achievement, and also to walk you through what can… what could possibly come next.
+
+246
+00:40:57.520 --> 00:41:15.909
+Heyam: Things like courses that we will be offering for you, or what are the career pathways after you complete such a great challenge, okay? So we will be… it's more of an, like, eye-opening for what are the things or the opportunities that you could possibly apply for or think about once you complete this project.
+
+247
+00:41:16.050 --> 00:41:16.830
+Heyam: Okay?
+
+248
+00:41:18.580 --> 00:41:26.520
+Heyam: I'm sorry that I'm actually mindful of the time, so I just want to make sure that I'm covering all the slides, and also I walk you through the learning fast.
+
+249
+00:41:26.720 --> 00:41:46.610
+Heyam: What are our office hours and the mentoring sessions and the schedule that we have? As I said, we would be providing you with every type of support that you may need, especially… I know that some of you are non-tech people, so don't worry about that. We have an entire army here to help and support you. We would be also utilizing Zoom channels.
+
+250
+00:41:46.610 --> 00:41:50.529
+Heyam: That's helped… it's more of a community that we have developed for you.
+
+251
+00:41:50.530 --> 00:42:11.269
+Heyam: Where we will be walking you through anything, answering any of your technical or even technical issues that you may have. We will be supporting you on that Zoom channel. And the same… I would walk you through how we can enroll you in that Zoom channel, and I'll ask my dear Pooja to share her screen later on to show you the Zoom channel.
+
+252
+00:42:11.270 --> 00:42:22.010
+Heyam: We also are actually utilizing WhatsApp, so we would be having a WhatsApp group where we will be also supporting you on that, if you are opt-in and you would like to be enrolled in that group.
+
+253
+00:42:23.400 --> 00:42:40.009
+Heyam: Our sessions are gonna be on October 1st. October 5th, these are the times for the office hours and inventory sessions. October 9, October 13, October 16, and October 19. And by the way, I'm an Octobarian.
+
+254
+00:42:40.460 --> 00:42:55.320
+Heyam: So my birthday will be falling on October 15, so maybe one of your gifts for me is to have your project done, and make me so… a proud coach. Honestly, the moment I see learners achieve what they came for.
+
+255
+00:42:55.320 --> 00:43:06.009
+Heyam: And enjoying the course is honestly a reward that I… it's a priceless reward, honestly. This is the feeling that I always try to achieve for each and every course, to see learners
+
+256
+00:43:06.010 --> 00:43:25.209
+Heyam: leaving the course saying that I am able to do this, I can do this. It's not about me completing the course, it's about your ability and your confidence that I have actually developed that skill, and I'm now confident enough to use it anywhere else, okay? So these are actually the expected dates where we would be meeting for office hours and mentoring sessions.
+
+257
+00:43:25.210 --> 00:43:33.000
+Heyam: And this is more of a support for you, so apart from what you would be doing in the technical sessions that we will be having together, where I'll walk you through the steps.
+
+258
+00:43:33.000 --> 00:43:41.909
+Heyam: There will always be another way for you to reach out to either me or the team to answer any of your doubts, or to clarify any of your concerns or questions. Okay?
+
+259
+00:43:43.330 --> 00:43:57.540
+Heyam: So we are trying as much as possible to surround you with all the support that you may need, because we wanted to make sure that this journey doesn't add a lot of burdens for you, or add any pressure on you. Our goal is to help you develop that skill with the…
+
+260
+00:43:57.640 --> 00:44:08.779
+Heyam: with ease, like, with someone who's taking it as a journey to learn and enjoying the journey itself, okay? So I don't want you to come to this course with the feeling that, oh, what I did to myself.
+
+261
+00:44:08.780 --> 00:44:21.250
+Heyam: Why did I enroll? I already have a lot to do. I want you to take this as a journey to relax, to think, to think even out of the box, to get into something that is engaging for you, but it also helps you develop some skills.
+
+262
+00:44:21.350 --> 00:44:22.330
+Heyam: Okay?
+
+263
+00:44:23.070 --> 00:44:29.049
+Heyam: All right, so now let me just take you here, because this is more of a repetitive, slide.
+
+264
+00:44:29.720 --> 00:44:41.940
+Heyam: And the expectation is that you already have received the welcome email. This is today the orientation session, so since you are here today, then this means that you already have received the email, and you are enrolled into this course.
+
+265
+00:44:41.970 --> 00:44:55.400
+Heyam: You will receive a WhatsApp community and Zoom channel links, and I think it's already in the chat now, so if you are interested to join any of these communities, or both, please feel free to click on the link in the chat so that you can join.
+
+266
+00:44:55.530 --> 00:45:06.190
+Heyam: Both of them will be using your email address, so you don't worry about your privacy and the number that you will be using. We will be using your email address to add you to those communities.
+
+267
+00:45:06.450 --> 00:45:15.299
+Heyam: Then we will be starting to do the work with Simulator and having all the tools installed and downloaded in your system or your device.
+
+268
+00:45:15.410 --> 00:45:33.580
+Heyam: After that, we will feed the IBM Bob with the code so that it can help you recommend and suggest what improvements we could possibly apply. Then we will be submitting the project. The project will be evaluated by your mentor, then you will receive the program certificate, and finally, the closing ceremony.
+
+269
+00:45:33.790 --> 00:45:37.170
+Heyam: Now, if you don't mind, let me walk you through the…
+
+270
+00:45:39.040 --> 00:45:50.030
+Heyam: Learning Pass. So, if you already clicked on the link of the learning path, this is what IBM SkillsBuild platform looks like, and again, think that this is not just
+
+271
+00:45:50.850 --> 00:46:04.549
+Heyam: This is only one plan out of hundreds or thousands of plans. One of them is the AI Racing League. This is, again, for two weeks, a course for two weeks, and the entire course is going to be delivered in English.
+
+272
+00:46:04.730 --> 00:46:13.270
+Heyam: From here, if this is your first time interacting with this platform, I just want to highlight that you can change the language to whatever language you feel comfortable with.
+
+273
+00:46:13.270 --> 00:46:27.219
+Heyam: These are the available languages that you could possibly have. And also, one thing just to mention is that the way… the language that you will be using is going to be the same language for your certificate. So if you decided to go ahead with English, your certificate of completion is going to be in English language.
+
+274
+00:46:27.220 --> 00:46:36.910
+Heyam: If you are coming from any other country where you would like to have your certificate in that language, you can choose that language and decide to take the certificate on that, okay? I know that some
+
+275
+00:46:36.930 --> 00:46:42.549
+Heyam: In some countries, they like to have it also in their native language, so if that's the case, you can have multiple
+
+276
+00:46:42.660 --> 00:46:46.459
+Heyam: copies of your certificate in different languages, okay?
+
+277
+00:46:46.640 --> 00:47:05.939
+Heyam: Now, as you progress, you will see the summary of your progress, and this is very good for you to track yourself. So, you hold yourself accountable for your learning, you take the lead, the entire journey is led by you, not me. I'm only someone who supports you, I can shed the light for you, help you to go with the track, but it's not me who's going to be motivating you.
+
+278
+00:47:05.940 --> 00:47:10.399
+Heyam: The motivation has to be coming from you. You have to be self-motivated.
+
+279
+00:47:10.400 --> 00:47:13.120
+Heyam: Self-starter, someone who is actually interested in this.
+
+280
+00:47:13.120 --> 00:47:16.749
+Heyam: course, I'm interested in getting this skill, and accordingly.
+
+281
+00:47:16.880 --> 00:47:20.839
+Heyam: hold yourself accountable. You decided that I will be spending 30 minutes today
+
+282
+00:47:21.000 --> 00:47:29.770
+Heyam: like, 3 days a week, so that I can complete this course. You… you have that, whatever the type of time management,
+
+283
+00:47:29.770 --> 00:47:39.269
+Heyam: technique that you use. I know, like, for my kids, they usually use the Pomodoro technique, so they have a specific time for focus period, and then they stop the alarm, and then they
+
+284
+00:47:39.270 --> 00:47:50.879
+Heyam: they have some kind of a break, and then they continue. So it's up to you to decide. If you would like to have a focused time where you remove all the distractions, no mobile phones, nothing, you can definitely do that.
+
+285
+00:47:50.880 --> 00:48:01.599
+Heyam: I know some people, they prefer to have a blocked time in their calendar where they do not have any distraction from even work or university to complete this. It's up to you. I would say that
+
+286
+00:48:01.610 --> 00:48:17.899
+Heyam: A maximum of 30… if you are going to work every day, then 30 minutes a day will be more than enough. If you are going to do this only 3 times a week, then most likely you will need 1 hour of focus time to complete the modules that are assigned to you, okay?
+
+287
+00:48:18.920 --> 00:48:36.840
+Heyam: And then you will find the learning assignments. The completed learning, as you progress, you will see that this track here, it tells you how much, like, how much did you complete, and how much is still left to be done, okay? So it's more of a progress or tracking, and it tells you exactly, or it indicates where you are now.
+
+288
+00:48:38.590 --> 00:48:43.459
+Heyam: These are actually the modules that you need to complete. So,
+
+289
+00:48:44.300 --> 00:48:55.859
+Heyam: Those are the mandatory ones. Those are only warm-up content, as you can see. So, if you are entirely new to IBM, Bob, entirely new to IBM SkillsBuild, you've never had any course with us before, and you are…
+
+290
+00:48:56.040 --> 00:49:12.650
+Heyam: still, like, warming up, and you need to know a bit about it, you can definitely jump and visit those two modules. These are not mandatory, and you will not be graded or degraded based on these… the completion of these two modules, okay? The mandatory ones are those.
+
+291
+00:49:12.990 --> 00:49:23.089
+Heyam: The two… the first two here are only to walk you through the technical setup, okay? So, it's not more of learning, it's more of you preparing the environment.
+
+292
+00:49:23.300 --> 00:49:36.320
+Heyam: Now, since everything is listed here, we already have provided you with all the links that you may need to have your setup ready, everything that you may need, and also we provided you with a community to answer any of your questions.
+
+293
+00:49:36.440 --> 00:49:42.290
+Heyam: I really, really, really hope to not hear any of you saying that, oh, unfortunately, the environment didn't work for me.
+
+294
+00:49:42.640 --> 00:49:43.420
+Heyam: Okay?
+
+295
+00:49:43.700 --> 00:49:52.260
+Heyam: So, again, make sure that you put all the efforts to complete and have all the setup ready for yourself before you jump into the learning.
+
+296
+00:49:52.580 --> 00:49:59.200
+Heyam: Okay? Because the learning stuff is just the theory, so I don't think that any of you is here just to complete some modules to read.
+
+297
+00:49:59.960 --> 00:50:02.390
+Heyam: I can give you the PDF if you want, that's it.
+
+298
+00:50:02.790 --> 00:50:12.470
+Heyam: But the main thing is that you have all the environment ready for yourself to do the installation and to start working with the challenge itself, okay? So these two, although they are mandatory.
+
+299
+00:50:12.480 --> 00:50:28.079
+Heyam: But these are more of the steps that you need to take to prepare the environment. Which is, by itself, is a learning curve, because you are here learning how to set up the environment. If you are new to IT and technology, this definitely will teach you a lot about how we can
+
+300
+00:50:28.080 --> 00:50:42.730
+Heyam: say that this is the system specifications, what exactly Windows need to have, what exactly the Mac system needs to install, how we can all have all these compiled together on my system. So all of this is actually learning. So take it with this mindset.
+
+301
+00:50:43.130 --> 00:50:54.259
+Heyam: Now, the learning itself is this one, this module, and as you can see, it's 1 hour and 30 minutes, and this is why I told you, like, if you are to dedicate your time during this week and the next week.
+
+302
+00:50:54.280 --> 00:51:06.809
+Heyam: 30 minutes every other day is more than enough. I promise you, like, for the entire program, to complete it in 2 weeks, I promise you that 30 minutes every other day will be more than enough for you to complete everything.
+
+303
+00:51:07.050 --> 00:51:07.950
+Heyam: Okay?
+
+304
+00:51:08.910 --> 00:51:23.810
+Heyam: Now, anything that we do together, including today's session, every technical session that we will be having throughout the way, and also the closing ceremony are going to be in this folder here. So, in order for you to access this, all you need to do is to click on the activity itself.
+
+305
+00:51:24.750 --> 00:51:27.340
+Heyam: And it will redirect you to our box.
+
+306
+00:51:27.800 --> 00:51:43.709
+Heyam: to access this. So today's, as you can see, today's session, or the orientation slide deck, is here. You can access to that, and you can also get into the links that you need for the YouTube and the installation guide, okay? Now, for this one, as you can see, I can mark it as done.
+
+307
+00:51:44.910 --> 00:51:46.720
+Heyam: Sorry, why did that happen?
+
+308
+00:51:57.360 --> 00:51:58.170
+Heyam: Okay.
+
+309
+00:52:01.100 --> 00:52:05.199
+Heyam: I don't know why I decided to log me out, but let me just go in again.
+
+310
+00:52:11.150 --> 00:52:12.499
+Heyam: There we go.
+
+311
+00:52:18.150 --> 00:52:23.269
+Heyam: Okay, so again, in the chat, you will find the Learning Pass link.
+
+312
+00:52:23.810 --> 00:52:33.259
+Heyam: If you decided to go ahead with this course, all you need to do is to enroll yourself. This is the option where you can either enroll or unenroll.
+
+313
+00:52:33.380 --> 00:52:34.200
+Heyam: Okay?
+
+314
+00:52:34.660 --> 00:52:36.680
+Heyam: Now, I, myself, just enrolled.
+
+315
+00:52:37.030 --> 00:52:44.600
+Heyam: And this should be reflected on your platform. The moment you enroll, you will have access to all of these modules here.
+
+316
+00:52:45.620 --> 00:52:46.330
+Heyam: Okay?
+
+317
+00:52:48.100 --> 00:52:51.990
+Heyam: Now, let's jump into the slides one more time.
+
+318
+00:52:54.700 --> 00:53:11.020
+Heyam: Okay, so the… in summary, just to summarize everything that we went through so far, the total hours for this is 2 weeks, the entire… the entire program is 2 weeks, but the total learning hours with the technical sessions and everything is going to be 10 hours, okay?
+
+319
+00:53:11.200 --> 00:53:21.299
+Heyam: The mentor-guided support will be throughout cohort, as I promised. We… not only myself, but all the team as well, who will be supporting and answering any of your questions.
+
+320
+00:53:21.620 --> 00:53:28.670
+Heyam: The torque simulator project can be done either individually or in a team of maximum of 5 members.
+
+321
+00:53:28.790 --> 00:53:38.840
+Heyam: The self-based learning is… is actually through Zoom channel and WhatsApp and emails. You will have access to this support throughout the entire two weeks.
+
+322
+00:53:38.950 --> 00:53:54.329
+Heyam: The learning updates are going to be sent out to you weekly. So, in addition to what you can access on the IBM SkillsBuild itself, our team are going to also send you in emails with weekly updates, and this is more of engaging with you as learners, but at the same time.
+
+323
+00:53:54.840 --> 00:54:01.069
+Heyam: As I said, you already have created this path for yourself, and you decided to pursue this course.
+
+324
+00:54:01.130 --> 00:54:06.490
+Heyam: In that case, our role is not to enforce the learning, but to help you to learn
+
+325
+00:54:06.490 --> 00:54:21.499
+Heyam: By doing. And we will be just more of a reminder to let you know that this is where you are now, this is where you are at now, and this is what you need to achieve. So, take it positively, and take it as someone is trying to hold your hand and walk with you to the
+
+326
+00:54:21.620 --> 00:54:24.149
+Heyam: goal that you are trying to achieve, okay?
+
+327
+00:54:25.360 --> 00:54:41.829
+Heyam: The project submission has to be via our support email. You need to email your submission to our team. The certificate is going to be given to all candidates, oh, sorry, to all participants. Only 3 winners will be having the winner certificate.
+
+328
+00:54:41.830 --> 00:54:55.580
+Heyam: And the project evaluation is going to be done by me, your mentor, okay? I promise you I will not be harsh on you, but I want to make sure that all of you are actually competing with a great, great achievement, okay?
+
+329
+00:54:56.250 --> 00:54:57.960
+Heyam: Alright,
+
+330
+00:54:58.880 --> 00:55:06.180
+Heyam: I think it's the time… Pooja, can you please share your screen and walk… show the channel for the Zoom, if you don't mind?
+
+331
+00:55:11.760 --> 00:55:13.290
+Heyam: You want me to stop sharing?
+
+332
+00:55:14.620 --> 00:55:22.170
+Heyam: So just very quickly, we want to walk you through the Zoom channel, so that if this is your first time being a member of a Zoom channel.
+
+333
+00:55:22.370 --> 00:55:28.049
+Heyam: We want to show you where exactly you can find the channel and how to interact with the members in there.
+
+334
+00:55:28.370 --> 00:55:33.330
+Heyam: On WhatsApp, you can create your own groups if you decided to work in teams.
+
+335
+00:55:35.270 --> 00:55:43.729
+Heyam: And, you can definitely have your own check-in, have your own communications. I, I would definitely
+
+336
+00:55:44.730 --> 00:55:56.039
+Heyam: recommend that you take this also as an opportunity to learn how to work in a group, especially if you know… if you don't know the other team members, and you would like to actually work in a group. I always encourage you to
+
+337
+00:55:56.510 --> 00:56:01.260
+Heyam: To approach this with a mindset of understanding others.
+
+338
+00:56:01.380 --> 00:56:12.160
+Heyam: learning from others, respecting one another, taking this as a safe space for everyone. Everyone is welcome to share their perspective, their ideas.
+
+339
+00:56:12.930 --> 00:56:20.840
+Heyam: Acceptance is important, showing that we see different lenses and different perspectives, and we do accept them and respect them.
+
+340
+00:56:20.920 --> 00:56:39.799
+Heyam: But also, be firm when it comes to timing, deadline, communication, make sure that you have… you set the tone, you decide how your team is going to be communicating. All of these are soft skills that are important, because in the end, you will be working in real-world scenarios with teams, with line managers, with cross-functional teams.
+
+341
+00:56:39.800 --> 00:56:48.709
+Heyam: people from different departments, so you do not assume that everyone thinks the way you think. You do not assume that everyone interacts the way you interact.
+
+342
+00:56:48.790 --> 00:56:55.989
+Heyam: Not everyone communicates the way you do, so have that kind of open-mind communication style, okay?
+
+343
+00:56:56.400 --> 00:56:59.370
+Heyam: Pooja, I only can see your email.
+
+344
+00:57:00.030 --> 00:57:01.230
+Heyam: Your inbox.
+
+345
+00:57:02.680 --> 00:57:05.160
+Pooja: Waiter… so sorry.
+
+346
+00:57:06.630 --> 00:57:10.730
+Heyam: You know, I'm so sorry, like, I shouldn't have access to this private, but yeah.
+
+347
+00:57:11.560 --> 00:57:14.909
+Pooja: Okay, so I'm just sharing it back…
+
+348
+00:57:16.120 --> 00:57:17.320
+Heyam: Thank you so much, Pooja.
+
+349
+00:57:23.390 --> 00:57:25.280
+Pooja: I have shared it back.
+
+350
+00:57:25.780 --> 00:57:27.950
+Pooja: Are you able to see? No?
+
+351
+00:57:28.080 --> 00:57:29.130
+Pooja: Not yet.
+
+352
+00:57:29.540 --> 00:57:31.439
+Heyam: We are still seeing your email.
+
+353
+00:57:32.190 --> 00:57:34.510
+Pooja: I'm not sure why this is happening.
+
+354
+00:57:35.870 --> 00:57:39.490
+Heyam: I think that's the case. Zoom doesn't allow you to share Zoom screen.
+
+355
+00:57:39.600 --> 00:57:41.679
+Heyam: This is exactly what happened with me.
+
+356
+00:57:46.020 --> 00:57:51.940
+Pooja: Let me try to, open it in a web and then show it to you. Just give me a bit, yeah.
+
+357
+00:57:51.940 --> 00:57:57.350
+Heyam: much. In that case, Let me continue with the slides, because I want to be mindful of your time.
+
+358
+00:57:57.350 --> 00:57:58.000
+Pooja: Okay.
+
+359
+00:57:58.520 --> 00:58:04.280
+Heyam: Okay, but just so you know, that what's gonna happen is that you will find yourself added to a channel on Zoom.
+
+360
+00:58:04.630 --> 00:58:20.270
+Heyam: And this channel will have all the technical support team, myself, Pooja, and the team who's administering this project, or this program. And we will be answering all of your questions, if you decided to go ahead with a group work.
+
+361
+00:58:20.270 --> 00:58:29.239
+Heyam: then it's your responsibility to create your own group where you can communicate with your team members and decide how you would like to continue from there, okay? So,
+
+362
+00:58:29.560 --> 00:58:43.500
+Heyam: You can meet up with them in the channel itself, you form your group, and then once you decided who's gonna be in that team group, or that group work, then you can create your own, smaller community, okay?
+
+363
+00:58:43.500 --> 00:58:53.509
+Pooja: Yeah, just to add, you all will be receiving an invite to join the Zoom channel, so stay tuned. Keep checking your email ID.
+
+364
+00:58:53.510 --> 00:59:11.609
+Pooja: your registration email ID, and we will be sharing invites to you. You'll have to accept the invitation of Zoom channel. Once you do that, you are in that channel, and then we will be sharing all the resources related to this cohort, and if you want to communicate with us or Heyam, you can do that via that Zoom channel only.
+
+365
+00:59:12.570 --> 00:59:20.449
+Heyam: Thank you so much, Pooja, I appreciate all the information. We actually wanted to show you, but for some reason, Zoom doesn't allow us to share the same screen, so…
+
+366
+00:59:20.540 --> 00:59:33.130
+Heyam: that's the thing, but we can share definitely afterwards some screenshots of how it walks you through the channel and how to join, if that's the case. It's kind of simple steps, all you need to do is to click on the link that you will be receiving in your inbox.
+
+367
+00:59:33.130 --> 00:59:45.369
+Heyam: Enroll yourself, and you will find yourself already a member of that channel, okay? Now, some of the frequently asked questions that I would like to highlight and answer them, if you have any other questions other than these, please let me know, and I will be more than happy to answer that.
+
+368
+00:59:45.370 --> 00:59:56.250
+Heyam: How is gonna be this entire training be delivered? As we said, this is a project-based. The entire training is online, no expectation of any in-person interaction with me or the team.
+
+369
+00:59:56.250 --> 01:00:06.960
+Heyam: All of them will be live orientation sessions. The orientation session today, we will still have two more orientation sessions, and then the technical support, or the technical sessions led by me.
+
+370
+01:00:06.960 --> 01:00:24.539
+Heyam: The technical sessions led by me are all mostly demonstration, not interactive. So I am going to walk you through the steps, and all I need from you is to either look into the recording, watch the recording afterwards, or maybe you follow along with me step-by-step in the same spot. Depends on
+
+371
+01:00:24.540 --> 01:00:35.050
+Heyam: how you ready you are, or the readiness, or the preparation that you already have at the time, okay? So no rush, no pressure. Take it slowly, and go through the steps one… step by step.
+
+372
+01:00:35.050 --> 01:00:49.890
+Heyam: Okay? If you need any help with understanding the topics or the concepts being taught, how can you get that help? As we agreed, we will have the email, the WhatsApp community, the Zoom channel, and all of the team are ready to help and support and answer any of your questions.
+
+373
+01:00:50.280 --> 01:01:02.530
+Heyam: If a learner misses the orientation session, that's fine. We still have two more orientation sessions to come, and as we agreed, everything that we do is recorded, and you have access to that recording from that folder on your IVM Learning Path.
+
+374
+01:01:02.530 --> 01:01:11.880
+Heyam: So you can simply click on that folder, and you will have access to the same session itself, like the recording of me presenting, or the slides that I have used in that presentation, okay?
+
+375
+01:01:12.200 --> 01:01:27.719
+Heyam: Is the orientation session mandatory? Of course, it's not mandatory, but I always encourage, because again, you are adult learners, you are not a school student anymore, so you are here for a reason, and you… it's your judgment. You will decide if this is something that I'm interested in or not.
+
+376
+01:01:27.720 --> 01:01:37.500
+Heyam: If you do not attend the orientation session, and you do not have enough information about the program, sometimes your judgment or your decision might not be informed enough, so you don't have
+
+377
+01:01:37.500 --> 01:01:51.840
+Heyam: all the information that you need. So if you are now aware of what would be the objectives, what exactly the challenge, what tools you need, what would be the timeline, what are the expectations, you know everything. So now it's your judgment, it's your decision to say, okay, I'm interested, I'm enrolled.
+
+378
+01:01:51.840 --> 01:02:11.330
+Heyam: or no, I don't have the capacity at the moment, okay? So this is why I always encourage you to attend any info session. If you have seen any announcement in the university, or at the college, or even in the place where you work, and you wanted to make that decision, you need to know the information before, so that you can make a proper decision accordingly, okay?
+
+379
+01:02:12.190 --> 01:02:22.420
+Heyam: All the orientation closing ceremonies are recorded. Yes, everything is going to be recorded, okay? So don't worry about accessing any of that, it's always there for you.
+
+380
+01:02:22.520 --> 01:02:42.389
+Heyam: how you would be having access to the recording. I already have walked you through the steps of how and where you can find all the recordings. What is the internet speed required? I think that is more of a question that we have. We could possibly skip it, but I am assuming that all of you have a good access for internet nowadays. If this wasn't the case.
+
+381
+01:02:42.470 --> 01:02:51.140
+Heyam: And unfortunately, if you have any issues with the internet, at this moment, you still have… if you are enrolled, you will always have access to the recording, okay? So…
+
+382
+01:02:51.230 --> 01:02:57.649
+Heyam: do not let anything stop you. Like, there is no limit. Always, if you are interested and you have that.
+
+383
+01:02:58.200 --> 01:03:08.849
+Heyam: I would say, determination to achieve to the thing that you want, do not let anything stop you. Just think that you will always have things, like.
+
+384
+01:03:08.910 --> 01:03:23.280
+Heyam: temporary solutions around it, or a workaround around it, okay? So, if you couldn't attend in the live session, you will always have, maybe whenever you have a proper connection or a reliable connection, you go to that place and you attend and watch the recording, okay?
+
+385
+01:03:23.280 --> 01:03:34.400
+Heyam: Do learners need a PC and laptop? Of course. For this particular course, yes. For some other courses, I usually say that, oh, it's okay, you can attend and watch from your phone and complete even the modules on your phone.
+
+386
+01:03:34.400 --> 01:03:41.880
+Heyam: But for this particular course, because it's a practical one, and it requires you to have some installations in order for you to complete the challenge.
+
+387
+01:03:41.880 --> 01:03:58.310
+Heyam: you will need to have either a good PC or a proper laptop that is working. Again, nothing, rocket science, nothing like high specs, nothing to be, kind of a gaming PC, no, it's just a basic laptop or device, okay?
+
+388
+01:03:59.840 --> 01:04:19.830
+Heyam: That's it for me. I thank you so much for attending this, and I'm so sorry that I took 5 minutes out of your time, more than… like, I went 5 minutes above the time for this orientation session. I would really, really, really appreciate if you could possibly complete the feedback form for us, so that we know where we did really good, and where we can improve.
+
+389
+01:04:19.830 --> 01:04:28.999
+Heyam: We always take it positively, so we will take into consideration all the notes that you provide for us, and hopefully we can implement that in the future sessions.
+
+390
+01:04:29.140 --> 01:04:43.729
+Heyam: For now, I want to thank you everyone for attending this session, and for also giving us your valuable time to be attending this orientation session. I hope that I answered all of your questions, and I have clarified all the doubts that you may have around this course.
+
+391
+01:04:43.730 --> 01:04:49.619
+Heyam: If you made your decision to join us, we would be more than happy to have you within this challenge.
+
+392
+01:04:49.620 --> 01:04:59.270
+Heyam: And we can learn and grow together in this community. Again, thank you so much, and looking forward to see you in our course, in the technical session coming up.
+
+393
+01:04:59.950 --> 01:05:05.310
+Heyam: Please, before you leave, complete the feedback form, and let us know if you have any questions.
+
+394
+01:05:09.730 --> 01:05:10.329
+Pooja: Thank you, sir.
+
+395
+01:05:10.330 --> 01:05:11.610
+Heyam: No reactions?
+
+396
+01:05:12.250 --> 01:05:20.829
+Pooja: Thank you so much, Heyam. Thank you all for joining. Can we have some reactions? Everything is okay with all of you?
+
+397
+01:05:21.000 --> 01:05:35.350
+Heyam: Yeah, we can see a lot of hard stops. Thank you so much. Thank you so much. This is the reaction that we are looking for. Thank you so much. It's so lovely to see that you enjoyed the session, and that you found it very informative. Thank you so much, everyone.
+
+398
+01:05:35.690 --> 01:05:37.520
+Heyam: Truly appreciated, thank you.
+
+399
+01:05:37.810 --> 01:05:45.570
+Heyam: Please just complete the feedback form. Enjoy the rest of your day, and looking forward to see you all in our technical session.
+
+400
+01:05:46.090 --> 01:05:47.000
+Heyam: Take care.
+
+401
+01:06:16.150 --> 01:06:21.109
+Pooja: Kindly share your feedback. The feedback link is given here in the chat box.
+
+402
+01:06:21.520 --> 01:06:24.180
+Pooja: Your feedback is appreciated.
+
+403
+01:06:24.320 --> 01:06:28.340
+Pooja: With 1 being the least and 5 being the highest.
+
+404
+01:06:28.930 --> 01:06:31.280
+Pooja: So, we are waiting for your feedbacks.
+
+405
+01:06:33.770 --> 01:06:37.980
+Pooja: Thank you so much for joining this session. Please do share your feedbacks.
+
+406
+01:07:14.740 --> 01:07:16.430
+Heyam: Are we good to leave, Pooja?
+
+407
+01:07:20.470 --> 01:07:31.670
+Pooja: Yes, yeah, I think, I think all of you have shared your feedback. If not, I'm just giving a minute for the remaining ones to share the feedback.
+
+408
+01:07:32.130 --> 01:07:35.179
+Pooja: Thank you for joining this session. Thanks, Heyam.
+
+409
+01:07:35.180 --> 01:07:44.709
+Heyam: Thank you, everyone. We appreciate your time. Thank you, thank you. And again, we appreciate your feedback, just because we needed to improve upon, so thank you so much for your recommendations as well.
+
+410
+01:07:44.930 --> 01:07:46.749
+Heyam: See you, everyone, bye!
+
+411
+01:07:46.750 --> 01:07:48.800
+Pooja: Bye. Bye, everyone.
+

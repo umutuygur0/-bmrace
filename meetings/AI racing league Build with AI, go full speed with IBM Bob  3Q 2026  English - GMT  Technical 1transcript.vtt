@@ -1,0 +1,2950 @@
+WEBVTT
+
+1
+00:00:07.050 --> 00:00:22.319
+Heyam: Hey, everyone! Good morning, good afternoon, good evening. I know that we have different time zones, so welcome everyone to our first technical session. Again, my name is Yam. I will be your coach for the entire course, and I'm really glad to be meeting with everybody here.
+
+2
+00:00:22.590 --> 00:00:39.269
+Heyam: If you have missed the orientation session, and this is your first time attending the course, I will walk you through the expectation one more time, the milestones, and what to expect during this course, before we go ahead with the technical aspects of this, of this course.
+
+3
+00:00:39.460 --> 00:00:47.190
+Heyam: Thank you so much for joining. I will give maybe one minute before we start with our session today.
+
+4
+00:00:47.850 --> 00:00:54.119
+Heyam: While we are waiting for everybody to join, let me know where are you joining or attending this course from.
+
+5
+00:00:54.350 --> 00:01:02.060
+Heyam: And if you are someone with a technical background or this is your first time working with coding and programming.
+
+6
+00:01:02.660 --> 00:01:09.119
+Heyam: And again, it's not mandatory that you are coming from a technical background. This is exactly the type of courses that you want.
+
+7
+00:01:09.190 --> 00:01:12.140
+Heyam: To attend so that you know how coding works.
+
+8
+00:01:12.210 --> 00:01:18.790
+Heyam: And yeah, please use the Q&A box to share any of your thoughts if you have any questions.
+
+9
+00:01:18.790 --> 00:01:27.500
+Heyam: The chat box is open for the team here to send any links or any files that we wanted to share with you.
+
+10
+00:01:27.500 --> 00:01:39.730
+Heyam: So keep an eye on the chat box, because everything that I will be walking you through today, you will have a link to access through that as well. So you could… you can follow along with me on each and every step during the session today.
+
+11
+00:01:40.870 --> 00:01:45.459
+Heyam: If you could please also use reactions just to confirm that you are able to see my screen.
+
+12
+00:01:47.030 --> 00:01:54.010
+Heyam: And let me just have a look into the Q&A box. Again, just a reminder that the Q&A box is accessible to you
+
+13
+00:01:54.120 --> 00:01:57.820
+Heyam: You can share where are you joining from.
+
+14
+00:01:58.200 --> 00:02:07.219
+Heyam: If this is your first IBM course or not, anything about yourself. If you already have completed the learning modules or still in the progress.
+
+15
+00:02:08.860 --> 00:02:12.490
+Heyam: I appreciate the reactions. Thank you so much for your confirmations.
+
+16
+00:02:14.050 --> 00:02:22.390
+Heyam: All right, and… Perfect, I see a couple of… okay, South Africa, welcome.
+
+17
+00:02:22.790 --> 00:02:24.480
+Heyam: Final CS student.
+
+18
+00:02:24.990 --> 00:02:34.709
+Heyam: You're so lucky. This, this, this time of, like, this era, people of this era are so lucky to have everything as easy as, as what we would be seeing today.
+
+19
+00:02:36.920 --> 00:02:39.859
+Heyam: Oh yeah, I'm so glad to meet with you, thank you so much.
+
+20
+00:02:42.610 --> 00:02:48.659
+Heyam: Let me know where… okay, Rita from New Jersey. Thank you so much, Rita. Welcome to our session.
+
+21
+00:02:50.470 --> 00:02:51.670
+Heyam: Good evening.
+
+22
+00:02:51.870 --> 00:02:55.650
+Heyam: It's here, it's good morning. I'm in Alberta, it's 9 a.m.
+
+23
+00:02:58.020 --> 00:02:59.589
+Heyam: Adverta Canada, of course.
+
+24
+00:03:02.300 --> 00:03:04.060
+Heyam: Alright, so…
+
+25
+00:03:05.420 --> 00:03:15.800
+Heyam: Without further ado, let's get started. If you have any questions while I'm demonstrating anything, you let me know. I will be more than happy to answer.
+
+26
+00:03:16.450 --> 00:03:18.100
+Heyam: Hi from Ottawa!
+
+27
+00:03:20.570 --> 00:03:23.019
+Heyam: So, how from the other side?
+
+28
+00:03:24.500 --> 00:03:31.939
+Heyam: Hi, everyone. Thank you so much for joining. I really appreciate your time, and that you are investing in this course. Thank you so much.
+
+29
+00:03:32.230 --> 00:03:38.870
+Heyam: A couple we are seeing from South Africa, so glad to meet with everybody here. Malawi, thank you so much, Raj.
+
+30
+00:03:39.350 --> 00:03:40.889
+Heyam: Good morning, Raj.
+
+31
+00:03:41.920 --> 00:03:43.290
+Heyam: From Maryland.
+
+32
+00:03:43.890 --> 00:03:50.189
+Heyam: All right, amazing. As you can see, we have different time zones, different people from across the globe. The only thing that
+
+33
+00:03:50.520 --> 00:04:02.030
+Heyam: gathered all us together is AI and discourse, so I'm happy that I, I will be your coach for this course. I'm really excited, because this course is really, really different. It has a lot of applications.
+
+34
+00:04:02.030 --> 00:04:12.240
+Heyam: It doesn't just involve around theory and everything that we know about AI. It's beyond that. We are trying to see how we can actually use AI in a day-to-day tasks.
+
+35
+00:04:12.240 --> 00:04:15.779
+Heyam: So let's get started with the agenda.
+
+36
+00:04:18.579 --> 00:04:22.469
+Heyam: We can definitely walk you through that. Don't worry about the activity.
+
+37
+00:04:22.610 --> 00:04:29.229
+Heyam: It's why I'm here today, and this is exactly one part of what we will be doing today. I will walk you through the execution.
+
+38
+00:04:29.560 --> 00:04:43.410
+Heyam: So again, a quick recap, if you missed the orientation session, a quick recap around what are the expectations for this course. This entire course is built around the integration between AI, Python, or the coding language.
+
+39
+00:04:43.580 --> 00:04:45.620
+Heyam: and the simulator.
+
+40
+00:04:45.760 --> 00:04:55.259
+Heyam: We are not here to build a game, honestly. Like, I don't want you to have this high expectation of me being someone who builds an entire game. No. The environment is there for you.
+
+41
+00:04:55.330 --> 00:05:05.520
+Heyam: The existing code which decides or controls the card is also there for you. We will only be monitoring or observing how we can use AI.
+
+42
+00:05:05.520 --> 00:05:22.829
+Heyam: in an integration environment within Python and the simulator, so that we can improve or change the code itself to see some changes in the car performance. So we already have a racing environment, we know that the car has been already coded or developed, we know how the engine works.
+
+43
+00:05:22.870 --> 00:05:33.259
+Heyam: What we need to do is to just do some improvements using AI to help the car improve its performance. Okay, so I'm hoping that this is clear enough for everyone.
+
+44
+00:05:33.350 --> 00:05:42.980
+Heyam: So this is why I'm telling you that this course is really different, because no expectation that you are coming from a technical background. For those of you who are from
+
+45
+00:05:42.980 --> 00:06:01.050
+Heyam: computer science, it might be a bit easy for you, because you are someone familiar with coding, you understand the concepts, the syntax, and everything around coding. But for those of you who are coming for the first time, you know nothing about coding, and you're only curious to learn and to know how to do… to do integration of AI,
+
+46
+00:06:01.220 --> 00:06:16.670
+Heyam: Specifically around things where you are maybe interested in coming up with business ideas or you are in a country where you believe that there is an opportunity for you to come up with business ideas or maybe developing websites.
+
+47
+00:06:16.670 --> 00:06:22.650
+Heyam: Creating new products, even development of new applications.
+
+48
+00:06:23.070 --> 00:06:47.029
+Heyam: Again, I want to reassure you that if you are not coming from a coding or technical background, you still have the opportunity, thanks to AI. We will be focusing on IBM Bob. IBM Bob is one of the latest AI tools that helps you to develop and create codes. But again, as you know, and as you can see, a lot of advertisements across every platform online that tells you that we have
+
+49
+00:06:47.150 --> 00:07:03.270
+Heyam: plenty of AI tools that also help you to build and create code, okay? Our focus is going to be only on IBM Bob. However, whatever you will learn with IBM Bob is most likely something that can be easily transferred to any other AI tool, okay?
+
+50
+00:07:03.890 --> 00:07:12.890
+Heyam: All right, so how, what 90 minutes will look like today? First of all, I will walk you through the expectation, again, the milestones, the journey, and what to expect.
+
+51
+00:07:13.100 --> 00:07:29.969
+Heyam: Then we will look into how AI changed the way how we develop, the way how we code, the way how we work. And I will introduce IBM Bob to you. So today we have a guest. IBM Bob is going to be our guest, and I will walk you through IBM screen and how to install it.
+
+52
+00:07:30.160 --> 00:07:45.370
+Heyam: Then, we will try to use IBM as an assistant. So, I want you to use IBM Bob as an assistant, see how it's kind of a co-pilot to you, thinking partner, brainstorm with it, and we will go through a couple of prompts so that we learn and build together something.
+
+53
+00:07:45.680 --> 00:07:52.890
+Heyam: Then I will walk you through that challenge, the mission, and what we can do to improve the code.
+
+54
+00:07:52.900 --> 00:08:08.589
+Heyam: Lastly, I hope that the time permits, but if not, don't worry, I will share with you the link where it walks you through the steps of installation. Even if that didn't work, or you feel like you're not successfully able to install the simulator, it's completely fine.
+
+55
+00:08:08.590 --> 00:08:15.529
+Heyam: We have an entire team who's ready to support you, specifically with the technical issues that you could possibly face.
+
+56
+00:08:15.530 --> 00:08:35.929
+Heyam: But please, please, please make sure that you let us know as soon as possible, because again, the expectation is that you submit the code and the challenge, the entire challenge, by October 11. So we have around 12 days from today to ensure that we have everything well set up, that you have the installations, the simulator, and everything is working properly at your end.
+
+57
+00:08:36.080 --> 00:08:42.369
+Heyam: If that's not the case, we are all here to support you and making sure that it's, it's fixed, okay?
+
+58
+00:08:43.179 --> 00:09:00.970
+Heyam: And then we will have a couple of your questions being asked. However, I don't want you to park your questions. As we progress, please make sure that you submit your question. If this is something that any of the team can help you with, they will answer that question. If not, I will make sure that I address any of your concerns as we progress, okay?
+
+59
+00:09:02.190 --> 00:09:03.610
+Heyam: Alright, so…
+
+60
+00:09:04.610 --> 00:09:16.450
+Heyam: One thing is, as we agreed, if, again, if you didn't attend the orientation session, this is not going to be your only session. This is not going to be your only time you meet with me for the technicality of this course.
+
+61
+00:09:16.450 --> 00:09:29.989
+Heyam: We will have four instructor-led technical sessions. This is only the first one of four series of sessions, okay? So the first one is just, as I said, it's more of an introduction around IBM Bob.
+
+62
+00:09:29.990 --> 00:09:39.260
+Heyam: what it does, what type of work it can help you with, how you can use it as an assistant, and I will walk you through the TORX installation.
+
+63
+00:09:39.380 --> 00:09:56.589
+Heyam: For the second one, which is supposed to be on October 1st, we will dive into Python, but I promise you it's going to be only the basics. Even if you are not familiar with Python at all, it's going to be just how we can read the code, how we can analyze it, so that the moment we are asking Ivy and Bob to help
+
+64
+00:09:56.690 --> 00:10:07.140
+Heyam: analyze the code, you are also familiar with that. You understand what IBM Bob is trying to tell you, and accordingly, you are making your changes based on that recommendation.
+
+65
+00:10:07.480 --> 00:10:10.899
+Heyam: On the third session, which is supposed to be on October 6th.
+
+66
+00:10:10.950 --> 00:10:29.629
+Heyam: We will be engineering the car, so we know that the challenge is mainly around the performance of the car within this lab, or within this track. So we will be working together with assistance from IBM Bob to ensure that we are engineering the car so that it actually do some improvements in its performance.
+
+67
+00:10:29.630 --> 00:10:31.439
+Heyam: Lastly, we are ready.
+
+68
+00:10:31.440 --> 00:10:48.930
+Heyam: Zero damage, the car speed is amazing, it's competent, and the code is there that we can submit, so the technical session for the fourth… the fourth technical session is just about the documentation, ensuring that everything is well set up and well, prepared for the final submission.
+
+69
+00:10:49.090 --> 00:10:49.850
+Heyam: Okay?
+
+70
+00:10:50.740 --> 00:10:57.769
+Heyam: As a reminder to everyone, You need to have your code submitted by October 11.
+
+71
+00:10:57.960 --> 00:11:01.260
+Heyam: Okay, all the projects are going to be evaluated.
+
+72
+00:11:01.340 --> 00:11:21.030
+Heyam: Myself, with the team, we will be looking at all of your submissions. We will test it over and making sure that the car is properly performing in its best performance with no or zero damage, okay? Now, one important reminder around the learning plan.
+
+73
+00:11:22.100 --> 00:11:26.559
+Heyam: Let me just take you to that window first so that you know exactly where I'm going.
+
+74
+00:11:27.320 --> 00:11:31.319
+Heyam: So I hope that everyone is able to see my screen with the IBM Skilled.
+
+75
+00:11:31.960 --> 00:11:42.380
+Heyam: The IBM SkillsBuild is where you can find the entire plan for this course. The link itself has been already posted in the chat, so if you haven't yet enrolled in this course.
+
+76
+00:11:42.500 --> 00:11:48.639
+Heyam: Make sure that you click on that link. The link, again, is shared in the chat box. You can click on that.
+
+77
+00:11:49.170 --> 00:11:53.920
+Heyam: And then you will need to sign up if you have no previous account with IBM.
+
+78
+00:11:54.150 --> 00:11:58.189
+Heyam: If you already have an account, make sure that you log in using your credentials.
+
+79
+00:11:58.270 --> 00:12:15.589
+Heyam: Me, personally, I use my Google account, the associated Google credentials with IBM, so I make it easier for myself to not just keep reminding… remembering the credentials. But feel free to sign up for an IBM account if that's easier for you. Depends on how do you prefer, like, your preferences.
+
+80
+00:12:16.010 --> 00:12:20.249
+Heyam: However, My main point here is.
+
+81
+00:12:20.380 --> 00:12:30.420
+Heyam: Every single learner of this course who decided to enroll in this course needs to complete, needs to complete the entire courses on your own.
+
+82
+00:12:30.870 --> 00:12:41.230
+Heyam: Although this course has been announced as one of the unique courses where you are allowed or permitted to work within a team to complete the challenge itself.
+
+83
+00:12:41.710 --> 00:12:46.249
+Heyam: The individual learning itself has to be completed individually, okay?
+
+84
+00:12:47.300 --> 00:12:58.719
+Heyam: So, no expectation that if one of the team has completed all the modules, it means that this is applied to everyone. No. Make sure that you complete all of the learning modules on your own.
+
+85
+00:12:58.950 --> 00:13:03.280
+Heyam: So that you can get the certificate of completion, okay?
+
+86
+00:13:03.510 --> 00:13:07.039
+Heyam: So, to quickly walk you through the plan.
+
+87
+00:13:07.680 --> 00:13:26.149
+Heyam: First of all, let me… if this is your first time using the platform, again, just a reminder that you have the full control of changing the language, so if you are preferring to learn in your own language, or to have the entire modules and the certificate in that language, you can simply do that by switching the language over here.
+
+88
+00:13:27.150 --> 00:13:31.029
+Heyam: And as you can see, we have plenty of different languages that you can pick from.
+
+89
+00:13:33.040 --> 00:13:51.360
+Heyam: the moment you decide to change, to switch the language, everything will be translated into that language, including the certificate of completion. This is very important. I know that some of you are also interested to have the certificate in two different languages, in English language and their native language, so feel free to do that, especially if you are
+
+90
+00:13:51.360 --> 00:13:58.930
+Heyam: sharing on your LinkedIn profile, and you would like to expand your reach among your own network, so make sure that you do that as well.
+
+91
+00:14:01.150 --> 00:14:01.990
+Heyam: Okay.
+
+92
+00:14:03.110 --> 00:14:04.410
+Heyam: This is number one.
+
+93
+00:14:04.560 --> 00:14:18.850
+Heyam: Number two, as you can see, the tracker line here, it shows you the progress that you have made so far. In order for you to say that I've completed the entire plan, this has to be completely in green, saying that you have 100% completion rates. Okay?
+
+94
+00:14:19.010 --> 00:14:37.720
+Heyam: For the warm-up content, you can definitely go to the activity. As you can see, it's already marked as optional. However, especially if you are coming from a non-tech background, I will definitely recommend that you go through the warming up content. It's going to give you a bit of an introduction around what to expect, what is IBM Bob, how we can use it.
+
+95
+00:14:37.720 --> 00:14:40.259
+Heyam: And how IBM Bob is actually.
+
+96
+00:14:40.280 --> 00:14:50.820
+Heyam: being kind of popular so far, so it's good to go through it. It's just a short video that walks you through how IBM Bob and AI in general is changing the way how we work.
+
+97
+00:14:51.000 --> 00:14:51.750
+Heyam: Okay?
+
+98
+00:14:52.870 --> 00:15:01.570
+Heyam: Now, this is a one-hour document that walks you through the expectations for how to install. So this is just simply taking you to the box.
+
+99
+00:15:01.960 --> 00:15:12.650
+Heyam: And I will walk you through this step-by-step, so I don't want to rush this. I will walk you through this step-by-step, so no rush, and don't worry. I will show you exactly how we do the installations, okay?
+
+100
+00:15:13.070 --> 00:15:17.439
+Heyam: So this is number one. So once it's done, make sure that you mark it as complete.
+
+101
+00:15:17.810 --> 00:15:19.679
+Heyam: Okay? And then submit.
+
+102
+00:15:20.530 --> 00:15:23.269
+Heyam: So this is for the introduction to AI.
+
+103
+00:15:23.640 --> 00:15:29.660
+Heyam: Now, again, for the technical setup, it will walk you through the steps with the installation files.
+
+104
+00:15:30.050 --> 00:15:43.430
+Heyam: Hopefully, by the end of today, you will be able to say complete and submit that. So, two of these elements should be done by end of day today, okay? Now, if you are watching or attending this course from your laptop.
+
+105
+00:15:43.570 --> 00:15:46.989
+Heyam: You can, I would definitely encourage you to follow along with me.
+
+106
+00:15:47.130 --> 00:16:05.549
+Heyam: Okay, you don't… I know that you would like to see me, but you don't have to worry about seeing the Zoom screen itself, you can just follow along with me. When I'm sharing my screen, you can just see the screen that I'm sharing, walk with the steps that I'm doing, and hopefully, by the end of the day, you will have all the installations successfully being done on your end, okay?
+
+107
+00:16:06.450 --> 00:16:08.129
+Heyam: Amazing.
+
+108
+00:16:08.480 --> 00:16:16.289
+Heyam: I will also let you know where exactly you need to submit the name of… the names of your team members, and how we can form the team. So just…
+
+109
+00:16:16.690 --> 00:16:24.500
+Heyam: Stay tuned, Omid. I'm sorry if I'm not pronouncing your name correctly, Omid. I thank you so much for letting us know that you are going to be working in a team.
+
+110
+00:16:25.020 --> 00:16:32.680
+Heyam: And I will walk you through the Zoom channel so that you know how to report that to us, okay? Thank you so much, I appreciate it.
+
+111
+00:16:33.330 --> 00:16:37.330
+Heyam: All right, so I myself will be marking this as complete.
+
+112
+00:16:37.690 --> 00:16:40.000
+Heyam: But I will walk you through this very shortly.
+
+113
+00:16:40.510 --> 00:16:54.099
+Heyam: Now, for the learning module itself, which is the theory part of it, okay, you need to go through the IBM Granite models, and it's exactly the learning modules, or the theory behind IBM
+
+114
+00:16:54.130 --> 00:17:07.019
+Heyam: granite model. Now, to make it easy for you, especially if you have never used IBM Granite, it's exactly the same as ChatGPT, Gemini, Copilot, with the same of IBM Granite, okay?
+
+115
+00:17:07.150 --> 00:17:11.970
+Heyam: Now you need to distinguish between IBM Granite and IBM Bob.
+
+116
+00:17:12.190 --> 00:17:16.179
+Heyam: Okay, so IPM Granite is actually a couple of different models.
+
+117
+00:17:16.520 --> 00:17:21.289
+Heyam: And you can simply see that in the learning module. It actually has a simulation.
+
+118
+00:17:21.430 --> 00:17:38.229
+Heyam: That shows you exactly the different models and how you can change the models depends on the complexity of the task that you are trying to do. So for example, if you are only doing simple tasks, kind of an automation, daily routine task, you can simply use the basic models.
+
+119
+00:17:38.230 --> 00:17:44.360
+Heyam: If you are using it for building something, coding, for example, then you need to use
+
+120
+00:17:44.360 --> 00:17:48.840
+Heyam: some kind of more complicated or more complex models, okay?
+
+121
+00:17:48.890 --> 00:18:03.349
+Heyam: You will need to complete the entire elements of this plan so that you can get, as you can see for myself, I already have got the digital sticker, and this is exactly the thing that you will gain once you complete this entire learning module, okay?
+
+122
+00:18:03.510 --> 00:18:05.790
+Heyam: Please let me know if you have any questions.
+
+123
+00:18:06.380 --> 00:18:08.559
+Heyam: I'll be more than happy to answer your questions.
+
+124
+00:18:11.780 --> 00:18:19.490
+Heyam: All right. So, as you can see, this has to be entirely marked as done, so that you can get the digital
+
+125
+00:18:19.490 --> 00:18:37.220
+Heyam: badge. This digital badge can simply be used, shared on your Threadly. Threadly is kind of a digital platform that you can share anything digital as a certificate badge. If you have been certified passing a professional certificate, such as ServiceNow.
+
+126
+00:18:37.750 --> 00:18:53.160
+Heyam: business analyst, PMP, any of those certifications, you can have the digital badge being, posted on Credly, and again, you can use from Credly itself, you can share it on LinkedIn or any other platform, on X, on Twitter, on,
+
+127
+00:18:53.660 --> 00:19:00.169
+Heyam: LinkedIn, even on Facebook, if you are someone who uses Facebook for businesses, then you can definitely do the same, okay?
+
+128
+00:19:00.530 --> 00:19:02.919
+Heyam: So far, so good. Some reactions?
+
+129
+00:19:05.990 --> 00:19:06.980
+Heyam: All good.
+
+130
+00:19:09.520 --> 00:19:10.650
+Heyam: Amazing.
+
+131
+00:19:10.860 --> 00:19:16.759
+Heyam: The more reactions, this… this shows me high engagement. Thank you so much, everyone. Great job. Perfect.
+
+132
+00:19:17.370 --> 00:19:22.289
+Heyam: All right, so I think we went through all the expectations for the course. I don't want to
+
+133
+00:19:23.040 --> 00:19:25.029
+Heyam: Like, spend a lot of time on this.
+
+134
+00:19:26.210 --> 00:19:32.859
+Heyam: Lastly, just want to… so I make sure that this is exactly the expectation. Please, please, please do not…
+
+135
+00:19:33.030 --> 00:19:39.019
+Heyam: take this as just, okay, we went through this and we know. Again, this has to be
+
+136
+00:19:39.520 --> 00:19:43.690
+Heyam: on an individual basis. Let me just highlight this to you.
+
+137
+00:19:44.020 --> 00:19:48.099
+Heyam: There you go, okay? So the learning plan is individual.
+
+138
+00:19:49.550 --> 00:19:59.779
+Heyam: Our closing ceremony is going to be hopefully on October 22. If any changes happen, we will definitely notify you by email. We will let you know when to expect.
+
+139
+00:20:00.000 --> 00:20:01.460
+Heyam: That doesn't show money.
+
+140
+00:20:01.620 --> 00:20:09.590
+Heyam: Within the closing ceremony, we will be announcing the top three winners, or the winners who will be receiving the winning certification.
+
+141
+00:20:09.730 --> 00:20:22.530
+Heyam: And this is all around how does the car perform once you do the development or improvement of the code, okay? So we will be announcing three winners. However, the completion, the certificate of completion is going to be given to everybody.
+
+142
+00:20:22.960 --> 00:20:28.640
+Heyam: The winning certification is going to be only given for the top performers, okay?
+
+143
+00:20:30.530 --> 00:20:31.720
+Heyam: All of this.
+
+144
+00:20:32.060 --> 00:20:35.260
+Heyam: Let me just go ahead with next slide.
+
+145
+00:20:37.050 --> 00:20:37.750
+Heyam: Perfect.
+
+146
+00:20:38.650 --> 00:20:50.829
+Heyam: Some of the words that we will be using, not only today, almost in every session, starting from today and onwards, okay? So, first one is IBM Bob. Does anyone know what IBM Bob is?
+
+147
+00:20:51.020 --> 00:20:53.220
+Heyam: Have you used it before?
+
+148
+00:20:53.620 --> 00:20:57.590
+Heyam: Did you just kind of curiosity explore what is IBM Bob is?
+
+149
+00:20:57.950 --> 00:21:00.739
+Heyam: Amazing, I can see some reactions, great.
+
+150
+00:21:02.580 --> 00:21:13.670
+Heyam: Perfect. Alright. The good thing about IBM Bob is actually something I really, really admire and I like, is that it can be easily installed on your desktop. So instead of you using it on your browser.
+
+151
+00:21:13.830 --> 00:21:34.080
+Heyam: Sometimes I feel like using it as a desktop version makes it easier to integrate with other environments, and you can simply open those, create your own path to work with IBM Bob. So, I would definitely recommend, if your device has the capacity to install IBM Bob on your device.
+
+152
+00:21:34.080 --> 00:21:35.550
+Heyam: Go ahead and do that.
+
+153
+00:21:35.670 --> 00:21:36.450
+Heyam: Okay?
+
+154
+00:21:37.680 --> 00:21:40.339
+Heyam: Now, the second thing, let me just…
+
+155
+00:21:44.630 --> 00:22:00.860
+Heyam: So the second thing that we will be… you will be hearing me saying it multiple times is the Visual Studio code. So Visual Studio is just… and this is… for those of you who are coming from a CS background or technical background, they know that this is more of an environment where we are creating our
+
+156
+00:22:01.370 --> 00:22:20.229
+Heyam: For those of you who are coming from an antique background, it's nothing. It's just the environment similar to a Word program, or PowerPoint. So, Word, we are creating documents using Word, right? So this is the environment where we are creating our documents. Similarly, we are using Google Docs to create documents on Google Workspace, right?
+
+157
+00:22:20.490 --> 00:22:32.159
+Heyam: If we are creating slides, then Google Slides is our environment to create those slides. Similarly is PowerPoint, where we are creating the slides on Microsoft 365 or Microsoft Intune, Microsoft Office.
+
+158
+00:22:33.030 --> 00:22:39.190
+Heyam: Visual Studio is an environment that allows you to develop, build, and create, and even debug your code.
+
+159
+00:22:39.530 --> 00:22:40.430
+Heyam: That's it.
+
+160
+00:22:40.710 --> 00:22:41.530
+Heyam: Now…
+
+161
+00:22:41.720 --> 00:22:52.349
+Heyam: What we will be doing is not just to use VS as a native kind of environment, we will be using it with an integration of IBM Pulse. Yeah, and I will show you this in a moment.
+
+162
+00:22:53.170 --> 00:22:59.349
+Heyam: A script is simply a file that has all the instructions for how to run a specific
+
+163
+00:22:59.550 --> 00:23:02.689
+Heyam: Elements, okay? Or how to run a specific
+
+164
+00:23:02.970 --> 00:23:19.470
+Heyam: code, or an environment. So the script is just the code itself, okay? It's the lines of instructions that the developer has written, or the AI did develop them for us, so that we can move ahead with whatever the application that we are trying to do.
+
+165
+00:23:19.700 --> 00:23:31.750
+Heyam: Okay? The torques is our simulator. It's nothing that we have developed from scratch, it's something built… already built for us that we can just simply install and use.
+
+166
+00:23:31.870 --> 00:23:37.569
+Heyam: Okay? So, it's gonna be the place where the game or the car is gonna be driving.
+
+167
+00:23:38.690 --> 00:23:53.099
+Heyam: Prompt, and I know that a lot of you are already aware with this word, prompt is the instructions that you type to the AI tool. It's exactly the way how you interact with ChatGPT, Copilot, Gemini, whatever the AI tool that you are preferring.
+
+168
+00:23:53.250 --> 00:24:09.129
+Heyam: The way how you interact with it, the instructions that you give on a daily basis to interact with the AI is what we call it a prompt, okay? Part of what we will be doing is ensuring that we know how to write good prompts, okay? It's part of this learning journey in this course.
+
+169
+00:24:10.060 --> 00:24:21.950
+Heyam: Python is a well-known popular coding programming language that is kind of easy. It uses a lot of plain English that is understandable by users and human and machine.
+
+170
+00:24:22.000 --> 00:24:39.249
+Heyam: And it's getting popularity because it's not only used for programming itself, it can be also used for data sciences, data analysis, and automation. So Python is getting a lot of popularity, and with the AI use, it's becoming way easier to understand, to learn, and to improve on coding with Python.
+
+171
+00:24:39.280 --> 00:24:46.220
+Heyam: So if you are someone who's interested in learning Python and you've never had any time to write a single code.
+
+172
+00:24:46.300 --> 00:24:54.339
+Heyam: I think with the use of AI, you will enjoy learning Python and start to develop some skills around Python, okay?
+
+173
+00:24:54.770 --> 00:25:07.239
+Heyam: Terminal is, it's one of the, bashes, or kind of… I don't know if you know the blue screen or the black screen that we can interact with the operating system through it.
+
+174
+00:25:07.360 --> 00:25:14.309
+Heyam: If you are someone who uses Linux, you are definitely someone who's familiar with bash commands or the terminal.
+
+175
+00:25:14.870 --> 00:25:18.729
+Heyam: So the terminal is just a window where you type commands to run things.
+
+176
+00:25:18.760 --> 00:25:30.510
+Heyam: Okay? I know that you might get confused with why terminal is different than a script. The script is something that we usually develop within the coding language on the VS Code, or on the environment of coding.
+
+177
+00:25:30.510 --> 00:25:38.660
+Heyam: The terminal is different. The terminal is the way that we are interacting with the operating system itself, okay? So, for example, Linux, Windows.
+
+178
+00:25:38.660 --> 00:25:53.629
+Heyam: macOS, if we are interacting with the operating system, then most probably we will be using the terminal to interact with it, okay? But if you are developing or building a code, then most probably you are developing a script, and this script is going to be.
+
+179
+00:25:53.720 --> 00:26:06.300
+Heyam: created on the VS Code or any environment where you are developing. If it's Java, it's different, C-sharp, C… ASP.NET, depends on what kind of programming languages that you are trying to.
+
+180
+00:26:07.200 --> 00:26:23.150
+Heyam: DIFF, or DEF, is a file that is produced to see before and after view of what we changed. What has changed, okay? So, the DEF is kind of different, so it tells you how things changed before and after.
+
+181
+00:26:23.410 --> 00:26:24.190
+Heyam: Okay?
+
+182
+00:26:25.150 --> 00:26:27.200
+Heyam: All good? Any questions so far?
+
+183
+00:26:29.550 --> 00:26:37.530
+Heyam: Yes, answering your question, Mashari, yes, if all the installations are successful, then you can mark them as complete.
+
+184
+00:26:38.520 --> 00:26:46.809
+Heyam: I don't think it's late to invite someone, Raj. If you would like to invite someone, please go ahead with that. Thank you so much.
+
+185
+00:26:49.270 --> 00:26:51.179
+Heyam: Okay, now.
+
+186
+00:26:51.830 --> 00:27:04.840
+Heyam: a quick, kind of, I wouldn't say it's a history lesson, it's just about how things change, and especially for someone like me. Although I'm not that old, but I was in that era where we had to write code line by line.
+
+187
+00:27:04.840 --> 00:27:15.809
+Heyam: go through it step by step, identifying variables, understanding the context, and even analyze the problem. It takes… it actually took us
+
+188
+00:27:15.810 --> 00:27:29.179
+Heyam: I would say months to understand the problem itself, to analyze it, to engage with people who are going to be our targeted clients, to understand their needs and their requirements, and we are gathering those requirements, documenting them.
+
+189
+00:27:29.260 --> 00:27:33.260
+Heyam: Translating them from business needs into tech needs.
+
+190
+00:27:33.420 --> 00:27:34.220
+Heyam: Okay?
+
+191
+00:27:34.550 --> 00:27:47.469
+Heyam: And I will walk you through this in a moment with an example. So, I am myself working here in Canada as a technical coach, okay? Part of what I'm doing is teaching the trainees.
+
+192
+00:27:47.830 --> 00:27:54.239
+Heyam: To be… to become a specific role, like, to help them to become a specific role, to get into a specific placement with a client.
+
+193
+00:27:54.620 --> 00:28:05.519
+Heyam: So, a big part of what I do is business analysis, okay? So, I can promise you that with the amount of work that they do, until now, with the clients, what we do is spending
+
+194
+00:28:05.750 --> 00:28:09.860
+Heyam: 2, 3, 4 months sometimes, just to understand the situation.
+
+195
+00:28:09.910 --> 00:28:26.499
+Heyam: the problem. What is happening? Why we need to do this change? What is this all about? What are the goals? Are they aligning with the business strategy? Are they within the budgeting, the constraints, the timeline that the client is facing or having? So all of this.
+
+196
+00:28:26.650 --> 00:28:31.679
+Heyam: has been squeezed into, I would say, maybe a month or so with the use of AI.
+
+197
+00:28:31.910 --> 00:28:36.449
+Heyam: So this was part of what we do even before deciding to develop something.
+
+198
+00:28:36.690 --> 00:28:40.709
+Heyam: Can you imagine the amount of time and efforts that we are doing?
+
+199
+00:28:40.810 --> 00:29:03.620
+Heyam: Part of what the business analyst needs to do is to engage with stakeholders, meet with them, understand their problem, write down everything they want, and remember that when I'm meeting with the clients, it's all about business. They use the business language. They do not know what do you mean by a feature, or an application, or an integration, or API, or what does that mean for them? They don't understand. Even if you tell them about forms.
+
+200
+00:29:03.620 --> 00:29:04.910
+Heyam: databases.
+
+201
+00:29:04.920 --> 00:29:18.659
+Heyam: Everything around that, usually clients, they don't know, especially if you are working with financial institutions. So to give you an example, most of what we do here in Canada is meeting with clients from banks, insurance companies, and asset management.
+
+202
+00:29:18.700 --> 00:29:26.380
+Heyam: So they send requirements for a specific role and tell us that we want a business analyst who is capable of doing this and this and that.
+
+203
+00:29:26.800 --> 00:29:31.530
+Heyam: When we send our trainees there, and to do the consultancy service.
+
+204
+00:29:32.150 --> 00:29:36.770
+Heyam: They spend a lot of time to explain to the business team.
+
+205
+00:29:37.150 --> 00:29:39.660
+Heyam: What does that mean from a technical perspective?
+
+206
+00:29:39.930 --> 00:29:46.500
+Heyam: So, a business analyst is only someone who is acting as a bridge between the business team and the technical team.
+
+207
+00:29:46.720 --> 00:29:56.360
+Heyam: So, simply, they meet with the client, understand exactly what they want, what is… what would be the solution that they can suggest for them, and then go ahead to meet with the technical team.
+
+208
+00:29:56.520 --> 00:30:07.669
+Heyam: Translating that into something tangible, into kind of a minimum viable product that can be produced and presented to the client. If the client approves it, then we start building it.
+
+209
+00:30:07.820 --> 00:30:15.719
+Heyam: Okay? Now, the moment we decide to build it, it's just simply, oh, let's just go together and happy family. No, this is not the case.
+
+210
+00:30:15.720 --> 00:30:28.869
+Heyam: Okay? We need to, first of all, understand the ecosystem that they have, what is… what type of environment they do use, if the client is mainly, like, focusing on cloud services or its local environment.
+
+211
+00:30:28.870 --> 00:30:36.489
+Heyam: if they are using specific environments for their applications.
+
+212
+00:30:36.490 --> 00:30:57.320
+Heyam: What are their CRMs? Is it integrated with that? So another solution architect need to come in to jump into this, to understand how we can come up with something to develop something to solve their problem that also integrates with the existing system. We don't want to be creating something from scratch for everything. This will ruin the business, because it's a lot of investment.
+
+213
+00:30:57.320 --> 00:30:59.670
+Heyam: And a lot of time will be wasted as well.
+
+214
+00:30:59.670 --> 00:31:13.339
+Heyam: So we need to ensure that whatever the solution that we are coming up with has to be already integrated with the existing system that they have, unless they are an entirely startup business and they are open for whatever options that you can suggest to them.
+
+215
+00:31:13.370 --> 00:31:14.860
+Heyam: So this is number 2.
+
+216
+00:31:14.910 --> 00:31:18.480
+Heyam: So we already went to understand the problem, and
+
+217
+00:31:18.600 --> 00:31:20.960
+Heyam: Try to brainstorm around the solution.
+
+218
+00:31:21.590 --> 00:31:27.849
+Heyam: Gather the requirements, document them, and make them ready to be translated into technical requirements.
+
+219
+00:31:27.970 --> 00:31:33.230
+Heyam: And then time comes when we are forming our team at this stage.
+
+220
+00:31:33.230 --> 00:31:45.430
+Heyam: It's where we are, sometimes deciding what exactly the type of management that we would like to follow. So, if it's more of a traditional, pre-defined requirements.
+
+221
+00:31:45.430 --> 00:32:04.639
+Heyam: most likely we will be using Waterfall as a project management framework. So it's going to be something like, whatever the output from this stage is going to be the input for the next stage, and move on, so on and so forth. And this is what we call a sequential, linear type of project management. So we are taking the product step by step, or stage by stage.
+
+222
+00:32:05.340 --> 00:32:06.340
+Heyam: The…
+
+223
+00:32:06.600 --> 00:32:13.680
+Heyam: This used to be actually the traditional type of project management, which applies to almost all traditional projects, but then.
+
+224
+00:32:13.720 --> 00:32:33.249
+Heyam: people realize that this doesn't work within the technical type of fast-paced environments where changes are very rapidly happening, a lot of changes that comes from the client, changes in the nature of the product itself, so we switched to something called Agile. So Agile is more of an iterative, it actually walks through sprints.
+
+225
+00:32:33.250 --> 00:32:46.859
+Heyam: And these sprints are very short, it's usually 2 to 3 weeks max, where we have… we are developing one small part of this, so we are breaking down the big project into smaller parts, and then we decide how we iteratively would be creating this.
+
+226
+00:32:46.860 --> 00:32:54.940
+Heyam: Taking the feedback, continuous feedback, then we take the feedback from the first sprint into the second sprint, make the changes, and go on, so on, so forth.
+
+227
+00:32:55.010 --> 00:33:00.730
+Heyam: Agile is way faster than traditional PM, and it's made… it's actually made the life easy.
+
+228
+00:33:01.000 --> 00:33:05.290
+Heyam: Then AI came into the place and made things even easier.
+
+229
+00:33:05.460 --> 00:33:10.740
+Heyam: It's called specs-driven management. Specs-driven management is where we are.
+
+230
+00:33:11.000 --> 00:33:21.070
+Heyam: Developing a very clear, structured specifications, and Send it to the… to the agent, to the AI agent, and the AI agent will continue from there.
+
+231
+00:33:21.340 --> 00:33:32.119
+Heyam: See how amazing life is getting for the technical people. It's way easier than before. So this is why I wanted to walk you through the before and after, so that you know why we really
+
+232
+00:33:32.180 --> 00:33:37.539
+Heyam: Actually, I would really say that we are valuing and appreciating this era because
+
+233
+00:33:37.540 --> 00:33:53.019
+Heyam: It really saves you a lot of time. So most of the time that you will have is about how you creatively thinking about solving problems, engaging with people, understanding their problem rather than you spend the time into the technical aspects of it.
+
+234
+00:33:53.020 --> 00:34:04.389
+Heyam: So this is where you are distinguishing yourself from AI. It's your soft skills, your ability to understand people, to go through useful engagement and conversations with them. Help them
+
+235
+00:34:04.390 --> 00:34:14.189
+Heyam: Develop a clear idea about their businesses. And from there, you can definitely build something amazing, because you already invested in those people and understood their situation, okay?
+
+236
+00:34:14.860 --> 00:34:16.960
+Heyam: I hope this is clear for everyone.
+
+237
+00:34:17.230 --> 00:34:27.560
+Heyam: Okay? So after, as I said, we describe what we want in an easy, plain language, even in your native language. There's even no need for you to just stick to English. I know that we are all
+
+238
+00:34:27.570 --> 00:34:47.390
+Heyam: encouraged to always use English as the main language for communication with businesses. But again, if then things makes it easier, why you have to struggle? Like, if you have something… someone who understands your language, then use your language. The main thing is to be productive, not to put some obstacles or any struggles or blockers into your road, okay?
+
+239
+00:34:47.719 --> 00:34:52.480
+Heyam: The AI will be working as a partner to support each and every step of the way.
+
+240
+00:34:52.690 --> 00:34:55.109
+Heyam: Okay? And if you are stuck.
+
+241
+00:34:55.400 --> 00:35:13.920
+Heyam: Previously, we used to reach out to our seniors, try to talk to someone who has more experience than us, or sometimes just trial and errors that we are learning from our own mistakes. Sometimes, as you know, like, a lot of forums online, documentation forums where you can ask questions.
+
+242
+00:35:13.980 --> 00:35:24.400
+Heyam: But now, if you are stuck, you can simply ask AI to explain it to you step by step and simplify it for you if you are someone new or in a beginning stages, okay?
+
+243
+00:35:24.550 --> 00:35:37.209
+Heyam: The language, the new language for each and every programmer, every time we wanted to learn a language, it may take me, I would say, two to three months to start developing the basics of that language.
+
+244
+00:35:37.340 --> 00:35:45.989
+Heyam: Okay? Even I wasn't at the time where we had to do a lot of installation ahead of time to prepare the environment, to be able to run it on our end.
+
+245
+00:35:46.040 --> 00:36:05.340
+Heyam: I remember that sometimes the language itself cannot be run into our, like, home devices. We needed to go for something more industrial or something that is connected to an organization or an educational institute, which is, honestly, a lot of blockers across the road, so that
+
+246
+00:36:05.400 --> 00:36:19.049
+Heyam: Things were not easy. What I can tell you is that things were not that easy. Nowadays, you're so lucky to have all these resources, so please try to invest in that and understand how you can utilize it to the maximum benefit of yourself.
+
+247
+00:36:19.150 --> 00:36:19.940
+Heyam: Okay?
+
+248
+00:36:20.770 --> 00:36:29.149
+Heyam: So as you can see, AI is changing the steps of development. It's changing how those steps are getting done and who can do them.
+
+249
+00:36:29.410 --> 00:36:30.210
+Heyam: Okay?
+
+250
+00:36:30.480 --> 00:36:41.209
+Heyam: So, for those of you who are very, feeling so threatened that your role is going to be, extinct at some point, no, I can promise you that
+
+251
+00:36:41.680 --> 00:36:47.580
+Heyam: As long as you are developing very strong soft skills around how things is being done.
+
+252
+00:36:47.590 --> 00:37:02.500
+Heyam: you will always be competitive to AI. AI doesn't feel, doesn't understand, doesn't know anything from the perspective of humanity, so always try to, as much as possible, invest in that, and then combine it with your technicals.
+
+253
+00:37:03.120 --> 00:37:03.890
+Heyam: Okay?
+
+254
+00:37:04.470 --> 00:37:09.969
+Heyam: Let me see if we have any questions. I have done IBM Boba, have completed the quiz. What is your work?
+
+255
+00:37:10.290 --> 00:37:26.529
+Heyam: You will have only the module… by the way, yeah, thank you so much for reminding me about this. Let me show you here. So the moment, as I said, the moment you complete the learning module itself, you will get the badge, okay? And if you go to the plan, go to the activity here.
+
+256
+00:37:33.140 --> 00:37:35.779
+Heyam: It will show you the certificate as well.
+
+257
+00:37:35.900 --> 00:37:38.450
+Heyam: Okay, if you go to actions here.
+
+258
+00:37:39.300 --> 00:37:45.080
+Heyam: It will show you the badge. I don't know, maybe on my end it's still not ready.
+
+259
+00:37:45.770 --> 00:37:53.939
+Heyam: But you can see the badge that you can as well share on your LinkedIn if you want. Thank you so much for the question.
+
+260
+00:37:55.400 --> 00:37:57.200
+Heyam: Alright, so…
+
+261
+00:37:59.230 --> 00:38:15.930
+Heyam: This is kind of a summary for what I already talked about. So we do the brainstorming, the discovery, understand… this is exactly what we call it in business analysis, by the way. It's called the discovery phase, okay? Now, with IBM Bob, we simply just use the mode of ask.
+
+262
+00:38:16.350 --> 00:38:17.110
+Heyam: Okay?
+
+263
+00:38:17.570 --> 00:38:34.239
+Heyam: So, then we gather the requirements, as I said, and do the planning, and turn this idea into a specific goal that's achievable, that is time-bounded, it has a specific time box that we understand that has to be achieved by this time.
+
+264
+00:38:34.470 --> 00:38:46.979
+Heyam: It has clear steps of how we can achieve that, and this is exactly what I was explaining to you, the differences between waterfall, agile, and specs-driven. So this is the time where we are planning how we want to do this.
+
+265
+00:38:47.370 --> 00:38:54.600
+Heyam: Then we develop or build by generating and updating the code of instructions, and we can simply do this with PubCode.
+
+266
+00:38:54.960 --> 00:39:10.639
+Heyam: Then validate and improve, we can find any issues, suggest any fixes that can improve the code and make it perform better, okay? The best part is that with AI, it can do all the documentation on your behalf.
+
+267
+00:39:10.880 --> 00:39:23.520
+Heyam: And I can promise you that I remember at the time when I did my graduation project, my graduation project was maybe about, at the time, like, at that time, we didn't have in our banks… I'm originally from Middle East.
+
+268
+00:39:24.280 --> 00:39:34.649
+Heyam: And at the time when I developed my project for graduation, it was around how we can calculate the credit score for bank clients.
+
+269
+00:39:34.980 --> 00:39:35.760
+Heyam: Okay?
+
+270
+00:39:36.060 --> 00:39:53.959
+Heyam: At that time, I used Visual Basic as the coding language with creating the forms and everything, and we were able to actually present it for a couple of local banks at that time. But I can promise you that the documentation part itself took more than 3 months, only the documentation part.
+
+271
+00:39:54.320 --> 00:39:59.620
+Heyam: Because you are not only documenting the code itself, you are documenting every step of the way.
+
+272
+00:39:59.810 --> 00:40:10.050
+Heyam: The planning, the requirements, the ERTs, the testing, the happy path, the negative path, everything, every step of the way has to be documented.
+
+273
+00:40:10.660 --> 00:40:18.369
+Heyam: At the time, when I… when I actually started to work in industrial experience in… as coding and quality assurance and everything.
+
+274
+00:40:18.550 --> 00:40:27.210
+Heyam: A big part of our time honestly was spent on documentation and version control, which is something that can easily now be done with AI assistance.
+
+275
+00:40:27.710 --> 00:40:28.460
+Heyam: Okay?
+
+276
+00:40:29.720 --> 00:40:32.860
+Heyam: Alright, so… Okay.
+
+277
+00:40:33.560 --> 00:40:34.420
+Heyam: Okay.
+
+278
+00:40:34.810 --> 00:40:44.739
+Heyam: Now, one important thing that I want to mention is that although this course is mainly or heavily focusing on how we can do the challenge and do the car race and everything.
+
+279
+00:40:44.760 --> 00:40:57.429
+Heyam: I just want to remind you that this doesn't only apply to developers. The entire change that we went through when we discussed about before and after does also apply to each and every role across the globe. You can see
+
+280
+00:40:57.430 --> 00:41:07.850
+Heyam: You can pick any role, any role, and think how you can use AI for that particular role to make your life easy, to turn the routine tasks into something automated.
+
+281
+00:41:07.850 --> 00:41:20.040
+Heyam: to help you reduce the amount of time spent on grading, for example, if you are an educator. If you are a healthcare provider, or a healthcare practitioner.
+
+282
+00:41:20.040 --> 00:41:31.980
+Heyam: You can simply go with the improve the workflow. You automate the prescription renewals. You can do automation of scheduling the appointments.
+
+283
+00:41:31.980 --> 00:41:36.649
+Heyam: Reminding, sending the notifications, hundreds of things that you used to spend.
+
+284
+00:41:36.660 --> 00:41:43.139
+Heyam: hours and hours to complete them, you can simply use AI to help reduce the load on yourself. And
+
+285
+00:41:43.140 --> 00:41:56.069
+Heyam: Then the time that you have could possibly be spent on learning and development, upskilling, creativity, connecting with clients, understanding their needs. So this is exactly what we are trying to promote here.
+
+286
+00:41:56.070 --> 00:42:06.220
+Heyam: To understand that AI is not going to replace you. It's just going to be more of an assistant to you so that you have the time to do the most important part, the most important job.
+
+287
+00:42:06.330 --> 00:42:07.090
+Heyam: Okay?
+
+288
+00:42:08.440 --> 00:42:21.449
+Heyam: And for small businesses, of course, you can develop websites, create them, design brochures, marketing campaigns, promotions, everything can be done with a simple click of using AI.
+
+289
+00:42:22.890 --> 00:42:41.510
+Heyam: As you know, that the foundation of all this AI is the large language model that has been trained on coding, on documenting, on building things. So this is the source, I would say, or the foundational science behind everything AI.
+
+290
+00:42:41.680 --> 00:42:42.430
+Heyam: Okay?
+
+291
+00:42:46.370 --> 00:42:51.360
+Heyam: Is that the choice? I think it shows the police and stuff here.
+
+292
+00:42:57.430 --> 00:43:11.410
+Heyam: Okay, yes, we will go ahead with that, Jordan. Jordan, thank you so much, actually. And I really appreciate that you are so proactive in completing everything. Thank you so much, this is so amazing. But that doesn't mean that everyone has to go with this speed.
+
+293
+00:43:11.410 --> 00:43:20.659
+Heyam: If Jordan, like, had the time to go ahead with that, that's amazing, but we still have the time. Until 11, October 11, you still have the time to submit your work, okay?
+
+294
+00:43:22.010 --> 00:43:31.930
+Heyam: Alright, so, a quick check. Anna must build a new feature for her team website, but doesn't know where to start. How can she use Bob?
+
+295
+00:43:33.000 --> 00:43:38.400
+Heyam: On the chat, we have A, start building in code mode and fix it later.
+
+296
+00:43:39.000 --> 00:43:44.809
+Heyam: B, gather all requirements alone, then have Bob generate a near-complete solution.
+
+297
+00:43:45.530 --> 00:43:50.839
+Heyam: C, to use Bob to understand the problem plan, then build and refine.
+
+298
+00:43:51.060 --> 00:43:57.569
+Heyam: D, to have Bob sketch a basic outline, then do the rest by hand. What do you think is the correct answer?
+
+299
+00:43:59.910 --> 00:44:04.319
+Heyam: So Anna is trying to build a new feature for her website.
+
+300
+00:44:05.590 --> 00:44:06.740
+Heyam: What do you think?
+
+301
+00:44:06.960 --> 00:44:08.979
+Heyam: Harshal says C.
+
+302
+00:44:09.830 --> 00:44:10.940
+Heyam: What do you think?
+
+303
+00:44:11.440 --> 00:44:12.240
+Heyam: C.
+
+304
+00:44:12.720 --> 00:44:13.720
+Heyam: C.
+
+305
+00:44:14.820 --> 00:44:19.650
+Heyam: Okay, I can see. Thank you so much for your engagement. Honestly, I really appreciate that.
+
+306
+00:44:20.240 --> 00:44:25.610
+Heyam: And yes, the correct answer is definitely going to be C. We don't want Bob to take the lead.
+
+307
+00:44:25.760 --> 00:44:44.280
+Heyam: Again, Bob is just an AI tool. It's us… it's us who are actually meeting with the team. We know what are the needs. We need to discuss this, right? To have those conversations around that, and understand exactly what is the case, and basically use AI as an assistant, as a co-pilot, as a thinking part.
+
+308
+00:44:44.380 --> 00:44:59.159
+Heyam: Okay? So what we will be asking Bob to do is to understand the problem, so we will feed Bob with a couple of concerns, needs, requirements, the goal maybe, the strategy, what is exactly we are trying to achieve.
+
+309
+00:44:59.410 --> 00:45:10.839
+Heyam: Let Bob help us understand the problem, brainstorm around it, and then plan for something, and then help build and refine. Great job. Thank you so much, everyone. Amazing. Okay.
+
+310
+00:45:11.410 --> 00:45:14.490
+Heyam: Now it's the time for me to walk you through.
+
+311
+00:45:14.680 --> 00:45:34.650
+Heyam: So, first of all, let me show you Bob. Here is Bob. screen, okay? This is exactly the way how Bob will look like on your end. First of all, I wanted to let you know that I am using Bob as the desktop version, okay? Desktop application. You can use it on browser, but me personally, I prefer to use it on a desktop version, okay?
+
+312
+00:45:35.360 --> 00:45:42.939
+Heyam: Yes, if you're, thank you so much, Zamiya. I'm so sorry if I'm not pronouncing you as Zami. Let's say Zami.
+
+313
+00:45:42.940 --> 00:45:56.370
+Heyam: If your trial has ended, I would suggest that you sign up with a new account so that you can use it for an extended 30 days. As you know, trial, IBM Bob trial will allow you to use it for free for 30 days.
+
+314
+00:45:56.370 --> 00:46:03.799
+Heyam: If any of you have exhausted all of your trial period for IBM Bob.
+
+315
+00:46:03.800 --> 00:46:10.199
+Heyam: Please, please, please make sure that you sign up with a new account so that it allows you to get another 30 days. Now.
+
+316
+00:46:10.200 --> 00:46:27.869
+Heyam: If you already know that you are not going to be working alone, and most probably you're going to be having a team to work with, so it's completely fine that you do not use IBM Bob and let the… one of the team members use it, but you need to at least attend a couple of sessions with them so that you know how did they use IBM Bob.
+
+317
+00:46:27.880 --> 00:46:32.979
+Heyam: Okay? So, two solutions for that. It's either you create… sign up for a new account.
+
+318
+00:46:33.910 --> 00:46:40.990
+Heyam: Or you entirely rely on your team, but however, make sure that you are engaged and contributing to the teamwork as well, okay?
+
+319
+00:46:41.260 --> 00:46:43.610
+Heyam: All right, so as you can see, here is Bob.
+
+320
+00:46:44.090 --> 00:46:46.809
+Heyam: Waving to you, everybody. And…
+
+321
+00:46:46.990 --> 00:46:53.189
+Heyam: Similar to all other AI tools, you can see that here is where we can prompt and talk to IBM tool.
+
+322
+00:46:53.630 --> 00:47:07.740
+Heyam: Okay? You can simply use the AR… the app to, point to a specific file if you are… if you are opening a specific file from your local device. For example, where you are building your code.
+
+323
+00:47:07.740 --> 00:47:17.290
+Heyam: And it's usually a notepad or a text file. You can just simply point by using the at to use that. Now, a very important thing here is that
+
+324
+00:47:17.370 --> 00:47:35.880
+Heyam: similar to, again, ChatGPT, where we can decide the complexity of the task. The recent update for ChatGPT is where it tells you instant, medium, hard, if you've noticed, right? It's kind of similar here with IBM Bob, but instead of you having the complexity as
+
+325
+00:47:36.310 --> 00:47:48.760
+Heyam: as the indicator of which model are you using. With IBM Bob, we will be using the ASK. It's more for tasks of brainstorming, gathering requirements, thinking about problem.
+
+326
+00:47:48.890 --> 00:48:00.780
+Heyam: And then the plan, so you can specifically, using the plan mode, so that you can ask Bob to help you with the planning, and then the agent, it's where it can develop and build code, okay?
+
+327
+00:48:01.420 --> 00:48:10.050
+Heyam: You will notice that in the learning module, it keeps mentioning that it's code, but it's the actual model's agent, not code.
+
+328
+00:48:10.380 --> 00:48:14.909
+Heyam: Okay? The actual mode is called agent, not code.
+
+329
+00:48:15.790 --> 00:48:24.150
+Heyam: Now, I've already created a folder on my desktop, and I call it Bob at Work. In the chat, I will share with you an activity PDF file.
+
+330
+00:48:24.430 --> 00:48:31.050
+Heyam: And it can be accessible to all of you. Let me just open this and share that with you.
+
+331
+00:48:31.200 --> 00:48:36.369
+Heyam: Feel free to follow along with me if you feel like this is going to be overwhelming for you. You cannot.
+
+332
+00:48:36.550 --> 00:48:45.589
+Heyam: like, work on both things in parallel, that's completely fine. Do not feel like you are mandated to do that. It's just that I want to walk through that.
+
+333
+00:48:45.760 --> 00:48:47.690
+Heyam: use of IBM Bob.
+
+334
+00:48:48.200 --> 00:48:49.010
+Heyam: Okay?
+
+335
+00:48:50.420 --> 00:48:54.390
+Heyam: So I already have shared the activity with you in the chat.
+
+336
+00:48:56.700 --> 00:48:58.639
+Heyam: And it's a PDF file.
+
+337
+00:49:02.090 --> 00:49:05.080
+Heyam: Just one second, let me just open this here.
+
+338
+00:49:07.330 --> 00:49:08.200
+Heyam: Okay.
+
+339
+00:49:09.930 --> 00:49:28.440
+Heyam: So, as you can see, here is the IBM Bob, and this is where you can interact with the tool. Here, where usually you will get the output, and here, where you can decide the type of integration that you want, okay? And one important thing, I don't know if any of you is familiar with Claude. Claude is another one of the leading, actually, AI tools.
+
+340
+00:49:28.450 --> 00:49:38.129
+Heyam: The good thing about IBM Bob, it actually allows you to do the same thing as Claudie. So if you go to the settings, I clicked on the setting, the GI setting here. Can you see that?
+
+341
+00:49:39.450 --> 00:49:56.870
+Heyam: From here, you can decide what to install, what type of coding language that you would like to use for any kind of code or any project that you are working on at the moment. As you can see, plenty of different coding programmers… program languages.
+
+342
+00:49:57.230 --> 00:50:08.600
+Heyam: Okay? You can connect this to Docker for CICD pipelining, you can connect it to Jupyter Notebook, you can connect it to GitHub.
+
+343
+00:50:08.990 --> 00:50:13.650
+Heyam: So I would say thousands of different, as you can see, like the scrolling here.
+
+344
+00:50:14.930 --> 00:50:18.820
+Heyam: More than thousands of different ways of how you can integrate with.
+
+345
+00:50:18.950 --> 00:50:21.380
+Heyam: Popular languages that you can use.
+
+346
+00:50:22.870 --> 00:50:23.590
+Heyam: Okay.
+
+347
+00:50:24.640 --> 00:50:39.590
+Heyam: You can do the remote explorer if you want. From here, you can run and debug whatever the code that you want. So you open the file of the code, and then run it, and this is exactly the VS code. This is how Visual Studio would look like, but this is integrated with IBM Bob.
+
+348
+00:50:39.750 --> 00:50:53.619
+Heyam: So again, if you are not coming from a technical background, I'm not expecting from you to know everything around this screen, and don't feel like panic if you are seeing all of this. Again, the main thing that you will be doing in this course
+
+349
+00:50:53.880 --> 00:51:10.180
+Heyam: And this is, again, as a reminder for everyone. This is what we call it intentional upskilling. Intentional upskilling means that we have a specific task, specific goal, it's a goal-oriented learning that we know, that we want to achieve this particular task by doing… by learning these particular skills, okay?
+
+350
+00:51:10.480 --> 00:51:12.379
+Heyam: So don't overwhelm yourself.
+
+351
+00:51:12.510 --> 00:51:15.060
+Heyam: Do not add a lot of things that you need to learn.
+
+352
+00:51:15.300 --> 00:51:20.230
+Heyam: No one is asking you to do that. You will do this bit by bit, step by step, okay?
+
+353
+00:51:20.800 --> 00:51:30.889
+Heyam: At this stage, all what I need from you is to understand. This is the screen where we are prompting the AI tool. This is where you change the mode.
+
+354
+00:51:31.430 --> 00:51:32.270
+Heyam: Okay?
+
+355
+00:51:33.060 --> 00:51:35.699
+Heyam: And here, where you are giving permission.
+
+356
+00:51:36.120 --> 00:51:46.819
+Heyam: Please make sure that you do not let IBM Bob do the auto-approval. We need to re-verify everything, all the steps, okay?
+
+357
+00:51:46.990 --> 00:51:54.909
+Heyam: Do not, at any, like, at all, with any AI tool, do not have the auto-approval turned on. Make sure that it's always disabled.
+
+358
+00:51:55.780 --> 00:51:57.969
+Heyam: Especially when it comes to clear business.
+
+359
+00:51:58.520 --> 00:52:06.969
+Heyam: projects. If it's something personal, then it's up to you. Sometimes, if things happen, if things go wrong, you can simply fix it.
+
+360
+00:52:07.110 --> 00:52:12.840
+Heyam: If it's businesses, you don't want to put yourself into an awkward situation where you are
+
+361
+00:52:12.960 --> 00:52:24.659
+Heyam: unable to, you know, like, explain why did that happen. So always make sure that you verify the outcome or the output from the AI tool before even handling it to your clients, okay?
+
+362
+00:52:25.280 --> 00:52:28.100
+Heyam: So I myself will go ahead and disable this.
+
+363
+00:52:28.250 --> 00:52:45.840
+Heyam: And from here, as you can see, you can change if you would like to use run IBM Bob for a specific skill. So you are teaching IBM Bob this particular skill, you can do that. And this is again, I cannot cover all of this honestly in one course and even in one session.
+
+364
+00:52:45.980 --> 00:52:54.809
+Heyam: But I would definitely recommend that you learn how to integrate skills into AI tools. This applies to IBM Bob and Claude as well.
+
+365
+00:52:55.080 --> 00:53:09.090
+Heyam: I think in ChatGPT… no, in ChatGPT itself, because ChatGPT is more of a foundational AI tool, okay? But with IBM Bob and Claudine Specific, you can create a skill, and I can simply show you here.
+
+366
+00:53:09.880 --> 00:53:18.190
+Heyam: how to create that skill, okay? You can create it for… to teach it, to create a new skill, okay?
+
+367
+00:53:20.810 --> 00:53:33.590
+Heyam: So, for example, if, let's say, I know one of my trainees, what he did, he developed an entire skill where Claudie is acting as an automated agent.
+
+368
+00:53:33.740 --> 00:53:49.110
+Heyam: to answer all of your business inquiries on your Instagram account. So if you are running a business Instagram account, and you want to have an automated agent from Claudie or even IBM Bob that answers each and every inquiry around your business.
+
+369
+00:53:49.260 --> 00:54:03.210
+Heyam: he developed that skill for Claudia, and then from there, he integrated that into a couple of business Instagram accounts, and he was able to serve the clients on that particular thing. So they automated everything around their inquiries on Instagram, which reduced
+
+370
+00:54:03.710 --> 00:54:12.070
+Heyam: Based on what did he present the other day, he said that it's reduced 60% of the time they spent on replying to their clients.
+
+371
+00:54:12.280 --> 00:54:30.920
+Heyam: Okay? And by the way, this is different from the automation from Instagram itself, because I know some of you will say that, okay, Instagram itself does have that feature. That's true, but if you notice that Instagram auto-messaging is just kind of a rule-based system. So you give it a rule, and then it answers based on that rule.
+
+372
+00:54:31.030 --> 00:54:41.009
+Heyam: With this agent, it actually has the ability to go beyond that and understand the case, and then based on that, it's more of a customized answer, more of a customized reply.
+
+373
+00:54:41.280 --> 00:54:43.269
+Heyam: Okay, so this is the beauty around that.
+
+374
+00:54:44.580 --> 00:54:55.860
+Heyam: Alright, all good with IBM Bob, so again, I installed IBM Bob on my desktop. You can simply use it on browser, there's no problem with that. You need to sign in so that you save everything that you do.
+
+375
+00:54:55.860 --> 00:55:05.260
+Heyam: Myself, I created a file on… so simply, I just go to Open Folder, and then on desktop, I've created a folder called Bob at Work.
+
+376
+00:55:05.380 --> 00:55:06.140
+Heyam: Okay?
+
+377
+00:55:06.590 --> 00:55:12.629
+Heyam: And this is where we will be saving everything that we do. If you go to general, it will tell you where is the path.
+
+378
+00:55:13.610 --> 00:55:27.239
+Heyam: Okay? These are some simple things around your account with IBM Bob. If you would like to have a specific thing around the chat itself, the settings, you can definitely do that. If you would like to save them for future, you can do this as well.
+
+379
+00:55:27.240 --> 00:55:36.459
+Heyam: You can connect your entire chat with IBM Bob to your GitHub repository if you want to keep track of everything that you do, especially if you are
+
+380
+00:55:36.460 --> 00:55:54.179
+Heyam: only using it for the building aspects, in that case, I definitely recommend that you do that, because it's going to save you a lot of time with documentation and version control, okay? So if you are, again, coming from a technical background, you already have your profile with GitHub, go ahead with that, because it will help you save a lot of time documenting.
+
+381
+00:55:55.060 --> 00:56:01.640
+Heyam: This is actually… all of what I'm showing you here is just basically because I saw… I clicked on this gear setting here at the top.
+
+382
+00:56:01.860 --> 00:56:05.849
+Heyam: Now, there is another one here at the left corner, as you can see.
+
+383
+00:56:06.160 --> 00:56:08.629
+Heyam: I hope that it's gonna… it's visible to everyone.
+
+384
+00:56:08.740 --> 00:56:16.499
+Heyam: This is more of a manage for your particular profile. It's not about the settings of IBM Bob. It's around your profile, your settings, okay?
+
+385
+00:56:16.800 --> 00:56:28.500
+Heyam: So some of the things are going to be repetitive here, but what I want from you to see is that with the settings, you can change where the file is, the text editor that you will be using.
+
+386
+00:56:28.800 --> 00:56:34.990
+Heyam: the workbench, the window, everything around the code environment itself. Okay?
+
+387
+00:56:35.870 --> 00:56:48.370
+Heyam: the security, the applications, and again, I'm not asking those of you who are entirely new to coding to know all of this. This is just intended for those of you who are coming from a technical background. I'm just showing them how they can
+
+388
+00:56:48.720 --> 00:56:54.269
+Heyam: Beautifully use IBM Bob for their work in coding, okay?
+
+389
+00:56:55.470 --> 00:56:58.059
+Heyam: Make sure that you specify the bath as well.
+
+390
+00:56:58.260 --> 00:56:59.939
+Heyam: Okay, this is the name.
+
+391
+00:57:00.200 --> 00:57:01.300
+Heyam: And…
+
+392
+00:57:03.390 --> 00:57:14.359
+Heyam: You can change the theme, everything around the environment of IBM. Okay, now let me open the activity and walk you through the,
+
+393
+00:57:18.220 --> 00:57:23.380
+Heyam: So for this activity, we are opening Sprout and Crumb.
+
+394
+00:57:23.690 --> 00:57:31.189
+Heyam: bakery, okay? A vegan bakery business. You need a simple website and some help running the business, but you cannot code.
+
+395
+00:57:31.600 --> 00:57:43.960
+Heyam: IBM Bob is your partner. Using one scenario means each activity builds on the last, so we will only be using one scenario, and every activity that we will be doing is going to be built on the previous one, okay?
+
+396
+00:57:50.110 --> 00:57:51.530
+Heyam: I was pinged.
+
+397
+00:58:01.470 --> 00:58:06.880
+Heyam: Now, let me share with you this as well. So this is… this is the scenario from the lab.
+
+398
+00:58:07.100 --> 00:58:09.259
+Heyam: And the learning itself.
+
+399
+00:58:15.810 --> 00:58:18.109
+Heyam: One second, so this is the…
+
+400
+00:58:18.220 --> 00:58:25.889
+Heyam: the link. I will share this with you in the chat if you are following along with me, and you are interested in doing the same thing.
+
+401
+00:58:26.680 --> 00:58:30.949
+Heyam: What we need to do is to download this. So this is the menu file.
+
+402
+00:58:31.200 --> 00:58:35.300
+Heyam: Okay? And we will need this to complete the activity as well.
+
+403
+00:58:38.250 --> 00:58:39.550
+Heyam: to download this.
+
+404
+00:58:39.800 --> 00:58:45.570
+Heyam: scenario, just simply click on here, and then download the menu.html.
+
+405
+00:58:49.120 --> 00:58:54.679
+Heyam: Once it's downloaded, I will take this to the Bob at work.
+
+406
+00:58:59.990 --> 00:59:03.489
+Heyam: Just put it into the Bob at work folder.
+
+407
+00:59:18.410 --> 00:59:19.420
+Heyam: Okay.
+
+408
+00:59:22.680 --> 00:59:32.269
+Heyam: The activity tells you exactly what type of a mode, and this is the same that I'm sharing with you. This is the same file that I shared with you in the chat.
+
+409
+00:59:32.560 --> 00:59:42.209
+Heyam: As you can see, it tells you exactly what would be the mode that's going to be used for each and every activity. So for the first one, when we are brainstorming, we will be using Ask.
+
+410
+00:59:42.260 --> 00:59:57.250
+Heyam: This is for A1, or Activity 1. For Activity 2, where we are gathering the requirements, we will also be using the mode of ask. If we are building something, we will… we will… we are planning, we will use the plan, code, code, code, code, a couple of codes, and then ask, plan, ask, ask, ask.
+
+411
+00:59:57.320 --> 01:00:00.210
+Heyam: Okay, so let's start together with this.
+
+412
+01:00:00.500 --> 01:00:11.329
+Heyam: I will actually be copy and paste and show you exactly what would be the output out of this. The same prompts are on your end, so you can follow along with that. Again, this is more of a structured activity.
+
+413
+01:00:11.340 --> 01:00:19.229
+Heyam: If you would like to go beyond that, then feel free to come up with even ask an AI tool, maybe ChatGPT or any other tool.
+
+414
+01:00:19.230 --> 01:00:34.019
+Heyam: Walk me through a scenario from this to this, from brainstorming to building and verifying. And it tells you exactly what would be the activities. You can also develop your prompt engineering techniques to see how the prompt quality will definitely make difference with your output.
+
+415
+01:00:34.160 --> 01:00:34.980
+Heyam: Okay?
+
+416
+01:00:37.910 --> 01:00:43.830
+Heyam: So let's start with this. First one is… I'm opening a small vegan.
+
+417
+01:00:45.460 --> 01:00:48.490
+Heyam: Go to Bob, and as you can see, I'm on the ask.
+
+418
+01:00:50.350 --> 01:00:56.489
+Heyam: I'm opening a small vegan bakery called Sprout and Crump. I cannot code brainstorm 8 things.
+
+419
+01:00:56.740 --> 01:01:14.689
+Heyam: a website could do for a bakery like mine, put them in a table with the columns. So, see the prompts. First of all, I give the context, the scope. I am opening a new bakery, so this is the scope, this is the goal, right? So, make sure that you are always giving the scope.
+
+420
+01:01:14.880 --> 01:01:28.639
+Heyam: Then the goal. I made it very clear and specific. I need 8 ideas, okay? So always be structured, be clear, give a clear, structured prompt so that you get the best out of the AI tool.
+
+421
+01:01:28.930 --> 01:01:31.349
+Heyam: Then I gave a constraint.
+
+422
+01:01:31.430 --> 01:01:39.390
+Heyam: what would be the output, how I want the output to look like. I asked the AI bot to give it… to put it into a table with common.
+
+423
+01:01:39.450 --> 01:01:56.460
+Heyam: idea, who it helps, and the effort. And for the effort, I made it very clear that I wanted into grading system, scaling system. Low, medium, and high. And I also gave the tone format. I wanted the language to be simple language, okay?
+
+424
+01:01:56.710 --> 01:01:58.700
+Heyam: So it's about the guardrail.
+
+425
+01:01:58.700 --> 01:02:22.759
+Heyam: What would be the tone of the language? If you are someone who's writing a research paper, then it has to be academic language. If it's something more into business, use business language. It's more technical than technical language. And this also applies to your soft skills. When you are presenting to clients, make sure that you are… if they are non-tech, it's a non-tech language. If they are tech audience, do not actually just give them simple language. They… it's actually…
+
+426
+01:02:22.760 --> 01:02:31.680
+Heyam: seems to be kind of undervaluing them. So make sure that you are developing your presentation skills around understanding your audience and their needs. Okay?
+
+427
+01:02:31.820 --> 01:02:38.330
+Heyam: All good, so if you are following along with me, we can just hit enter and see what Bob can help us with.
+
+428
+01:02:38.890 --> 01:02:39.660
+Heyam: Okay.
+
+429
+01:02:41.960 --> 01:02:43.940
+Heyam: Ta-da, I already have it.
+
+430
+01:02:47.620 --> 01:02:48.600
+Heyam: Sorry.
+
+431
+01:02:49.690 --> 01:02:53.140
+Heyam: It's weird, because I have a paid subscription.
+
+432
+01:02:55.510 --> 01:02:59.059
+Heyam: Just one second. Just give me one second. I need to stop sharing here.
+
+433
+01:03:01.380 --> 01:03:06.130
+Heyam: Please continue, don't stop. You can go ahead with the prompt and try it on your end as well.
+
+434
+01:03:06.850 --> 01:03:09.910
+Heyam: So make sure that you are using IBM Bob Ask.
+
+435
+01:03:10.240 --> 01:03:11.879
+Heyam: And copy the prompt.
+
+436
+01:03:12.520 --> 01:03:17.940
+Heyam: and see what would be the output. If any of you made it thus far, please share with us what was
+
+437
+01:03:21.330 --> 01:03:26.779
+Heyam: Anas, I didn't import yet. Oh, you mean for the menu? Okay, I will walk you through this, just one second.
+
+438
+01:03:27.250 --> 01:03:27.970
+Heyam: Okay.
+
+439
+01:03:28.840 --> 01:03:29.770
+Heyam: And…
+
+440
+01:03:48.130 --> 01:03:50.470
+Heyam: Just give me one second, I'm so sorry.
+
+441
+01:03:50.770 --> 01:03:52.949
+Heyam: For some reason, it didn't,
+
+442
+01:04:09.180 --> 01:04:13.489
+Heyam: There's something… What was that evening?
+
+443
+01:04:14.090 --> 01:04:17.220
+Heyam: Yes, the GitHub. Let me just share that with you again.
+
+444
+01:04:23.540 --> 01:04:27.809
+Heyam: Yes, the Github here. Let me just share this with you one more time.
+
+445
+01:04:28.310 --> 01:04:30.529
+Heyam: In the chat, please find this.
+
+446
+01:04:32.470 --> 01:04:41.810
+Heyam: Now, once we are here, this is actually the scenario for the lab, or the activity that we are doing with the bakery system, okay? The bakery business, sorry.
+
+447
+01:04:41.870 --> 01:04:48.790
+Heyam: So just simply, once this is open, as you can see, it's academic initiative, and this is just for the learning purposes, okay?
+
+448
+01:04:48.840 --> 01:05:00.969
+Heyam: This is another good example of how you can use AI into businesses, and this entire activity is around the learning purposes of it, okay? Then click on the three dots, download the file.
+
+449
+01:05:00.970 --> 01:05:09.710
+Heyam: The moment you download from GitHub, it's going to go into an HTML file and open easily with any browser that you use as the default browser.
+
+450
+01:05:10.140 --> 01:05:13.099
+Heyam: And this is the Rose Toast Cafe.
+
+451
+01:05:17.650 --> 01:05:22.659
+Heyam: Now, the menu file that you just downloaded, you can copy it from the…
+
+452
+01:05:23.660 --> 01:05:31.279
+Heyam: download file, the download folder, sorry, and simply paste it into your Bob at work. So, as I said, on my desktop.
+
+453
+01:05:31.450 --> 01:05:41.220
+Heyam: I created a folder called Bob at Work. In this folder, I have copied the menu.html file and pasted it into this folder.
+
+454
+01:05:41.950 --> 01:05:44.289
+Heyam: This is exactly what I did, okay?
+
+455
+01:05:44.910 --> 01:05:50.080
+Heyam: In the meantime, I'm waiting… oh, I'm so sorry, I'm actually not sharing my screen. Sorry, one second.
+
+456
+01:05:54.300 --> 01:05:56.909
+Heyam: So here is the desktop of mine.
+
+457
+01:05:57.060 --> 01:05:59.889
+Heyam: Bob at work is the folder that I've created.
+
+458
+01:06:00.370 --> 01:06:04.550
+Heyam: The menu.html, let me show you here. So I simply
+
+459
+01:06:05.790 --> 01:06:08.759
+Heyam: Go here, to the GitHub. The link of this
+
+460
+01:06:09.100 --> 01:06:19.459
+Heyam: activity is in the chat, so once you click on that, it should open the same window as the one in my screen here. Simply go to download.
+
+461
+01:06:19.890 --> 01:06:21.039
+Heyam: And have it there.
+
+462
+01:06:21.430 --> 01:06:22.230
+Heyam: Okay?
+
+463
+01:06:23.460 --> 01:06:26.050
+Heyam: I don't know why it's…
+
+464
+01:06:29.270 --> 01:06:30.720
+Heyam: Should be working now.
+
+465
+01:06:36.250 --> 01:06:39.760
+Heyam: Sorry, team, I have to download this, just give me one second.
+
+466
+01:06:40.160 --> 01:06:46.339
+Heyam: It seems that the one I have is the oldest version, so let me just… Very quickly do this.
+
+467
+01:06:48.490 --> 01:06:52.980
+Heyam: Okay, what I can do in the meantime, until everything is fixed on my end.
+
+468
+01:06:53.310 --> 01:07:00.240
+Heyam: I will go to the other device to show you how to install the torque so that we can save time, okay? Just give me one second.
+
+469
+01:07:01.590 --> 01:07:07.709
+Heyam: I'm sorry that you will be still hearing me, but you will not see me because I have no camera on the other device, okay?
+
+470
+01:07:08.210 --> 01:07:11.300
+Heyam: You still hear me, right, everyone? Show me reactions, please.
+
+471
+01:07:16.740 --> 01:07:19.989
+Heyam: Perfect. So I will be sharing another screen on my end.
+
+472
+01:07:23.570 --> 01:07:24.660
+Heyam: Perfect.
+
+473
+01:07:38.550 --> 01:07:43.230
+Heyam: I just want to save you some time until the IBM Bob is working on my end.
+
+474
+01:07:50.210 --> 01:07:55.160
+Heyam: Pooja, is it okay if you can give me permission, as he am too, to share my screen?
+
+475
+01:08:00.760 --> 01:08:02.649
+Heyam: Are you able to share my screen, everyone?
+
+476
+01:08:06.590 --> 01:08:13.560
+Heyam: Perfect, okay. So now I'm on a different screen, I am on a different device, and the reason why I'm here, because
+
+477
+01:08:13.560 --> 01:08:26.970
+Heyam: The torques didn't work on my other device. It's administered by my organization, and it doesn't allow me to do the installation. That's the only reason. On your end, if you are the admin of your device, there shouldn't be any problem with you installing the torques, okay?
+
+478
+01:08:27.100 --> 01:08:30.360
+Heyam: That's the only reason I'm just explaining to you the case.
+
+479
+01:08:30.600 --> 01:08:39.200
+Heyam: Now, in your, in the chat, you will notice that there is the link, and I will be also sharing this again with you, everybody, in the chat.
+
+480
+01:08:42.910 --> 01:08:45.750
+Heyam: This is the folder where everyone
+
+481
+01:08:46.229 --> 01:08:49.889
+Heyam: can access to the Torx installation folder.
+
+482
+01:08:50.010 --> 01:09:03.059
+Heyam: Okay? Everything that you need to download the torques. The torques is nothing but the simulator for how to play the game. It's the environment where we are creating the game, okay?
+
+483
+01:09:03.350 --> 01:09:12.370
+Heyam: As I said, the game is already built for you. The environment is there as well. All what we need to do is just to improve the code.
+
+484
+01:09:12.590 --> 01:09:21.970
+Heyam: All of this is actually optional for you to go through the steps and it walks you through the guide. So you don't have to download all of this. All you need to download is this one, the first one here.
+
+485
+01:09:22.240 --> 01:09:24.720
+Heyam: Okay, let me just use the…
+
+486
+01:09:30.960 --> 01:09:32.770
+Heyam: Okay,
+
+487
+01:09:36.029 --> 01:09:38.040
+Heyam: I hope that you can see.
+
+488
+01:09:44.729 --> 01:09:49.799
+Heyam: Okay, so this is the one. Simply just click on the three dots and download.
+
+489
+01:09:52.370 --> 01:09:53.220
+Heyam: Okay?
+
+490
+01:09:55.050 --> 01:09:58.390
+Heyam: Download the first one, the files selected.
+
+491
+01:10:05.290 --> 01:10:07.620
+Heyam: As you can see, it's still downloading.
+
+492
+01:10:09.580 --> 01:10:15.529
+Heyam: Make sure that you have enough space, disk space, to download the files for the torrents.
+
+493
+01:10:15.690 --> 01:10:16.450
+Heyam: Okay?
+
+494
+01:10:16.770 --> 01:10:24.559
+Heyam: Other than this one, there's no need for you to download any of these. It's all just for you to use it as reference.
+
+495
+01:10:26.510 --> 01:10:27.520
+Heyam: Okay.
+
+496
+01:10:31.010 --> 01:10:35.179
+Heyam: Alright, now, if I go to the downloads.
+
+497
+01:10:36.090 --> 01:10:44.920
+Heyam: I will go, actually, to the downloads folder instead, and what I want from you to just make yourself more organized, to have a disk on your desktop.
+
+498
+01:10:45.370 --> 01:10:48.860
+Heyam: You can create a folder by name IBM Challenge.
+
+499
+01:10:48.990 --> 01:10:53.700
+Heyam: The game change, the game challenge, whatever you want to call it, okay?
+
+500
+01:10:54.570 --> 01:10:59.709
+Heyam: So I've created a folder on my desktop, as you can see, called IBM Trends.
+
+501
+01:11:00.120 --> 01:11:05.380
+Heyam: Now, simply go to your downloads, where the folder has been already downloaded.
+
+502
+01:11:05.900 --> 01:11:15.089
+Heyam: and extract them to the folder where we've… the one which we created. Okay, so I will just simply go to desktop and IBM channel.
+
+503
+01:11:16.280 --> 01:11:23.229
+Heyam: I'm extracting the folder just to make it easy for myself to find everything that I need for the challenge.
+
+504
+01:11:23.420 --> 01:11:24.790
+Heyam: and then extract.
+
+505
+01:11:25.800 --> 01:11:28.259
+Heyam: I still did not install anything.
+
+506
+01:11:28.670 --> 01:11:29.450
+Heyam: Okay?
+
+507
+01:11:32.330 --> 01:11:52.289
+Heyam: And just so you know that there is also another YouTube video that walks you through the steps, so if you missed any of the things that I'm doing here, you can access to the recording. You will be having an email to notify you that… to notify you that the recording is ready for you, the recap of the entire session is accessible to you now, so you can follow along with all of my steps again.
+
+508
+01:11:53.000 --> 01:12:00.680
+Heyam: But also we have another, another, sorry, YouTube video that walks you through the steps again.
+
+509
+01:12:00.850 --> 01:12:01.580
+Heyam: Okay?
+
+510
+01:12:02.800 --> 01:12:07.239
+Heyam: Again, I will also be extracting this into the IBM challenge.
+
+511
+01:12:15.350 --> 01:12:33.240
+Heyam: And this will, extract. So everything that we have within the file selected is compressed. It's zipped. So if someone is, again, coming from a non-technical background, I'm sorry that this sounds to be very basic for some of you, but for those of you who are entirely new to this challenge.
+
+512
+01:12:33.350 --> 01:12:39.479
+Heyam: Everything, all the files that we have, just to compress them so that we can save some space, are all compressed.
+
+513
+01:12:39.640 --> 01:12:41.100
+Heyam: Okay, squeeze.
+
+514
+01:12:41.320 --> 01:12:48.309
+Heyam: So what we are trying to do now is just to extract them. So we are taking them back to their actual size.
+
+515
+01:12:48.490 --> 01:12:54.580
+Heyam: Okay, so I still haven't installed anything. I'm just extracting everything.
+
+516
+01:12:55.570 --> 01:13:10.689
+Heyam: It's gonna take a bit of time. The files are really big, so make sure that you have enough space. that you do not run into any issues with the space. No blue screens, please. Make sure that everything is properly set up before you go ahead with the installation.
+
+517
+01:13:11.770 --> 01:13:15.950
+Heyam: Once the challenge is done, there's no need for you to keep anything on your device, by the way.
+
+518
+01:13:16.330 --> 01:13:17.390
+Heyam: Once you…
+
+519
+01:13:17.630 --> 01:13:26.139
+Heyam: submitted the work. Make sure that you clear your device from all of that, unless you would like to go ahead with another challenge, or you challenge yourself, okay?
+
+520
+01:13:32.300 --> 01:13:36.190
+Heyam: We're looking to this until installation.
+
+521
+01:14:07.290 --> 01:14:17.079
+Heyam: So, I went through the IBM Bob installations as well, and I, again, would definitely recommend that you have the application or the DiskBlub application on your end.
+
+522
+01:14:18.540 --> 01:14:20.850
+Heyam: Instead of using the browser version.
+
+523
+01:14:21.820 --> 01:14:29.349
+Heyam: Because, again, it can be easily integrated into your system, especially if you are a programmer, then it's going to be easier for you to
+
+524
+01:14:31.590 --> 01:14:35.740
+Heyam: To have them, pointed from your, desktop itself.
+
+525
+01:15:06.620 --> 01:15:10.319
+Heyam: Alright, let me now take you back to the screen.
+
+526
+01:15:10.530 --> 01:15:23.540
+Heyam: Still, we are at 82. Please, if you are on your laptop, make sure that you are also follow along with my steps. So I'm doing two things in parallel. On one device, I'm downloading or installing the IBM Bob with my
+
+527
+01:15:23.540 --> 01:15:33.170
+Heyam: extended plan. On your end, you don't have to pay one single penny, please. You don't have to invest in that financially. All what we need from you is to have a free account.
+
+528
+01:15:33.170 --> 01:15:43.700
+Heyam: That allows you to use the trial IBM Bob for 30 days, okay? Again, a reminder for everyone, if you already have exhausted your trial, you can use a different account.
+
+529
+01:15:43.820 --> 01:15:44.600
+Heyam: Okay?
+
+530
+01:15:45.450 --> 01:15:49.729
+Heyam: The second thing is I'm trying to walk you through the steps of installation for the torts.
+
+531
+01:15:58.840 --> 01:16:03.360
+Heyam: There you go. Alright, now let me go to the other device.
+
+532
+01:16:03.680 --> 01:16:13.600
+Heyam: to show you. Okay. So, as you can see, I already have extracted everything that I would need in order to install the torques. Simply click on the torques folder.
+
+533
+01:16:13.820 --> 01:16:16.649
+Heyam: Scroll down until you find this.
+
+534
+01:16:17.260 --> 01:16:28.019
+Heyam: WTorx is what I'm looking for. It's an application file, which means that the moment I click here, it will run an application on my end. Okay?
+
+535
+01:16:28.270 --> 01:16:39.839
+Heyam: It's similar to any application that we run. Word document… Word, Office, I mean, MS Office, when you are running, installing, media player, anything like that.
+
+536
+01:16:39.840 --> 01:16:53.340
+Heyam: Okay? I know that nowadays, a lot of shifts are going through cloud, so most of us are using things online, rather than having them installed on our end. But for this simulator, we will need to have it as an application, okay? So simply click on that.
+
+537
+01:16:58.290 --> 01:17:04.829
+Heyam: Double click on the W torques, and as you can see, it's started to read. This is the simulator.
+
+538
+01:17:08.820 --> 01:17:12.210
+Heyam: Now, what we need to do is to go ahead with the steps.
+
+539
+01:17:12.970 --> 01:17:18.009
+Heyam: Okay, you can configure players, write the name, whatever you want, if you want.
+
+540
+01:17:18.440 --> 01:17:20.820
+Heyam: But what I want from you is to go to the race.
+
+541
+01:17:22.940 --> 01:17:28.789
+Heyam: And from there, we will choose one of them. What we are looking for is the quick race.
+
+542
+01:17:29.430 --> 01:17:30.270
+Heyam: Okay?
+
+543
+01:17:32.240 --> 01:17:34.130
+Heyam: Now, configure race.
+
+544
+01:17:35.060 --> 01:17:41.540
+Heyam: Choose which track you want. It doesn't matter, actually. Use whatever, like, choose whatever the one that you like.
+
+545
+01:17:43.040 --> 01:17:54.969
+Heyam: Okay? Remember that the main thing that we are trying to do here is to avoid the maximum damage of the car, so we want to make sure that by the end of this challenge, the car has zero damage.
+
+546
+01:17:55.190 --> 01:18:03.340
+Heyam: So I would definitely recommend that you choose maybe a track that is… that has less curves, because most of the damages will happen at the curves.
+
+547
+01:18:03.680 --> 01:18:06.190
+Heyam: So most likely I will be taking this one.
+
+548
+01:18:06.320 --> 01:18:07.100
+Heyam: Okay?
+
+549
+01:18:19.100 --> 01:18:20.800
+Heyam: It's a bit slow on my end.
+
+550
+01:18:29.390 --> 01:18:30.290
+Heyam: Yes.
+
+551
+01:18:30.440 --> 01:18:34.359
+Heyam: And all what I need, if you have multiple selections here.
+
+552
+01:18:35.370 --> 01:18:38.590
+Heyam: You can simply click on them and delete them.
+
+553
+01:18:38.710 --> 01:18:43.850
+Heyam: Okay, I only need the SCR screen server one.
+
+554
+01:18:43.960 --> 01:18:45.330
+Heyam: SCR?
+
+555
+01:18:45.470 --> 01:18:47.160
+Heyam: underscore server one.
+
+556
+01:18:47.740 --> 01:18:59.580
+Heyam: I went to the selected drivers, and from there, I chose this one. And the reason why I'm using this one specifically, it's just because this is the one connected with the Python code that we have for our challenge.
+
+557
+01:18:59.800 --> 01:19:02.060
+Heyam: Again, let me go back here.
+
+558
+01:19:02.820 --> 01:19:22.190
+Heyam: I chose the track, I accepted that one, and now it takes me directly to select the drivers. The moment I select the drivers, if you have multiple selections here, you don't have to choose any of them. You can either simply delete them, or just simply find that SCR screen server one.
+
+559
+01:19:22.760 --> 01:19:24.840
+Heyam: Okay? And then accept.
+
+560
+01:19:25.670 --> 01:19:30.070
+Heyam: Leave everything. Actually, the lab, I would keep it for maybe one.
+
+561
+01:19:30.210 --> 01:19:30.920
+Heyam: Okay.
+
+562
+01:19:31.040 --> 01:19:32.170
+Heyam: One love.
+
+563
+01:19:32.300 --> 01:19:36.669
+Heyam: And then the rest distance is as default. No changes on that.
+
+564
+01:19:37.390 --> 01:19:40.259
+Heyam: Okay? And then, new race.
+
+565
+01:19:52.350 --> 01:19:56.979
+Heyam: Pooja and the team, if you can just monitor the chat, I cannot access to the chat at the moment.
+
+566
+01:19:56.980 --> 01:20:00.530
+Pooja: There are few questions here about.
+
+567
+01:20:00.800 --> 01:20:09.259
+Pooja: this, IBM Bob and… So, just shift back and… Pick up the scene. Okay.
+
+568
+01:20:09.640 --> 01:20:11.369
+Heyam: Yes, sure. Thank you so much, Pooja.
+
+569
+01:20:14.620 --> 01:20:19.400
+Heyam: You will notice that it might take a bit of time. It might be a bit slow.
+
+570
+01:20:19.770 --> 01:20:23.200
+Heyam: But I tried as much as possible to walk you through it step by step.
+
+571
+01:20:23.780 --> 01:20:28.660
+Heyam: So I'll leave this now, I'm moving to the other device so that I can walk you through the steps of…
+
+572
+01:20:28.800 --> 01:20:31.590
+Heyam: And I also can answer any of your questions.
+
+573
+01:20:32.890 --> 01:20:34.050
+Heyam: Umm.
+
+574
+01:20:37.110 --> 01:20:47.699
+Heyam: What is the name of the YouTube channel? No, no, this is not a YouTube channel. I will share with you the link. Just give me one second. I will share with you the link for this exam, for this particular challenge, okay?
+
+575
+01:20:48.050 --> 01:20:51.479
+Heyam: Let me just share this with you. Thank you so much for the question.
+
+576
+01:20:57.350 --> 01:21:01.580
+Heyam: Okay, in the chat, you will find the link for this YouTube.
+
+577
+01:21:03.500 --> 01:21:07.769
+Heyam: And it only walks you through the same steps which I walked you through, okay?
+
+578
+01:21:08.660 --> 01:21:18.729
+Heyam: This is number one. Once I download and run Bob, how do I start adding the menu file into there? Thank you so much, Sarah, for the question. Let me just show you here.
+
+579
+01:21:22.120 --> 01:21:28.789
+Heyam: What about Mac? Thank you so much, Pavan. On the same installation file, the box that I have shared with you, the link.
+
+580
+01:21:29.180 --> 01:21:32.689
+Heyam: You will see that there is specific instructions for that.
+
+581
+01:21:32.790 --> 01:21:48.600
+Heyam: Now, remember that Windows is considered to be a native system, which means that it's most compatible with a lot of applications. The only difference between Mac and Windows for this particular challenge is that you need to download the Wine HQ.
+
+582
+01:21:49.060 --> 01:21:55.790
+Heyam: In the chat, we already have shared that with you. Also, in the learning plan, you will find this in the instruction guide.
+
+583
+01:21:55.920 --> 01:21:57.330
+Heyam: Guidelines, okay?
+
+584
+01:22:13.330 --> 01:22:14.720
+Heyam: Okay…
+
+585
+01:22:20.220 --> 01:22:27.379
+Heyam: Now… One thing that I need also to do here is… Go to the desktop.
+
+586
+01:22:27.810 --> 01:22:29.390
+Heyam: And I don't change.
+
+587
+01:22:35.340 --> 01:22:43.830
+Heyam: And then open this. So this is exactly the file that we will be running to run the game, okay? This is the Python code that will run the
+
+588
+01:22:44.010 --> 01:22:45.710
+Heyam: the car, again.
+
+589
+01:22:45.910 --> 01:22:50.459
+Heyam: I simply went to the torques, the file which we downloaded just right now.
+
+590
+01:22:50.810 --> 01:22:54.289
+Heyam: And we extracted this. You click on the…
+
+591
+01:22:54.410 --> 01:23:02.320
+Heyam: GYM, or Gem Torques, okay? And scroll down until you find the Sneak Oil 3 Gem.
+
+592
+01:23:03.580 --> 01:23:04.390
+Heyam: Okay?
+
+593
+01:23:07.480 --> 01:23:14.830
+Heyam: And this is the code that tells the car how to run, or how to, drive, okay?
+
+594
+01:23:15.450 --> 01:23:18.100
+Heyam: For some reason, on my end, there has to be…
+
+595
+01:23:19.150 --> 01:23:26.029
+Heyam: The terminal didn't open, I don't know why. Just give me one second. I can see that it's not responding, actually.
+
+596
+01:23:31.300 --> 01:23:33.790
+Heyam: We only have one step left here.
+
+597
+01:23:33.980 --> 01:23:35.200
+Heyam: which is…
+
+598
+01:23:35.550 --> 01:23:47.660
+Heyam: the moment I started to run this, there has to be the terminal… the terminal should open and ask me what would be the code that I'm running here, and then from there, I can paste the gem, the snake oil.
+
+599
+01:23:48.030 --> 01:23:48.800
+Heyam: Okay?
+
+600
+01:23:49.940 --> 01:23:58.160
+Heyam: I hope that this works. If it doesn't, all you need to do… I already completed most of the installation steps, okay? So I don't want you to panic here.
+
+601
+01:23:58.740 --> 01:24:06.900
+Heyam: One thing is missing on my end. I actually tried it before the session, but I don't know why it's giving me a hard time at this stage. Now.
+
+602
+01:24:07.560 --> 01:24:11.469
+Heyam: The moment this is… you see this, all of this here.
+
+603
+01:24:11.580 --> 01:24:22.570
+Heyam: You will have the terminal open automatically. The only thing that you need is to run the Python Snake Oil 3 Gem. Copy the name, and just simply paste it into the terminal.
+
+604
+01:24:24.270 --> 01:24:27.309
+Heyam: I don't want to spend a lot of time on this. The
+
+605
+01:24:27.930 --> 01:24:38.959
+Heyam: The YouTube channel… the YouTube video which I shared with you will tell you exactly at what point you need to Write the name, sorry, copy the name of the Python code.
+
+606
+01:24:39.330 --> 01:24:42.230
+Heyam: This is the only part missing at this stage, okay?
+
+607
+01:24:42.510 --> 01:24:46.649
+Heyam: After that, the installation should work successfully on your end.
+
+608
+01:24:50.260 --> 01:24:53.730
+Heyam: Now let me go back to this file here.
+
+609
+01:24:56.150 --> 01:25:00.070
+Heyam: Now, I'm on my other device… Okay?
+
+610
+01:25:00.620 --> 01:25:04.350
+Heyam: And… IBM Bob is ready.
+
+611
+01:25:06.510 --> 01:25:09.580
+Heyam: In the child, in the sleep.
+
+612
+01:25:11.210 --> 01:25:15.809
+Heyam: The installation here, which I shared with you, the installation file.
+
+613
+01:25:19.380 --> 01:25:22.290
+Heyam: As I said, you will have the Python.
+
+614
+01:25:22.470 --> 01:25:25.070
+Heyam: Code, and it should open the terminal.
+
+615
+01:25:25.310 --> 01:25:26.120
+Heyam: Okay?
+
+616
+01:25:27.700 --> 01:25:31.859
+Heyam: The Python code is the one with the snake oil 3 gem.
+
+617
+01:25:33.360 --> 01:25:36.229
+Heyam: Let me show you this exactly here.
+
+618
+01:25:36.650 --> 01:25:42.329
+Heyam: So on the YouTube channel, I want to walk you through this very quickly. I'm not going to run the entire video.
+
+619
+01:25:42.470 --> 01:25:46.030
+Heyam: Just wanted to show you where the… Missing part.
+
+620
+01:25:56.910 --> 01:26:00.399
+Audio shared by Heyam: And find this WTorx application and run it.
+
+621
+01:26:02.530 --> 01:26:08.200
+Audio shared by Heyam: So this opens the Tools simulator. It's quite loud, so I'm going to turn the sound off.
+
+622
+01:26:14.800 --> 01:26:26.580
+Audio shared by Heyam: And then in our other file explorer, we're going to go down to gym talks and we're looking for the snake oil 3 underscore gym and this is your sort of example or, baseline that we will be working off.
+
+623
+01:26:26.690 --> 01:26:38.730
+Audio shared by Heyam: So we're going to start, go into our Talks. We're going to click Race, Quick Race, and Configure Race. We want to choose our track. Any track will do for now. Let's go Alpine 1.
+
+624
+01:26:39.200 --> 01:26:54.360
+Audio shared by Heyam: And we want to have SCR_SERVER in our selected drivers. You can keep these additional AI drivers if you want. They're just part of the simulator, but I'm just going to remove them just for a bit of clarity.
+
+625
+01:26:56.510 --> 01:26:58.289
+Audio shared by Heyam: We can determine the lapse.
+
+626
+01:26:59.460 --> 01:27:02.669
+Audio shared by Heyam: And then we're going to want to click New Race once that's all configured.
+
+627
+01:27:03.420 --> 01:27:06.190
+Audio shared by Heyam: We're going to go into our PowerShell.
+
+628
+01:27:07.620 --> 01:27:10.190
+Audio shared by Heyam: And stop that snake oil.
+
+629
+01:27:10.300 --> 01:27:13.000
+Audio shared by Heyam: 3 underscore gym dot pi.
+
+630
+01:27:15.360 --> 01:27:17.050
+Audio shared by Heyam: And they're like.
+
+631
+01:27:17.210 --> 01:27:22.700
+Heyam: So team, this is exactly the step that I couldn't perform on my end.
+
+632
+01:27:23.210 --> 01:27:32.479
+Heyam: As you can see, please just confirm with reactions that you know exactly where we are missing on my end. I'm so sorry, it seems that something with my device. As you can see, it's still…
+
+633
+01:27:32.660 --> 01:27:34.200
+Heyam: Actually, not responding.
+
+634
+01:27:34.480 --> 01:27:47.750
+Heyam: But this is what we want from you, is to first run the terminal, have the Python, do not just start with the Python being copied into the terminal until we run the simulator, okay?
+
+635
+01:27:48.050 --> 01:27:54.810
+Heyam: Once you follow the steps there, I promise you that you can see the car, it's riding, as you can see from the YouTube video.
+
+636
+01:27:55.040 --> 01:27:55.800
+Heyam: Okay?
+
+637
+01:27:57.390 --> 01:28:01.830
+Heyam: Rita, I don't know what you mean without downloading it, without downloading the simulator, no.
+
+638
+01:28:06.800 --> 01:28:13.299
+Heyam: Yes, Jordan, there has to be… it has to be connected. The moment you run the Python from the terminal, it has to be
+
+639
+01:28:13.490 --> 01:28:14.919
+Heyam: Running from there.
+
+640
+01:28:16.590 --> 01:28:21.420
+Heyam: Oh, for the port thing, I am not quite sure. Usually the…
+
+641
+01:28:22.250 --> 01:28:28.450
+Heyam: You can maybe figure it out on your end, which port is the one that is connected to the terminal.
+
+642
+01:28:28.730 --> 01:28:29.500
+Heyam: Okay?
+
+643
+01:28:30.120 --> 01:28:35.600
+Heyam: The fix I used was to leave tors open and start the Python client.
+
+644
+01:28:36.080 --> 01:28:44.189
+Heyam: Oh, maybe this is actually the same thing on my end. I will try it. Thank you so much, Jordan, actually, for bringing this up. So it might be a port issue, yeah.
+
+645
+01:28:46.930 --> 01:28:55.889
+Heyam: No, Mochi, you are asking that we want to open the snake oil, not at this stage, Mochi, this is for the next session. We will be opening the file for snake oil.
+
+646
+01:28:56.210 --> 01:29:08.239
+Heyam: to ask Bob to improve the code. But for now, we need to see the benchmark. We need to see the main… the starting point. We know… we need to see how this car performs with the existing code. This is why we are running
+
+647
+01:29:08.240 --> 01:29:25.880
+Heyam: the car with the existing Python code, which is the snake oil. And this has to be the first step, or the first observation of how the car is performing, write down, or maybe document everything based on the performance of the car, the number of hits, the speed that it's making to complete one lap, and so on and so forth.
+
+648
+01:29:25.880 --> 01:29:36.960
+Heyam: And then we will be, for the next session, we will have the Bob analyzing the code and deciding what are the changes that we can possibly do to make the car performing better. Does that answer your question?
+
+649
+01:29:38.320 --> 01:29:43.879
+Heyam: Okay, no problem. If you are, if you have to leave, that's completely fine. I appreciate your time.
+
+650
+01:29:46.080 --> 01:29:50.730
+Heyam: I believe, yes, Ahmed, if you are using Linux, you can give it a try.
+
+651
+01:29:50.980 --> 01:29:57.959
+Heyam: Maybe Ubuntu Ubuntu might be better for you, rather not Kali.
+
+652
+01:29:58.120 --> 01:30:02.229
+Heyam: But try it, and let us know. Honestly, I know that this plan is
+
+653
+01:30:02.490 --> 01:30:09.369
+Heyam: intended for Mac and Windows, but if this works with you, we can add the Linux as a successful story then.
+
+654
+01:30:10.280 --> 01:30:14.149
+Heyam: Okay, Ahmadli, you keep us updated with what, how it goes on your end.
+
+655
+01:30:14.320 --> 01:30:19.749
+Heyam: Try it with both, but I believe that Ubuntu might be suitable for this challenge more.
+
+656
+01:30:20.120 --> 01:30:20.780
+Heyam: Okay.
+
+657
+01:30:23.060 --> 01:30:29.709
+Heyam: No, no, no need to download the VS Code. The VS Code will come into IBM Bob itself, so there's no need for you to download.
+
+658
+01:30:31.610 --> 01:30:32.590
+Heyam: Okay?
+
+659
+01:30:32.730 --> 01:30:38.539
+Heyam: Thank you so much. I really appreciate your questions. Okay, now let me go back to this.
+
+660
+01:30:38.800 --> 01:30:41.750
+Heyam: Very quickly, and I'm really, really sorry that I couldn't…
+
+661
+01:30:41.850 --> 01:30:49.130
+Heyam: walk you through the activity, but we can simply do this next time, but I just want to copy one of the prompts.
+
+662
+01:30:50.060 --> 01:30:56.570
+Heyam: And see how it works. Now, hopefully things are… I'm gonna walk… yes.
+
+663
+01:30:58.080 --> 01:31:03.349
+Heyam: Again, I don't know why it's showing me, although I have it paid. I'm really sorry for that.
+
+664
+01:31:04.750 --> 01:31:22.640
+Heyam: We can maybe postpone this to the next week. If you can… if you already have the trial open, and the activity is there, please try… go ahead and try to do it yourself. I actually divided… break it down into steps, and I'm hoping that the activity is well-structured for you, so hopefully it's not gonna take
+
+665
+01:31:23.060 --> 01:31:36.429
+Heyam: a lot of hustle from your end. I tried as much as possible to walk you through every step of the activity with what would be the expectation, okay? We have the Zoom channel, let me walk you through this before we end today's session.
+
+666
+01:31:36.580 --> 01:31:39.890
+Heyam: It's very important that you get into the Zoom channel.
+
+667
+01:31:40.540 --> 01:31:50.880
+Heyam: In the chat, Pooja and the team are going to post the link for you. Please, please, please make sure that you do not leave the session today without clicking onto that link.
+
+668
+01:31:50.990 --> 01:32:04.840
+Heyam: Because it's mandatory that you need to enroll yourself into the Zoom channel. This is the main point of contact with us, the team, so we can go ahead with anything that you need to fix any of the problems that you may have, okay?
+
+669
+01:32:05.260 --> 01:32:11.860
+Heyam: No, no, no, Windows PowerShell Machine is a built-in terminal into Windows, so no need to have it download.
+
+670
+01:32:12.690 --> 01:32:18.530
+Heyam: Okay, the command, the CMD is something built and within the system itself.
+
+671
+01:32:21.020 --> 01:32:23.579
+Pooja: So kindly join the Zoom link.
+
+672
+01:32:25.350 --> 01:32:29.540
+Heyam: Thank you, Pooja. Yeah, the link is there in the chat. Please click on that link.
+
+673
+01:32:29.800 --> 01:32:38.389
+Heyam: And make sure that you enroll yourself. This is where, actually, you will also have the opportunity to meet with the team, to introduce yourself as a team, if you already have formed your team.
+
+674
+01:32:43.700 --> 01:32:46.430
+Heyam: So make sure that you get into that.
+
+675
+01:32:47.490 --> 01:32:48.789
+Heyam: Zoom channel.
+
+676
+01:32:51.710 --> 01:33:09.970
+Heyam: So, very quickly, I want to go through this. So, again, as I said, we need to, as much as possible, work on our prompts, making sure that we are following the best practices of how to structure our prompts with the AI. This applies to any AI tool, so don't say things like, fix my website.
+
+677
+01:33:10.550 --> 01:33:16.530
+Heyam: No, what we need is find all the syntax and functional errors in at menu.html.
+
+678
+01:33:16.630 --> 01:33:33.230
+Heyam: Group them by severity, say what each one breaks, don't edit yet. So, you are explicitly explaining to the AI tool what to do and what not to do, okay? So, the scope is the file, which is the menu, the one that we've downloaded from the GitHub.
+
+679
+01:33:33.230 --> 01:33:49.210
+Heyam: So please continue with that. Do not stop. I will, I promise you that we will continue, we will pick this up next session. But again, it's going to be more engaging if you already have went through this and you come back next week telling me what we did, what went wrong, what went well, okay?
+
+680
+01:33:49.970 --> 01:33:54.959
+Heyam: And then what was the goal, the shape, and the tone of the language, okay?
+
+681
+01:33:55.810 --> 01:34:12.369
+Heyam: I'll leave this for now. Again, if you can continue with the activity, please go ahead, don't stop. If not, we can pick this up once everything is working. On my end, I'm really sorry that Bob didn't work. I don't know what's happening. I just tried it this morning, and it was functioning well.
+
+682
+01:34:12.640 --> 01:34:13.950
+Heyam: And.
+
+683
+01:34:14.070 --> 01:34:16.220
+Heyam: So, let me just share my…
+
+684
+01:34:16.500 --> 01:34:33.430
+Heyam: I don't want to take a lot of your time. This is time to be only 90 minutes, so we can go with all the activity next week. It shouldn't take more than 10 minutes, because you already went through what are the expectations for each and every task, so we will do this next week. Sorry, next session, I mean.
+
+685
+01:34:34.740 --> 01:34:35.860
+Heyam: And…
+
+686
+01:34:36.790 --> 01:34:50.279
+Heyam: Yeah, we did… by the way, we will share with you the slide deck, so even if you missed any of the steps, or you are preferring to read the instructions rather than follow along with the recording, you have access to this.
+
+687
+01:34:50.450 --> 01:34:56.419
+Heyam: So all the steps have been broken down easier for you so that you can follow the steps from there.
+
+688
+01:34:56.770 --> 01:34:57.690
+Heyam: Okay?
+
+689
+01:34:57.830 --> 01:35:02.700
+Heyam: So I made sure that everything that you may need is also included in the slides itself.
+
+690
+01:35:09.370 --> 01:35:12.140
+Heyam: The WhatsApp link is shared in the chat.
+
+691
+01:35:13.860 --> 01:35:18.939
+Heyam: The slides are going to be accessible to you in the folder. Let me show you where.
+
+692
+01:35:19.070 --> 01:35:22.119
+Heyam: So again, these are the slides.
+
+693
+01:35:27.060 --> 01:35:44.059
+Heyam: So before the next session, what I want from you is to complete the activities, please. Complete the learning plan, the granite model, try to complete all of that. If the installation successfully works on your end, and you were able to run the car on the first attempt, please mark it as done.
+
+694
+01:35:44.270 --> 01:35:57.750
+Heyam: If it didn't, if not, please do not do that, because I can help you, and the team, we can help you fix the problem. So do not just say complete for the sake of completeness, or just think that I've done. No, leave it, and we will help you to fix that problem, okay?
+
+695
+01:35:57.830 --> 01:36:10.609
+Heyam: If you decided to work within a team, make sure that you choose your team, and let us know in the Zoom channel who's going to be the team members of that, of the team, and if you would like to name your team, that would be definitely better.
+
+696
+01:36:11.780 --> 01:36:22.030
+Heyam: In the activity, as I said, there are a lot of prompts, like, I have broken them down into smaller activities. Each one is built on the same scenario, so no need for you to
+
+697
+01:36:22.320 --> 01:36:32.239
+Heyam: to do different scenarios. I want you to build on the previous one, okay? So again, the goal is to help, using Bob, to help someone who is
+
+698
+01:36:32.370 --> 01:36:40.510
+Heyam: creating a, sorry, building a bakery small business. We want to help them to build their website.
+
+699
+01:36:40.510 --> 01:36:59.159
+Heyam: Okay? We will be working in parallel. This is for the sake of learning the skill of prompting, how we can brainstorm, how we can use IBM Bob at everyday routine, but at the same time, it's in parallel with what we do with the challenge, okay? So we want to make sure that we are balancing things, in addition to the theoretical part of it, okay?
+
+700
+01:36:59.160 --> 01:37:03.009
+Heyam: So we are trying to make sure that we are investing in each and every minute of your time.
+
+701
+01:37:03.950 --> 01:37:18.650
+Heyam: And lastly, post your baseline time on Discord or on the Zoom channel. So make sure that you, again, record the time of the completion for the first lap, and the number of damages that happened, or the accidents that happened with the car.
+
+702
+01:37:18.740 --> 01:37:24.420
+Heyam: Okay, so that we have a clear benchmark for when we are comparing next with the improved code.
+
+703
+01:37:25.890 --> 01:37:35.780
+Heyam: This is it from my end today. I don't want to take more time from you. All the links that you may need are included in the slide deck as well. So here is the cafe, the GitHub.
+
+704
+01:37:35.910 --> 01:37:42.880
+Heyam: It is the Torx installation, the learning plan, the IBM Bob, and the Windows setup, and the Mac as well.
+
+705
+01:37:43.080 --> 01:37:48.839
+Heyam: Okay, everything that you need, I tried as much as possible to put them into one consolidated document.
+
+706
+01:37:49.010 --> 01:37:49.810
+Heyam: Okay?
+
+707
+01:37:51.100 --> 01:37:54.380
+Heyam: If it says you don't have permission, they will let you in.
+
+708
+01:37:55.730 --> 01:37:58.510
+Heyam: Please show… share all links.
+
+709
+01:37:59.210 --> 01:38:01.849
+Heyam: It's already in the chat box, Monali.
+
+710
+01:38:02.100 --> 01:38:12.780
+Heyam: Everything that you need is in the chat box, but also in the slide deck. Before you leave, I want to thank everyone for the time that you spent during this session. Thank you so much, everyone.
+
+711
+01:38:13.010 --> 01:38:17.489
+Heyam: Hopefully, next session, we will make it a bit of, like, faster than this one.
+
+712
+01:38:17.600 --> 01:38:26.280
+Heyam: Things happen, as you can see, even on my end, things happen, so we want to make sure that technical issues are being fixed, and no problems with.
+
+713
+01:38:27.090 --> 01:38:29.430
+Heyam: Idea and Bob and the simulator.
+
+714
+01:38:30.310 --> 01:38:46.110
+Heyam: Again, just please make sure that you do not spend any money on the IBM Bob. On my end, because I actually need it for my personal use, so I… I actually purchased that plan. But on your end, there's no need for you to do so, okay? So make sure you do not have to pay anything for that.
+
+715
+01:38:55.740 --> 01:39:04.580
+Pooja: To those who are not able to access the Zoom link, don't worry. We will be checking at our end, and we will,
+
+716
+01:39:05.250 --> 01:39:24.410
+Pooja: just understand, and we'll be also sharing all the link, via email. So, Monali, we are not using Discord for this code, we will be using Zoom channel, okay? So you need to join the Zoom channel, and you need… and then you can directly connect with us.
+
+717
+01:39:25.120 --> 01:39:26.000
+Pooja: Okay.
+
+718
+01:39:27.280 --> 01:39:44.750
+Heyam: Yes, thank you so much, Pooja. So again, no Discord. It's actually just because we usually use Discord for those purposes, but this time, to make it even easier, because all of our sessions are also conducted in Zoom, we have the channel already, created for you on Zoom. The simple thing is just to click on the link right now.
+
+719
+01:39:44.750 --> 01:39:49.789
+Heyam: and enroll yourself. Anything that happens while trying to enroll, we will fix it on our end.
+
+720
+01:39:49.820 --> 01:39:50.650
+Heyam: Okay?
+
+721
+01:39:51.470 --> 01:40:10.719
+Heyam: Now, for the recording of the first lab, make sure that you… if you don't want to share it in the Zoom channel, that's completely fine, just make sure that you have it on your end, so that you can know when to compare with the original code. Because this is exactly the challenge. We have an original code, we execute it, we run it, we experiment that, we see the observations of the car performance.
+
+722
+01:40:10.720 --> 01:40:18.469
+Heyam: We document that, and then from there, we will compare with what will IBM Bob do to improve the car in performance, okay?
+
+723
+01:40:19.170 --> 01:40:29.329
+Heyam: Thank you so much, everyone. Before you leave, make sure that you give us your feedback about this session. I'm really sorry. Please accept my apology for any technical problems that happened today.
+
+724
+01:40:29.330 --> 01:40:41.630
+Heyam: Hopefully, this is going to be fixed next session. I'll try my best to make sure that everything is well set up and prepared. I'm moving between two devices, and this is actually another thing that makes it a bit complicated on my end.
+
+725
+01:40:41.700 --> 01:41:00.469
+Heyam: But everything can be fixed, don't worry, okay? Thank you so much, and I'll see you next session. Please come prepared. I would really, really, really appreciate if you are done with the learning modules on the IBM SkillsBuild, and also if you just try to experiment the activity, okay?
+
+726
+01:41:02.060 --> 01:41:13.839
+Heyam: It's gonna be much engaging, much fun for you and myself as well to see that you already went through this, you maybe have done with your bakery business, and I don't know, maybe some of you will come with another business idea as well.
+
+727
+01:41:14.240 --> 01:41:32.209
+Heyam: Okay, so enjoy the learning itself, enjoy the journey, don't just think about the milestones and the completion part of it. Enjoy the learning itself, okay? Thank you so much, everyone. If you have no more questions, feel free to leave if you have submitted your feedback on this session, and I will see you, everybody, next time.
+
+728
+01:41:32.980 --> 01:41:34.449
+Heyam: Enjoy the rest of your day.
+
+729
+01:41:39.980 --> 01:41:43.030
+Heyam: I will just have to stop sharing.
+
+730
+01:41:43.390 --> 01:41:54.550
+Pooja: Don't worry, those who are not able to understand some… anything, they can just view the recording. And then, you… you're still facing issue, you can reach out to us on our support email ID.
+
+731
+01:41:54.730 --> 01:41:58.549
+Pooja: Our support email ID is IBM SkillsBuild.
+
+732
+01:42:00.540 --> 01:42:06.129
+Pooja: dot, EMEA, at the rate, Skillup.com, okay?
+
+733
+01:42:08.740 --> 01:42:11.500
+Heyam: Yes, let me just show the email here.
+
+734
+01:42:12.880 --> 01:42:14.229
+Heyam: So the email for support.
+
+735
+01:42:14.230 --> 01:42:14.610
+Pooja: also.
+
+736
+01:42:14.610 --> 01:42:16.710
+Heyam: Here, in addition to our WhatsApp.
+
+737
+01:42:16.850 --> 01:42:24.009
+Heyam: In addition to our WhatsApp, and also the… The Zoom channel, okay?
+

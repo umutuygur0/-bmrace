@@ -1,0 +1,54 @@
+init-actor: racelab/rl/snapshots/v6g_best.pt
+[best] clean dist=3618.5 lap=79.804 dmg=0.0 v=0 steps=9984
+[best] perturbed dist=3618.6 lap=79.802 dmg=0.0 v=0 steps=56149
+[best] perturbed dist=3618.8 lap=79.732 dmg=0.0 v=0 steps=746648
+   12.9m steps=  2852259 eps=   853 dist20= 3304.9 lap20=0.80 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3694 upd/s=130
+   13.1m steps=  2896204 eps=   930 dist20=  356.8 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=2853 upd/s=519
+   13.4m steps=  2946973 eps=  1042 dist20=  455.7 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3214 upd/s=380
+   13.6m steps=  2996775 eps=  1142 dist20=  443.2 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3272 upd/s=394
+   13.9m steps=  3045124 eps=  1241 dist20=  430.3 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3174 upd/s=368
+   14.2m steps=  3096699 eps=  1343 dist20=  435.4 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3189 upd/s=371
+   14.4m steps=  3147210 eps=  1442 dist20=  470.0 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3279 upd/s=389
+   14.7m steps=  3197696 eps=  1541 dist20=  451.5 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3275 upd/s=389
+   14.9m steps=  3247685 eps=  1637 dist20=  464.1 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3274 upd/s=367
+   15.2m steps=  3297278 eps=  1729 dist20=  503.2 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3206 upd/s=388
+   15.5m steps=  3351455 eps=  1792 dist20=  794.6 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3398 upd/s=376
+   15.7m steps=  3405266 eps=  1851 dist20=  799.4 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3404 upd/s=380
+   16.0m steps=  3451568 eps=  2000 dist20=  334.4 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=2940 upd/s=356
+   16.2m steps=  3506484 eps=  2058 dist20=  797.3 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3475 upd/s=380
+   16.5m steps=  3563845 eps=  2117 dist20=  793.2 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3621 upd/s=353
+   16.8m steps=  3619970 eps=  2177 dist20=  778.1 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3535 upd/s=378
+   17.0m steps=  3675086 eps=  2240 dist20=  785.9 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3526 upd/s=384
+   17.3m steps=  3728382 eps=  2305 dist20=  685.3 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3475 upd/s=391
+   17.6m steps=  3782329 eps=  2374 dist20=  720.0 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3458 upd/s=385
+   17.8m steps=  3839130 eps=  2410 dist20= 1566.3 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3616 upd/s=382
+   18.1m steps=  3897040 eps=  2447 dist20= 1543.4 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3663 upd/s=379
+   18.3m steps=  3955286 eps=  2483 dist20= 1527.8 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3687 upd/s=354
+   18.6m steps=  4010980 eps=  2524 dist20= 1182.0 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3669 upd/s=369
+   18.9m steps=  4065841 eps=  2568 dist20=  994.2 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3627 upd/s=370
+   19.1m steps=  4123444 eps=  2606 dist20= 1553.0 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3659 upd/s=381
+   19.4m steps=  4182531 eps=  2639 dist20= 1767.8 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3721 upd/s=378
+   19.6m steps=  4240252 eps=  2666 dist20= 2162.4 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3796 upd/s=368
+   19.9m steps=  4298628 eps=  2690 dist20= 2427.7 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3766 upd/s=387
+   20.1m steps=  4358130 eps=  2716 dist20= 2383.8 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3864 upd/s=390
+   20.4m steps=  4412489 eps=  2751 dist20= 1571.6 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3424 upd/s=378
+   20.7m steps=  4468999 eps=  2786 dist20= 1614.5 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3577 upd/s=380
+   20.9m steps=  4522969 eps=  2821 dist20= 1567.4 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3545 upd/s=368
+   21.2m steps=  4578295 eps=  2864 dist20= 1322.9 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3664 upd/s=371
+   21.4m steps=  4631568 eps=  2946 dist20=  497.7 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3384 upd/s=356
+   21.7m steps=  4685190 eps=  3012 dist20=  846.9 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3450 upd/s=386
+   22.0m steps=  4740718 eps=  3057 dist20=  988.6 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3566 upd/s=385
+   22.2m steps=  4792831 eps=  3108 dist20=  797.6 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3429 upd/s=368
+   22.5m steps=  4846839 eps=  3159 dist20= 1074.5 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3555 upd/s=369
+   22.7m steps=  4903943 eps=  3197 dist20= 1482.5 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3744 upd/s=367
+   23.0m steps=  4961067 eps=  3231 dist20= 1528.5 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3719 upd/s=365
+   23.2m steps=  5016200 eps=  3259 dist20= 1907.0 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3659 upd/s=372
+   23.5m steps=  5077841 eps=  3296 dist20= 1627.1 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3886 upd/s=378
+   23.8m steps=  5134714 eps=  3335 dist20= 1491.0 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3646 upd/s=359
+   24.0m steps=  5190964 eps=  3376 dist20= 1306.4 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3666 upd/s=391
+   24.3m steps=  5246568 eps=  3424 dist20=  960.7 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3491 upd/s=377
+   24.5m steps=  5303497 eps=  3474 dist20=  998.0 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3622 upd/s=382
+   24.8m steps=  5359134 eps=  3527 dist20=  919.8 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3567 upd/s=385
+   25.0m steps=  5409429 eps=  3576 dist20=  918.4 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3338 upd/s=372
+   25.3m steps=  5462874 eps=  3613 dist20= 1443.8 lap20=0.00 best=3618.8/79.732 aday=72 alpha=0.010 env/s=3400 upd/s=382
+bitti: C:\Users\Asus\Desktop\projeler egit\ıbmrace\racelab\rl\runs\v9c

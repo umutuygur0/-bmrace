@@ -1,0 +1,16 @@
+model,runs,clean_finish_rate,finish_rate,mean_lap,best_lap,mean_clean_lap,mean_damage,mean_hits,mean_dist,mean_offtrack_s
+racelab/rl/runs/n4_s62/best.pt,10,0.9,0.9,82.979,82.102,82.979,5.4,0.2,3504.7,38.19
+racelab/rl/runs/n4_s62/candidates/v00455_perturbed_82.82.pt,10,0.9,0.9,83.531,82.512,83.531,0.0,0.0,3618.7,0.0
+racelab/rl/runs/n4_s62/candidates/v00917_perturbed_82.81.pt,10,0.9,0.9,83.877,82.824,83.877,0.8,0.1,3446.3,39.15
+racelab/rl/runs/n4_s62/final.pt,10,0.9,0.9,84.151,83.028,84.151,0.0,0.0,3371.7,0.29
+racelab/rl/runs/n4_s62/candidates/v01300_perturbed_83.11.pt,10,0.9,0.9,85.773,82.742,85.773,0.0,0.0,3459.8,0.01
+racelab/rl/runs/n4_s62/candidates/v00494_perturbed_82.07.pt,10,0.8,0.9,85.972,82.748,83.684,42.1,0.6,3504.3,39.86
+racelab/rl/runs/n4_s62/candidates/v01031_perturbed_83.17.pt,10,0.8,0.8,84.183,83.294,84.183,9.6,0.2,3423.5,75.35
+racelab/rl/runs/n4_s62/candidates/v00886_perturbed_82.86.pt,10,0.8,0.8,84.579,83.8,84.579,0.0,0.0,3569.4,0.46
+racelab/rl/runs/n4_s62/candidates/v00618_perturbed_82.96.pt,10,0.7,0.7,83.846,83.334,83.846,5.4,0.3,3265.2,3.93
+racelab/rl/runs/n4_s62/candidates/v00804_perturbed_82.11.pt,10,0.6,0.6,83.619,83.112,83.619,6.8,0.1,2845.1,159.02
+racelab/rl/runs/n4_s62/candidates/v00575_perturbed_83.30.pt,10,0.6,0.6,87.088,84.464,87.088,0.0,0.0,3084.9,76.54
+racelab/rl/runs/n4_s62/candidates/v00755_perturbed_82.96.pt,10,0.4,0.4,83.996,83.536,83.996,69.8,0.5,2412.8,240.46
+racelab/rl/runs/n4_s62/candidates/v00279_perturbed_82.57.pt,10,0.3,0.3,83.075,82.77,83.075,0.0,0.0,1412.8,298.24
+racelab/rl/runs/n4_s62/candidates/v00538_perturbed_83.15.pt,10,0.1,0.3,92.82,83.954,83.954,93.8,2.1,2519.6,188.52
+racelab/rl/runs/n4_s62/snapshots/0010min_v00971.pt,10,0.0,0.1,90.912,90.912,,132.9,2.5,1153.3,335.07

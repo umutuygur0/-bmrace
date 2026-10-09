@@ -44,12 +44,14 @@ def worker(wid, args, run_dir, tq, sq, stop_ev):
     import torch
     torch.set_num_threads(1)
     from sac import Actor
-    from common import OBS_DIM, ACT_DIM
+    from common import OBS_DIM, OBS_DIM_POS, ACT_DIM
+    OBS_DIM = OBS_DIM_POS if args.pos_obs else OBS_DIM
 
     kw = dict(idx=args.idx_offset + wid, track=args.track, max_steps=args.max_steps,
               drop_prob=args.drop_prob, obs_noise=args.obs_noise, seed=args.seed + wid,
               tcs_threshold=args.tcs_th, safe_pos=args.safe_pos,
-              pedal_gain=args.pedal_gain, pedal_bias=args.pedal_bias)
+              pedal_gain=args.pedal_gain, pedal_bias=args.pedal_bias,
+              assist_front=args.assist_front, upshift=args.upshift, pos_obs=args.pos_obs)
     if args.env == "v4":
         from torcs_env_v4 import TorcsEnvV4
         env = TorcsEnvV4(c_change=args.c_change, c_flip=args.c_flip, c_mag=args.c_mag, c_speed=args.c_speed, **kw)
@@ -167,14 +169,24 @@ def main():
     ap.add_argument("--safe-pos", type=float, default=0.75, help="|trackPos| bu değeri aşınca kenar cezası")
     ap.add_argument("--pedal-gain", type=float, default=1.0, help="v7: 1.3333")
     ap.add_argument("--pedal-bias", type=float, default=0.0, help="v7: 0.3333")
+    ap.add_argument("--assist-front", type=float, default=0.0, help="v8 düzlük gaz yardımcısı (m), 0=kapalı")
+    ap.add_argument("--upshift", type=float, default=None, help="vites büyütme devri (varsayılan 18000)")
+    ap.add_argument("--init-actor", default=None, help="v9: sadece aktör ağırlıklarından başla (aday .pt)")
+    ap.add_argument("--critic-warmup", type=int, default=0, help="v9: aktör sabitken yapılacak critic güncellemesi")
+    ap.add_argument("--init-alpha", type=float, default=None, help="v9: başlangıç entropi katsayısı")
+    ap.add_argument("--actor-lr", type=float, default=None, help="v9: aktör öğrenme hızı (varsayılan --lr)")
+    ap.add_argument("--fixed-alpha", action="store_true", help="v9: alpha'yı --init-alpha değerinde sabitle")
+    ap.add_argument("--pos-obs", action="store_true", help="v10: gözleme pist konumu harmonikleri (32→44)")
     ap.add_argument("--steer-change-pen", type=float, default=0.3, help="(v3) |Δsteer| cezası")
     ap.add_argument("--steer-mag-pen", type=float, default=0.05, help="(v3) steer² × hız/100 cezası")
     args = ap.parse_args()
     assert 1 <= args.idx_offset and args.idx_offset + args.workers - 1 <= 9, "scr_server idx 1..9 olmalı"
 
     import torch
-    from sac import SAC, ReplayBuffer
-    from common import OBS_DIM, ACT_DIM
+    from sac import SAC, ReplayBuffer, expand_obs_inputs
+    from common import OBS_DIM, OBS_DIM_POS, ACT_DIM
+    BASE_OBS = OBS_DIM
+    OBS_DIM = OBS_DIM_POS if args.pos_obs else OBS_DIM
 
     torch.manual_seed(args.seed)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -192,12 +204,28 @@ def main():
     agent = SAC(OBS_DIM, ACT_DIM, device, tuple(args.hidden), lr=args.lr, gamma=args.gamma)
     if args.init:
         ck = torch.load(args.init, map_location=device, weights_only=False)
+        if ck["actor"]["net.0.weight"].shape[1] == BASE_OBS and OBS_DIM != BASE_OBS:
+            ck = expand_obs_inputs(ck, BASE_OBS, OBS_DIM, ACT_DIM)  # v10: 32→44, yeni girişler sıfır
+            print(f"init genişletildi: {BASE_OBS} → {OBS_DIM} giriş", flush=True)
         agent.actor.load_state_dict(ck["actor"])
         agent.critic.load_state_dict(ck["critic"])
         agent.critic_targ.load_state_dict(ck["critic_targ"])
         with torch.no_grad():
             agent.log_alpha.copy_(ck["log_alpha"].to(device))
         print(f"init: {args.init}", flush=True)
+    if args.init_actor:  # v9: sadece aktör (ör. bir adayın ağırlıkları); critic sıfırdan, önce ısıtılır
+        ck = torch.load(args.init_actor, map_location=device, weights_only=False)
+        agent.actor.load_state_dict(ck["actor"])
+        print(f"init-actor: {args.init_actor}", flush=True)
+    if args.actor_lr is not None:  # v9: aktör critic'ten çok daha yavaş öğrensin
+        for g in agent.opt_actor.param_groups:
+            g["lr"] = args.actor_lr
+    if args.fixed_alpha:  # v9: alpha sabit (otomatik entropi ayarı kararlı aktörü gürültüye zorluyordu)
+        for g in agent.opt_alpha.param_groups:
+            g["lr"] = 0.0
+    if args.init_alpha is not None:
+        with torch.no_grad():
+            agent.log_alpha.fill_(float(np.log(args.init_alpha)))
     rb = ReplayBuffer(OBS_DIM, ACT_DIM, args.buffer, device)
 
     ctx = mp.get_context("spawn")
@@ -249,7 +277,7 @@ def main():
                 time.sleep(0.01)
         version -= 1
 
-    if args.init:
+    if args.init or args.init_actor:
         publish()  # worker'lar ısınma yerine yüklenen politikayla başlasın
     for p in procs:
         p.start()
@@ -297,6 +325,16 @@ def main():
             if rb.n >= args.warmup:
                 if version < 0:
                     publish()
+                if updates < args.critic_warmup:  # v9: aktör sabit, critic ısınıyor (yayın yok)
+                    n_upd = min(int(env_steps * args.utd) - updates, 200)
+                    for _ in range(max(n_upd, 0)):
+                        loss_t = torch.stack([agent.update_critic_only(*rb.sample(args.batch)),
+                                              torch.zeros((), device=device), agent.alpha.detach(),
+                                              torch.zeros((), device=device)])
+                        updates += 1
+                    if n_upd <= 0:
+                        time.sleep(0.005)
+                    continue
                 if graphed is None and device.type == "cuda":
                     graphed = agent.make_graphed_update(rb, args.batch, args.graph_k)
                 n_upd = int(env_steps * args.utd) - updates

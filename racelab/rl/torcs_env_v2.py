@@ -13,7 +13,7 @@ v2 ile eğitilen modelleri de değişiklik olmadan çalıştırır.
 """
 import numpy as np
 
-from common import ACT_DIM, command_msg, make_obs, to_command
+from common import ACT_DIM, command_msg, make_obs, make_obs_pos, straight_assist, to_command
 from torcs_env import TorcsEnv
 
 SAFE_POS = 0.75
@@ -22,7 +22,7 @@ SAFE_POS = 0.75
 class TorcsEnvV2(TorcsEnv):
     def __init__(self, idx=1, track="corkscrew", max_steps=12000, udp_timeout_us=1000000,
                  drop_prob=0.0, obs_noise=0.0, race_mode=False, seed=0, tcs_threshold=2.0, safe_pos=SAFE_POS,
-                 pedal_gain=1.0, pedal_bias=0.0):
+                 pedal_gain=1.0, pedal_bias=0.0, assist_front=0.0, upshift=None, pos_obs=False):
         super().__init__(idx=idx, track=track, max_steps=max_steps, udp_timeout_us=udp_timeout_us)
         self.drop_prob = drop_prob
         self.obs_noise = obs_noise
@@ -30,10 +30,12 @@ class TorcsEnvV2(TorcsEnv):
         self.tcs_threshold = tcs_threshold  # v6: 5.0
         self.safe_pos = safe_pos            # v6b: 0.9 (yarış çizgisi için pist genişliği)
         self.pedal_gain, self.pedal_bias = pedal_gain, pedal_bias  # v7: 4/3, 1/3
+        self.assist_front, self.upshift = assist_front, upshift      # v8: 170-180, 18500
+        self.pos_obs = pos_obs                                        # v10: gözleme pist konumu
         self.rng = np.random.default_rng(seed)
 
     def _obs(self, s, action):
-        o = make_obs(s, action)
+        o = make_obs_pos(s, action) if self.pos_obs else make_obs(s, action)
         if self.obs_noise > 0:
             o = o + self.rng.normal(0, self.obs_noise, size=o.shape).astype(np.float32)
         return o
@@ -47,9 +49,11 @@ class TorcsEnvV2(TorcsEnv):
 
     def step(self, action):
         action = np.clip(np.asarray(action, dtype=np.float32), -1, 1)
+        if self.assist_front:  # v8: gözlemdeki önceki aksiyon = yardımcı sonrası aksiyon
+            action, _ = straight_assist(action, self.s, self.assist_front)
         # pertürbasyon: bu adımda yeni komut "ulaşmasın", eskisi uygulansın
         applied = self.applied if (self.drop_prob > 0 and self.rng.random() < self.drop_prob) else action
-        cmd = to_command(applied, self.s, self.tcs_threshold, self.pedal_gain, self.pedal_bias)
+        cmd = to_command(applied, self.s, self.tcs_threshold, self.pedal_gain, self.pedal_bias, self.upshift)
         self.sock.sendto(command_msg(cmd).encode(), ("127.0.0.1", self.port))
         s = self._recv()
         self.steps += 1

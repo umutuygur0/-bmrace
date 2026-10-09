@@ -103,6 +103,22 @@ class SAC:
     def update(self, o, a, r, o2, d):
         return tuple(self._update(o, a, r, o2, d).tolist())
 
+    def update_critic_only(self, o, a, r, o2, d):
+        """v9 critic ısıtma: aktör ve alpha sabit, sadece Q ağları (ve hedef ağ) güncellenir."""
+        with torch.no_grad():
+            a2, logp2 = self.actor(o2)
+            q1t, q2t = self.critic_targ(o2, a2)
+            target = r + self.gamma * (1 - d) * (torch.min(q1t, q2t) - self.alpha * logp2)
+        q1, q2 = self.critic(o, a)
+        loss_q = F.mse_loss(q1, target) + F.mse_loss(q2, target)
+        self.opt_critic.zero_grad(set_to_none=False)
+        loss_q.backward()
+        self.opt_critic.step()
+        with torch.no_grad():
+            for p, pt in zip(self.critic.parameters(), self.critic_targ.parameters()):
+                pt.mul_(1 - self.tau).add_(self.tau * p)
+        return loss_q.detach()
+
     def make_graphed_update(self, rb, batch, k=4):
         """Örnekleme + k güncellemeyi tek CUDA Graph olarak yakalar.
 
@@ -135,6 +151,28 @@ class SAC:
     def state_dict(self):
         return {"actor": self.actor.state_dict(), "critic": self.critic.state_dict(),
                 "critic_targ": self.critic_targ.state_dict(), "log_alpha": self.log_alpha.detach().cpu()}
+
+
+def expand_obs_inputs(ck, old_obs, new_obs, act_dim):
+    """v10: 32 girişli modelin ağırlıklarını new_obs girişe genişletir; yeni sütunlar sıfır →
+    başlangıçta davranış birebir aynı. Aktör: net.0.weight [h, obs]; critic: q*.0.weight [h, obs+act]."""
+    import torch as _t
+    extra = new_obs - old_obs
+    out = dict(ck)
+    a = {k: v.clone() for k, v in ck["actor"].items()}
+    w = a["net.0.weight"]
+    a["net.0.weight"] = _t.cat([w, _t.zeros(w.shape[0], extra, dtype=w.dtype, device=w.device)], 1)
+    out["actor"] = a
+    for key in ("critic", "critic_targ"):
+        if key not in ck:
+            continue
+        c = {k: v.clone() for k, v in ck[key].items()}
+        for q in ("q1", "q2"):
+            w = c[f"{q}.0.weight"]
+            z = _t.zeros(w.shape[0], extra, dtype=w.dtype, device=w.device)
+            c[f"{q}.0.weight"] = _t.cat([w[:, :old_obs], z, w[:, old_obs:]], 1)  # sıra: obs, [yeni], act
+        out[key] = c
+    return out
 
 
 class ReplayBuffer:

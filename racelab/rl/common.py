@@ -47,6 +47,28 @@ def make_obs(s, prev_action):
     return obs
 
 
+# ----------------------------------------------------------------- v10: konum özellikleri
+# Pistteki konum (distFromStart) → sin/cos harmonikleri. Corkscrew'a özgü: agent fren/gaz noktalarını
+# konuma göre öğrenebilsin. k=32 → en kısa dalga boyu ~113 m.
+TRACK_LEN = 3608.2
+POS_HARMONICS = (1, 2, 4, 8, 16, 32)
+OBS_DIM_POS = OBS_DIM + 2 * len(POS_HARMONICS)  # 44
+
+
+def pos_features(s):
+    ph = 2.0 * math.pi * (s["distFromStart"] % TRACK_LEN) / TRACK_LEN
+    return [f(k * ph) for k in POS_HARMONICS for f in (math.sin, math.cos)]
+
+
+def make_obs_pos(s, prev_action):
+    return np.concatenate([make_obs(s, prev_action), np.asarray(pos_features(s), dtype=np.float32)])
+
+
+def obs_fn_for(obs_dim):
+    """Model giriş boyutuna göre gözlem fonksiyonu (32: klasik, 44: konum bilen v10)."""
+    return make_obs_pos if obs_dim == OBS_DIM_POS else make_obs
+
+
 # ----------------------------------------------------------------- sürüş yardımcıları
 # car1-ow1: tork 18000 rpm'e kadar artıyor, sınırlayıcı 18700 → geç vites değiştir.
 GEAR_RATIOS = [3.9, 2.9, 2.3, 1.87, 1.68, 1.54, 1.46]
@@ -55,14 +77,15 @@ MAX_GEAR = 7
 WHEEL_RADIUS = [0.3179, 0.3179, 0.3307, 0.3307]  # m (12" ön / 13" arka jant + lastik)
 
 
-def auto_gear(gear, rpm, speed_x):
+def auto_gear(gear, rpm, speed_x, upshift=None):
+    up = UPSHIFT_RPM if upshift is None else upshift  # v8: 18500
     gear = int(gear)
     if gear < 1 or speed_x < 5:
         return 1
-    if gear < MAX_GEAR and rpm > UPSHIFT_RPM:
+    if gear < MAX_GEAR and rpm > up:
         return gear + 1
     if gear > 1:
-        down_rpm = UPSHIFT_RPM * GEAR_RATIOS[gear - 1] / GEAR_RATIOS[gear - 2] - 2000
+        down_rpm = up * GEAR_RATIOS[gear - 1] / GEAR_RATIOS[gear - 2] - 2000
         if rpm < down_rpm:
             return gear - 1
     return gear
@@ -90,7 +113,18 @@ def traction_control(accel, s, threshold=2.0):
     return accel
 
 
-def to_command(action, s, tcs_threshold=2.0, pedal_gain=1.0, pedal_bias=0.0):
+def straight_assist(action, s, front=0.0, max_angle=0.05, max_pos=0.7):
+    """v8 düzlük gaz yardımcısı: önü >= front m açık, araç düz ve pistin içindeyse,
+    politika gaz istiyorsa gaz = 1. front=0 -> kapalı. Döner: (yeni aksiyon, uygulandı mı)."""
+    if (front and s["track"][9] >= front and abs(s["angle"]) < max_angle
+            and abs(s["trackPos"]) < max_pos and action[1] > 0):
+        a = np.array(action, dtype=np.float32).copy()
+        a[1] = 1.0
+        return a, True
+    return action, False
+
+
+def to_command(action, s, tcs_threshold=2.0, pedal_gain=1.0, pedal_bias=0.0, upshift=None):
     """Politika çıktısı [steer, pedal] → SCR komut sözlüğü.
     v7: pedal' = clip(pedal*gain + bias); gain=4/3, bias=1/3 → politika 0.5 = tam gaz, -0.25 = sıfır."""
     steer = float(np.clip(action[0], -1, 1))
@@ -101,7 +135,7 @@ def to_command(action, s, tcs_threshold=2.0, pedal_gain=1.0, pedal_bias=0.0):
     brake = abs_brake(brake, s)
     if s["speedX"] < 10 and pedal > 0:  # kalkışta tam gaz desteği
         accel = max(accel, 0.5)
-    gear = auto_gear(s["gear"], s["rpm"], s["speedX"])
+    gear = auto_gear(s["gear"], s["rpm"], s["speedX"], upshift)
     return {"accel": accel, "brake": brake, "gear": gear, "steer": steer, "clutch": 0.0, "meta": 0}
 
 

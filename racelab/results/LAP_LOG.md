@@ -11,59 +11,164 @@ sonra bitiremeyenler (en uzağa giden önde). Pist: Corkscrew ≈ 3608 m.
 
 | # | Agent (label) | Bitirme | Tur süresi (s) | Mesafe (m) | Hasar | Çarpma | Pist dışı (kez / s) | Max hız | Ort. hız | Koşu |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | SUBMISSION_v6g@GUI | 1/1 | 79.782 | 3617.7 | 0 | 0 | 0 / 0.0 | 264.2 | 159.6 | `20261007-101531_SUBMISSION_v6g@GUI` |
-| 2 | SUBMISSION_v6g@gui-timing | 10/10 | 79.788 | 3632.9 | 0 | 0 | 0 / 0.0 | 264.2 | 159.8 | `20261007-073420_SUBMISSION_v6g@gui-timing` |
-| 3 | SUBMISSION_v6g | 1/1 | 79.796 | 3632.4 | 0 | 0 | 0 / 0.0 | 264.2 | 159.8 | `20261007-073415_SUBMISSION_v6g` |
-| 4 | SUBMISSION_v6f_fast | 1/1 | 79.806 | 3631.6 | 0 | 0 | 0 / 0.0 | 254.6 | 160.8 | `20261007-064252_SUBMISSION_v6f_fast` |
-| 5 | SUBMISSION_v6f_fast@gui-timing | 4/10 | 79.806 | 3631.6 | 0 | 0 | 0 / 0.0 | 254.6 | 160.8 | `20261007-064306_SUBMISSION_v6f_fast@gui-timing` |
-| 6 | sac_v6f_best | 1/1 | 79.864 | 3628.1 | 0 | 0 | 0 / 0.0 | 254.7 | 160.6 | `20261007-064208_sac_v6f_best` |
-| 7 | sac_v4e_v00248(hızlı-riskli) | 1/1 | 80.668 | 3693.8 | 0 | 0 | 0 / 0.0 | 244.3 | 158.8 | `20261006-060619_sac_v4e_v00248(hızlı-riskli)` |
-| 8 | sac_v6f_v00879 | 1/1 | 80.696 | 3690.8 | 0 | 0 | 0 / 0.0 | 249.9 | 158.9 | `20261007-064215_sac_v6f_v00879` |
-| 9 | sac_v6f_v01759 | 1/1 | 81.056 | 3670.7 | 0 | 0 | 0 / 0.0 | 247.6 | 158.4 | `20261007-064222_sac_v6f_v01759` |
-| 10 | sac_v6b_v00249 | 1/1 | 81.182 | 3664.9 | 0 | 0 | 0 / 0.0 | 242.9 | 157.4 | `20261007-022954_sac_v6b_v00249` |
-| 11 | sac_v4e_v00248(hızlı-riskli)@gui-timing | 8/10 | 81.248 | 3662.7 | 0 | 0 | 0 / 0.0 | 245.2 | 157.5 | `20261006-060707_sac_v4e_v00248(hızlı-riskli)@gui-timing` |
-| 12 | SUBMISSION_v6c_safe | 1/1 | 81.352 | 3659.0 | 0 | 0 | 0 / 0.0 | 251.1 | 157.5 | `20261007-064400_SUBMISSION_v6c_safe` |
-| 13 | SUBMISSION_v6c_safe@gui-timing | 10/10 | 81.352 | 3659.0 | 0 | 0 | 0 / 0.0 | 251.1 | 157.5 | `20261007-064408_SUBMISSION_v6c_safe@gui-timing` |
-| 14 | sac_v6c_v01404 | 1/1 | 81.424 | 3654.8 | 0 | 0 | 0 / 0.0 | 251.0 | 157.3 | `20261007-064227_sac_v6c_v01404` |
-| 15 | SUBMISSION_v4d@GUI | 2/2 | 81.718 | 3617.7 | 0 | 0 | 0 / 0.0 | 251.0 | 156.1 | `20261007-002313_SUBMISSION_v4d@GUI` |
-| 16 | SUBMISSION_v4d(numpy) | 1/1 | 81.736 | 3630.1 | 0 | 0 | 0 / 0.0 | 251.0 | 156.1 | `20261006-015524_SUBMISSION_v4d(numpy)` |
-| 17 | SUBMISSION_v4d(numpy)@gui-timing | 10/10 | 81.736 | 3630.1 | 0 | 0 | 0 / 0.0 | 251.0 | 156.1 | `20261006-015536_SUBMISSION_v4d(numpy)@gui-timing` |
-| 18 | sac_v4d_v02537 | 2/2 | 81.904 | 3623.0 | 0 | 0 | 0 / 0.0 | 251.2 | 155.8 | `20261006-015359_sac_v4d_v02537` |
-| 19 | sac_v4d_v02537[agent_v2]@gui-timing | 10/10 | 82.476 | 3669.4 | 0 | 0 | 0 / 0.0 | 249.5 | 154.2 | `20261006-015452_sac_v4d_v02537[agent_v2]@gui-timing` |
-| 20 | SUBMISSION_v4d(saf-python)@gui-timing | 5/5 | 82.544 | 3668.6 | 0 | 0 | 0 / 0.0 | 244.8 | 154.1 | `20261006-015619_SUBMISSION_v4d(saf-python)@gui-timing` |
-| 21 | SUBMISSION_v2(numpy)@gui-timing | 4/5 | 85.694 | 3634.1 | 0 | 0 | 0 / 0.0 | 232.1 | 149.2 | `20261005-224718_SUBMISSION_v2(numpy)@gui-timing` |
-| 22 | SUBMISSION_v2(numpy) | 1/1 | 85.704 | 3633.2 | 0 | 0 | 0 / 0.0 | 231.8 | 149.1 | `20261005-224646_SUBMISSION_v2(numpy)` |
-| 23 | SUBMISSION_v2(saf-python) | 1/1 | 85.704 | 3633.2 | 0 | 0 | 0 / 0.0 | 231.8 | 149.1 | `20261005-224749_SUBMISSION_v2(saf-python)` |
-| 24 | sac_v2_ft_v05581 | 2/2 | 85.736 | 3630.9 | 0 | 0 | 0 / 0.0 | 231.0 | 149.1 | `20261005-153101_sac_v2_ft_v05581` |
-| 25 | sac_v2_ft_v05581@gui-timing | 2/10 | 85.736 | 3630.9 | 0 | 0 | 0 / 0.0 | 231.0 | 149.1 | `20261005-153157_sac_v2_ft_v05581@gui-timing` |
-| 26 | sac_v2_ft_v05581[agent_v2]@gui-timing | 10/10 | 85.736 | 3630.9 | 0 | 0 | 0 / 0.0 | 231.0 | 149.1 | `20261005-153407_sac_v2_ft_v05581[agent_v2]@gui-timing` |
-| 27 | sac_v2_ft_v05581[agent_v2] | 1/1 | 85.736 | 3630.9 | 0 | 0 | 0 / 0.0 | 231.0 | 149.1 | `20261005-155629_sac_v2_ft_v05581[agent_v2]` |
-| 28 | sac_g995_best | 2/2 | 87.612 | 3635.4 | 0 | 0 | 0 / 0.0 | 249.1 | 145.3 | `20261005-130829_sac_g995_best` |
-| 29 | sac_g995_best@gui-timing | 2/10 | 87.612 | 3635.4 | 0 | 0 | 0 / 0.0 | 249.1 | 145.3 | `20261005-131135_sac_g995_best@gui-timing` |
-| 30 | sac_g995_best(53dk)@gui-timing | 2/10 | 103.642 | 3633.1 | 0 | 0 | 0 / 0.0 | 223.2 | 124.1 | `20261004-191543_sac_g995_best(53dk)@gui-timing` |
-| 31 | sac_v2_ft_v05581@GUI | 2/2 | 130.346 | 7066.1 | 0 | 0 | 2 / 0.34 | 241.4 | 191.8 | `20261005-154146_sac_v2_ft_v05581@GUI` |
-| 32 | sac_v2_ft_v05581[agent_v2]#etrack4 | 2/2 | 130.356 | 7162.4 | 0 | 0 | 2 / 0.34 | 241.4 | 191.9 | `20261005-154834_sac_v2_ft_v05581[agent_v2]#etrack4` |
-| 33 | snakeoil3_gym#etrack4@GUI | 2/2 | 113.684 | 7065.6 | 1585 | 7 | 5 / 36.02 | 302.3 | 226.0 | `20261005-151545_snakeoil3_gym#etrack4@GUI` |
-| 34 | snakeoil3_gym#etrack4 | 2/2 | 113.698 | 7095.5 | 1585 | 7 | 5 / 36.02 | 302.3 | 226.2 | `20261004-180550_snakeoil3_gym#etrack4` |
-| 35 | snakeoil3_gym#etrack4@gui-timing | 4/5 | 117.944 | 7076.0 | 1754 | 8 | 5 / 41.46 | 302.5 | 217.8 | `20261004-180558_snakeoil3_gym#etrack4@gui-timing` |
-| 36 | snakeoil3_gym@gui-timing | 4/25 | 134.16 | 3692.8 | 3410 | 7 | 6 / 79.3 | 247.3 | 98.7 | `20261004-180458_snakeoil3_gym@gui-timing` |
-| 37 | snakeoil3_jm2@gui-timing | 1/5 | 308.23 | 3708.5 | 2680 | 8 | 8 / 90.08 | 238.8 | 36.8 | `20261004-175923_snakeoil3_jm2@gui-timing` |
-| 38 | snakeoil3_jm2 | 0/2 | DNF | 3298.2 | 2921 | 8 | 7 / 399.16 | 232.7 | 26.9 | `20261004-175844_snakeoil3_jm2` |
-| 39 | SUBMISSION_v2(saf-python)@gui-timing | 0/5 | DNF | 3231.9 | 1 | 1 | 1 / 359.7 | 221.1 | 25.2 | `20261005-225052_SUBMISSION_v2(saf-python)@gui-timing` |
-| 40 | torcs_jm_par | 0/2 | DNF | 2511.4 | 242 | 3 | 5 / 348.44 | 101.8 | 19.7 | `20261004-180024_torcs_jm_par` |
-| 41 | torcs_jm_par@gui-timing | 0/5 | DNF | 2483.4 | 247 | 3 | 6 / 360.56 | 102.9 | 19.6 | `20261004-180051_torcs_jm_par@gui-timing` |
-| 42 | sac_g995_final(60dk) | 0/2 | DNF | 2471.4 | 399 | 1 | 1 / 387.86 | 253.3 | 19.4 | `20261004-191831_sac_g995_final(60dk)` |
-| 43 | snakeoil3_gym | 0/2 | DNF | 2470.6 | 1863 | 5 | 5 / 410.88 | 237.9 | 20.5 | `20261004-175755_snakeoil3_gym` |
-| 44 | sac_g995_final(60dk)@gui-timing | 0/10 | DNF | 1727.2 | 0 | 0 | 1 / 394.38 | 225.7 | 13.3 | `20261004-192003_sac_g995_final(60dk)@gui-timing` |
-| 45 | sac_g995_best(53dk) | 0/2 | DNF | 498.3 | 217 | 1 | 1 / 427.38 | 231.7 | 4.0 | `20261004-191241_sac_g995_best(53dk)` |
-| 46 | jmcncarai | 0/2 | DNF | 497.8 | 274 | 2 | 1 / 426.3 | 161.7 | 3.7 | `20261004-175935_jmcncarai` |
-| 47 | jmcncarai@gui-timing | 0/5 | DNF | 497.7 | 274 | 2 | 1 / 426.3 | 161.7 | 3.7 | `20261004-175956_jmcncarai@gui-timing` |
-| 48 | sac_smoke2(3dk) | 0/1 | DNF | 489.2 | 133 | 1 | 1 / 427.52 | 243.0 | 4.0 | `20261004-181753_sac_smoke2(3dk)` |
+| 1 | SUBMISSION_v10d_dist | 1/1 | 73.582 | 3649.2 | 0 | 0 | 0 / 0.0 | 270.5 | 173.1 | `20261009-061807_SUBMISSION_v10d_dist` |
+| 2 | SUBMISSION_v10d_dist@gui-timing | 10/10 | 73.582 | 3649.2 | 0 | 0 | 0 / 0.0 | 270.5 | 173.1 | `20261009-061818_SUBMISSION_v10d_dist@gui-timing` |
+| 3 | SUBMISSION_v10b_best_dist | 1/1 | 73.728 | 3638.6 | 0 | 0 | 0 / 0.0 | 259.7 | 172.7 | `20261009-015401_SUBMISSION_v10b_best_dist` |
+| 4 | SUBMISSION_v10b_v04324_dist | 1/1 | 74.416 | 3710.6 | 0 | 0 | 0 / 0.0 | 260.6 | 171.0 | `20261009-015437_SUBMISSION_v10b_v04324_dist` |
+| 5 | SUBMISSION_v10b_best_dist@gui-timing | 10/10 | 74.44 | 3717.8 | 0 | 0 | 0 / 0.0 | 259.7 | 171.9 | `20261009-015429_SUBMISSION_v10b_best_dist@gui-timing` |
+| 6 | SUBMISSION_v10b_best_plain | 1/1 | 75.156 | 3672.8 | 0 | 0 | 0 / 0.0 | 249.2 | 169.6 | `20261009-015514_SUBMISSION_v10b_best_plain` |
+| 7 | SUBMISSION_v10b_best_plain@gui-timing | 10/10 | 75.156 | 3672.8 | 0 | 0 | 0 / 0.0 | 249.2 | 169.6 | `20261009-015523_SUBMISSION_v10b_best_plain@gui-timing` |
+| 8 | SUBMISSION_v10b_v04324_dist@gui-timing | 10/10 | 75.162 | 3669.4 | 0 | 0 | 1 / 0.1 | 260.6 | 169.4 | `20261009-015444_SUBMISSION_v10b_v04324_dist@gui-timing` |
+| 9 | SUBMISSION_s47_dist | 1/1 | 77.436 | 3650.3 | 0 | 0 | 0 / 0.0 | 260.7 | 164.9 | `20261008-141739_SUBMISSION_s47_dist` |
+| 10 | SUBMISSION_s47_dist@gui-timing | 10/10 | 77.764 | 3633.0 | 0 | 0 | 0 / 0.0 | 260.7 | 164.3 | `20261008-141747_SUBMISSION_s47_dist@gui-timing` |
+| 11 | SUBMISSION_s47_assist@GUI | 1/1 | 78.154 | 3618.2 | 0 | 0 | 0 / 0.0 | 253.3 | 163.2 | `20261008-140917_SUBMISSION_s47_assist@GUI` |
+| 12 | SUBMISSION_s47_assist | 1/1 | 78.158 | 3710.9 | 0 | 0 | 0 / 0.0 | 253.3 | 163.5 | `20261008-071848_SUBMISSION_s47_assist` |
+| 13 | SUBMISSION_v6g_assist | 1/1 | 78.934 | 3681.6 | 0 | 0 | 0 / 0.0 | 267.9 | 161.9 | `20261007-214011_SUBMISSION_v6g_assist` |
+| 14 | SUBMISSION_v6g_assist@gui-timing | 20/20 | 79.204 | 3667.3 | 0 | 0 | 0 / 0.0 | 267.9 | 161.3 | `20261007-214040_SUBMISSION_v6g_assist@gui-timing` |
+| 15 | SUBMISSION_s47_assist@gui-timing | 10/10 | 79.738 | 3633.1 | 0 | 0 | 0 / 0.0 | 253.3 | 160.4 | `20261008-071857_SUBMISSION_s47_assist@gui-timing` |
+| 16 | SUBMISSION_v6g@GUI | 1/1 | 79.782 | 3617.7 | 0 | 0 | 0 / 0.0 | 264.2 | 159.6 | `20261007-101531_SUBMISSION_v6g@GUI` |
+| 17 | SUBMISSION_v6g@gui-timing | 10/10 | 79.788 | 3632.9 | 0 | 0 | 0 / 0.0 | 264.2 | 159.8 | `20261007-073420_SUBMISSION_v6g@gui-timing` |
+| 18 | SUBMISSION_v6g | 1/1 | 79.796 | 3632.4 | 0 | 0 | 0 / 0.0 | 264.2 | 159.8 | `20261007-073415_SUBMISSION_v6g` |
+| 19 | SUBMISSION_v6f_fast | 1/1 | 79.806 | 3631.6 | 0 | 0 | 0 / 0.0 | 254.6 | 160.8 | `20261007-064252_SUBMISSION_v6f_fast` |
+| 20 | SUBMISSION_v6f_fast@gui-timing | 4/10 | 79.806 | 3631.6 | 0 | 0 | 0 / 0.0 | 254.6 | 160.8 | `20261007-064306_SUBMISSION_v6f_fast@gui-timing` |
+| 21 | sac_v6f_best | 1/1 | 79.864 | 3628.1 | 0 | 0 | 0 / 0.0 | 254.7 | 160.6 | `20261007-064208_sac_v6f_best` |
+| 22 | sac_v4e_v00248(hızlı-riskli) | 1/1 | 80.668 | 3693.8 | 0 | 0 | 0 / 0.0 | 244.3 | 158.8 | `20261006-060619_sac_v4e_v00248(hızlı-riskli)` |
+| 23 | sac_v6f_v00879 | 1/1 | 80.696 | 3690.8 | 0 | 0 | 0 / 0.0 | 249.9 | 158.9 | `20261007-064215_sac_v6f_v00879` |
+| 24 | sac_v6f_v01759 | 1/1 | 81.056 | 3670.7 | 0 | 0 | 0 / 0.0 | 247.6 | 158.4 | `20261007-064222_sac_v6f_v01759` |
+| 25 | sac_v6b_v00249 | 1/1 | 81.182 | 3664.9 | 0 | 0 | 0 / 0.0 | 242.9 | 157.4 | `20261007-022954_sac_v6b_v00249` |
+| 26 | sac_v4e_v00248(hızlı-riskli)@gui-timing | 8/10 | 81.248 | 3662.7 | 0 | 0 | 0 / 0.0 | 245.2 | 157.5 | `20261006-060707_sac_v4e_v00248(hızlı-riskli)@gui-timing` |
+| 27 | SUBMISSION_v6c_safe | 1/1 | 81.352 | 3659.0 | 0 | 0 | 0 / 0.0 | 251.1 | 157.5 | `20261007-064400_SUBMISSION_v6c_safe` |
+| 28 | SUBMISSION_v6c_safe@gui-timing | 10/10 | 81.352 | 3659.0 | 0 | 0 | 0 / 0.0 | 251.1 | 157.5 | `20261007-064408_SUBMISSION_v6c_safe@gui-timing` |
+| 29 | sac_v6c_v01404 | 1/1 | 81.424 | 3654.8 | 0 | 0 | 0 / 0.0 | 251.0 | 157.3 | `20261007-064227_sac_v6c_v01404` |
+| 30 | SUBMISSION_v4d@GUI | 2/2 | 81.718 | 3617.7 | 0 | 0 | 0 / 0.0 | 251.0 | 156.1 | `20261007-002313_SUBMISSION_v4d@GUI` |
+| 31 | SUBMISSION_v4d(numpy) | 1/1 | 81.736 | 3630.1 | 0 | 0 | 0 / 0.0 | 251.0 | 156.1 | `20261006-015524_SUBMISSION_v4d(numpy)` |
+| 32 | SUBMISSION_v4d(numpy)@gui-timing | 10/10 | 81.736 | 3630.1 | 0 | 0 | 0 / 0.0 | 251.0 | 156.1 | `20261006-015536_SUBMISSION_v4d(numpy)@gui-timing` |
+| 33 | TEST_sub44_v4d | 1/1 | 81.736 | 3630.1 | 0 | 0 | 0 / 0.0 | 251.0 | 156.1 | `20261008-234338_TEST_sub44_v4d` |
+| 34 | sac_v4d_v02537 | 2/2 | 81.904 | 3623.0 | 0 | 0 | 0 / 0.0 | 251.2 | 155.8 | `20261006-015359_sac_v4d_v02537` |
+| 35 | sac_v4d_v02537[agent_v2]@gui-timing | 10/10 | 82.476 | 3669.4 | 0 | 0 | 0 / 0.0 | 249.5 | 154.2 | `20261006-015452_sac_v4d_v02537[agent_v2]@gui-timing` |
+| 36 | SUBMISSION_v4d(saf-python)@gui-timing | 5/5 | 82.544 | 3668.6 | 0 | 0 | 0 / 0.0 | 244.8 | 154.1 | `20261006-015619_SUBMISSION_v4d(saf-python)@gui-timing` |
+| 37 | SUBMISSION_v2(numpy)@gui-timing | 4/5 | 85.694 | 3634.1 | 0 | 0 | 0 / 0.0 | 232.1 | 149.2 | `20261005-224718_SUBMISSION_v2(numpy)@gui-timing` |
+| 38 | SUBMISSION_v2(numpy) | 1/1 | 85.704 | 3633.2 | 0 | 0 | 0 / 0.0 | 231.8 | 149.1 | `20261005-224646_SUBMISSION_v2(numpy)` |
+| 39 | SUBMISSION_v2(saf-python) | 1/1 | 85.704 | 3633.2 | 0 | 0 | 0 / 0.0 | 231.8 | 149.1 | `20261005-224749_SUBMISSION_v2(saf-python)` |
+| 40 | sac_v2_ft_v05581 | 2/2 | 85.736 | 3630.9 | 0 | 0 | 0 / 0.0 | 231.0 | 149.1 | `20261005-153101_sac_v2_ft_v05581` |
+| 41 | sac_v2_ft_v05581@gui-timing | 2/10 | 85.736 | 3630.9 | 0 | 0 | 0 / 0.0 | 231.0 | 149.1 | `20261005-153157_sac_v2_ft_v05581@gui-timing` |
+| 42 | sac_v2_ft_v05581[agent_v2]@gui-timing | 10/10 | 85.736 | 3630.9 | 0 | 0 | 0 / 0.0 | 231.0 | 149.1 | `20261005-153407_sac_v2_ft_v05581[agent_v2]@gui-timing` |
+| 43 | sac_v2_ft_v05581[agent_v2] | 1/1 | 85.736 | 3630.9 | 0 | 0 | 0 / 0.0 | 231.0 | 149.1 | `20261005-155629_sac_v2_ft_v05581[agent_v2]` |
+| 44 | sac_g995_best | 2/2 | 87.612 | 3635.4 | 0 | 0 | 0 / 0.0 | 249.1 | 145.3 | `20261005-130829_sac_g995_best` |
+| 45 | sac_g995_best@gui-timing | 2/10 | 87.612 | 3635.4 | 0 | 0 | 0 / 0.0 | 249.1 | 145.3 | `20261005-131135_sac_g995_best@gui-timing` |
+| 46 | sac_g995_best(53dk)@gui-timing | 2/10 | 103.642 | 3633.1 | 0 | 0 | 0 / 0.0 | 223.2 | 124.1 | `20261004-191543_sac_g995_best(53dk)@gui-timing` |
+| 47 | sac_v2_ft_v05581@GUI | 2/2 | 130.346 | 7066.1 | 0 | 0 | 2 / 0.34 | 241.4 | 191.8 | `20261005-154146_sac_v2_ft_v05581@GUI` |
+| 48 | sac_v2_ft_v05581[agent_v2]#etrack4 | 2/2 | 130.356 | 7162.4 | 0 | 0 | 2 / 0.34 | 241.4 | 191.9 | `20261005-154834_sac_v2_ft_v05581[agent_v2]#etrack4` |
+| 49 | snakeoil3_gym#etrack4@GUI | 2/2 | 113.684 | 7065.6 | 1585 | 7 | 5 / 36.02 | 302.3 | 226.0 | `20261005-151545_snakeoil3_gym#etrack4@GUI` |
+| 50 | snakeoil3_gym#etrack4 | 2/2 | 113.698 | 7095.5 | 1585 | 7 | 5 / 36.02 | 302.3 | 226.2 | `20261004-180550_snakeoil3_gym#etrack4` |
+| 51 | snakeoil3_gym#etrack4@gui-timing | 4/5 | 117.944 | 7076.0 | 1754 | 8 | 5 / 41.46 | 302.5 | 217.8 | `20261004-180558_snakeoil3_gym#etrack4@gui-timing` |
+| 52 | snakeoil3_gym@gui-timing | 4/25 | 134.16 | 3692.8 | 3410 | 7 | 6 / 79.3 | 247.3 | 98.7 | `20261004-180458_snakeoil3_gym@gui-timing` |
+| 53 | snakeoil3_jm2@gui-timing | 1/5 | 308.23 | 3708.5 | 2680 | 8 | 8 / 90.08 | 238.8 | 36.8 | `20261004-175923_snakeoil3_jm2@gui-timing` |
+| 54 | snakeoil3_jm2 | 0/2 | DNF | 3298.2 | 2921 | 8 | 7 / 399.16 | 232.7 | 26.9 | `20261004-175844_snakeoil3_jm2` |
+| 55 | SUBMISSION_v2(saf-python)@gui-timing | 0/5 | DNF | 3231.9 | 1 | 1 | 1 / 359.7 | 221.1 | 25.2 | `20261005-225052_SUBMISSION_v2(saf-python)@gui-timing` |
+| 56 | torcs_jm_par | 0/2 | DNF | 2511.4 | 242 | 3 | 5 / 348.44 | 101.8 | 19.7 | `20261004-180024_torcs_jm_par` |
+| 57 | torcs_jm_par@gui-timing | 0/5 | DNF | 2483.4 | 247 | 3 | 6 / 360.56 | 102.9 | 19.6 | `20261004-180051_torcs_jm_par@gui-timing` |
+| 58 | sac_g995_final(60dk) | 0/2 | DNF | 2471.4 | 399 | 1 | 1 / 387.86 | 253.3 | 19.4 | `20261004-191831_sac_g995_final(60dk)` |
+| 59 | snakeoil3_gym | 0/2 | DNF | 2470.6 | 1863 | 5 | 5 / 410.88 | 237.9 | 20.5 | `20261004-175755_snakeoil3_gym` |
+| 60 | sac_g995_final(60dk)@gui-timing | 0/10 | DNF | 1727.2 | 0 | 0 | 1 / 394.38 | 225.7 | 13.3 | `20261004-192003_sac_g995_final(60dk)@gui-timing` |
+| 61 | sac_g995_best(53dk) | 0/2 | DNF | 498.3 | 217 | 1 | 1 / 427.38 | 231.7 | 4.0 | `20261004-191241_sac_g995_best(53dk)` |
+| 62 | jmcncarai | 0/2 | DNF | 497.8 | 274 | 2 | 1 / 426.3 | 161.7 | 3.7 | `20261004-175935_jmcncarai` |
+| 63 | jmcncarai@gui-timing | 0/5 | DNF | 497.7 | 274 | 2 | 1 / 426.3 | 161.7 | 3.7 | `20261004-175956_jmcncarai@gui-timing` |
+| 64 | sac_smoke2(3dk) | 0/1 | DNF | 489.2 | 133 | 1 | 1 / 427.52 | 243.0 | 4.0 | `20261004-181753_sac_smoke2(3dk)` |
 
 ## Tüm koşular (yeniden eskiye)
 
 | Zaman | Label | Tur (s) | Mesafe (m) | Hasar | Çarpma | Pist dışı | Max hız | Mod | Not |
 |---|---|---|---|---|---|---|---|---|---|
+| 20261009-061840 | SUBMISSION_v10d_dist@gui-timing | 74.018 | 3617.4 | 0 | 0 | 0 | 270.5 | fast | CPU boş |
+| 20261009-061837 | SUBMISSION_v10d_dist@gui-timing | 73.97 | 3621.9 | 0 | 0 | 0 | 268.9 | fast | CPU boş |
+| 20261009-061834 | SUBMISSION_v10d_dist@gui-timing | 74.802 | 3698.3 | 0 | 0 | 0 | 269.0 | fast | CPU boş |
+| 20261009-061831 | SUBMISSION_v10d_dist@gui-timing | 74.802 | 3697.9 | 0 | 0 | 0 | 269.1 | fast | CPU boş |
+| 20261009-061828 | SUBMISSION_v10d_dist@gui-timing | 74.188 | 3732.4 | 0 | 0 | 0 | 269.0 | fast | CPU boş |
+| 20261009-061825 | SUBMISSION_v10d_dist@gui-timing | 74.802 | 3698.2 | 0 | 0 | 0 | 269.7 | fast | CPU boş |
+| 20261009-061822 | SUBMISSION_v10d_dist@gui-timing | 74.894 | 3692.8 | 0 | 0 | 0 | 269.1 | fast | CPU boş |
+| 20261009-061818 | SUBMISSION_v10d_dist@gui-timing | 73.582 | 3649.2 | 0 | 0 | 0 | 270.5 | fast | CPU boş |
+| 20261009-061814 | SUBMISSION_v10d_dist@gui-timing | 74.822 | 3697.2 | 0 | 0 | 0 | 268.9 | fast | CPU boş |
+| 20261009-061811 | SUBMISSION_v10d_dist@gui-timing | 74.076 | 3739.2 | 0 | 0 | 0 | 270.5 | fast | CPU boş |
+| 20261009-061807 | SUBMISSION_v10d_dist | 73.582 | 3649.2 | 0 | 0 | 0 | 270.5 | fast | v10d/v04188 + mesafe 3g50m + vites 18650 |
+| 20261009-015546 | SUBMISSION_v10b_best_plain@gui-timing | 76.466 | 3711.7 | 0 | 0 | 0 | 249.7 | fast | CPU boş |
+| 20261009-015543 | SUBMISSION_v10b_best_plain@gui-timing | 76.42 | 3714.2 | 0 | 0 | 0 | 249.8 | fast | CPU boş |
+| 20261009-015539 | SUBMISSION_v10b_best_plain@gui-timing | 75.82 | 3631.6 | 0 | 0 | 0 | 249.2 | fast | CPU boş |
+| 20261009-015537 | SUBMISSION_v10b_best_plain@gui-timing | 76.706 | 3698.4 | 0 | 0 | 0 | 249.8 | fast | CPU boş |
+| 20261009-015534 | SUBMISSION_v10b_best_plain@gui-timing | 76.542 | 3707.4 | 0 | 0 | 0 | 249.8 | fast | CPU boş |
+| 20261009-015530 | SUBMISSION_v10b_best_plain@gui-timing | 76.484 | 3710.6 | 0 | 0 | 0 | 249.8 | fast | CPU boş |
+| 20261009-015527 | SUBMISSION_v10b_best_plain@gui-timing | 76.434 | 3713.4 | 0 | 0 | 0 | 249.8 | fast | CPU boş |
+| 20261009-015523 | SUBMISSION_v10b_best_plain@gui-timing | 75.156 | 3672.8 | 0 | 0 | 0 | 249.2 | fast | CPU boş |
+| 20261009-015520 | SUBMISSION_v10b_best_plain@gui-timing | 76.494 | 3710.3 | 0 | 0 | 0 | 249.8 | fast | CPU boş |
+| 20261009-015517 | SUBMISSION_v10b_best_plain@gui-timing | 76.41 | 3714.8 | 0 | 0 | 0 | 249.9 | fast | CPU boş |
+| 20261009-015514 | SUBMISSION_v10b_best_plain | 75.156 | 3672.8 | 0 | 0 | 0 | 249.2 | fast | v10 konum bilen |
+| 20261009-015509 | SUBMISSION_v10b_v04324_dist@gui-timing | 75.19 | 3668.1 | 0 | 0 | 0 | 260.6 | fast | CPU boş |
+| 20261009-015506 | SUBMISSION_v10b_v04324_dist@gui-timing | 75.83 | 3631.4 | 0 | 0 | 1 | 259.7 | fast | CPU boş |
+| 20261009-015503 | SUBMISSION_v10b_v04324_dist@gui-timing | 75.932 | 3624.5 | 0 | 0 | 1 | 259.9 | fast | CPU boş |
+| 20261009-015500 | SUBMISSION_v10b_v04324_dist@gui-timing | 75.288 | 3662.7 | 0 | 0 | 0 | 259.8 | fast | CPU boş |
+| 20261009-015457 | SUBMISSION_v10b_v04324_dist@gui-timing | 75.522 | 3650.2 | 0 | 0 | 0 | 259.7 | fast | CPU boş |
+| 20261009-015454 | SUBMISSION_v10b_v04324_dist@gui-timing | 75.66 | 3642.0 | 0 | 0 | 1 | 259.7 | fast | CPU boş |
+| 20261009-015451 | SUBMISSION_v10b_v04324_dist@gui-timing | 75.934 | 3624.3 | 0 | 0 | 0 | 259.7 | fast | CPU boş |
+| 20261009-015448 | SUBMISSION_v10b_v04324_dist@gui-timing | 75.684 | 3640.6 | 0 | 0 | 0 | 259.8 | fast | CPU boş |
+| 20261009-015444 | SUBMISSION_v10b_v04324_dist@gui-timing | 75.162 | 3669.4 | 0 | 0 | 1 | 260.6 | fast | CPU boş |
+| 20261009-015441 | SUBMISSION_v10b_v04324_dist@gui-timing | 75.674 | 3641.2 | 0 | 0 | 0 | 259.7 | fast | CPU boş |
+| 20261009-015437 | SUBMISSION_v10b_v04324_dist | 74.416 | 3710.6 | 0 | 0 | 0 | 260.6 | fast | v10 konum bilen |
+| 20261009-015433 | SUBMISSION_v10b_best_dist@gui-timing | 75.472 | 3655.3 | 0 | 0 | 0 | 260.1 | fast | CPU boş |
+| 20261009-015429 | SUBMISSION_v10b_best_dist@gui-timing | 74.44 | 3717.8 | 0 | 0 | 0 | 259.7 | fast | CPU boş |
+| 20261009-015426 | SUBMISSION_v10b_best_dist@gui-timing | 75.36 | 3662.4 | 0 | 0 | 0 | 260.1 | fast | CPU boş |
+| 20261009-015423 | SUBMISSION_v10b_best_dist@gui-timing | 75.564 | 3649.4 | 0 | 0 | 0 | 260.1 | fast | CPU boş |
+| 20261009-015421 | SUBMISSION_v10b_best_dist@gui-timing | 75.674 | 3642.1 | 0 | 0 | 0 | 260.1 | fast | CPU boş |
+| 20261009-015418 | SUBMISSION_v10b_best_dist@gui-timing | 75.424 | 3658.4 | 0 | 0 | 0 | 260.1 | fast | CPU boş |
+| 20261009-015414 | SUBMISSION_v10b_best_dist@gui-timing | 74.448 | 3717.3 | 0 | 0 | 0 | 259.9 | fast | CPU boş |
+| 20261009-015411 | SUBMISSION_v10b_best_dist@gui-timing | 75.526 | 3651.8 | 0 | 0 | 0 | 260.1 | fast | CPU boş |
+| 20261009-015408 | SUBMISSION_v10b_best_dist@gui-timing | 75.426 | 3658.2 | 0 | 0 | 0 | 260.0 | fast | CPU boş |
+| 20261009-015405 | SUBMISSION_v10b_best_dist@gui-timing | 75.022 | 3683.4 | 0 | 0 | 0 | 260.0 | fast | CPU boş |
+| 20261009-015401 | SUBMISSION_v10b_best_dist | 73.728 | 3638.6 | 0 | 0 | 0 | 259.7 | fast | v10 konum bilen |
+| 20261008-234338 | TEST_sub44_v4d | 81.736 | 3630.1 | 0 | 0 | 0 | 251.0 | fast | v10 eşdeğerlik testi (silinebilir) |
+| 20261008-141811 | SUBMISSION_s47_dist@gui-timing | 78.838 | 3679.8 | 0 | 0 | 0 | 259.4 | fast | CPU boş |
+| 20261008-141808 | SUBMISSION_s47_dist@gui-timing | 78.24 | 3707.6 | 0 | 0 | 0 | 259.5 | fast | CPU boş |
+| 20261008-141805 | SUBMISSION_s47_dist@gui-timing | 79.014 | 3671.2 | 0 | 0 | 0 | 259.0 | fast | CPU boş |
+| 20261008-141802 | SUBMISSION_s47_dist@gui-timing | 79.056 | 3667.9 | 0 | 0 | 0 | 259.3 | fast | CPU boş |
+| 20261008-141759 | SUBMISSION_s47_dist@gui-timing | 79.104 | 3666.8 | 0 | 0 | 0 | 259.3 | fast | CPU boş |
+| 20261008-141756 | SUBMISSION_s47_dist@gui-timing | 79.09 | 3667.6 | 0 | 0 | 0 | 259.3 | fast | CPU boş |
+| 20261008-141754 | SUBMISSION_s47_dist@gui-timing | 79.02 | 3670.9 | 0 | 0 | 0 | 259.0 | fast | CPU boş |
+| 20261008-141751 | SUBMISSION_s47_dist@gui-timing | 78.902 | 3676.6 | 0 | 0 | 0 | 259.4 | fast | CPU boş |
+| 20261008-141747 | SUBMISSION_s47_dist@gui-timing | 77.764 | 3633.0 | 0 | 0 | 0 | 260.7 | fast | CPU boş |
+| 20261008-141744 | SUBMISSION_s47_dist@gui-timing | 79.238 | 3660.1 | 0 | 0 | 0 | 259.0 | fast | CPU boş |
+| 20261008-141739 | SUBMISSION_s47_dist | 77.436 | 3650.3 | 0 | 0 | 0 | 260.7 | fast | n3b_s47 + mesafe yardımcısı 3.0g/50m + vites 18650 |
+| 20261008-140917 | SUBMISSION_s47_assist@GUI | 78.154 | 3618.2 | 0 | 0 | 0 | 253.3 | gui |  |
+| 20261008-071953 | SUBMISSION_v6g_assist@gui-timing | 79.528 | 3648.4 | 0 | 0 | 0 | 267.3 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071950 | SUBMISSION_v6g_assist@gui-timing | 79.646 | 3641.5 | 0 | 0 | 0 | 267.6 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071947 | SUBMISSION_v6g_assist@gui-timing | 79.856 | 3628.8 | 0 | 0 | 0 | 267.4 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071944 | SUBMISSION_v6g_assist@gui-timing | 79.842 | 3629.7 | 0 | 0 | 0 | 267.0 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071941 | SUBMISSION_v6g_assist@gui-timing | 79.606 | 3643.6 | 0 | 0 | 0 | 267.7 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071938 | SUBMISSION_v6g_assist@gui-timing | 79.42 | 3654.6 | 0 | 0 | 0 | 267.6 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071935 | SUBMISSION_v6g_assist@gui-timing | 80.158 | 3721.3 | 0 | 0 | 0 | 267.1 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071932 | SUBMISSION_v6g_assist@gui-timing | 80.096 | 3724.5 | 0 | 0 | 0 | 267.2 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071928 | SUBMISSION_v6g_assist@gui-timing | 79.39 | 3655.9 | 0 | 0 | 0 | 267.9 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071925 | SUBMISSION_v6g_assist@gui-timing | 79.664 | 3640.4 | 0 | 0 | 0 | 267.6 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071921 | SUBMISSION_s47_assist@gui-timing | 80.294 | 3704.5 | 0 | 0 | 0 | 253.0 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071917 | SUBMISSION_s47_assist@gui-timing | 80.066 | 3714.8 | 0 | 0 | 0 | 253.0 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071914 | SUBMISSION_s47_assist@gui-timing | 80.062 | 3715.2 | 0 | 0 | 0 | 252.9 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071911 | SUBMISSION_s47_assist@gui-timing | 80.18 | 3709.8 | 0 | 0 | 0 | 253.6 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071907 | SUBMISSION_s47_assist@gui-timing | 80.216 | 3708.3 | 0 | 0 | 0 | 253.3 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071904 | SUBMISSION_s47_assist@gui-timing | 80.054 | 3715.7 | 0 | 0 | 0 | 253.0 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071901 | SUBMISSION_s47_assist@gui-timing | 80.19 | 3709.5 | 0 | 0 | 0 | 253.1 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071857 | SUBMISSION_s47_assist@gui-timing | 79.738 | 3633.1 | 0 | 0 | 0 | 253.3 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071854 | SUBMISSION_s47_assist@gui-timing | 80.36 | 3701.7 | 0 | 0 | 0 | 253.1 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071852 | SUBMISSION_s47_assist@gui-timing | 80.182 | 3709.7 | 0 | 0 | 0 | 253.0 | fast | 07:20 karşılaştırma, CPU boş |
+| 20261008-071848 | SUBMISSION_s47_assist | 78.158 | 3710.9 | 0 | 0 | 0 | 253.3 | fast | n3b_s47 + yardımcı 180/18650 |
+| 20261007-214043 | SUBMISSION_v6g_assist@gui-timing | 79.824 | 3630.7 | 0 | 0 | 0 | 267.8 | fast | CPU boş |
+| 20261007-214040 | SUBMISSION_v6g_assist@gui-timing | 79.204 | 3667.3 | 0 | 0 | 0 | 267.9 | fast | CPU boş |
+| 20261007-214037 | SUBMISSION_v6g_assist@gui-timing | 79.93 | 3624.3 | 0 | 0 | 0 | 267.3 | fast | CPU boş |
+| 20261007-214034 | SUBMISSION_v6g_assist@gui-timing | 79.978 | 3621.3 | 0 | 0 | 0 | 267.5 | fast | CPU boş |
+| 20261007-214031 | SUBMISSION_v6g_assist@gui-timing | 79.268 | 3663.6 | 0 | 0 | 0 | 267.9 | fast | CPU boş |
+| 20261007-214028 | SUBMISSION_v6g_assist@gui-timing | 80.044 | 3727.1 | 0 | 0 | 0 | 267.6 | fast | CPU boş |
+| 20261007-214025 | SUBMISSION_v6g_assist@gui-timing | 79.338 | 3658.9 | 0 | 0 | 0 | 267.9 | fast | CPU boş |
+| 20261007-214022 | SUBMISSION_v6g_assist@gui-timing | 79.826 | 3630.6 | 0 | 0 | 0 | 267.3 | fast | CPU boş |
+| 20261007-214019 | SUBMISSION_v6g_assist@gui-timing | 79.942 | 3623.7 | 0 | 0 | 0 | 267.5 | fast | CPU boş |
+| 20261007-214016 | SUBMISSION_v6g_assist@gui-timing | 79.762 | 3634.4 | 0 | 0 | 0 | 267.3 | fast | CPU boş |
+| 20261007-214011 | SUBMISSION_v6g_assist | 78.934 | 3681.6 | 0 | 0 | 0 | 267.9 | fast | v6g + düzlük yardımcısı 180 m + vites 18650 (eğitimsiz) |
 | 20261007-101531 | SUBMISSION_v6g@GUI | 79.782 | 3617.7 | 0 | 0 | 0 | 264.2 | gui |  |
 | 20261007-073450 | SUBMISSION_v6g@gui-timing | 80.672 | 3694.6 | 0 | 0 | 0 | 263.9 | fast | CPU boş |
 | 20261007-073447 | SUBMISSION_v6g@gui-timing | 80.546 | 3701.0 | 0 | 0 | 0 | 263.8 | fast | CPU boş |

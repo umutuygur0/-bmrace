@@ -1,0 +1,59 @@
+
+$ C:\Users\Asus\AppData\Local\Programs\Python\Python312\python.exe racelab/rl/select_models.py --run n5_s80 --env v4 --tcs-th 5.0 --top 12 --repeat 10 --procs 4 --idx-from 1
+17 model × 10 koşu, 4 paralel
+  80% hasarsız | 80% bitiş | tur 76.728 (en iyi 75.89) | hasar 4.0 | racelab/rl/runs/n5_s80/candidates/v05482_perturbed_75.06.pt
+  60% hasarsız | 60% bitiş | tur 76.921 (en iyi 76.556) | hasar 11.8 | racelab/rl/runs/n5_s80/candidates/v05455_perturbed_75.13.pt
+  80% hasarsız | 80% bitiş | tur 77.199 (en iyi 76.422) | hasar 6.1 | racelab/rl/runs/n5_s80/candidates/v00293_perturbed_75.14.pt
+  0% hasarsız | 10% bitiş | tur 75.748 (en iyi 75.748) | hasar 90.6 | racelab/rl/runs/n5_s80/candidates/v03988_perturbed_75.32.pt
+  50% hasarsız | 50% bitiş | tur 76.255 (en iyi 75.382) | hasar 27.8 | racelab/rl/runs/n5_s80/candidates/v00264_perturbed_75.34.pt
+  50% hasarsız | 50% bitiş | tur 76.899 (en iyi 76.13) | hasar 21.5 | racelab/rl/runs/n5_s80/candidates/v05504_perturbed_75.40.pt
+  10% hasarsız | 10% bitiş | tur 76.086 (en iyi 76.086) | hasar 176.1 | racelab/rl/runs/n5_s80/candidates/v04778_perturbed_75.43.pt
+  40% hasarsız | 40% bitiş | tur 77.281 (en iyi 77.08) | hasar 21.3 | racelab/rl/runs/n5_s80/candidates/v00910_perturbed_75.44.pt
+  80% hasarsız | 80% bitiş | tur 77.285 (en iyi 75.488) | hasar 24.4 | racelab/rl/runs/n5_s80/candidates/v00376_perturbed_75.45.pt
+  10% hasarsız | 10% bitiş | tur 76.654 (en iyi 76.654) | hasar 164.7 | racelab/rl/runs/n5_s80/candidates/v04321_perturbed_75.47.pt
+  10% hasarsız | 10% bitiş | tur 76.146 (en iyi 76.146) | hasar 74.3 | racelab/rl/runs/n5_s80/candidates/v03859_perturbed_75.51.pt
+  100% hasarsız | 100% bitiş | tur 77.108 (en iyi 76.146) | hasar 0.0 | racelab/rl/runs/n5_s80/candidates/v00748_perturbed_75.56.pt
+  50% hasarsız | 50% bitiş | tur 77.851 (en iyi 77.214) | hasar 6.5 | racelab/rl/runs/n5_s80/snapshots/0030min_v02970.pt
+  0% hasarsız | 0% bitiş | tur None (en iyi None) | hasar 37.5 | racelab/rl/runs/n5_s80/snapshots/0040min_v03956.pt
+  10% hasarsız | 70% bitiş | tur 78.216 (en iyi 76.472) | hasar 95.1 | racelab/rl/runs/n5_s80/snapshots/0050min_v04948.pt
+  100% hasarsız | 100% bitiş | tur 76.759 (en iyi 76.156) | hasar 0.0 | racelab/rl/runs/n5_s80/best.pt
+  0% hasarsız | 0% bitiş | tur None (en iyi None) | hasar 0.0 | racelab/rl/runs/n5_s80/final.pt
+
+EN İYİ 5:
+  100% hasarsız, tur ort 76.759 → racelab/rl/runs/n5_s80/best.pt
+  100% hasarsız, tur ort 77.108 → racelab/rl/runs/n5_s80/candidates/v00748_perturbed_75.56.pt
+  80% hasarsız, tur ort 76.728 → racelab/rl/runs/n5_s80/candidates/v05482_perturbed_75.06.pt
+  80% hasarsız, tur ort 77.199 → racelab/rl/runs/n5_s80/candidates/v00293_perturbed_75.14.pt
+  80% hasarsız, tur ort 77.285 → racelab/rl/runs/n5_s80/candidates/v00376_perturbed_75.45.pt
+kaydedildi: C:\Users\Asus\Desktop\projeler egit\ıbmrace\racelab\rl\runs\n5_s80\selection.csv
+
+$ C:\Users\Asus\AppData\Local\Programs\Python\Python312\python.exe racelab/rl/select_models.py --run n5_s81 --env v4 --tcs-th 5.0 --top 12 --repeat 10 --procs 4 --idx-from 1
+17 model × 10 koşu, 4 paralel
+  0% hasarsız | 0% bitiş | tur None (en iyi None) | hasar 143.5 | racelab/rl/runs/n5_s81/candidates/v00872_perturbed_75.17.pt
+  10% hasarsız | 50% bitiş | tur 92.225 (en iyi 75.23) | hasar 285.7 | racelab/rl/runs/n5_s81/candidates/v05543_perturbed_75.24.pt
+  90% hasarsız | 90% bitiş | tur 76.695 (en iyi 75.282) | hasar 1.1 | racelab/rl/runs/n5_s81/candidates/v00582_perturbed_75.29.pt
+  90% hasarsız | 90% bitiş | tur 76.611 (en iyi 76.36) | hasar 20.2 | racelab/rl/runs/n5_s81/candidates/v00651_perturbed_75.35.pt
+  80% hasarsız | 80% bitiş | tur 81.873 (en iyi 78.45) | hasar 104.8 | racelab/rl/runs/n5_s81/candidates/v00734_perturbed_75.37.pt
+  90% hasarsız | 90% bitiş | tur 76.941 (en iyi 76.14) | hasar 4.6 | racelab/rl/runs/n5_s81/candidates/v01161_perturbed_75.49.pt
+  20% hasarsız | 20% bitiş | tur 76.13 (en iyi 75.88) | hasar 43.8 | racelab/rl/runs/n5_s81/candidates/v00817_perturbed_75.53.pt
+  70% hasarsız | 70% bitiş | tur 76.664 (en iyi 76.232) | hasar 37.9 | racelab/rl/runs/n5_s81/candidates/v00563_perturbed_75.57.pt
+  10% hasarsız | 10% bitiş | tur 81.95 (en iyi 81.95) | hasar 6.3 | racelab/rl/runs/n5_s81/candidates/v00509_perturbed_75.58.pt
+  90% hasarsız | 90% bitiş | tur 82.572 (en iyi 76.04) | hasar 0.0 | racelab/rl/runs/n5_s81/candidates/v02328_perturbed_75.62.pt
+  70% hasarsız | 90% bitiş | tur 76.845 (en iyi 76.568) | hasar 6.8 | racelab/rl/runs/n5_s81/candidates/v05764_perturbed_75.65.pt
+  30% hasarsız | 30% bitiş | tur 76.382 (en iyi 75.76) | hasar 539.8 | racelab/rl/runs/n5_s81/candidates/v00845_perturbed_75.67.pt
+  30% hasarsız | 30% bitiş | tur 76.841 (en iyi 76.568) | hasar 140.7 | racelab/rl/runs/n5_s81/snapshots/0030min_v02954.pt
+  20% hasarsız | 20% bitiş | tur 78.85 (en iyi 78.816) | hasar 150.4 | racelab/rl/runs/n5_s81/snapshots/0040min_v03935.pt
+  100% hasarsız | 100% bitiş | tur 76.685 (en iyi 75.96) | hasar 0.0 | racelab/rl/runs/n5_s81/snapshots/0050min_v04912.pt
+  10% hasarsız | 10% bitiş | tur 75.234 (en iyi 75.234) | hasar 113.8 | racelab/rl/runs/n5_s81/best.pt
+  0% hasarsız | 0% bitiş | tur None (en iyi None) | hasar 19.6 | racelab/rl/runs/n5_s81/final.pt
+
+EN İYİ 5:
+  100% hasarsız, tur ort 76.685 → racelab/rl/runs/n5_s81/snapshots/0050min_v04912.pt
+  90% hasarsız, tur ort 76.611 → racelab/rl/runs/n5_s81/candidates/v00651_perturbed_75.35.pt
+  90% hasarsız, tur ort 76.695 → racelab/rl/runs/n5_s81/candidates/v00582_perturbed_75.29.pt
+  90% hasarsız, tur ort 76.941 → racelab/rl/runs/n5_s81/candidates/v01161_perturbed_75.49.pt
+  90% hasarsız, tur ort 82.572 → racelab/rl/runs/n5_s81/candidates/v02328_perturbed_75.62.pt
+kaydedildi: C:\Users\Asus\Desktop\projeler egit\ıbmrace\racelab\rl\runs\n5_s81\selection.csv
+
+$ C:\Users\Asus\AppData\Local\Programs\Python\Python312\python.exe racelab/rl/select_models.py --run n5_s82 --env v4 --tcs-th 5.0 --top 12 --repeat 10 --procs 4 --idx-from 1
+14 model × 10 koşu, 4 paralel

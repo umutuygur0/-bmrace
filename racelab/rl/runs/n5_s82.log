@@ -1,0 +1,25 @@
+
+$ C:\Users\Asus\AppData\Local\Programs\Python\Python312\python.exe racelab/rl/train_sac_v2.py --env v4 --name n5_s82 --c-speed 0.25 --tcs-th 5.0 --safe-pos 0.9 --seed 82 --workers 8 --idx-offset 1 --hours 1.0 --init racelab/rl/runs/v10b/final_full.pt --pos-obs
+init: racelab/rl/runs/v10b/final_full.pt
+[best] clean dist=3618.8 lap=77.05 dmg=0.0 v=0 steps=9263
+    0.2m steps=   129386 eps=    56 dist20= 1071.5 lap20=0.00 best=3618.8/77.05 aday=2 alpha=0.038 env/s=8547 upd/s=581
+    0.5m steps=   273241 eps=   153 dist20= 1944.3 lap20=0.00 best=3618.8/77.05 aday=2 alpha=0.041 env/s=9430 upd/s=839
+    0.8m steps=   433316 eps=   231 dist20= 1709.6 lap20=0.00 best=3618.8/77.05 aday=2 alpha=0.039 env/s=10477 upd/s=838
+    1.0m steps=   597312 eps=   287 dist20= 3049.6 lap20=0.00 best=3618.8/77.05 aday=2 alpha=0.039 env/s=10806 upd/s=817
+    1.3m steps=   766071 eps=   340 dist20= 3038.9 lap20=0.50 best=3618.8/77.05 aday=2 alpha=0.039 env/s=11040 upd/s=811
+    1.5m steps=   939149 eps=   390 dist20= 3387.1 lap20=0.45 best=3618.8/77.05 aday=3 alpha=0.039 env/s=11227 upd/s=804
+    1.8m steps=  1087366 eps=   443 dist20= 1976.1 lap20=0.25 best=3618.8/77.05 aday=5 alpha=0.036 env/s=9645 upd/s=833
+    2.0m steps=  1232401 eps=   485 dist20= 3301.9 lap20=0.05 best=3618.8/77.05 aday=5 alpha=0.036 env/s=9511 upd/s=839
+    2.3m steps=  1377780 eps=   528 dist20= 3447.1 lap20=0.75 best=3618.8/77.05 aday=5 alpha=0.035 env/s=9503 upd/s=837
+[best] perturbed dist=3619.4 lap=76.006 dmg=0.0 v=223 steps=1430880
+[best] clean dist=3619.2 lap=75.922 dmg=0.0 v=238 steps=1517317
+    2.5m steps=  1521669 eps=   570 dist20= 3319.8 lap20=0.90 best=3619.2/75.922 aday=7 alpha=0.034 env/s=9380 upd/s=834
+    2.8m steps=  1670492 eps=   612 dist20= 3578.1 lap20=0.95 best=3619.2/75.922 aday=8 alpha=0.034 env/s=9683 upd/s=833
+    3.0m steps=  1812937 eps=   657 dist20= 2957.7 lap20=0.25 best=3619.2/75.922 aday=8 alpha=0.036 env/s=9447 upd/s=849
+    3.3m steps=  1956327 eps=   702 dist20= 3210.9 lap20=0.60 best=3619.2/75.922 aday=9 alpha=0.035 env/s=9451 upd/s=844
+[best] clean dist=3619.5 lap=75.498 dmg=0.0 v=323 steps=1993602
+[best] perturbed dist=3619.4 lap=75.078 dmg=0.0 v=338 steps=2081529
+    3.6m steps=  2095290 eps=   743 dist20= 3535.6 lap20=0.95 best=3619.4/75.078 aday=11 alpha=0.034 env/s=9237 upd/s=851
+    3.8m steps=  2236842 eps=   781 dist20= 3619.1 lap20=1.00 best=3619.4/75.078 aday=11 alpha=0.035 env/s=9361 upd/s=846
+    4.1m steps=  2369893 eps=   818 dist20= 3492.8 lap20=0.95 best=3619.4/75.078 aday=13 alpha=0.035 env/s=8853 upd/s=852
+bitti: C:\Users\Asus\Desktop\projeler egit\ıbmrace\racelab\rl\runs\n5_s82

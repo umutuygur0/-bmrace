@@ -45,6 +45,8 @@ except ImportError:  # standart Python ile de çalışır (biraz daha yavaş, ~2
     _np = None
 
 _RL_SHAPES = __SHAPES__
+_POS_OBS = _RL_SHAPES[0][1] > 32  # model giriş boyutu 44 ise konum bilen (v10)
+_TRACK_LEN, _POS_HARMONICS = 3608.2, (1, 2, 4, 8, 16, 32)
 _RL_BLOB = (
 __BLOB__
 )
@@ -95,11 +97,16 @@ def _rl_obs(S, prev):
     o += [w / 200.0 for w in S['wheelSpinVel']]
     o += [S['rpm'] / 20000.0, S['gear'] / 7.0]
     o += list(prev)
+    if _POS_OBS:  # v10: pistteki konum harmonikleri
+        ph = 2.0 * _math.pi * (S['distFromStart'] % _TRACK_LEN) / _TRACK_LEN
+        o += [f(k * ph) for k in _POS_HARMONICS for f in (_math.sin, _math.cos)]
     return o
 
 
 _GEAR_RATIOS = [3.9, 2.9, 2.3, 1.87, 1.68, 1.54, 1.46]
-_UPSHIFT_RPM = 18000
+_UPSHIFT_RPM = __UPSHIFT__
+_ASSIST_FRONT = __ASSIST__  # düzlük gaz yardımcısı (m), 0 = kapalı
+_ASSIST_DEC, _ASSIST_MARGIN = __ASSIST_DIST__  # mesafe tabanlı yardımcı: (fren ivmesi g, pay m); dec 0 = kapalı
 _MAX_GEAR = 6  # DriverAction.clip_to_limits 7'yi kabul etmez (Corkscrew'da 6. vites bile gerekmiyor)
 _WHEEL_R = [0.3179, 0.3179, 0.3307, 0.3307]
 _TCS_TH = __TCS_TH__  # patinaj kontrolü eşiği (m/s), modelin eğitildiği değer
@@ -141,6 +148,13 @@ def rl_drive(c):
     global _RL_PREV
     S, R = c.S.d, c.R.d
     a = _rl_policy(_rl_obs(S, _RL_PREV))
+    if (_ASSIST_FRONT and S['track'][9] >= _ASSIST_FRONT and abs(S['angle']) < 0.05
+            and abs(S['trackPos']) < 0.7 and a[1] > 0):
+        a = [a[0], 1.0]  # düzlük gaz yardımcısı
+    elif _ASSIST_DEC and abs(S['angle']) < 0.05 and abs(S['trackPos']) < 0.7 and a[1] > 0:
+        _vms = max(S['speedX'], 0.0) / 3.6  # önü frenleme mesafesinden uzunsa tam gaz
+        if S['track'][9] >= _vms * _vms / (2 * _ASSIST_DEC * 9.81) + _ASSIST_MARGIN:
+            a = [a[0], 1.0]
     R['steer'], R['accel'], R['brake'], R['gear'] = _rl_command(a, S)
     R['clutch'] = 0
     _RL_PREV = a
@@ -180,6 +194,10 @@ def main():
     ap.add_argument("--tcs-th", type=float, default=2.0, help="modelin eğitildiği TCS eşiği (v1-v4: 2.0, v6: 5.0)")
     ap.add_argument("--pedal-gain", type=float, default=1.0)
     ap.add_argument("--pedal-bias", type=float, default=0.0)
+    ap.add_argument("--assist-front", type=float, default=0.0, help="düzlük gaz yardımcısı (m), 0=kapalı")
+    ap.add_argument("--upshift", type=float, default=18000)
+    ap.add_argument("--assist-dec", type=float, default=0.0, help="mesafe tabanlı yardımcı fren ivmesi (g), 0=kapalı")
+    ap.add_argument("--assist-margin", type=float, default=40.0)
     args = ap.parse_args()
 
     ck = torch.load(args.model, map_location="cpu", weights_only=False)
@@ -192,7 +210,9 @@ def main():
     model_name = os.path.relpath(os.path.abspath(args.model), ROOT).replace("\\", "/")
     rl = (RL_BLOCK.replace("__MODEL__", model_name).replace("__SHAPES__", repr(shapes))
           .replace("__BLOB__", lines).replace("__TCS_TH__", repr(float(args.tcs_th)))
-          .replace("__PEDAL__", repr((float(args.pedal_gain), float(args.pedal_bias)))))
+          .replace("__PEDAL__", repr((float(args.pedal_gain), float(args.pedal_bias))))
+          .replace("__UPSHIFT__", repr(float(args.upshift))).replace("__ASSIST__", repr(float(args.assist_front)))
+          .replace("__ASSIST_DIST__", repr((float(args.assist_dec), float(args.assist_margin)))))
 
     with open(SRC, encoding="utf-8") as f:
         src = f.read()

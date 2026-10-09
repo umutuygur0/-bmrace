@@ -1,3 +1,20 @@
+# 2026-10-09 08:20 — ÖNCE SABAH_RAPORU_4.md OKU
+- ŞAMPİYON: submission/torcs_jm_par_rl_v10d_dist.py (v10 konum bilen model v10d/v04188 + mesafe yardımcısı 3g/50m + vites 18650):
+  73,582 s / 0 hasar, 10 ms ×10 10/10. GUI'de henüz denenmedi. TORCS botları 74,2 s → geçildi.
+- v10 = gözleme pist konumu (distFromStart sin/cos, 44 giriş). Tüm araçlar giriş boyutundan otomatik algılıyor.
+
+# 2026-10-08 16:20 — DURDURULDU (güvenli), önce ARASTIRMA_HIZ.md oku
+- En iyi teslim adayı: submission/torcs_jm_par_rl_s47_dist.py → 77,436 s / 0 hasar (GUI'de henüz denenmedi).
+  GUI'de doğrulanan en iyi: torcs_jm_par_rl_s47_assist.py → 01:18:15.
+- Referans: TORCS botları aynı araçla 74,2 s (hedef, ulaşılmadı; fark ~3,2 s).
+- Devam: python racelab/rl/night_pipeline.py --prefix n4 --start-seed 63 --minutes 45 --until 06:30
+- Sıradaki fikir: gözleme pistteki konum (distFromStart) eklemek → piste özgü fren/gaz noktaları öğrenme.
+
+# SABAH 2026-10-08 — ÖNCE SABAH_RAPORU_3.md OKU
+- Önerilen teslim: submission/torcs_jm_par_rl_s47_assist.py (n3b_s47 + düzlük yardımcısı 180 m + vites 18650):
+  deterministik 78,158 s / 0 hasar, 10 ms ×10 10/10. GUI'de henüz denenmedi. Yedek: torcs_jm_par_rl_v6g_assist.py (78,934).
+- Yardımcı/vites ayarları teslim dosyasına gömülü (build_submission --assist-front --upshift --tcs-th).
+
 # SABAH 2026-10-07 — ÖNCE SABAH_RAPORU_2.md OKU
 - Yeni şampiyon: rl/snapshots/v6g_best.pt (TCS 5.0, kenar 0.9). Teslim: submission/torcs_jm_par_rl_v6g.py →
   79,796 s / 0 hasar, 20/20 + 10/10 hasarsız. Henüz gerçek GUI'de denenmedi.

@@ -1,0 +1,10 @@
+model,runs,clean_finish_rate,finish_rate,mean_lap,best_lap,mean_clean_lap,mean_damage,mean_hits,mean_dist,mean_offtrack_s
+racelab/rl/runs/n3b_s45/candidates/v00249_perturbed_81.19.pt,10,0.7,0.7,82.589,82.088,82.589,0.0,0.0,2864.4,82.03
+racelab/rl/runs/n3b_s45/best.pt,10,0.6,0.7,83.826,82.006,83.6,18.7,0.7,2901.8,81.76
+racelab/rl/runs/n3b_s45/candidates/v00219_perturbed_83.17.pt,10,0.4,0.4,83.772,83.382,83.772,0.0,0.0,3099.3,161.11
+racelab/rl/runs/n3b_s45/candidates/v00455_perturbed_82.37.pt,10,0.3,0.3,83.518,83.272,83.518,10.0,0.3,2700.3,199.2
+racelab/rl/runs/n3b_s45/candidates/v00067_perturbed_85.71.pt,10,0.0,0.0,,,,79.9,6.0,1739.8,357.67
+racelab/rl/runs/n3b_s45/snapshots/0020min_v01896.pt,10,0.0,0.0,,,,0.4,0.1,469.5,425.9
+racelab/rl/runs/n3b_s45/snapshots/0030min_v02850.pt,10,0.0,0.0,,,,0.0,0.0,477.8,425.9
+racelab/rl/runs/n3b_s45/snapshots/0040min_v03796.pt,10,0.0,0.0,,,,64.4,1.8,1915.9,372.1
+racelab/rl/runs/n3b_s45/final.pt,10,0.0,0.0,,,,65.1,1.4,2257.4,350.28

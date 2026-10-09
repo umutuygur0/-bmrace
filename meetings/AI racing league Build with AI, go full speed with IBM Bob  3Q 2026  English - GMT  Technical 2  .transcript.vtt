@@ -1,0 +1,2598 @@
+WEBVTT
+
+1
+00:00:15.720 --> 00:00:23.330
+Heyam: Hey, everyone. Good morning, good evening, good afternoon. I am glad to see you all again in this second session.
+
+2
+00:00:23.590 --> 00:00:25.240
+Heyam: And
+
+3
+00:00:26.170 --> 00:00:33.880
+Heyam: I would like to, first of all, let you know that I'm really sorry that my camera is going to be off for today's session. It's just I'm a bit under the weather.
+
+4
+00:00:34.050 --> 00:00:39.989
+Heyam: But, I'm here with you, we will go through all the steps that you need to complete this challenge.
+
+5
+00:00:40.290 --> 00:00:56.689
+Heyam: And again, I would like to also apologize for a couple of technical issues that happened last session. We will try as much as possible to make sure that everyone is on the same page, we are all on the same track, and that you are hopefully able to run the challenge with no issues or any technical problems.
+
+6
+00:00:56.730 --> 00:01:05.260
+Heyam: Before I go ahead with the session, I would like you to confirm in the chat if… whether you were able to run the simulator on your end or not.
+
+7
+00:01:05.500 --> 00:01:17.499
+Heyam: I want to count the number of people who were able to do this, and if we see, like, quite a good number of people who are still having problems, we can go ahead with a couple of recaps.
+
+8
+00:01:18.630 --> 00:01:28.269
+Heyam: Okay, so in the chat, within the Q&A box, if you can, just share with me, where are you at with the progress of the simulator installation? The Torres.
+
+9
+00:01:28.730 --> 00:01:36.210
+Heyam: My main point is around the Torres. Did you… did you run it? Did you… were you able to see the car moving?
+
+10
+00:01:42.390 --> 00:01:46.810
+Heyam: Maybe a minute or so for everyone to get situated and ready.
+
+11
+00:01:54.580 --> 00:02:06.479
+Heyam: Again, I would like you, please, to share in the Q&A box if whether you were able to run the simulator and it was smoothly and successfully working. Thank you so much, Raja.
+
+12
+00:02:06.810 --> 00:02:08.639
+Heyam: for confirmation.
+
+13
+00:02:08.949 --> 00:02:10.559
+Heyam: It's working fine.
+
+14
+00:02:10.800 --> 00:02:11.740
+Heyam: Amazing.
+
+15
+00:02:12.510 --> 00:02:16.430
+Heyam: The Python, the one that we could possibly
+
+16
+00:02:16.710 --> 00:02:20.900
+Heyam: suggest, if you are using Windows 11, then Python 13 would be good.
+
+17
+00:02:25.990 --> 00:02:28.869
+Heyam: I will share the version number with you in the chat.
+
+18
+00:02:32.690 --> 00:02:34.030
+Heyam: you can…
+
+19
+00:02:34.350 --> 00:02:41.249
+Heyam: run this, and I assume that this should be compatible with almost all the operating systems that you… you may have.
+
+20
+00:02:54.350 --> 00:02:57.919
+Heyam: I… I posted that in the chat, so this is the version that
+
+21
+00:02:58.130 --> 00:03:05.509
+Heyam: It's actually the recent version, so you can have it. If you have it, then that should work properly fine on your end.
+
+22
+00:03:08.210 --> 00:03:10.749
+Heyam: Amazing. Tahila, that's amazing.
+
+23
+00:03:15.740 --> 00:03:21.279
+Heyam: Raj, in that case, I would suggest that you maybe have to sign up with a different email address.
+
+24
+00:03:21.580 --> 00:03:26.919
+Heyam: This is exactly what happened with me. I exhausted all my trials with IBM Bob.
+
+25
+00:03:27.300 --> 00:03:40.759
+Heyam: So I would suggest that instead of you having to do any subscriptions or pay anything, it's easier for you to maybe create a new account, new email address, and then sign up with that. If you don't have IBM ID.
+
+26
+00:03:41.080 --> 00:03:47.460
+Heyam: and you are using Google or Microsoft, let's maybe try to have an IBM ID then.
+
+27
+00:03:47.900 --> 00:03:48.630
+Heyam: Okay?
+
+28
+00:03:51.450 --> 00:04:00.739
+Heyam: All right, so, so far, I can see that there are a good amount of people who already have it run, but what we can do is just a quick recap, okay?
+
+29
+00:04:00.870 --> 00:04:06.119
+Heyam: I can do a quick recap just to ensure that everyone is pretty much on the same page. So…
+
+30
+00:04:07.030 --> 00:04:08.170
+Heyam: First things first.
+
+31
+00:04:08.620 --> 00:04:10.729
+Heyam: In the installation.
+
+32
+00:04:10.850 --> 00:04:17.529
+Heyam: I shared with you the installation link, and then again, it's in the chat. If you missed that link, you can find it now in the chat.
+
+33
+00:04:17.860 --> 00:04:30.600
+Heyam: So this this is something that you can find in any email that you have received so far around this course. You can also find this link in the learning path itself. So if I go with you to the learning path.
+
+34
+00:04:30.940 --> 00:04:38.040
+Heyam: You can simply find this under the Technical Setup Guide module. So, if let's go back to the plan…
+
+35
+00:04:38.250 --> 00:04:40.980
+Heyam: And as we agreed, we have a couple of
+
+36
+00:04:41.110 --> 00:04:53.550
+Heyam: elements here that we need to complete all together. Some of them are individual assignments that you need to complete them on your own, and some of them can be done as a team if you decided to work within a team, okay? However.
+
+37
+00:04:53.680 --> 00:04:57.519
+Heyam: This module here, let me just… Highlight this to you.
+
+38
+00:04:57.670 --> 00:05:10.920
+Heyam: This module here is entirely your job. It's individual, an individual assignment that you need to complete. It's all theory around everything, IBM Granite, and the different models that IBM has, okay?
+
+39
+00:05:11.070 --> 00:05:24.459
+Heyam: So this is number one. This is something that you need to complete. If you haven't yet started, please do go ahead and start working on that. It's just a couple of like, it's an hour and a half to complete all the theory elements. Okay.
+
+40
+00:05:24.490 --> 00:05:39.779
+Heyam: Now, where can I find everything around the installation? If you missed that part, if you didn't hear last session, or if you are still having any problems with the installation, this is where… the place where you should go to find everything around the installation.
+
+41
+00:05:39.900 --> 00:05:42.959
+Heyam: So by simply clicking to the go to activity.
+
+42
+00:05:43.420 --> 00:05:47.850
+Heyam: It will take you, direct you to the box where you can find the installation files.
+
+43
+00:05:48.110 --> 00:05:51.459
+Heyam: As I said last week, sorry, last session.
+
+44
+00:05:51.840 --> 00:05:55.180
+Heyam: All the installations that you need are in this folder here.
+
+45
+00:05:55.640 --> 00:05:56.470
+Heyam: Okay?
+
+46
+00:05:57.440 --> 00:05:59.819
+Heyam: I did the installation on my end.
+
+47
+00:05:59.920 --> 00:06:10.119
+Heyam: Part of the installation is a folder called Torques. And again, Torques is just the simulator. It's the environment that we need in order to run this entire
+
+48
+00:06:10.250 --> 00:06:11.839
+Heyam: challenge, okay?
+
+49
+00:06:12.150 --> 00:06:27.859
+Heyam: What I actually did, I have downloaded this, and then I extracted everything, because as I said, it's all zipped or compressed, as you can see, which means that we have shrinked or reduced the size of the actual size that we have.
+
+50
+00:06:27.970 --> 00:06:32.830
+Heyam: And all you need to do, once it's all installed on your end, is to extract everything.
+
+51
+00:06:33.110 --> 00:06:38.650
+Heyam: The moment you have them all extracted, I'm showing you now my desktop.
+
+52
+00:06:38.940 --> 00:06:42.380
+Heyam: On my desktop, I've created a folder.
+
+53
+00:06:44.370 --> 00:06:45.930
+Heyam: As you can see here.
+
+54
+00:06:46.730 --> 00:06:48.210
+Heyam: Torres, okay?
+
+55
+00:06:48.680 --> 00:06:51.020
+Heyam: I created this folder here.
+
+56
+00:06:54.340 --> 00:06:58.729
+Heyam: And this folder should be… This one here. Okay.
+
+57
+00:07:00.090 --> 00:07:06.279
+Heyam: Where everything that I need is… is here, okay? Now… To run the Torques.
+
+58
+00:07:06.750 --> 00:07:09.600
+Heyam: All you need to do is to find the application.
+
+59
+00:07:10.210 --> 00:07:15.099
+Heyam: Okay, the application that runs the Torques for you is this one, W Torques.
+
+60
+00:07:15.350 --> 00:07:16.150
+Heyam: Okay?
+
+61
+00:07:16.950 --> 00:07:22.399
+Heyam: The same instructions applies to almost everyone uses either Windows or Mac.
+
+62
+00:07:22.550 --> 00:07:30.680
+Heyam: The only thing, the only difference with Mac is that you need to have a prerequisite installation to make sure that the Torx is running on your end.
+
+63
+00:07:31.270 --> 00:07:32.050
+Heyam: Okay?
+
+64
+00:07:32.900 --> 00:07:35.070
+Heyam: So, by simply clicking here.
+
+65
+00:07:37.230 --> 00:07:42.049
+Heyam: It's the application extension. As you can see, the type of this is an application.
+
+66
+00:07:43.600 --> 00:07:47.120
+Heyam: When I click here, It should run.
+
+67
+00:07:49.380 --> 00:07:56.169
+Heyam: this… Here, and… This is the simulator.
+
+68
+00:07:56.570 --> 00:07:57.340
+Heyam: Okay?
+
+69
+00:07:57.890 --> 00:08:01.779
+Heyam: Having the simulator, having this blue screen itself.
+
+70
+00:08:02.110 --> 00:08:11.130
+Heyam: is… is a success, I would say, okay? So, if you have reached to this point, you are on the right path, you are on the right track.
+
+71
+00:08:11.750 --> 00:08:13.380
+Heyam: Okay, I'll have just to…
+
+72
+00:08:17.410 --> 00:08:18.480
+Heyam: Disable.
+
+73
+00:08:19.010 --> 00:08:19.820
+Heyam: Sorry.
+
+74
+00:08:20.580 --> 00:08:21.470
+Heyam: I don't know.
+
+75
+00:08:24.830 --> 00:08:25.880
+Heyam: Okay.
+
+76
+00:08:26.870 --> 00:08:32.919
+Heyam: Now… Can can I see some reactions just to ensure that we are all on the same page now?
+
+77
+00:08:34.159 --> 00:08:36.090
+Heyam: We have reached to this point.
+
+78
+00:08:36.190 --> 00:08:37.340
+Heyam: Amazing.
+
+79
+00:08:37.850 --> 00:08:44.090
+Heyam: Amazing. So glad to see those reactions from all of you. Amazing. Thank you so much. Okay, perfect. Now.
+
+80
+00:08:44.520 --> 00:08:45.779
+Heyam: As we agreed.
+
+81
+00:08:45.990 --> 00:08:53.790
+Heyam: This is the environment. This is where the car is going to be moving, okay? But who runs the car? It's the Python script.
+
+82
+00:08:53.820 --> 00:09:08.820
+Heyam: So, at some point, you will notice that you need to have the Python code running when the terminal is calling for the script, because what we have developed here, or what actually has been done here, is that they have created the simulator for you.
+
+83
+00:09:08.930 --> 00:09:25.150
+Heyam: And the simulator is the place where the car is going to be moving. However, the car controls is going to be controlled by the script of the Python. So at some point, you will notice that you cannot run the car or even see the car moving without having the terminal running the Python script.
+
+84
+00:09:25.150 --> 00:09:34.580
+Heyam: Do we have the Python script? Yes, we do. In the same Torques folder, if you have noticed, we have another folder here called Gem Torques.
+
+85
+00:09:34.620 --> 00:09:35.420
+Heyam: Okay?
+
+86
+00:09:36.210 --> 00:09:42.459
+Heyam: By just simply navigating it, you can see that we have a number of Python scripts written here.
+
+87
+00:09:42.730 --> 00:09:46.300
+Heyam: The one that should run our car is the Snake Oil 3.
+
+88
+00:09:46.760 --> 00:09:48.609
+Heyam: The snake oils region.
+
+89
+00:09:48.940 --> 00:09:49.740
+Heyam: Okay?
+
+90
+00:09:50.080 --> 00:10:00.970
+Heyam: A reminder for everyone is that the purpose of this entire challenge is to make sure that the original code is there. We will not be touching anything within the original Snake Oil 3 Gem code.
+
+91
+00:10:01.080 --> 00:10:10.250
+Heyam: We will be having an identical copy of that file, and then we will perform some changes with the assistance of IBM Bob.
+
+92
+00:10:10.420 --> 00:10:25.910
+Heyam: So no expectation from any of you to have any prior knowledge in Python or to even be someone who knows how to code. The main point here is to show how we can use AI to help improve and develop any code that we could possibly have.
+
+93
+00:10:26.520 --> 00:10:27.300
+Heyam: Okay?
+
+94
+00:10:27.540 --> 00:10:34.840
+Heyam: So our goal today is simple. We want to experiment the current version and see what we can measure, okay?
+
+95
+00:10:35.080 --> 00:10:41.260
+Heyam: But before I go ahead, did anyone made it thus far to have the first lab recorded?
+
+96
+00:10:44.210 --> 00:10:46.859
+Heyam: Did anyone make it to that point?
+
+97
+00:10:51.840 --> 00:10:55.559
+Heyam: Perfect. We are, you are doing really good. Amazing.
+
+98
+00:10:56.430 --> 00:11:12.809
+Heyam: All right, in that case, I would definitely suggest as well that we try to finalize the team formation today, because as you can see, some of you are maybe coming from a technical background, some of you are here just to experiment and just for the sake of curiosity to learn something new.
+
+99
+00:11:12.940 --> 00:11:24.370
+Heyam: So what I would suggest is that, first of all, take this as an opportunity to network and connect with others. Make sure that you are showing proactiveness and positive mindset.
+
+100
+00:11:24.440 --> 00:11:33.719
+Heyam: Make sure that you are someone who could possibly lead, so you can showcase your leadership skills by connecting with others, inviting them to join your team, and
+
+101
+00:11:33.850 --> 00:11:46.670
+Heyam: By the way, do not be dominant or even control, but at least you can walk them through the steps and take this as an opportunity for you to lead a group, okay? So, we will give you maybe around
+
+102
+00:11:46.720 --> 00:11:59.299
+Heyam: 15 minutes today in a breakout rooms, if you could like, if you would like to sit and decide who's going to be doing what. In the Zoom channel itself, we need to have this finalized by the end of the.
+
+103
+00:11:59.300 --> 00:12:19.049
+Pooja: Sorry to interrupt him, so, just to add, we will not be, creating a teams. If you all need to work in a team, you'll have to discuss within yourself, and give us the name of your team members, or else you can just, go it solo and complete your project.
+
+104
+00:12:19.090 --> 00:12:21.049
+Pooja: Okay, thank you so much.
+
+105
+00:12:21.050 --> 00:12:29.540
+Heyam: Yeah, we are not going to form them. It's their responsibility. Like, the learners are the people, the ones who will be forming the teams, correct?
+
+106
+00:12:31.680 --> 00:12:32.390
+Pooja: Yes.
+
+107
+00:12:33.340 --> 00:12:44.469
+Heyam: Okay, but we can do this by the end of this week, to have it finalized on the Zoom channel, so we know everyone, what would be the name of the team, and who are the members of that team.
+
+108
+00:12:45.400 --> 00:12:56.640
+Heyam: Okay? Remember that the submission is going to be on October 11th, so it's around 10 days from now, so that's why I want you to be ready with the team name and who's going to be the members of that team.
+
+109
+00:12:57.220 --> 00:12:58.819
+Heyam: Right? Okay.
+
+110
+00:13:00.410 --> 00:13:01.520
+Heyam: Now.
+
+111
+00:13:01.920 --> 00:13:12.059
+Heyam: In order… other thing that I want to also mention, just because I know that some of you are coming from a complete non-tech background, and I know that this might be kind of…
+
+112
+00:13:12.650 --> 00:13:22.810
+Heyam: Maybe kind of basics for others, but just a reminder for everyone that we would like to make sure that this is a space for everyone, and everyone is feeling supported.
+
+113
+00:13:23.390 --> 00:13:37.520
+Heyam: And if you are someone who's coming entirely new to this entire thing, I want to remind you of what are the things that you need to have on your end. So, first of all, you need to make sure that you have Python installed on your device, okay?
+
+114
+00:13:37.530 --> 00:13:45.600
+Heyam: And as I said in the chat, the version that I have shared is something that you can have it on both Windows and Mac.
+
+115
+00:13:47.190 --> 00:13:48.030
+Heyam: Okay.
+
+116
+00:13:48.540 --> 00:14:07.689
+Heyam: The other thing that you need to have is the VS Code. The VS Code is the lighter version of Visual Studio, so you don't have to have the entire Visual Studio installed on your end. The Visual Studio is just an environment similar to the Word, PowerPoint, any of these environments that help you run and edit a code.
+
+117
+00:14:07.910 --> 00:14:16.229
+Heyam: Now, even if you don't have it, it's not actually mandatory that you need to have it there, because we will be using IBM Bob. So if you have IBM Bob installed.
+
+118
+00:14:16.380 --> 00:14:19.610
+Heyam: You will notice that the moment you created this.
+
+119
+00:14:19.860 --> 00:14:27.850
+Heyam: And as I said, I just want to remind you that I put everything on my desktop, so if you would like to follow the same steps, you can definitely do that.
+
+120
+00:14:28.080 --> 00:14:37.450
+Heyam: If you would like to have it on your documents and any other path, feel free to do so. However, just make sure that you know where exactly your folder, because this is what we need to do.
+
+121
+00:14:37.680 --> 00:14:39.520
+Heyam: I opened IBM Bob.
+
+122
+00:14:39.790 --> 00:14:50.979
+Heyam: And we went through IBM Bob's last session, so as we know, we have a couple of different modes here that helps us to decide what type of task we would like to assign to IBM Bob.
+
+123
+00:14:51.320 --> 00:15:08.579
+Heyam: As a simple reminder, ASK does not have anything to do with providing you with a document. So ASK is just a read-only mode, okay? This is the lighter mode of Bob that allows you to interact with it without expecting it to generate or come up with any document.
+
+124
+00:15:08.580 --> 00:15:14.499
+Heyam: Okay? So, if someone is asking me, what… when do you think I should be using the Ask mode?
+
+125
+00:15:14.500 --> 00:15:21.139
+Heyam: It's usually when we are brainstorming or asking for solutions or just having a conversation around a problem or something.
+
+126
+00:15:21.360 --> 00:15:32.490
+Heyam: Other than that, if you would like IBM Bob to come up with a generated downloadable file or something to execute, then you need to do the plan mode or the agent mode.
+
+127
+00:15:32.880 --> 00:15:44.969
+Heyam: I hope that this is clear for everyone. And again, IBM Bob is not different from any other AI tool, except that it has the capacity to help you with the code improvements and development, okay?
+
+128
+00:15:45.910 --> 00:16:05.670
+Heyam: Now, first of all, as you… maybe you remember that I had also the problem with the subscription. What I did is I actually created a new account, and I have the trial now open, so I can use it simply. So, here, I will go to the file, open the folder, and from here, I'm opening the folder where I have
+
+129
+00:16:05.670 --> 00:16:10.990
+Heyam: the Python code, okay? So it's not the Torques, it's the Python code.
+
+130
+00:16:11.610 --> 00:16:18.569
+Heyam: From here, you can see that it's going to be listing down all of the elements or all of the components within this folder.
+
+131
+00:16:19.190 --> 00:16:29.669
+Heyam: The main folder that we will be using is the snake oil. So even if you do not have VS Code, as you can see, I can read the entire code that we have for the car.
+
+132
+00:16:30.070 --> 00:16:42.049
+Heyam: Okay? I know this looks very complicated for those of you who are not coming from a technical background, and again, I just want to reassure you that there is no expectation from you to be familiar with any of these.
+
+133
+00:16:42.180 --> 00:16:52.730
+Heyam: There are a couple of things that you need to be aware of, but other than that, you don't have to worry about reading the code and be able to, explain each and every line, okay?
+
+134
+00:16:54.980 --> 00:16:56.260
+Heyam: So, again.
+
+135
+00:16:56.400 --> 00:17:06.069
+Heyam: If you can just show me some reactions that, so far, so good, everyone is pretty much on the same page with me, and you are… All right, amazing, amazing.
+
+136
+00:17:06.760 --> 00:17:14.440
+Heyam: Perfect. So, we did the installation, the Torx is there, we have our Python, the original code is there. Great job.
+
+137
+00:17:14.569 --> 00:17:20.139
+Heyam: All right, so let's jump in into our slides and see what we have for today, okay?
+
+138
+00:17:23.760 --> 00:17:37.980
+Heyam: So, as we said, last week, we went… last session, we just spoke about how AI is changing the way we work, and especially this is… applies for developers. It doesn't actually only apply for developers, it applies for every role, for educators, for healthcare providers.
+
+139
+00:17:38.030 --> 00:17:44.639
+Heyam: for almost everybody who can use AI as a co-pilot, as a thinking partner, or as an assistant.
+
+140
+00:17:44.820 --> 00:17:48.699
+Heyam: So, the time now, shifting all of us towards
+
+141
+00:17:48.700 --> 00:18:00.760
+Heyam: It's not the capacity that you know things. It's how you can use the AI to help you make things better. Okay. And how to free some time for yourself so that you can focus on.
+
+142
+00:18:00.760 --> 00:18:19.620
+Heyam: creativity, you can focus on solving problems, you can focus on the soft skills, you can focus on engaging and communicating with your clients, rather than you do everything, and then you run drained, and you cannot do anything on your end with the clients. So, this is how we are trying to shift your mindset and be someone who's approaching AI with positivity.
+
+143
+00:18:19.670 --> 00:18:20.560
+Heyam: Okay?
+
+144
+00:18:20.690 --> 00:18:40.429
+Heyam: So I promise you, AI is not going to replace any of us. It's just about you and how you can, embrace this, this mindset and era, okay? Now, for today, we will be just focusing on the code itself, so by the end of the session, the goal is just we want to experiment and see how the car drives, okay?
+
+145
+00:18:48.600 --> 00:18:49.910
+Heyam: All right.
+
+146
+00:18:50.890 --> 00:18:56.959
+Heyam: As just a reminder, we have the three modes of probe, ask to understand or brainstorm.
+
+147
+00:18:56.970 --> 00:19:11.900
+Heyam: Plan to decide, and code to change, and then, make sure that always, always, always, as we progress in this session, and every session, that IBM Bob does not have the authority to change anything on its own.
+
+148
+00:19:11.900 --> 00:19:20.080
+Heyam: This can be simply done by just clicking on permissions here, and instead of having it enabled, make sure that this is disabled.
+
+149
+00:19:20.100 --> 00:19:20.890
+Heyam: Okay?
+
+150
+00:19:21.130 --> 00:19:33.149
+Heyam: The reason why is that we do not want AI to take the lead. We want to ensure that we are having the verification part, and that human intervention is there, and the decision is actually
+
+151
+00:19:33.270 --> 00:19:40.129
+Heyam: made by you. So you are actually the leader of this challenge. It's not IBM, Bob. IBM is just simply assisting you.
+
+152
+00:19:40.340 --> 00:19:41.060
+Heyam: Okay.
+
+153
+00:19:42.690 --> 00:19:43.860
+Heyam: All right.
+
+154
+00:19:56.440 --> 00:19:57.300
+Heyam: Hey.
+
+155
+00:20:00.890 --> 00:20:13.009
+Heyam: Now, we also agreed that for every prompt that we will be using moving forward, especially when we are interacting, not just with IBM Bob, with any other AI tool, is to make sure that we always provide the score.
+
+156
+00:20:13.350 --> 00:20:19.289
+Heyam: A goal or a mission or a task, and it has to be clear and measurable.
+
+157
+00:20:19.410 --> 00:20:32.080
+Heyam: a shape and a guardrail, so something that… around the tone and the way how we want it. Is it simple? Is it complicated? Is it academic? Is it tech? Is it non-tech? Depends on what exactly you are trying to do here, okay?
+
+158
+00:20:32.340 --> 00:20:40.629
+Heyam: The car itself, where we have the Python code, it has sensors, so the car is just having… the Python code is where you can
+
+159
+00:20:40.650 --> 00:20:54.089
+Heyam: say that this is the eyes of the car, so how the car… it's the dash… the dashboard or the cam. So, the sensor is telling us how the car is moving, and what the car can do, which direction it's taking, and also the speed.
+
+160
+00:20:54.170 --> 00:20:59.419
+Heyam: Okay? So these are some of the rules that I want you to keep in mind as we progress in this challenge.
+
+161
+00:20:59.800 --> 00:21:07.769
+Heyam: If any of you made it this far, and you were able to have your baseline for the first lab, please write it down in the chat.
+
+162
+00:21:07.880 --> 00:21:08.630
+Heyam: Okay?
+
+163
+00:21:08.940 --> 00:21:17.179
+Heyam: Because this is going to be your reference. If you remember, we mentioned that we will have something like a benchmark, and this baseline is going to be our starting point.
+
+164
+00:21:22.010 --> 00:21:37.340
+Heyam: You will have to have them recorded, by the way, so even if you didn't have them as of now, that's completely fine. Just a reminder for everyone that we will have this, we will have to have this as part of what we do, is to ensure that we have recorded the first baseline.
+
+165
+00:21:37.820 --> 00:21:42.060
+Heyam: Great job. Thank you so much. So 2 min and 30 seconds, 34 seconds.
+
+166
+00:21:42.740 --> 00:21:44.130
+Heyam: Thank you so much, Tahira.
+
+167
+00:21:53.590 --> 00:22:10.860
+Heyam: Okay, so as I promised everybody that as much as possible, we will have to make this simple, because the main point here is not for us to teach you Python. What we want to know is what exactly the things from this code that will help me to do this, to complete this challenge.
+
+168
+00:22:10.860 --> 00:22:15.709
+Heyam: Now, since we are agreeing all that the reason why we wanted to use AI
+
+169
+00:22:15.710 --> 00:22:20.449
+Heyam: In this particular challenge and almost everything that we do at work.
+
+170
+00:22:20.450 --> 00:22:37.500
+Heyam: I would like you to also make sure that if you are facing any problem with the installation, it's completely fine to take a screenshot of whatever you have reached so far, and let AI help you with fixing the problem. This is the way how we learn. Do not just wait for someone to come and fix that problem for you.
+
+171
+00:22:37.500 --> 00:22:44.339
+Heyam: Try it yourself. Take a screenshot. Talk to the AI tool. Let it know what exactly, where are you struggling now?
+
+172
+00:22:44.340 --> 00:22:54.400
+Heyam: This is where we can use AI as a tool of learning, okay? So I don't want you to stop at any point saying that, oh, I didn't know how to do this. Instead, what I want you to do is just
+
+173
+00:22:54.490 --> 00:22:58.900
+Heyam: Go ahead, have that conversation with whatever AI tool that you feel comfortable with.
+
+174
+00:22:58.900 --> 00:23:15.720
+Heyam: Let it know that I am here at this stage, I'm doing this, I'm trying to complete this, and take a screenshot of the command prompt can be taken, you can take a screenshot of it. If you have anything with the with the simulator itself, you can take a screenshot and show it to the AI tool, and it will help you with that.
+
+175
+00:23:15.990 --> 00:23:33.820
+Heyam: Also, there are a couple of videos, and I will actually be having them. I will just want to let you know that I included two videos, because this is more of a global challenge. So, you will notice that even on YouTube, there are a couple of videos that walk you through some of the expectations here.
+
+176
+00:23:33.820 --> 00:23:49.810
+Heyam: So even if you missed any part of this session, or you are not sure about if you have a complete understanding of it, feel free to also visit these short videos, and it will also tell you a bit about the challenge itself. It's the same challenge, the same requirements, the same everything, okay?
+
+177
+00:23:51.450 --> 00:23:54.179
+Heyam: All right, so let's get started with this.
+
+178
+00:23:58.600 --> 00:24:11.979
+Heyam: I want you just, before I go ahead with the code itself, and as I said, we will not be diving into each line by line, it's just about the thing that we need to highlight and to take care of, okay? Because we already have the first,
+
+179
+00:24:12.380 --> 00:24:15.330
+Heyam: The first one, the first,
+
+180
+00:24:15.720 --> 00:24:18.400
+Heyam: Love… let me just use this here. Okay.
+
+181
+00:24:23.980 --> 00:24:26.149
+Heyam: So I'm here pointing at the speed.
+
+182
+00:24:26.600 --> 00:24:31.910
+Heyam: And the speed here is just… means how fast does the car move, okay?
+
+183
+00:24:32.130 --> 00:24:48.249
+Heyam: And this is one… a big part of what we will be seeing today in our Python code. So again, the SSP here is just a definition of… or a variable that has been defined in Python code that tells me how fast my car is moving forward.
+
+184
+00:24:48.600 --> 00:24:49.390
+Heyam: Okay?
+
+185
+00:24:49.670 --> 00:24:58.179
+Heyam: When it comes to the track position, it only tells me where is the direction. Is it right, is it left, or it's at the center?
+
+186
+00:24:59.060 --> 00:25:00.020
+Heyam: Okay?
+
+187
+00:25:01.360 --> 00:25:13.160
+Heyam: Now, when it comes to the angle here, it's actually telling me the direction of the car that is relative to the track. So this is, in particular, to the track direction.
+
+188
+00:25:13.580 --> 00:25:23.560
+Heyam: Just to distinguish between the position, left, right, or center, of center, or this is one… this one is relevant… relative to that track direction.
+
+189
+00:25:26.530 --> 00:25:33.639
+Heyam: The track is especially interesting because it contains the distance, okay? This…
+
+190
+00:25:35.400 --> 00:25:40.979
+Heyam: This here, it's actually, it's the label or the box here, it's actually pointing to the track.
+
+191
+00:25:41.240 --> 00:25:51.460
+Heyam: And this contains the distance readings and looking around and ahead of the car. So it's more of similar to the dash cam that we have in our cars. Okay.
+
+192
+00:25:53.290 --> 00:25:58.229
+Heyam: And it definitely helped the driver recognize that a corner is approaching.
+
+193
+00:25:59.320 --> 00:26:15.310
+Heyam: Okay, so it's more of a sensor that tells the driver what to do, or what should the action be, the next action should be, okay? So this is all around the S here, okay? And this is something that you will see a lot in our Python code.
+
+194
+00:26:16.050 --> 00:26:20.400
+Heyam: Now, when it comes to the R, be out.
+
+195
+00:26:24.760 --> 00:26:30.139
+Heyam: It's the response, okay? So the R is, refers to the response.
+
+196
+00:26:31.370 --> 00:26:40.739
+Heyam: And the R here tells me what would be the… what will be… what will the car do? What will be… the car does, okay? So, for the R steer controls.
+
+197
+00:26:40.960 --> 00:26:47.919
+Heyam: This is the steer that tells me which direction the car should take, right or left.
+
+198
+00:26:49.730 --> 00:26:50.520
+Heyam: Okay?
+
+199
+00:26:50.840 --> 00:26:56.540
+Heyam: With the Akkar axle, or accelerator, it tells me the speed, if I need to add, increase the speed here.
+
+200
+00:26:56.730 --> 00:26:57.480
+Heyam: Okay.
+
+201
+00:26:58.990 --> 00:27:07.359
+Heyam: controls the speed. This one to control the speed, and this one to control the direction. And this one, as you can tell, it controls the brake.
+
+202
+00:27:08.100 --> 00:27:10.859
+Heyam: And the last one is to control the gear.
+
+203
+00:27:11.720 --> 00:27:16.499
+Heyam: Similar to drive, neutral, reverse, okay?
+
+204
+00:27:17.730 --> 00:27:30.779
+Heyam: These are the main parts, the main elements in our Python code that I want you to think about and to keep in mind, because these are actually the main elements that we will most likely be changing to improve the card performance.
+
+205
+00:27:30.780 --> 00:27:39.669
+Heyam: The challenge is all around… the core of the challenge is to improve the car performance. So what we need to do is just to focus on these elements here.
+
+206
+00:27:39.680 --> 00:27:40.930
+Heyam: Any questions?
+
+207
+00:27:44.740 --> 00:27:49.559
+Heyam: So these are some of the dictionaries that we have defined in Python.
+
+208
+00:27:49.950 --> 00:27:52.649
+Heyam: And it's going to help us to improve the code.
+
+209
+00:27:58.870 --> 00:28:00.839
+Heyam: Okay, I can see a couple of…
+
+210
+00:28:01.080 --> 00:28:09.360
+Heyam: Engage reactions, so thank you so much. I'm happy that everything's going so far, so good. Okay.
+
+211
+00:28:09.820 --> 00:28:10.660
+Heyam: Now…
+
+212
+00:28:11.060 --> 00:28:28.400
+Heyam: So the reason why I showed you this is just as a kind of a walk you through the basics of Python, so I don't want you to feel overwhelmed at all, okay? So what I'm showing you here is just I want to read the Python this way. I don't want you to memorize any syntax or translate anything, okay?
+
+213
+00:28:28.510 --> 00:28:30.970
+Heyam: So when I point at this here.
+
+214
+00:28:31.850 --> 00:28:38.759
+Heyam: We already have decided, we already have agreed that we have a speed and we need to improve that speed, right?
+
+215
+00:28:38.940 --> 00:28:41.790
+Heyam: So this one here, it tells me that…
+
+216
+00:28:42.470 --> 00:28:49.769
+Heyam: The speed that I'm targeting here is 100. Okay. The target speed is 100.
+
+217
+00:28:50.430 --> 00:28:56.950
+Heyam: The equal signs here means that I'm storing a value of 100 to the target speed.
+
+218
+00:28:57.380 --> 00:29:06.470
+Heyam: I'm storing that value, okay? I don't want to go above that. My plan is to store this value into the target speed, which is 100.
+
+219
+00:29:06.770 --> 00:29:07.530
+Heyam: Okay?
+
+220
+00:29:08.810 --> 00:29:11.330
+Heyam: Now, with the R stage here.
+
+221
+00:29:13.950 --> 00:29:17.439
+Heyam: The angle that I'm trying to achieve is this one.
+
+222
+00:29:18.110 --> 00:29:21.480
+Heyam: Okay, so I'm multiplying, multiplying it by 10.
+
+223
+00:29:21.760 --> 00:29:22.750
+Heyam: And…
+
+224
+00:29:22.940 --> 00:29:37.349
+Heyam: this is the value that I'm trying to give for the steer. Again, remember that the equal sign in any Python code means that I am assigning a specific value to this variable here, okay? Something that I've defined, and I'm assigning it as value.
+
+225
+00:29:38.240 --> 00:29:43.929
+Heyam: Same with the position, if you remember, we spoke about the position, which is relevant to the track.
+
+226
+00:29:48.210 --> 00:29:50.390
+Heyam: So the program is going to read this.
+
+227
+00:29:50.570 --> 00:29:54.720
+Heyam: And it's asking. So here, the F is just a question.
+
+228
+00:29:55.060 --> 00:29:58.790
+Heyam: If the speed… The current speed of the car.
+
+229
+00:29:58.980 --> 00:30:04.320
+Heyam: is less than the target speed, which is the 100, which I assign it here.
+
+230
+00:30:05.020 --> 00:30:12.420
+Heyam: What I want is that the axle, which I said that it's going to be changing the speed, it increases or decreases the speed.
+
+231
+00:30:12.650 --> 00:30:18.790
+Heyam: has to be increasing, okay? We want to make sure that we are achieving to this target speed.
+
+232
+00:30:20.230 --> 00:30:31.229
+Heyam: So again, the if clause here is just more of a questioning that Python is looking at, the code is looking at, is the car at the speed that we have added as the target, or not?
+
+233
+00:30:34.580 --> 00:30:38.369
+Heyam: If it's lower, then yes, let's make it, let's increase it.
+
+234
+00:30:39.090 --> 00:30:40.989
+Heyam: Let's add more throttle.
+
+235
+00:30:41.190 --> 00:30:42.020
+Heyam: Okay?
+
+236
+00:30:42.800 --> 00:30:45.180
+Heyam: Now, the else, the else here.
+
+237
+00:30:45.400 --> 00:30:48.119
+Heyam: If else, then the else here is if…
+
+238
+00:30:49.320 --> 00:31:02.949
+Heyam: Otherwise, let's just reduce the throttle slightly, because if it's less, then we need to increase it or decrease it, depends on the speed that we have at the moment, okay? So that we can achieve target speed.
+
+239
+00:31:03.320 --> 00:31:05.059
+Heyam: Is that clear to everyone?
+
+240
+00:31:09.720 --> 00:31:13.209
+Pooja: Can we have some reactions, please? Thank you so much.
+
+241
+00:31:13.910 --> 00:31:15.440
+Heyam: Thank you so much, everyone.
+
+242
+00:31:19.190 --> 00:31:21.480
+Heyam: Great job. Amazing. Perfect.
+
+243
+00:31:22.070 --> 00:31:29.340
+Heyam: So this is the speed that we are aiming to achieve. This is where we are pointing. Is it too slow? Is it too fast? Change that.
+
+244
+00:31:29.360 --> 00:31:47.359
+Heyam: That's it, okay? Again, see, I know that some of you can see this as really, really basic, but for some of you, it's entirely new. So what we are trying to do here is just to make things easy and clear, basics, and there is no need for you to get any, like, feeling any overwhelmed around Python itself, okay?
+
+245
+00:31:51.340 --> 00:31:52.670
+Heyam: All right.
+
+246
+00:31:57.860 --> 00:31:59.850
+Heyam: Let me just clear everything here.
+
+247
+00:32:00.740 --> 00:32:01.510
+Heyam: No.
+
+248
+00:32:02.510 --> 00:32:11.039
+Heyam: Of course, as we progress, we will definitely see some errors, which is fine, because this is useful. This is how we learn, right? So we will have some problems, maybe.
+
+249
+00:32:11.210 --> 00:32:28.490
+Heyam: If there's any problem with the syntax itself, means that the Python cannot run the code as written, so there might be a problem with the example, the indentations, anything like that, okay? But don't worry, this is something that can be simply fixed by IBM Bob itself, okay?
+
+250
+00:32:28.810 --> 00:32:45.220
+Heyam: Any logical problem means that there is an issue with the code itself. The way that the car behaves is not the way that is expected. So the outcome behavior is not the same as the expected behavior. And this is what we usually call it a logical problem.
+
+251
+00:32:45.410 --> 00:32:46.300
+Heyam: Okay?
+
+252
+00:32:48.030 --> 00:33:07.349
+Heyam: So it's that the car may be slower than expectation, it's running wide, maybe it's going down the downhill corner. Anything of that, this is more of a logical problem, or logical error. These are the three types of errors that you could possibly have in the, code.
+
+253
+00:33:07.930 --> 00:33:12.469
+Heyam: And when it comes to the functional problem, it means that there's something missing.
+
+254
+00:33:13.020 --> 00:33:17.060
+Heyam: Okay? So the behavior we need is missing.
+
+255
+00:33:17.180 --> 00:33:21.880
+Heyam: So no rule ever tells the car to brake. It cannot decide to brake.
+
+256
+00:33:22.220 --> 00:33:23.070
+Heyam: Okay?
+
+257
+00:33:24.100 --> 00:33:31.539
+Heyam: So these are some of the things that we will be maybe we are we are gonna be facing in our code.
+
+258
+00:33:33.500 --> 00:33:43.200
+Heyam: Now, just as a reminder, you will have in the learning module an introduction around granite. And granite is…
+
+259
+00:33:43.790 --> 00:33:45.889
+Heyam: See, what I can say is that
+
+260
+00:33:45.900 --> 00:33:56.520
+Heyam: So part of what IBM Bob has inside is Granite. So Granite is the foundational models that have been created or developed by IBM, and they have
+
+261
+00:33:56.520 --> 00:34:00.999
+Heyam: Different types of them depends on the complexity of the tasks that you do.
+
+262
+00:34:01.000 --> 00:34:17.839
+Heyam: What they did is they took the foundational from Granite and they integrated that into IBM Bob so that IBM Bob can easily be integrated into any development environment. As you can see, like IBM Bob is actually an integrated development environment, IDE.
+
+263
+00:34:17.900 --> 00:34:23.789
+Heyam: And this means that you can simply use it within the environment itself. It doesn't require you to have
+
+264
+00:34:23.790 --> 00:34:42.109
+Heyam: For example, you don't have to copy the code and then paste it into Granite, and then it helps you to fix. No. Instead, you open the code and ask IBM from within the same integrated environment to help you fix it. And this makes your life way easier, because it's also connected to the repository, to the GitHub.
+
+265
+00:34:42.110 --> 00:34:59.199
+Heyam: to any other programming tool that you could possibly have, to the CIC CD pipeline, so you can send it to Docker or Jenkins, depends on what exactly you are trying to develop, okay? So this is the beauty around IBM Bob itself, that it is integrated within the development environment.
+
+266
+00:34:59.270 --> 00:35:00.850
+Heyam: Itself, okay?
+
+267
+00:35:01.080 --> 00:35:16.740
+Heyam: So this is something that I want to remind everyone about. And just so you know that Granite will also help you if you decided to go to IBM Bob, open the Granite itself, you will notice that there is a specific module where you can use it for software engineering.
+
+268
+00:35:16.740 --> 00:35:29.710
+Heyam: In Granite, the only thing that you need to do is to choose which model you need. So, as you can see, you can use B8 or B20, depends on the complexity, again, of the task, and it will tell you exactly what you need to fix in there.
+
+269
+00:35:29.820 --> 00:35:30.690
+Heyam: Okay?
+
+270
+00:35:34.000 --> 00:35:34.979
+Heyam: All right.
+
+271
+00:35:36.390 --> 00:35:39.190
+Heyam: Let me just clean everything up here.
+
+272
+00:35:39.620 --> 00:35:40.440
+Heyam: Okay.
+
+273
+00:35:40.720 --> 00:35:53.860
+Heyam: So let's start here. So what we will be doing, we want to first, as we agreed, we want to protect our original code. We don't want to we don't want to touch this because it's going to be our baseline, right? So what we will be doing is.
+
+274
+00:35:55.610 --> 00:35:59.719
+Heyam: To protect this, then write what you expect first.
+
+275
+00:35:59.880 --> 00:36:18.480
+Heyam: then we will do one change at a time. Let's agree on that, especially for those of you who are already moving ahead, and you started already with the challenge. Please, please, please make sure that you do not make multiple changes at a time. In that case, you will not be able to observe what is actually going on, and how I can fix it.
+
+276
+00:36:18.630 --> 00:36:33.070
+Heyam: So make sure that you do one change at a time, observe that change, what was the impact of that change, and then decide if any other change can possibly be added, or maybe sometimes you need to remove something and add another thing, okay?
+
+277
+00:36:35.950 --> 00:36:48.709
+Heyam: So if, let's say, you made two or three changes at a time, the car became faster, but it's still doing a lot of damages, you would not tell. Like, how would you be able to tell where exactly I made the mistake? Okay?
+
+278
+00:37:04.690 --> 00:37:05.950
+Heyam: All right.
+
+279
+00:37:11.520 --> 00:37:15.009
+Heyam: Now, one important thing that I also want you to know is that
+
+280
+00:37:15.610 --> 00:37:22.879
+Heyam: The good thing about IBM Bob is that usually when we do the, what we call it,
+
+281
+00:37:23.200 --> 00:37:28.249
+Heyam: Disabling of any approval, like, it doesn't have any auto-approval.
+
+282
+00:37:28.360 --> 00:37:46.739
+Heyam: This means that a new file will be created every time we do any changes, and this file called def from difference, okay? And it tells you where is the difference between the thing that we did and the things that we have changed, okay? So if we are allowing Bob to do the changes, it's going to be
+
+283
+00:37:46.800 --> 00:37:51.160
+Heyam: You don't have to even click any approval, and you can review the DEF.
+
+284
+00:37:51.610 --> 00:37:58.899
+Heyam: Okay? But if it's red, it means that the code is being removed, and the green means that the code is being added.
+
+285
+00:37:59.210 --> 00:38:06.600
+Heyam: And this is why I'm actually stressing on how important it is to have the auto-approval disabled, okay?
+
+286
+00:38:07.020 --> 00:38:11.600
+Heyam: So you need to check everything before Bob make any recommendation or any changes.
+
+287
+00:38:16.200 --> 00:38:28.999
+Heyam: So, it may edit, it may have, only a few lines are green. Every change line has a Bob version 1, connection and port code untouched, and you can explain each green line. This is very important.
+
+288
+00:38:29.180 --> 00:38:29.950
+Heyam: Okay.
+
+289
+00:38:35.810 --> 00:38:43.619
+Heyam: So, some of the system… the things that we will be checking here is, first of all, let me take you to this…
+
+290
+00:38:47.270 --> 00:38:55.140
+Heyam: So again, on IBM Bob, as you can see, I opened the folder where I have the snake oil, okay?
+
+291
+00:38:56.090 --> 00:38:59.470
+Heyam: And I will be using this on Ask.
+
+292
+00:38:59.740 --> 00:39:00.680
+Heyam: mode.
+
+293
+00:39:01.240 --> 00:39:05.979
+Heyam: Because I don't need… it's just a read-only, so there's no need for me to do any changes.
+
+294
+00:39:16.240 --> 00:39:17.040
+Heyam: Okay.
+
+295
+00:39:20.780 --> 00:39:31.860
+Heyam: Now, one thing I will paste in the chat, this is only for those of you who have any errors, okay? If you have faced any errors, before you do anything, please make sure that you paste the
+
+296
+00:39:36.000 --> 00:39:44.739
+Heyam: paste it into IBM Bob before making any changes. So if you are at this step, where we already opened the snake oil, and we are at IBM Bob.
+
+297
+00:39:45.030 --> 00:39:52.239
+Heyam: You have it in the folder. Make sure that if there is any errors, that you paste that error before you start with that.
+
+298
+00:39:53.060 --> 00:39:54.890
+Heyam: changes, okay?
+
+299
+00:39:57.260 --> 00:40:01.599
+Heyam: This is only for those of you who might have errors before running the.
+
+300
+00:40:01.890 --> 00:40:03.040
+Heyam: That's correct.
+
+301
+00:40:04.120 --> 00:40:11.860
+Heyam: Now, the next prompt that I want you to use, and I'm pasting this in the chat, this applies to everyone who doesn't have any errors, okay?
+
+302
+00:40:15.340 --> 00:40:17.889
+Heyam: So, open Snack Oil 3.
+
+303
+00:40:18.120 --> 00:40:24.499
+Heyam: Jim, which is our Python script, and find the function that makes the driving decision.
+
+304
+00:40:24.990 --> 00:40:30.709
+Heyam: Okay, and again, this can be done in ask mode. There is no need for you to do to make any changes here.
+
+305
+00:40:32.220 --> 00:40:35.100
+Heyam: At this stage, we are not making any changes.
+
+306
+00:40:37.360 --> 00:40:45.710
+Heyam: We are only trying to understand, we are not editing. So at the ask mode, I already shared with you the prompt. If you can follow along with me, that would be great.
+
+307
+00:40:51.040 --> 00:40:56.720
+Heyam: So he's asking me if it's okay to read the script. Yes, I will approve that.
+
+308
+00:41:22.040 --> 00:41:27.260
+Heyam: Okay, now… As you can see, first of all, let me hand to something very important.
+
+309
+00:41:27.610 --> 00:41:42.699
+Heyam: I was very structured and very clear with the prompt that I shared with IBM Bob. First, I gave it a task. I asked IBM Bob to open this particular scope, this particular file, okay? So there's a clear scope here.
+
+310
+00:41:42.850 --> 00:41:47.780
+Heyam: There's a task given with clear instructions. Give me its name and line number.
+
+311
+00:41:47.920 --> 00:41:56.210
+Heyam: List every sensor it treats, the S values, and every action it sets, the R values, with one plain English sentence each.
+
+312
+00:41:56.490 --> 00:42:05.310
+Heyam: Show me the five most important lines and explain each like I've never coded. Do not change any code. I gave it constraints.
+
+313
+00:42:05.310 --> 00:42:19.489
+Heyam: I gave it the scope, and I also gave it the way how I wanted it the output to look like in simple English language. Okay. I'm not going to read everything, as you can see, but this will make your life easy. This is the way how I want you to approach IBM Bob.
+
+314
+00:42:19.490 --> 00:42:29.950
+Heyam: Make sure that you, especially if you are not a non-coder, make sure that you are reading it in a simple language, something that you can understand, okay? Because it will help you to achieve your goal.
+
+315
+00:42:30.610 --> 00:42:37.279
+Heyam: So what we are trying to do here is to look at the sensors that has been read, as you can see. We can see here a couple of them.
+
+316
+00:42:37.590 --> 00:42:46.660
+Heyam: And these are the actions, the Rs, okay? And the most important lines here is SR5DCRD.
+
+317
+00:42:46.870 --> 00:42:47.750
+Heyam: Okay?
+
+318
+00:42:47.940 --> 00:42:50.409
+Heyam: And it's highlighted for you the lines.
+
+319
+00:42:56.630 --> 00:43:03.769
+Heyam: And there is the R tier here with the 15. This is very important, so that we can keep this in mind.
+
+320
+00:43:04.460 --> 00:43:07.349
+Heyam: With this one here, with the track position.
+
+321
+00:43:08.330 --> 00:43:11.850
+Heyam: Let me look at the speed, so the speed here, as you can see.
+
+322
+00:43:12.030 --> 00:43:14.080
+Heyam: The speed is the target speed.
+
+323
+00:43:14.190 --> 00:43:17.490
+Heyam: With, the RC multiplied by 50.
+
+324
+00:43:17.660 --> 00:43:21.330
+Heyam: These are some of the values that the IBM Bob found for us.
+
+325
+00:43:21.740 --> 00:43:22.560
+Heyam: Okay?
+
+326
+00:43:24.900 --> 00:43:33.860
+Heyam: There might be… now, there is one important thing. You will notice that maybe the numbers on your end are different from mine, okay? And this is okay.
+
+327
+00:43:34.370 --> 00:43:37.399
+Heyam: That's completely fine, because maybe you chose a different track.
+
+328
+00:43:38.090 --> 00:43:48.819
+Heyam: But we, with the challenge itself, you all have to set the same track, which is the, I just don't know how to pronounce it, but I would write it for you.
+
+329
+00:43:49.000 --> 00:43:51.400
+Heyam: The cross crew, I think.
+
+330
+00:43:52.690 --> 00:43:54.240
+Heyam: Let me just find it for you.
+
+331
+00:43:54.990 --> 00:44:06.430
+Heyam: Because we have to make it identical for everyone, okay? So for the challenge, we have to have the same track used for the entire challenge. You can do the practice as much as you want, by the way, on the…
+
+332
+00:44:06.430 --> 00:44:15.839
+Heyam: On the Torx itself, you can do whatever you want with the practice mode. You can keep practicing, changing, do whatever you want. But for the challenge itself, when you submit the project.
+
+333
+00:44:15.840 --> 00:44:17.069
+Heyam: Make sure that you…
+
+334
+00:44:17.070 --> 00:44:29.109
+Heyam: stick to one track, and I will write it down for you so that you can make sure that this is the one that we are using for our challenge, okay? Please don't make any changes on this, and I hope that this is clear for everyone.
+
+335
+00:44:29.260 --> 00:44:43.369
+Heyam: Again, remember that this is more of a competition, so we want to make sure that all the elements are kind of identical for everyone, and the part of changing the performance is your part, okay? It's where you did the changes.
+
+336
+00:44:44.010 --> 00:44:44.800
+Heyam: Okay.
+
+337
+00:44:45.200 --> 00:44:54.270
+Heyam: So I will share this with you afterwards, but I just wanted to make sure that you all are aware of that. No changes to the track when it comes to the submission itself.
+
+338
+00:44:54.950 --> 00:44:55.660
+Heyam: Okay.
+
+339
+00:45:05.470 --> 00:45:06.410
+Heyam: Okay.
+
+340
+00:45:09.610 --> 00:45:22.339
+Heyam: So, as you can see, we can read the code from here, we can ask Bob to make it easier for us to understand the code, so this is number one of how we can interact with this and read and understand our code.
+
+341
+00:45:25.020 --> 00:45:43.879
+Heyam: Now, I will need to switch to the agent mode, because here, on my end, it doesn't show. I know that in the learning plan, and this is something that I wanted to also highlight for you. In the learning plan, you may notice that it keeps asking for a code mode, but this is something that is… it seems that it's no longer there in the IBM Bob. This might be more of an update.
+
+342
+00:45:43.880 --> 00:45:46.789
+Heyam: So we will be using the agent mode, okay?
+
+343
+00:45:47.300 --> 00:45:51.680
+Heyam: And I want Bob to create a new documentation file, okay?
+
+344
+00:45:52.280 --> 00:46:04.999
+Heyam: So I wanted to create a documentation file. Why we need to do this? Because we are going to also be having a repository connected to our GitHub, so we want to make sure that
+
+345
+00:46:11.660 --> 00:46:12.410
+Heyam: Okay.
+
+346
+00:46:20.780 --> 00:46:24.669
+Heyam: Okay, so in the chat, I'm sharing with you the prompt that I'm using.
+
+347
+00:46:32.350 --> 00:46:39.039
+Pooja: There is one question here, from Rajendra. Where can I find the Python file?
+
+348
+00:46:40.560 --> 00:46:49.810
+Heyam: The Python file? Okay, this is a good question. So let's go back to the… you want the Python file itself, the script? You can find it in the GEM Torques, okay?
+
+349
+00:46:50.490 --> 00:46:56.019
+Heyam: in the Gem Torques, the folder of the Gem Torques. It's the same installation package which we had in the beginning.
+
+350
+00:46:56.440 --> 00:47:13.889
+Heyam: But it's not in the Torque main folder here, it's not in the main directory, it's in the GEM Torques folder, okay? So in order for you to run it from IBM Bob, as I said, you need just to go to the file. Open folder, and then select that from the Torques folder.
+
+351
+00:47:24.380 --> 00:47:25.350
+Heyam: Okay?
+
+352
+00:47:25.810 --> 00:47:27.679
+Heyam: I hope this answers your question.
+
+353
+00:47:28.960 --> 00:47:31.860
+Heyam: Perfect. Thank you so much. Okay.
+
+354
+00:47:32.820 --> 00:47:56.810
+Heyam: So what I'm trying to do here is just to create an MD file. And the reason why we are switching, and maybe you have noticed that a lot of YouTube videos, a lot of people who are very much interested in AI are encouraging you to use the MD files because AI is capable of reading MD files way faster and way efficient than using any other files, even if you are using Word documents, PowerPoints, whatever the files that you use.
+
+355
+00:47:56.870 --> 00:48:14.350
+Heyam: If you can convert them into an MD file, this will make your AI tool more capable and provides you with a more efficient performance, okay? So what I'm trying to do here is just to approve my request of turning, having a tuning card, okay?
+
+356
+00:48:15.850 --> 00:48:18.800
+Heyam: I already have pasted the the
+
+357
+00:48:19.160 --> 00:48:22.869
+Heyam: The prompt in the chat, if you would like to follow with me, okay?
+
+358
+00:48:23.960 --> 00:48:34.450
+Heyam: So what Ivy and Bob did, again, I just want to remind you that I used the code or agent mode. So because we are expecting it, creating something new to us. It's not just…
+
+359
+00:48:34.600 --> 00:48:44.129
+Heyam: asking. We are not only asking, we are not in the read-only mode. We wanted it to create something for us, so make sure that this is an agent mode, okay?
+
+360
+00:48:44.410 --> 00:48:57.310
+Heyam: So this is more of a cheat sheet for us. We will use this to remember… so instead of me remembering everything, or every value in our Python file, we are trying to have a cheat sheet for us so we can use it as a reference, okay?
+
+361
+00:48:57.640 --> 00:49:11.900
+Heyam: This tuning card is going to be with our project, and it's going to be useful for us to support the documentation and GitHub repository, okay? And again, I just want to remind everyone that part of the expectation, as you can see, it has been created here.
+
+362
+00:49:12.710 --> 00:49:17.820
+Heyam: And simply, if you go to the folder here, it will show you that this has been created.
+
+363
+00:49:19.390 --> 00:49:30.630
+Heyam: What we will be doing is, towards the end of the project, this can be sent out to GitHub repository so that you can submit it as part of your challenge, okay?
+
+364
+00:49:31.920 --> 00:49:45.889
+Heyam: And if you remember last, in the last session, I told you about how this was a huge part of what we used to do in the previous time, like previously in our, I would say, time.
+
+365
+00:49:45.890 --> 00:49:55.039
+Heyam: where we used to spend hundreds of hours doing the documentation. So this is the beauty around using AI in documentation and versioning control, okay?
+
+366
+00:50:00.220 --> 00:50:01.170
+Heyam: Okay.
+
+367
+00:50:04.120 --> 00:50:15.629
+Heyam: So MD5 is just a markdown text file, and it's simpler than any type of other documentation format, okay? So it's convenient for not only for us, for also the AI tool.
+
+368
+00:50:15.980 --> 00:50:16.720
+Heyam: Okay.
+
+369
+00:50:22.960 --> 00:50:25.949
+Heyam: Now, let's go back to the ask mode.
+
+370
+00:50:26.790 --> 00:50:38.209
+Heyam: Because what I want to do here is to do something all engineers will do before testing. We want to make a prediction, okay? So we want to think about changing something.
+
+371
+00:50:38.930 --> 00:50:47.870
+Heyam: And then, but you know what we need to do before that? We need to do something very important. Let me just share that with you very quickly.
+
+372
+00:51:07.500 --> 00:51:08.200
+Heyam: Mmm.
+
+373
+00:51:40.580 --> 00:51:57.570
+Heyam: Okay, in the chat, I will paste for you another prompt, which I want you to keep in mind, that this is very important. We agreed in the first step that we have to have a one identical copy of our snake oil. The reason why is that this is our baseline, we don't want to make any changes on that, we want to make sure that
+
+374
+00:51:57.570 --> 00:52:03.560
+Heyam: We have a version one copy that's going to be having all the changes that we might be doing in our.
+
+375
+00:52:03.760 --> 00:52:14.269
+Heyam: file. So this is the second thing that you will see here as a change of, the path, or the directory, okay? So the first one is that we started to create the tuning card.
+
+376
+00:52:14.270 --> 00:52:36.110
+Heyam: And this is, again, a markdown file that makes things easy, and you can simply just copy this into your GitHub repository. The second thing is, I asked with a clear prompt instructions to make an exact copy of the Snake Oil 3. We agreed that this is our Python script that's going to be used for the challenge. However, the new file named as Snake Oil 3 V1.
+
+377
+00:52:36.110 --> 00:52:36.840
+Heyam: Okay?
+
+378
+00:52:36.910 --> 00:52:38.860
+Heyam: Do not modify anything.
+
+379
+00:52:38.940 --> 00:52:49.099
+Heyam: Do not change or optimize or do any changes in the code. The contents of Snake Oil 3 V1 has to be exact identical to the Snake Oil 3.
+
+380
+00:52:49.100 --> 00:53:00.060
+Heyam: Only create the new Snake Oil file, and after creating, confirm that these are two identical files. In the chat, I shared with you the prompt. Make sure that you follow the same steps.
+
+381
+00:53:00.330 --> 00:53:08.109
+Heyam: Again, just as a reminder, because we made sure that the permission does not allow it to do anything without approval, I am approving this now.
+
+382
+00:53:08.390 --> 00:53:09.050
+Heyam: Okay.
+
+383
+00:53:17.810 --> 00:53:23.510
+Heyam: Okay, I think I have made a mistake. Does anyone tell can tell me what would what mistake did I do?
+
+384
+00:53:37.130 --> 00:53:41.429
+Heyam: Can someone tell me what mistake did I do with IBM Bob?
+
+385
+00:53:43.720 --> 00:53:54.430
+Heyam: Thank you so much, Pavan. So, I actually used the ask mode, but I'm trying to create something, right? So, it's going to tell me that this is more of a read-only, and I need to change the mode. Thank you so much, everyone.
+
+386
+00:53:54.790 --> 00:53:55.860
+Heyam: Amazing.
+
+387
+00:53:58.350 --> 00:54:06.310
+Heyam: So, as you can see, it's gonna take some time, but then I have to go through the plan mode or the agent mode so that it can create something from scratch.
+
+388
+00:54:06.750 --> 00:54:10.519
+Heyam: Thank you so much. I'm really happy that you are following along with me.
+
+389
+00:54:16.730 --> 00:54:25.549
+Heyam: Now you will also be noticing that every change we do is going to be automatically documented in our tuning card file.
+
+390
+00:54:26.470 --> 00:54:30.870
+Heyam: Hey, what a privilege, everyone. We are enjoying this together, right?
+
+391
+00:54:32.140 --> 00:54:33.080
+Heyam: Okay.
+
+392
+00:54:36.260 --> 00:54:38.380
+Heyam: Let me just do this again.
+
+393
+00:54:40.350 --> 00:54:42.969
+Heyam: Let me stop this, because it's going to take a bit of time.
+
+394
+00:54:43.390 --> 00:54:48.219
+Heyam: Go to the… Land mode… Let me save this.
+
+395
+00:54:54.040 --> 00:54:56.299
+Heyam: Now it's writing the exact copy.
+
+396
+00:54:56.840 --> 00:55:03.339
+Heyam: So the moment this is being done, we will notice that there is a new file being added here to the directory.
+
+397
+00:55:06.710 --> 00:55:10.159
+Heyam: It's completely fine if you feel that it's a bit slow.
+
+398
+00:55:46.260 --> 00:55:49.209
+Heyam: I don't know why it's taking so much time.
+
+399
+00:55:49.350 --> 00:55:55.909
+Heyam: But the next step that we would be doing is, as we said, all engineers, all people just like you.
+
+400
+00:55:56.300 --> 00:56:02.380
+Heyam: Should have some kind of a protection before we make any changes, and the reason why we wanted to make sure that.
+
+401
+00:56:02.650 --> 00:56:18.199
+Heyam: We are capable of doing something without, like, sacrificing or risking the original one, okay? So, the prediction is more of a forcing us to say what we think, that change will do, okay?
+
+402
+00:56:19.310 --> 00:56:22.819
+Heyam: So in the chat, I will share with you the prompt.
+
+403
+00:56:29.060 --> 00:56:35.009
+Heyam: Maybe you can do it on your end faster than mine, because it's taking a bit on my end. As you can see, it's failed.
+
+404
+00:56:35.860 --> 00:56:36.700
+Heyam: Okay.
+
+405
+00:56:37.290 --> 00:56:41.679
+Heyam: And in the chat, what I want from you is to use this prompt.
+
+406
+00:56:42.930 --> 00:56:46.930
+Heyam: To find what are the things that we could possibly change.
+
+407
+00:56:47.040 --> 00:56:54.880
+Heyam: Now, you will notice one important sentence in this prompt. It says, be honest about how uncertain this could be, okay?
+
+408
+00:56:55.090 --> 00:57:13.310
+Heyam: This needs to be in an ask mode. The reason why is that it's just a read-only, it's more of a brainstorming, we are just asking questions to Bob to see what Bob can suggest, okay? So you don't have to worry about making it a file or downloadable file or something, we just wanted a read-only version of this.
+
+409
+00:57:18.500 --> 00:57:22.310
+Heyam: So let me just wait for the Bob to create the copy.
+
+410
+00:57:22.930 --> 00:57:28.059
+Heyam: So, so far, you should have also the copy being created on your end with a V1.
+
+411
+00:57:28.570 --> 00:57:30.020
+Heyam: Python script.
+
+412
+00:57:33.760 --> 00:57:47.990
+Heyam: It's very important that you keep the be honest about the uncertainty, okay? We don't want the Bob to make any hypotheses or anything that is uncertain or unrealistic. And this is exactly something that I discussed with you in the last session. We said that
+
+413
+00:57:47.990 --> 00:58:02.270
+Heyam: We don't want to give false promises to our clients. So this is the same applies with what we are interacting with AI. If AI is giving me something that is uncertain or unrealistic, then this is something that we can take into consideration, okay?
+
+414
+00:58:20.530 --> 00:58:27.070
+Heyam: Okay, created this, amazing. I have the Snake Oil V1, as you can see, everyone.
+
+415
+00:58:27.400 --> 00:58:28.540
+Heyam: It's there.
+
+416
+00:58:28.980 --> 00:58:44.419
+Heyam: has been created, and as… if you remember in my prompt, I said clearly, please make sure that the… the… the ones created, that they are identical. So they are… IBM now is checking that both files look the same, exact same copy.
+
+417
+00:58:44.820 --> 00:58:46.979
+Heyam: And it tells me that…
+
+418
+00:58:47.580 --> 00:58:54.679
+Heyam: Yeah, definitely. The hashes is going to be different because it's a different file number. Other than that, there shouldn't be any differences.
+
+419
+00:58:54.810 --> 00:58:55.560
+Heyam: Okay?
+
+420
+00:59:03.070 --> 00:59:05.090
+Heyam: Yes.
+
+421
+00:59:05.320 --> 00:59:06.080
+Heyam: Copy.
+
+422
+00:59:07.650 --> 00:59:09.550
+Heyam: Okay, so I'm just approving.
+
+423
+00:59:09.830 --> 00:59:11.330
+Heyam: Couple of things here.
+
+424
+00:59:17.910 --> 00:59:22.130
+Heyam: Now it's asking if the files are identical or not.
+
+425
+00:59:23.740 --> 00:59:34.109
+Heyam: Now, if you see that the files are not 100% identical, that makes sense, because the name of the file is different, so the hashes is going to be also different. The way how we encrypt the file is going to be different.
+
+426
+00:59:35.490 --> 00:59:39.549
+Heyam: Okay? Other than that, it should be… it should be exactly the same copy.
+
+427
+00:59:40.990 --> 00:59:51.919
+Heyam: Perfect. So I did the copy. Now I will do the same thing that I shared with you. I will turn it into the ask mode and see what are the predictions that IBM Bob can come up with.
+
+428
+00:59:59.200 --> 01:00:00.670
+Heyam: Let's approve this.
+
+429
+01:00:26.680 --> 01:00:44.470
+Heyam: Okay, so this analysis has several hard limits. Uncertainty. The current speed is already 300, which most Torx cars cannot physically reach on… yes, this is exactly the name on the track, so this is what I want to share with you. Make sure that you set up the track on this one.
+
+430
+01:00:45.370 --> 01:00:46.340
+Heyam: Courts.
+
+431
+01:00:48.830 --> 01:00:56.750
+Heyam: Okay, this raised to 360 may be entirely academic. The car may never get close to this number.
+
+432
+01:00:56.960 --> 01:00:57.700
+Heyam: Okay.
+
+433
+01:00:57.880 --> 01:01:00.120
+Heyam: This is high impact on conclusions.
+
+434
+01:01:00.960 --> 01:01:04.450
+Heyam: Also, it says that that has no breaking logic.
+
+435
+01:01:05.640 --> 01:01:23.759
+Heyam: The brake is never set. Speed is only shed by lifting the throttle. This is the real limiting factor at any target speed. I have no live elements or Torx physical data. All predictions are from reading the control logic. Course should track specific exact burner elevation profile. Okay.
+
+436
+01:01:24.400 --> 01:01:26.680
+Heyam: Now, what do you think should be the next step?
+
+437
+01:01:27.580 --> 01:01:33.200
+Heyam: So these are only protections. And on your end, as a learner, what do you think we should be doing with this?
+
+438
+01:01:33.380 --> 01:01:34.740
+Heyam: with these productions.
+
+439
+01:01:40.830 --> 01:01:46.799
+Heyam: So… What do you think we should do with these productions?
+
+440
+01:02:06.270 --> 01:02:10.720
+Heyam: Okay, I am just wanting to chat, see what you think about this.
+
+441
+01:02:13.030 --> 01:02:18.320
+Heyam: Okay, to avoid making mistakes as much as possible, to start building, okay?
+
+442
+01:02:36.780 --> 01:02:45.319
+Heyam: Okay, so the thing is that, honestly, the main point of why we are doing the production is just because we don't want to randomly change the code.
+
+443
+01:02:45.640 --> 01:03:05.329
+Heyam: Again, we are kind of, you know, we are just experimenting a dark room. We don't know exactly what is this code. Put yourself as someone who's completely know nothing about the code. We are getting into a dark room, we don't know exactly what we need to change. So you don't want to just randomly make changes, and then you try to hope for the best.
+
+444
+01:03:05.380 --> 01:03:21.220
+Heyam: What we are trying to do is to work with some logic, with some guest-educated guessings, rather than just making it random, okay? So we are understanding the current behavior of the car, and from there, we are forming some kind of hypotheses or assumptions around it.
+
+445
+01:03:21.300 --> 01:03:32.970
+Heyam: then make one controlled change at a time, okay? We run the experiment, compare it to the actual results, and then see if this is… if this prediction was correct.
+
+446
+01:03:33.020 --> 01:03:46.889
+Heyam: And it helps, or if it was kind of entirely unrealistic, okay? And this applies to any challenge. So this is something that I want you to also learn from this session today, is that whenever we have something to change.
+
+447
+01:03:47.060 --> 01:04:00.229
+Heyam: You do not just randomly go ahead and do some changes. Let's just always discuss this with the AI tool, see what productions they could possibly make, if this is realistic, even from your reading as just a human.
+
+448
+01:04:00.230 --> 01:04:10.529
+Heyam: Do you think that this can be done? Is this something that we can actually do? Is this something that we can present to our clients? Sometimes, you know, clients has, they have their own kind of requirements and we want to make sure that.
+
+449
+01:04:10.630 --> 01:04:13.540
+Heyam: Is it something doable and that we can do it, okay?
+
+450
+01:04:18.610 --> 01:04:32.049
+Heyam: So we do not actually expect those predictions to be correct every time. What we are trying to do is just to make AI reasoning things about the code and suggest what may happen before we actually do any changes.
+
+451
+01:04:32.250 --> 01:04:33.080
+Heyam: Okay?
+
+452
+01:04:33.560 --> 01:04:38.949
+Heyam: So I'm hoping that so far so good with everyone. I don't know, I actually missed one.
+
+453
+01:04:39.350 --> 01:04:49.340
+Heyam: one question about a prompt that won't you… could you please type the prompt in the Q&A box rather than… the thing, Sarah, I cannot copy in the Q&A.
+
+454
+01:04:49.890 --> 01:04:57.889
+Heyam: I cannot. Pooja, can you please help with that? Instead of… you can copy from the chat and put it as an answer, if you don't mind.
+
+455
+01:04:58.890 --> 01:04:59.750
+Heyam: Pooja and the team.
+
+456
+01:04:59.750 --> 01:05:08.899
+Pooja: Sure, sure, I'm sure we'll do that, Sarah, so don't worry. All these prompts will be shared with you along with the post-session email also, so don't worry.
+
+457
+01:05:09.060 --> 01:05:12.300
+Pooja: If in case someone miss, then we will be.
+
+458
+01:05:12.420 --> 01:05:13.949
+Pooja: Sharing that also.
+
+459
+01:05:18.280 --> 01:05:25.259
+Heyam: Okay, can can I see some reactions that we all have created the tuning card and the virgin one?
+
+460
+01:05:29.050 --> 01:05:39.549
+Heyam: I need to see some reactions here. Have you already created the version one snake oil and the tuning card? I can give you one, two minutes to complete that.
+
+461
+01:05:40.240 --> 01:05:42.030
+Heyam: Look into the prompts.
+
+462
+01:05:42.400 --> 01:05:53.469
+Heyam: IBM Bob is open, your Python code is there, the Torx installation is there as well, and we already have created our copy of the original file.
+
+463
+01:05:57.510 --> 01:06:13.490
+Heyam: So, we will all together, everybody in this room, we will be using V1 as our experimental copy, okay? So, moving forward, from this point onwards, everything we need to do is going to be on the V1 file, not the original file.
+
+464
+01:06:16.140 --> 01:06:20.849
+Heyam: And I want to make sure that all of you can confirm that you can see this.
+
+465
+01:06:21.620 --> 01:06:25.419
+Heyam: The V1 and this the original one.
+
+466
+01:06:25.700 --> 01:06:26.550
+Heyam: Okay?
+
+467
+01:06:27.420 --> 01:06:29.160
+Heyam: This is very important.
+
+468
+01:06:29.640 --> 01:06:36.679
+Heyam: It's a big part of the things that we did in this challenge. We want to make sure that we have our baseline or the original code as is.
+
+469
+01:06:37.160 --> 01:06:38.560
+Heyam: It has to be safe.
+
+470
+01:06:55.370 --> 01:07:01.929
+Heyam: Okay, I will give you one more minute just to confirm that everyone is on the same page.
+
+471
+01:07:08.730 --> 01:07:16.870
+Heyam: It's okay, Stepan. If the car is crashing in the first lap, this is… this is part of what we are trying to fix, right? So this is fine.
+
+472
+01:07:17.210 --> 01:07:25.610
+Heyam: But when you mean it crashed, it didn't even complete the one lab? If that's the case, then yes, you have to redo the lab one more time.
+
+473
+01:07:26.090 --> 01:07:34.670
+Heyam: And the first lap, and then record the the first the first baseline, okay?
+
+474
+01:07:39.290 --> 01:07:41.739
+Heyam: Okay, I understand your point.
+
+475
+01:07:42.210 --> 01:07:48.259
+Heyam: In that case, see, the thing is that the car behavior could possibly change every time you run it, so…
+
+476
+01:07:48.520 --> 01:08:00.169
+Heyam: But it's kind of slightly changes, okay? So, first of all, track… make sure that the track selected is correct, that you are using the Screensaver 1, and that you are using the Snake Oil 3.
+
+477
+01:08:02.660 --> 01:08:06.300
+Heyam: If all of this is still there, and you couldn't change.
+
+478
+01:08:07.510 --> 01:08:16.110
+Heyam: Yes, we need to have all of you, Pavan and everybody else, you need to make sure that the track we are using is the corkscrew.
+
+479
+01:08:16.390 --> 01:08:35.539
+Heyam: for the challenge itself. No changes to that. It has to be identical for everyone, because we are competing on one same challenge, so we want to make sure that it's the same track. If you use any other track for practice, that's fine, but for the challenge itself, you need to adhere to this one. Just stick to that one, no changes on this. The corkscrew, okay?
+
+480
+01:08:35.810 --> 01:08:42.999
+Heyam: And it's actually one of the easiest tracks, so that the car doesn't have a lot of curves to maybe have the crashes or damages.
+
+481
+01:09:10.620 --> 01:09:11.580
+Heyam: Okay.
+
+482
+01:09:12.819 --> 01:09:14.000
+Heyam: Perfect. Now…
+
+483
+01:09:14.680 --> 01:09:25.239
+Heyam: We will jump into the Torques. If you remember, we run the Torques, I reached to this screen. Can I see some reactions that we all have reached to the same point here?
+
+484
+01:09:25.859 --> 01:09:28.039
+Heyam: The Torx has been installed.
+
+485
+01:09:28.220 --> 01:09:34.030
+Heyam: You were able to run it, and we are able to see the… blue screen.
+
+486
+01:09:34.600 --> 01:09:39.120
+Heyam: Now, in the race, I will… Choose.
+
+487
+01:09:39.250 --> 01:09:40.549
+Heyam: Quick, Grace.
+
+488
+01:09:40.689 --> 01:09:41.660
+Heyam: Okay.
+
+489
+01:09:41.859 --> 01:09:47.650
+Heyam: And then configure the race. I just want to make sure that we are using this corkscrew.
+
+490
+01:09:58.570 --> 01:09:59.350
+Heyam: Okay.
+
+491
+01:10:04.860 --> 01:10:05.670
+Heyam: Okay.
+
+492
+01:10:05.860 --> 01:10:07.690
+Heyam: And then I'll accept this.
+
+493
+01:10:10.200 --> 01:10:16.069
+Heyam: I'm so sorry, at some point, maybe you will notice that my device is a bit slow, so I just want you to bear with me, okay?
+
+494
+01:10:19.770 --> 01:10:33.590
+Heyam: And as you can see, what I actually did, I deleted everything else, and I kept only this one. We want to make sure that we are only using the screen server one. If you have any other players and you would like to delete them, you just simply click and delete.
+
+495
+01:10:33.990 --> 01:10:36.619
+Heyam: But we want to keep this one here.
+
+496
+01:10:37.090 --> 01:10:37.900
+Heyam: Okay?
+
+497
+01:11:04.440 --> 01:11:08.379
+Heyam: Okay, and I will accept. I'll keep it to a one lab.
+
+498
+01:11:10.440 --> 01:11:19.030
+Heyam: And then, new race… At this point, I need to have my Command prompt open.
+
+499
+01:11:31.560 --> 01:11:33.880
+Heyam: My command prompt is open.
+
+500
+01:11:35.140 --> 01:11:42.339
+Heyam: And I want to run the original file. Okay, I'm running the original file. This is our base now.
+
+501
+01:12:00.970 --> 01:12:02.339
+Heyam: Give me one second.
+
+502
+01:12:22.630 --> 01:12:24.099
+Pooja: A human issue.
+
+503
+01:12:25.750 --> 01:12:27.530
+Heyam: No, no, I'm just running the…
+
+504
+01:12:28.300 --> 01:12:30.790
+Pooja: Yeah, it takes time for the simulator to run.
+
+505
+01:12:30.790 --> 01:12:31.990
+Heyam: Yeah.
+
+506
+01:12:31.990 --> 01:12:38.140
+Pooja: Meanwhile, no, no, there is no such audio issue, she's just waiting for the simulator to run.
+
+507
+01:12:39.220 --> 01:12:39.860
+Heyam: Yes.
+
+508
+01:12:40.720 --> 01:12:44.740
+Heyam: So at this stage, as you know, oh see Just one second.
+
+509
+01:12:45.510 --> 01:12:47.699
+Heyam: So I go back to the Torres.
+
+510
+01:12:59.990 --> 01:13:04.160
+Heyam: I'm using an administered device, so sometimes it's not,
+
+511
+01:13:05.250 --> 01:13:12.799
+Heyam: Easy to make any changes very quickly. I just want to make sure that this is the call screw, and then this one is selected.
+
+512
+01:13:13.230 --> 01:13:19.369
+Heyam: One lab is there, and then a new race, and then I'll open the command prompt.
+
+513
+01:13:56.880 --> 01:13:57.610
+Heyam: Mmm.
+
+514
+01:14:04.280 --> 01:14:10.889
+Pooja: Till the time simulator is loading. If you need any, if you have any question, feel free to ask under the Q&A.
+
+515
+01:14:39.120 --> 01:14:40.349
+Pooja: I can see…
+
+516
+01:14:41.940 --> 01:14:43.500
+Heyam: Okay, now…
+
+517
+01:14:44.120 --> 01:15:00.449
+Heyam: Just one thing that I want to remind everyone is that on my end, because the version is a bit, recent, most recent version of Python, I always need to use the Py… instead of Python writing, I need to use the PY, okay? So here.
+
+518
+01:15:00.560 --> 01:15:07.249
+Heyam: If I use Python snake oil, it doesn't work. But on my end, it has to be Pi, okay?
+
+519
+01:15:07.890 --> 01:15:17.360
+Heyam: And this is, again, I am… I am just using it for the baseline. This is the original file. Do not use the V1. We are only using the snake oil, the original file.
+
+520
+01:15:17.590 --> 01:15:23.349
+Heyam: As you can see here, the car has started, and I can see The car moving…
+
+521
+01:15:28.190 --> 01:15:36.359
+Heyam: Now, even if you have… if you face any issues with the command prompt, the command prompt is just the way how we are interacting with the system.
+
+522
+01:15:36.610 --> 01:15:50.020
+Heyam: So the command prompt is simply… can be opened by just writing CMD in the run command, and it can open this black window. If you are using PowerShell, that would work too, but maybe command prompt might be easier for you. Now.
+
+523
+01:15:50.080 --> 01:16:09.849
+Heyam: If, at any point, any of you is facing a problem with not being able to open this itself, you cannot open the Python file using the command prompt, this is, again, fine. You can use AI, give some screenshots, tell AI that it's not running or it's not opening, and then it's gonna take you a step-by-step guide of how you can open that, okay?
+
+524
+01:16:10.130 --> 01:16:14.270
+Heyam: So I think it's the same problem that,
+
+525
+01:16:16.740 --> 01:16:24.620
+Heyam: What was the name? Maybe not Bavan, maybe Stepan, right? So as you can see, even on my end, the car just stopped.
+
+526
+01:16:38.280 --> 01:16:39.729
+Heyam: What do you think we should do?
+
+527
+01:16:46.690 --> 01:16:48.359
+Heyam: What do you think we should do here?
+
+528
+01:17:10.130 --> 01:17:11.670
+Heyam: What do you think I should do?
+
+529
+01:17:14.330 --> 01:17:16.180
+Heyam: I tried to restart the game.
+
+530
+01:17:17.570 --> 01:17:19.160
+Heyam: I restarted the game.
+
+531
+01:17:21.370 --> 01:17:26.399
+Heyam: Thank you. We can ask Bob how to complete the lab. So what would be my baseline now?
+
+532
+01:17:29.390 --> 01:17:31.080
+Heyam: What's my baseline?
+
+533
+01:17:33.440 --> 01:17:39.579
+Heyam: Thank you. We can ask Bob what will be the problem. Thank you so much. What is my baseline at this stage?
+
+534
+01:17:40.050 --> 01:17:43.460
+Heyam: As you can see, I am showing you live of my
+
+535
+01:17:43.750 --> 01:17:50.540
+Heyam: simulator, and the car is not moving. It's crashed, and there is no completion. What would be my baseline here?
+
+536
+01:17:58.560 --> 01:18:04.250
+Heyam: So for everyone who are facing the same problem as mine, and as Stepan as well.
+
+537
+01:18:04.470 --> 01:18:12.680
+Heyam: I want you to use this prompt. This is only for those of you who didn't have the chance to run the car. The car is crashing in the first lap.
+
+538
+01:18:12.950 --> 01:18:20.529
+Heyam: First of all, our baseline is zero completed lab. The lab is… is not actually being completed at all, okay?
+
+539
+01:18:22.060 --> 01:18:22.950
+Heyam: Now.
+
+540
+01:18:23.090 --> 01:18:26.559
+Heyam: The prompt that we will be using to ask Bob is…
+
+541
+01:18:26.680 --> 01:18:31.590
+Heyam: in the chat. This is only applies for those of you who couldn't complete a one lab.
+
+542
+01:18:35.950 --> 01:18:36.890
+Heyam: Okay.
+
+543
+01:18:37.040 --> 01:18:39.510
+Heyam: So, in the… Bob?
+
+544
+01:18:43.480 --> 01:18:48.889
+Heyam: I didn't ask… Bob to fix, by the way. I'm just asking Bob, what can I do, okay?
+
+545
+01:18:49.890 --> 01:18:56.490
+Heyam: Explain in simple language why is that happening? What's the most likely reason behind the crashing?
+
+546
+01:18:56.640 --> 01:19:01.140
+Heyam: One change that it could possibly help me complete at least one lap.
+
+547
+01:19:01.400 --> 01:19:09.820
+Heyam: Predict what affects the change, show me exactly which part of the code you will be changing, and explain the change before making any changes.
+
+548
+01:19:09.960 --> 01:19:10.720
+Heyam: Me?
+
+549
+01:19:19.690 --> 01:19:23.969
+Heyam: Where do you think I should make the changes? On snake oil or V1?
+
+550
+01:19:40.720 --> 01:19:42.360
+Heyam: What do you think I should do?
+
+551
+01:19:44.820 --> 01:19:51.060
+Heyam: Amazing. Do you think I should do the changes? Okay, so the question is asked about the original file.
+
+552
+01:19:51.210 --> 01:19:59.260
+Heyam: any changes or recommendations should be implemented on V1. Now, who is going to be my compete and my baseline in that case?
+
+553
+01:20:00.190 --> 01:20:06.900
+Heyam: V1 or snake oil, or should I come up with a new version, a new copy? What do you think?
+
+554
+01:20:18.360 --> 01:20:30.360
+Heyam: What do you think the best approach? Should I just go ahead and make the changes on Snake Oil, do the changes on V1, and create a new file for the challenge?
+
+555
+01:20:32.080 --> 01:20:43.440
+Heyam: Amazing. This is the way of… this is the mindset that I want from all of you to, to adopt. Make sure that we do not make the changes to any of the original file. It's completely fine to say Esteban and everyone.
+
+556
+01:20:43.680 --> 01:20:48.710
+Heyam: Who's facing the same problem is that your baseline didn't complete any lab.
+
+557
+01:20:49.040 --> 01:21:05.970
+Heyam: And we are making one change, and this is actually another good opportunity for us to learn, right? So we are also learning why is that happening, and based on that, we are making some fixes to the original code so that the car at least completes one level, okay? And then, once we are done with the fixation on V1,
+
+558
+01:21:06.320 --> 01:21:11.100
+Heyam: We will create another version 2 that can compete with the V1.
+
+559
+01:21:11.220 --> 01:21:12.230
+Heyam: Okay?
+
+560
+01:21:18.470 --> 01:21:23.609
+Heyam: So the suggestion is that unreachable on most tracks, car crashes before getting there.
+
+561
+01:21:24.110 --> 01:21:39.540
+Heyam: Still too fast for blind corners with no braking. Roughly motorway speed, so fast enough to complete a lap. Would definitely survive, but would be slow in some of the track, okay? So what Bob is actually suggesting is that
+
+562
+01:21:39.610 --> 01:21:45.950
+Heyam: To make some changes. Now, what I need to make sure is that do not modify my original file.
+
+563
+01:21:46.350 --> 01:21:49.570
+Heyam: And make the proposed changes on.
+
+564
+01:21:49.720 --> 01:21:51.060
+Heyam: V1.
+
+565
+01:21:51.590 --> 01:21:54.699
+Heyam: So I'm going to do this with the agent mode.
+
+566
+01:21:56.070 --> 01:22:01.939
+Heyam: Do not modify my original SNCC OIL file and make the proposed changes in V1.
+
+567
+01:22:02.320 --> 01:22:06.999
+Heyam: I will paste this in the chat for those of you who are facing the same problem as mine.
+
+568
+01:22:08.330 --> 01:22:09.080
+Heyam: Right?
+
+569
+01:22:09.300 --> 01:22:12.890
+Heyam: So once I reviewed the changes suggested by IBM Bob.
+
+570
+01:22:13.090 --> 01:22:15.540
+Heyam: I'm trying to make the changes on.
+
+571
+01:22:16.970 --> 01:22:17.990
+Heyam: V1.
+
+572
+01:22:24.400 --> 01:22:27.299
+Heyam: So making sure that the original file is untouched.
+
+573
+01:22:53.740 --> 01:22:54.550
+Heyam: Okay.
+
+574
+01:22:57.590 --> 01:23:03.000
+Heyam: Are we all following along? Is everything clear for so far? Please show me some reactions.
+
+575
+01:23:09.330 --> 01:23:18.139
+Heyam: Perfect. Okay. Now, what I will do is, as you know, we already did this with, snake oil. My first.
+
+576
+01:23:18.300 --> 01:23:19.190
+Heyam: Love?
+
+577
+01:23:19.560 --> 01:23:24.420
+Heyam: And as you can see, it's crashing. So what I will do is just simply close this.
+
+578
+01:23:25.130 --> 01:23:27.589
+Heyam: and then run the Torques one more time.
+
+579
+01:23:28.560 --> 01:23:33.720
+Heyam: Go ahead with this. Torres, then again Torres, and then run this.
+
+580
+01:23:37.060 --> 01:23:41.789
+Heyam: And then… Open a new race.
+
+581
+01:23:46.740 --> 01:23:50.580
+Heyam: Batteries, configurations… sent.
+
+582
+01:24:02.180 --> 01:24:04.470
+Heyam: Control C and then
+
+583
+01:24:09.630 --> 01:24:11.680
+Heyam: I will just go back here.
+
+584
+01:24:12.200 --> 01:24:13.629
+Heyam: Choose this one.
+
+585
+01:24:14.300 --> 01:24:14.990
+Heyam: Yes.
+
+586
+01:24:15.650 --> 01:24:16.740
+Heyam: Singh Jha.
+
+587
+01:24:16.900 --> 01:24:18.040
+Heyam: Movies.
+
+588
+01:24:18.190 --> 01:24:22.820
+Heyam: Now, go back to my command prompt, just for everyone, please make sure that instead of
+
+589
+01:24:23.220 --> 01:24:26.889
+Heyam: Oil, snake oil, we are using V1, okay?
+
+590
+01:24:28.030 --> 01:24:28.920
+Heyam: Let's see.
+
+591
+01:24:29.660 --> 01:24:33.729
+Heyam: Please make sure that you make the changes. It's V1. It's not the
+
+592
+01:24:34.420 --> 01:24:36.939
+Heyam: Let's see, how does the car performing now?
+
+593
+01:24:39.260 --> 01:24:45.409
+Heyam: Stepan, please keep an eye on this. I made the changes, and now I'm using the V1 version, okay?
+
+594
+01:24:45.590 --> 01:24:51.570
+Heyam: Hopefully, the car is moving, and I can see the speed. The car is… So far.
+
+595
+01:24:51.930 --> 01:24:52.860
+Heyam: Okay.
+
+596
+01:24:53.550 --> 01:24:57.429
+Heyam: The speed is around 80 to a maximum of 90.
+
+597
+01:24:57.770 --> 01:24:58.600
+Heyam: Nice.
+
+598
+01:26:01.640 --> 01:26:02.830
+Heyam: I'm still…
+
+599
+01:26:32.970 --> 01:26:33.650
+Heyam: That's right.
+
+600
+01:26:59.930 --> 01:27:02.730
+Heyam: Alright, so I'm taking a screenshot of this.
+
+601
+01:27:03.290 --> 01:27:05.369
+Heyam: I'll keep it for my report.
+
+602
+01:27:05.790 --> 01:27:10.250
+Heyam: And I think I will stop here. I know that we are running out of time.
+
+603
+01:27:11.420 --> 01:27:18.349
+Heyam: What we have done so far is really good progress. We will continue next session with what we have
+
+604
+01:27:18.610 --> 01:27:20.710
+Heyam: What with changes we will do.
+
+605
+01:27:21.040 --> 01:27:24.959
+Heyam: I will share with you all the prompts that I used today in today's session.
+
+606
+01:27:25.290 --> 01:27:32.900
+Heyam: And, on your end, if you have made it this far, and you already have the lab there, I will also share with you
+
+607
+01:27:32.930 --> 01:27:46.919
+Heyam: things that you can proactively do it on your end with the prompts to make the changes, okay? So, in the slides, I already shared with you a couple of links. So, most of what we have here is something that I have
+
+608
+01:27:47.000 --> 01:27:49.340
+Heyam: Demonstrate with you.
+
+609
+01:27:49.360 --> 01:27:55.099
+Heyam: in today's session, so you can refer to the slides as well, but I will make it easy for you by sending you a one
+
+610
+01:27:55.100 --> 01:28:09.810
+Heyam: document reference for all the prompts that we have used so far, and also a couple of prompts that I actually had a plan to do it before I see that the car has crashed, okay? So, actually, in my previous… on the other device that I did, I don't know why it worked.
+
+611
+01:28:09.810 --> 01:28:11.539
+Heyam: But this time, I don't know why it's…
+
+612
+01:28:11.540 --> 01:28:29.099
+Heyam: crash, that's completely fine. This is another way for us to learn, and it's an opportunity for us to see what we can do in those kind of cases. We asked IBM Bob to help us fix the problem. We can see that the car is now moving, so this is amazing. We are seeing this live, and this is, again, a very good opportunity for us to learn.
+
+613
+01:28:29.190 --> 01:28:34.029
+Heyam: I, on my end, will create V2, so I'm explaining to you what would be the next step.
+
+614
+01:28:34.820 --> 01:28:45.130
+Heyam: And this is gonna apply to all of you on V1 if your car has completed the one lab. What I want from all of you is to, first of all, look into the recommendation from Ivy and Bob.
+
+615
+01:28:45.140 --> 01:28:56.119
+Heyam: See what is realistic to be done. As we agreed, please make it as a promise that we will not make multiple changes at a time. It has to be one change every time you are making changes.
+
+616
+01:28:56.120 --> 01:29:05.949
+Heyam: I will share with you the prompts, make those changes, and let me know in the next session how does that go, okay? I really hope that next session we will start with clear.
+
+617
+01:29:05.950 --> 01:29:10.830
+Heyam: baseline, and that you know exactly what would be your next step.
+
+618
+01:29:11.070 --> 01:29:24.559
+Heyam: Now, also, just a reminder for everyone to make sure that before we end the session today, at least you know who are going to be your co-workers or the team members of your team if you decided to go ahead and work within a team, okay?
+
+619
+01:29:25.950 --> 01:29:38.419
+Heyam: Everything that the slides has is something that we already have demonstrated. Instead of me walking you through some kind of theory, I just showed you the demos on IBM Bob itself, okay? But you can use this as a reference for yourself.
+
+620
+01:29:41.590 --> 01:29:48.710
+Heyam: Next things to do is we want to make sure that we are planning what to break and how to make the car move faster.
+
+621
+01:29:48.990 --> 01:30:04.389
+Heyam: We want to see the car… if the car is… a corner is coming before it arrives, and we wanted to diagnose the spins and the wall. This all will be done in our next session, okay? But for today, we want to make sure that we have
+
+622
+01:30:04.390 --> 01:30:09.280
+Heyam: a second version of the lab, and we understand what's going on with the car, okay?
+
+623
+01:30:10.090 --> 01:30:26.599
+Heyam: Some of the useful links that I already have added into the slides, and you can definitely visit these. A reminder for everyone to complete the learning plan. If you haven't yet completed the learning modules, make sure that you complete that. This is an individual assignment, and it doesn't have to be
+
+624
+01:30:26.600 --> 01:30:30.599
+Heyam: You will… you don't have to wait to complete it. You can complete it at any point.
+
+625
+01:30:30.640 --> 01:30:31.820
+Heyam: And.
+
+626
+01:30:32.470 --> 01:30:48.619
+Heyam: the scripts are here, okay, and the installation link. If you haven't yet reached to that point, make sure that you do this… this… actually today, or maximum tomorrow, because there's no time, actually, to… to still working… working on the installation and setup.
+
+627
+01:30:48.780 --> 01:31:06.440
+Heyam: Two useful videos to walk you through the challenge again. This is for the baseline, and this is with the updates on the code, okay? The Zoom channel link is here, and this is where I want you to click to make sure that you are letting me and the team know who's going to be your team members and the name of your team.
+
+628
+01:31:06.510 --> 01:31:13.620
+Heyam: And so moving forward, you will be working together on making the improvements on your code. Okay?
+
+629
+01:31:14.880 --> 01:31:27.140
+Heyam: Before we end this session, and as usual, I really appreciate all of the feedback from each and every one of you. I am myself learning. This is part of what I'm doing. I am myself learning with you. This is a new challenge for me.
+
+630
+01:31:27.140 --> 01:31:36.829
+Heyam: So I'm actually happy that I am taking this as an opportunity for me to learn. This challenge itself is something that I do for the first time. So I really appreciate your patience.
+
+631
+01:31:36.830 --> 01:31:54.379
+Heyam: But I'm enjoying every step of the way, honestly, and I'm happy that sometimes I see some comments and notes from you as well, so that we are making this space safe for everyone, and respectful, and also lifting one another. This is exactly what I want from each and every one of you to keep in mind.
+
+632
+01:31:54.390 --> 01:32:03.730
+Heyam: Please just share your feedback. Let me know what things you want me to improve. If there's anything that you believe we can improve, we can definitely do that.
+
+633
+01:32:03.820 --> 01:32:12.959
+Heyam: Moving forward, starting from next session and the session after that, we will try as much as possible to make it hands-on, all demos rather than theory, okay?
+
+634
+01:32:13.150 --> 01:32:14.829
+Heyam: Similar to what we did today.
+
+635
+01:32:16.900 --> 01:32:36.290
+Heyam: If you have no questions, no issues, and you completed the feedback form, you feel free to leave. I thank you so much, everyone, for the amazing efforts, for the amount of engagement, the reactions. I can see that you are all engaged in this, and I know that all of you are… you've got this challenge, and you will definitely do amazing, okay?
+
+636
+01:32:36.900 --> 01:32:49.050
+Heyam: And again, thank you so much for your understanding today. I started the day with a bit of low energy, but now I feel so much motivated after seeing all of your engagements and reactions, so thank you so much for your
+
+637
+01:32:49.280 --> 01:32:52.780
+Heyam: amazing performance today. Thank you. Thank you.
+
+638
+01:32:54.590 --> 01:32:56.130
+Heyam: Great job, everyone.
+
+639
+01:32:57.510 --> 01:33:01.220
+Heyam: Pooja, is there anything that you would like to tell the learners before they leave?
+
+640
+01:33:03.450 --> 01:33:09.220
+Pooja: Yes, so I hope you like the session today and thank you here.
+
+641
+01:33:09.230 --> 01:33:19.859
+Pooja: For going, through in bits and pieces about the Cape Stone and what needs to be done. Now, the next thing that, during weekend, kindly complete your mandatory learning.
+
+642
+01:33:19.860 --> 01:33:29.890
+Pooja: There is only one module that you need to do, and after you complete that module, you need to start with your Cape Store, either as a solo performance or as a group.
+
+643
+01:33:29.890 --> 01:33:34.960
+Pooja: So please do that, and then once you do that, once you are able to achieve
+
+644
+01:33:34.960 --> 01:33:46.049
+Pooja: The result, you can just share with us your video demonstration and your GitHub link, in a format that we will be sharing via email, and we are also repetitively
+
+645
+01:33:46.070 --> 01:33:52.419
+Pooja: posting all the message about this cohort on our Zoom channel and on our WhatsApp.
+
+646
+01:33:52.540 --> 01:34:08.359
+Pooja: So stay tuned, be active on those channels, and if you need any personalized session, do let us know. Thank you so much for joining this session. Please spare a minute and share your feedback. Thanks to you, Heyam, once again. We'll see you next week.
+
+647
+01:34:08.360 --> 01:34:08.830
+Heyam: appreciate.
+
+648
+01:34:08.830 --> 01:34:09.640
+Pooja: so much.
+
+649
+01:34:09.640 --> 01:34:12.230
+Heyam: Thank you so much, Pooja. Thank you so much, everyone.
+
